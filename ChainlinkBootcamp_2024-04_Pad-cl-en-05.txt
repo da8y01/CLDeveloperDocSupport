@@ -1,0 +1,127 @@
+Chainlink Bootcamp
+Apr/2024
+Session 05
+
+Celo Composer : https://github.com/celo-org/celo-composer
+
+How to Build on MiniPay: https://docs.celo.org/developer/build-on-minipay/overview#building-dapps-for-minipay-wallet
+
+Celo Faucet:  https://faucet.celo.org/alfajores
+
+Android Studio Setup: https://github.com/celo-org/celo-composer
+
+Ngrok Setup - open your local deployment on your phone: https://docs.celo.org/developer/build-on-minipay/prerequisites/ngrok-setup
+
+Follow Celo on Twitter: @CeloDevs and @Celo
+
+Set Up MiniPay: https://docs.celo.org/developer/build-on-minipay/overview
+
+Add Testnet to Minipay: https://docs.celo.org/pt/developer/build-on-minipay/enabling-testnet
+
+Question: Does chainlink have router on celo network?
+Answer:
+Question: Regarding your comment on logging in with a Google account, does this mean a wallet isn't required, or is the wallet created differently when using a Google account?
+ where is the video step by step 
+ to build mini pay 
+ 
+let's Attendence
+Vivesh - India
+Inder - United Kingdom
+Van- Germany
+Ajay -India
+Dimosthenis Tsatsos - Greece
+Jos - Greece, Athens
+Sebastian Hoyos - Munich, Germany
+Dr. Felipe P. Sta. Elena - Philippines
+Shailesh - India
+Parvin - India
+Emil - Sweden
+Ini Seven - Portharcourt Nigeria
+Nilds Vasquez Gonzalez - Lima, Peru
+Durgesh Rajbhar -India
+Sadik - Turkiye
+Enes - Turkiye
+Mubashira - Mumbai, India
+Ayo - Nigeria
+T SATHISH - Andhra Pradesh,India
+Hugo M : Canada
+Tony G: New York (right after an earthquake!:)
+Finn Clancy - Dublin, Ireland
+Rehan Baig, Islamabad, Pakistan
+Prabal - Delhi, India
+Enock - KENYA
+Nicolás - Chile
+Lamech
+Svidt - Denmark
+Dustin Tynes - Nassau, The Bahamas
+Kojrey - Canberra, Australia
+Tenn - South Africa
+Arnaud - Uganda
+Temu Kenya
+Gabriel Ojeh - Nigeria
+Christian Nebecgukwu - nigeria
+Daniel ofem - Nigeria 
+Manoj M - India
+Nix - Italy
+Marco - Italy
+Demetris - London
+Dennis Barffour-Gyimah Ghana.
+Thank you For the LINK 
+Link to minipay testnet? - Yes, you can.
+WAZA WAZ HERE 
+Oluwashola Oyewole - Nigeria
+Adedipe Oluwasina
+Daniel B - Colombia
+H. Andersson
+Rusu Gheorghe
+KIN - USA
+Jesse - Ghana
+Gilbert C - Texas
+Godwin - NIgeria
+Brandon- USA,LA
+Manajit - India
+Abhik INDIA
+Jesse J - Nigeria
+Bruno Moutinho - Brazil
+Franck Somé - Burkina Faso
+Arcadio Garcia, Spain
+Rethabile Molapo, South Africa
+Dipak - India
+Sandriana - Indonesia
+Victor Mengwa - Lagos, Nigeria
+Juan C - San Antonio, TX
+Monika - Warsaw, PL
+Sefa - Bursa, Turkiye
+Dimtrios Sakkas - Germany
+orkan-turkiye
+Med - Casablanca, Morocco
+David - Los Angeles
+Sven - Germany
+TIM - NIGERIA
+Tekin - Antalya,Turkiye
+Bartek -Poland
+Michael F - Vienna, Austria
+Leahu Corneliu - Luxembourg
+David-Nigeria
+Andrzej - Poland
+Riya - India
+DN kenya
+Duong - Vietnam
+MICHAEL - UK
+Julio Peru
+Francesco - Italy
+Taiwo - Nigeria 
+Dimitris Kounoudis - Greece
+R
+Taffy- Trinidad and Tobago
+Matias Salimbene - Argentina
+swamy-India
+LikKee - Malaysia
+Leon - Cayman Islands
+Adrian - Singapore, Bugis
+###############################################################
+
+
+​​Is there a Chain Link catalog for all open source smart contracts (to avoid duplicative effort) and how do I know the USER-FRIENDLY functionality of a smart contract (for engaging use cases)?
+
+

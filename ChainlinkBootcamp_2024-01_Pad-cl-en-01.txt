@@ -1,0 +1,111 @@
+chainlink bootcamp
+by solange gueiros
+
+session 01
+
+jan/2024
+
+Richard eze - Nigeria 
+Gabriel Thome - Brazil
+name-city,country
+karthik - india
+koxy-Nigeria
+Abdulsamad kano,nigeri
+Ravinder Kinnera, Bogotá, Colombia
+Chiara, New Jersey , USA
+Duda, Prague, Czechia
+Thomas Hall - Day 2 12/9/2024 - California USA
+Lukman -Lagos,Nigeria
+Forrest - California USA
+. (www.cialonecodes.com) NYC, new york: 
+Whitney - Raleigh, USA - Day 1 & 2
+Mohammed, Kano, Nigeria
+Pablo Padillo, Miami | Sepolia Transaction ID from activity = 0xf225416982b39a6f2e6b9dcd4a66769687d4c27942b9881ea6926667f5583f54
+Skandha Roshan - India
+Clement Okoli, Nigeria
+Princewill Iwuorie, Lagos Nigeria
+Stipan - Croatia
+Josh Banks - Lancaster, UK
+Inna - Tbilisi, Georgia day 1
+Kunal - India
+Daniel Y - Toronto, Canada
+Melissa - Barcelona
+Tolux - Alberta, Canada
+Yann - Marseille, France
+Praghi - Australia
+Katya - Kyiv, Ukraine
+Aminu, Ismail Abbas , Lagos Nigeria
+Dike - Lagos, Nigeria
+Premchand - Patna, India
+Ohmarkely Ambrosio - Singapore
+
+hi,where to put account address to verify that i finished task?
+
+
+https://metamask.io/
+Show test networks
+Sepolia
+
+https://docs.chain.link/resources/link-token-contracts/
+Sepolia testnet
+
+mame-wallet address
+Abdulsamad 0x3d3c66bCb95463247463791C1E2fF5ed982C7d33
+Duda 0x326DF0AC473C4a92A7476394Ca29A98358C222e5
+Inna 0xbBf7B48305Fa90b7aD32Bc11e86A82044b27b4Dc
+koxy-0x43bE1FCEeddeD2d2885f58b26C7444314b31664d
+lokinagure - 0xdDB93A7ef931BBCC04415F4101a5Def929253486
+melissa - 0x399a0906b7Cb3cAe3D8BA4F6f52FfBBdE794D55a
+Katya - 0xAB4808b8975a8009c594e8e7B419e0AF45694830
+
+Accout 2   0x4dCa3c57A4E6AaD7582e4B487eD8E1FFBB6b34Af
+koxy-0x7afe4313D301616526944F5C6A7764bF62FF5eBE
+Katya - 0xc2a30Ba5186D5cd0d6167808cde8D1AF0A9947A8
+lokinagure - 0x1fe5b2F580ee13192A1AE00d782505d00FFd7f0B
+ Christopher: 0xbA7E1d7791Ac98D3422dae924a1B638Dc0eF978F (Deployed Contract Address)
+ Skandha Roshan : 0xf92312650b3c85fa7404365eadbafe89d98f3a8bac3b08022fcfae37a64c26e0
+ 
+Inna 0x56E19d2bd540190642B2D428F07063E9F52E295a (account 2) 
+ 
+Josh Banks 0x1a35141C05d5BB5a4c56448753556b314686da79
+ 
+ chainlink bootcamp
+by solange gueiros
+
+jan/2024 session 3
+name-city-country
+
+
+Abdulsamad murtala-kano-nigeria
+
+deploy contract 
+name regiser adress
+
+Abdulsamad 0x78339f3e3a646Ebd3cD40FEf9e363c454F925519
+
+Olerato,Johannesburg South Africa
+
+Olerato - 0xF2C5ae166B782187B8C0b763B6628917aC8146E6
+
+Dike - 0xD9d279FD9a444C5ECb1Eef51Cd962FA73bD74818
+
+Name - Account2
+Dike - 0x82d3a7C37050DA722b49736512f70693895cfF60
+
+Name - Transaction Hash
+Dike - 0x39d093b2c85e3658b8df2ca7a6789587e51db187b68cdc4654233ca6c1814ea6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

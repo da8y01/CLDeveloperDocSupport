@@ -1,0 +1,943 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 09
+ 
+Pad
+https://pad.riseup.net/p/cl-es-09 
+ 
+Youtube Link de la Clase de hoy
+https://www.youtube.com/watch?v=y_iOxra1oLc
+ 
+Todas las sesiones en Español para
+https://lu.ma/fkr85zi7
+ 
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Faucet
+https://workshop-faucet.vercel.app/faucets/fuji
+cllworkshop0101
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+ 
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+
+Twitter
+https://twitter.com/chainlinkesp
+https://twitter.com/solangegueiros
+https://twitter.com/javosalomon
+
+
+Chainlink Community Advocate
+https://chain.link/community/advocates
+ 
+Chainlink Developer Expert
+https://chain.link/developers/experts
+
+#ChainlinkBootcamp2024
+
+****************************************************
+
+Nombre - Red social se queiras
+Sol - solangegueiros
+OSCAR SEGURA | CDMX, MÉXICO | https://twitter.com/BlogChainMkt
+Adan Reh - Barcelona, España | https://github.com/SKRTEEEEEE
+Rulo - https://twitter.com/Rulo_ape
+Rubén Bocanegra - Lima Perú
+Juan Camargo - https://twitter.com/Sebascamargoo - https://www.instagram.com/juanitoemprende/
+Javier Montes | Lima, Perú | http://linkedin.com/in/javier-montes-carrera/ 
+Michael - https://twitter.com/Maikel13M
+Filadelfo Caicedo  https://twitter.com/Filatrader
+orland - Bogota, Colombia
+David Hernandez - https://www.linkedin.com/in/david-hern%C3%A1ndez-22b885b5/
+Eliezer Rincon - www.linkedin.com/in/eliezer-rincon-28033a191
+daniel plaquin - Argentina  https://twitter.com/CaballoLoco21
+Santiago - Bogota, Colombia
+Anibal Elbaum - Córdoba - Argentina - https://www.linkedin.com/in/inganibalelbaum/
+Luis Anton - Maturin, Venezuela - https://twitter.com/luisantonchacon
+Karinna Serrano - Mexico
+Diego Raúl Barrionuevo https://www.linkedin.com/in/diego-ra%C3%BAl-barrionuevo/
+Pablo Guzmán - Santiago, Chile - https://www.linkedin.com/in/pablo-guzman-sanchez/
+Armando Colón Mendinueta - https://www.linkedin.com/in/arcolmen/
+Rocío Gajales - Bogotá,Colombia
+Alexander Durán - Pereira - Colombia
+Juan Fuente - Galicia, España
+Juan Carlos MM - Bogotá, Colombia
+Guillermo Boccardo - Buenos Aires, Argentina | www.linkedin.com/in/guillermo-boccardo/
+Dannuver Cabezas - Bogotá Colombia
+Joel Garmendia - Venezuela - https://twitter.com/JoeProCryptoSt1
+Juan Ramis - https://twitter.com/JuanRamis14
+Santiago - Rosario, Argentina
+Yamid calderon -colombia
+Arirl Robotti - MdP -Argentina - https://www.linkedin.com/in/ariel-gustavo-robotti/
+Jorge - Argentina
+Alexis Gonzalez - Venezuela
+Gabriela Ramírez _ Lima, Perú
+Luciano Delaude - Mar del Plata, Argentina. Ey!!
+Patricio Gonzalez,Formosa, Argentina
+Johan - Bogotá, Colombia - 
+Juan Pablo Tixe - Quito - Ecuador
+Javier S - https://www.linkedin.com/in/javier-shen-zhu-78791a155/
+Chula Sao Pablo, Brasil
+Villawolf - FriendTech, Metaverso
+Lucila AGUIN - https://www.linkedin.com/in/marialucilaaguin/
+Max Cabanillas -  PERU -- https://www.linkedin.com/in/maxcabanillass/
+Juan Ignacio Blacutt - https://www.linkedin.com/in/juan-ignacio-blacutt-web-design/
+Willy Gonzalez - Argentina
+Jose Miguel - https://www.youtube.com/channel/UCs5PAeQ6PjmZMADfoZkg-8w
+jair diaz  -www.linkedin.com/in/jairsteven-diaz
+Darwin Cevallos
+jonathan juez - bogota, colombia
+Luis Tapia Navarro - Panamá
+Carlos vazquez san miguel de allende, mexico
+Daniel B - https://www.linkedin.com/in/daniel-b-3b070990/
+Malcoln Portillo - Tegucigalpa, Honduras
+Marcelo Haro - Quito, Ecuador
+Tomas Sosa Giraldo - Medellín, Colombia
+Roman Diaz - Buenos aires, Argentina
+
+***************************************************
+
+https://blog.chain.link/ways-to-use-chainlink-functions/
+
+https://usechainlinkfunctions.com/
+
+https://usechainlinkfunctions.com/posts/aviation-flight-status
+
+https://www.run-functions.app/
+
+https://dev.chain.link/products/functions
+
+https://functions.chain.link/playground
+
+The code you run in this demo environment is a simulation only.
+There may be minor differences to the real Chainlink Functions environment.
+
+
+Fill with example code
+
+Star Wars Characters
+
+Argument
+1
+
+Run Code
+
+Resultado
+Luke Skywalker
+
+
+Base
+https://swapi.dev/api/people/1
+
+Para los devs más experimentados
+https://www.npmjs.com/package/@chainlink/functions-toolkit
+
+Metamask
+Fuji
+
+https://functions.chain.link/fuji/
+Connect Wallet
+
+Create Subscription
+
+Your email address
+
+Subscription name
+Chainlink Bootcamp 2024 ES
+
+Add funds
+5 LINK
+
+o 
+Actions
+Fund subscription
+
+Add consumer
+I'll do it later
+
+Nombre - enlace functions subscription id
+Sol - https://functions.chain.link/fuji/3213
+Tomas Sosa Giraldo - https://functions.chain.link/fuji/3275
+OSCAR SEGURA | https://functions.chain.link/fuji/3249
+Adan Reh - https://functions.chain.link/fuji/3234
+Juan Pablo Tixe - https://functions.chain.link/fuji/3223
+Eliezer - https://functions.chain.link/fuji/3219
+Santiago - https://functions.chain.link/fuji/3220
+Juan Fuente - https://functions.chain.link/fuji/3226
+Patricio Gonzalez: https://functions.chain.link/fuji/3216
+Rulo - https://functions.chain.link/fuji/3218
+Michael - https://functions.chain.link/fuji/3221
+Javier Montes - https://functions.chain.link/fuji/3228
+Juan Camargo - https://functions.chain.link/fuji/3236
+Juan Carlos MM - https://functions.chain.link/fuji/3227
+Anibal Elbaum - https://functions.chain.link/fuji/3244
+Johan - https://functions.chain.link/fuji/3240
+jair diaz- https://functions.chain.link/fuji/3267
+David Hernandez - https://functions.chain.link/fuji/3243
+Rubén Bocanegra -   https://functions.chain.link/fuji/3215
+Ariel https://functions.chain.link/sepolia/1925 ups
+Ariel https://functions.chain.link/fuji/3253 ahi está :P
+Malcoln Portillo _ https://functions.chain.link//fuji/3231
+Willy Gonzalez - https://functions.chain.link//fuji/3271
+Chula https://functions.chain.link/fuji/3245
+FIladelfo Caicedo https://functions.chain.link/fuji/3258
+villawolf- https://functions.chain.link/fuji/3256
+Karinna - https://functions.chain.link/fuji/3246
+Javier S - https://functions.chain.link/fuji/3261
+Santiago - https://functions.chain.link/fuji/3225
+Alexander Durán - https://functions.chain.link/fuji/3239
+Juan Ramis - https://functions.chain.link/fuji/3229
+Armando Colón Mendinueta - https://functions.chain.link/fuji/3247
+Daniel B - https://functions.chain.link/fuji/3241
+Luciano - https://functions.chain.link/fuji/3224
+Arturo - https://functions.chain.link/fuji/3212
+Pablo Guzmán - https://functions.chain.link/fuji/3233
+Diego Raúl Barrionuevo https://functions.chain.link/fuji/3254
+daniel plaquin - https://functions.chain.link/fuji/3217
+Emerson Silva - https://functions.chain.link/fuji/3259
+Carolina - https://functions.chain.link/fuji/3250
+Juan B - https://functions.chain.link/fuji/3260
+Guillermo Boccardo - https://functions.chain.link/fuji/3265
+orland - https://functions.chain.link/fuji/3266
+Luis Anton - https://functions.chain.link/fuji/3235
+Bryan - https://functions.chain.link/fuji/3269
+Marcelo Haro - https://functions.chain.link/fuji/3263
+Rocío Grajales - https://functions.chain.link/mumbai/1284
+José Miguel D - https://functions.chain.link/fuji/3255
+Lucila AGUIN - https://functions.chain.link/fuji/3268
+
+*******************************************
+
+https://docs.chain.link/chainlink-functions
+
+https://docs.chain.link/chainlink-functions/supported-networks
+
+https://docs.chain.link/chainlink-functions/resources/billing
+
+https://docs.chain.link/chainlink-functions/tutorials/simple-computation
+https://docs.chain.link/chainlink-functions/tutorials/api-post-data
+https://docs.chain.link/chainlink-functions/tutorials/api-multiple-calls
+
+
+Exemplo en Mumbai (para despues)
+https://docs.chain.link/chainlink-functions/getting-started#deploy-a-functions-consumer-contract-on-polygon-mumbai
+Abrir en Remix
+
+
+Metamask
+Fuji
+
+https://remix.ethereum.org/
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+Crea
+GettingStartedFunctionsConsumer.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {ConfirmedOwner} from "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+/**
+ * Request testnet LINK and ETH here: https://faucets.chain.link/
+ * Find information on LINK Token Contracts and get the latest ETH and LINK faucets here: https://docs.chain.link/resources/link-token-contracts/
+ */
+
+/**
+ * @title GettingStartedFunctionsConsumer
+ * @notice This is an example contract to show how to make HTTP requests using Chainlink
+ * @dev This contract uses hardcoded values and should not be used in production.
+ */
+contract GettingStartedFunctionsConsumer is FunctionsClient, ConfirmedOwner {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public s_lastRequestId;
+    bytes public s_lastResponse;
+    bytes public s_lastError;
+
+    // Custom error type
+    error UnexpectedRequestID(bytes32 requestId);
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string character,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // JavaScript source code
+    // Fetch character name from the Star Wars API.
+    // Documentation: https://swapi.dev/documentation#people
+    string source =
+        "const characterId = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://swapi.dev/api/people/${characterId}/`"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data.name);";
+
+    // State variable to store the returned character information
+    string public character;
+
+    /**
+     * @notice Initializes the contract with the Chainlink router address and sets the contract owner
+     */
+    constructor() FunctionsClient(router) ConfirmedOwner(msg.sender) {}
+
+    /**
+     * @notice Sends an HTTP request for character information
+     * @param subscriptionId The ID for the Chainlink subscription
+     * @param args The arguments to pass to the HTTP request
+     * @return requestId The ID of the request
+     */
+    function sendRequest(
+        uint64 subscriptionId,
+        string[] calldata args
+    ) external onlyOwner returns (bytes32 requestId) {
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        s_lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            subscriptionId,
+            gasLimit,
+            donID
+        );
+
+        return s_lastRequestId;
+    }
+
+    /**
+     * @notice Callback function for fulfilling a request
+     * @param requestId The ID of the request to fulfill
+     * @param response The HTTP response data
+     * @param err Any errors from the Functions request
+     */
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        if (s_lastRequestId != requestId) {
+            revert UnexpectedRequestID(requestId); // Check if request IDs match
+        }
+        // Update the contract's state variables with the response and any errors
+        s_lastResponse = response;
+        character = string(response);
+        s_lastError = err;
+
+        // Emit an event to log the response
+        emit Response(requestId, character, s_lastResponse, s_lastError);
+    }
+}
+
+// Fim
+
+
+Deploy
+
+Nombre - GettingStartedFunctionsConsumer address
+Sol - 0xD199f19b0fE67BeFf93613fB3CC3de79Dd5B1aaf
+OSCAR SEGURA | 0x0f5062c317e2361c72B58AE289905e9BeFb9BcB2
+Javier Montes - 0xdD694a5F8b05b949F0472E4C9BDe47f83b761D2c
+Rulo - 0x9Ea2155da1fdE368B2C41a6FcE2a696789Cf7dBb
+Pablo Guzmán - 0x6cCa431194E6C90099916050e581AA745898243F
+Rubén Bocanegra - 0x938b108185b4dea13C3fF669e7ebFDCDe12f3d9a
+Armando Colón Mendinueta - 0xF8c7De224d61d1EAb85141b1F721998040a0a48f
+Patricio Gonzalez: 0xC57912288644e1Bfbd7E45500973647830Be4b6E
+Johan - 0x367205f7B8ad7b7F3C075837e4fA7d879869b421
+Eliezer - 0x1eC27e540F53e5B5Ec04640B8331d1190619aFC3
+Juan Carlos MM - 0xC26C478e757BEf526975f182001857bf0535DdAC
+Chula 0xF727090755678e27D58B577592F557b88c4390b2
+Juan Camargo - 0x887caf8A5261193cC6759981e5b9937afC84cee9
+Santiago - 0xE1D519A793dF8f7173b7ad8611b3627dB17DC096
+Filadelfo Caicedo - 0x68b64b81aDb16eD7E36220840Dc98538C9944614
+Guillermo Boccardo - 0x2d004b325B692c793244696B63FF66707e844Ed2
+Anibal Elbaum - 0xB47CF8443768f954C3CFc9C6F0EdBba996d66eBc
+Javier S - 0x563c1E21F12B79214fd67bBf98b31AA3eE73a5ef
+Juan Pablo Tixe - 0x89127B1e2E265f8B47DB5faBe067a79f62a285E9
+Juan Fuente - 0xBEcF0910e59dd3Ee35C4DFa107d669305CBC38CC
+Alexander Durán - 0x7e5B8e51F379F79A588DE917348447e00FA01e17
+jair diaz - 0x40113ee832196C1331905e8166325FebfeB26be0
+Santiago - 0xc33ee770931021369C67e877E0355A63888909e8
+Ariel - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Carolina - 0x85Ef59e0fBF9a43f8f19Ac805DDdfbeb6F5ff43F
+Karinna - 0x3cdA53E58F345b5F13715Bf57366042F6E14bfB8
+orland - 0xCfB836a21d266a3f971A7325266A02b1a9E1c433
+Michael - 0x992E1CB037d0202C8CFBfb3D9A74B7CB1aBF1204
+daniel plaquin - 0x1B9c0E01C3954DE03C4cbd6aA37DB3FBDfC8Baa2
+Malcoln Portillo - 0xa68309eD9FEE05c1e6D9dDB86E2a4cB68583BA49
+Juan Ramis - 0x72B1C6feED647094C61A248fA94e36BE47e189ce
+Juan Blacutt - 0x8831D75fCc81587B7647f3C6E89F80D3E7c78276
+Bryan - 0xdCEa3D9Fa471D232c168A54f2D1E917d7c8a6aB0
+Rocío Grajales - 0xb266a3cac444ca42907ff4ae80171b0811c46c82
+David Hernandez - 0xc0c0b0ccf64d16e42371d85072b7682558b892B7
+Willy Gonzalez - 0x892c32c4AFE03E445545546571244FB99cCD9F30
+Marcelo Haro - 0x1025a48cBBE6e3B5dC9a22d2eA076f3C33483d0f
+Luis Anton - 0x57EE07fF7f7b96F92205a8e4A4De6bBCdC3A7bCF
+Emerson silva - 0x5f109b49517e4d75eD143286C4cE2dDe9561BDad
+Lucila AGUIN - 0xe65E586E60f06917044d1476f89135577172Cf08
+Tomas Sosa Giraldo - 0x17e6CC7874c62f44e719F91D2C19169B775f6C70
+
+***************************************************************************************
+
+Va en 
+https://functions.chain.link/fuji/
+
+Add consumer
+La direccion del smart contract GettingStartedFunctionsConsumer
+
+
+En Remix
+GettingStartedFunctionsConsumer 
+
+sendRequest
+expandir
+
+subscriptionId
+args
+[1]
+
+Transact
+
+
+De bytes a string
+https://web3-type-converter.onbrn.com/
+
+0x4c756b6520536b7977616c6b6572
+Luke Skywalker
+
+
+*********************************************
+
+https://wttr.in/
+
+https://wttr.in/Sao-Paulo?format=3&m
+https://wttr.in/Rio-De-Janeiro?format=3m
+
+Testar no Playground
+https://functions.chain.link/playground/7dce0d62-c132-40cb-ac72-e30532e599f2
+
+
+Sao-Paulo
+Buenos-Aires
+Rio-De-Janeiro
+Cali
+Cordoba
+
+
+En Remix
+
+Crea
+TemperatureFunctions.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+contract TemperatureFunctions is FunctionsClient {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public s_lastRequestId;
+    bytes public s_lastResponse;
+    bytes public s_lastError;
+
+    // Custom error type
+    error UnexpectedRequestID(bytes32 requestId);
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string temperature,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // Your subscription ID.
+    uint64 public s_subscriptionId;
+
+    // JavaScript source code    
+    string public source =
+        "const city = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://wttr.in/${city}?format=3&m`,"
+        "responseType: 'text'"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data);";
+    string public lastCity;    
+    string public lastTemperature;
+
+    constructor(uint64 subscriptionId) FunctionsClient(router) {
+        s_subscriptionId = subscriptionId;
+    }
+
+    function getTemperature(
+        string memory _city
+    ) external returns (bytes32 requestId) {
+
+        string[] memory args = new string[](1);
+        args[0] = _city;
+
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        s_lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            s_subscriptionId,
+            gasLimit,
+            donID
+        );
+        lastCity = _city;
+
+        return s_lastRequestId;
+    }
+
+    /**
+     * @notice Callback function for fulfilling a request
+     * @param requestId The ID of the request to fulfill
+     * @param response The HTTP response data
+     * @param err Any errors from the Functions request
+     */
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        if (s_lastRequestId != requestId) {
+            revert UnexpectedRequestID(requestId); // Check if request IDs match
+        }        
+        s_lastError = err;
+
+        // Update the contract's state variables with the response and any errors
+        s_lastResponse = response;
+        lastTemperature = string(response);
+
+        // Emit an event to log the response
+        emit Response(requestId, lastTemperature, s_lastResponse, s_lastError);
+    }
+}
+
+// Fin
+
+Parametro
+SubscriptionId => Id de tu cuenta en Chainlink Functions
+
+Nombre - TemperatureFunctions0x7cF1e5fDC296ee96437aB7a7Aed55d8B42e6C6cd
+Sol - 0x0110B49DC6Ec9E45462A70d948f11d7818a2bb07
+OSCAR SEGURA | 0x50151288028A80Ce429dD08E33f6E1e14580091e
+Willy Gonzalez - 0x83c6B8Db043dd186237B6425A4eB39072Ab38E99
+Eliezer - 0x2ad5498D960969790e1Fc8D2e7e3d54dea659a07
+Armando Colón Mendinueta - 0xa4fE0e0a2206a98849E583BB486b12C255a3faB7
+Javier Montes - 0xe36b41eaf6bE6c37134ac912A0B037c6226676c9
+Rulo - 0xBd16D526B13C3DFDbb84C331d7CEA739c818a7C3
+Santiago - 0x1c6bBa10b9Bc1981bb8C97A431bC6b1328CbB6d2
+Juan Carlos MM - 0x514Dd0F2583897dfC487439C58477b26B795606b
+Juan Fuente - 0xf2BA4f69c0A14f23Eac54730F88eCb65c8dD4d1e
+Patricio Gonzalez: 0x2fA6A8f0710F6B08D83D719253bA4eEf369650Ba
+Anibal Elbaum - 0x7C6bA08B52a8BAb371b2dBE9AD29c66660e251ae
+Rubén Bocanegra - 0xfe8BfeA72bdDf51E6225186C94947B3f2Ea8960D
+Juan Pablo Tixe - 0x86FA4dcB8a2819AaBAC6Dd267684b17C5564a6c4
+ddaniel plaquin - 0xc5622bE74A52877883CCEb18af46963ab5DD3edB
+Alexander Durán - 0x94a394EAd69AABf36C2777aCeEFe09B07d693f60
+Juan Camargo - 0x834624F9f75334dc76c6041Cff7f2E26e750F8b1
+Bryan - 0xC2f7fc16bbc5730e688B85d97Ad16aeA014Aab2E
+Karinna - 0x19eebE8aEEDd9C23E9c8d93D8bDF581e3EC88184
+jair diaz - 0x7FBf220c61Db486931d272279C46B20186B52b6b
+Johan - 0x27fF1E555952f9b94B580a04677dEBffe56E572D
+Guillermo Boccardo - 0x0DFC01D95A13F26f390f3976631BE19655Cc7d74
+Filadelfo Caicedo - 0x83Da0947C8CcdbA869Df3ec713fA37745b517aee
+Emerson Silva - 0x90267659dF1c45b0D6679d0fE2A7daA30a69564b
+Michael - 0xc45513b691204aBE6123B07f8335961FbAA34A61
+orland - 0xAA0112920B371be17DED9f14eC88811F42b767ee
+Juan Ramis - 0x381B9702A64e883ba4F5a426881f6dc53284AF4f
+Carolina - 0x9AEB6FD4a19A00b838e0015648b659cd5Fa9F9b6
+Daniel B - 0xd8a0cecd164752e840060c53bdfba892013795ed
+David Hernandez - 0xc95163Bc9E5EcCB7099910E01c3581a09EAB14a6
+Juan Blacutt - 0x654F66E0fBB0274849a1Ec23b969dFEAd843b796
+Malcoln Portillo - 0x6abF391AFEEd87B38C8C996f8c235b73F1C369CF
+Santiago - 0x78CdDf994e7aa8f14515bd4B613eE1e17113034d
+Luis Anton - 0x3049d04C8aEf90674FEC832a954E941Cf1672d45
+Marcelo Haro - 0x894fb9960ecfeeB0296e9E82927f2D3E5a39D09c
+Lucila AGUIN - 0x57e33700B03C1b0bd442d52ce1E6C340A6b2CAd4
+
+**************************************
+
+Ve para tu cuenta 
+https://functions.chain.link/fuji
+
+Add consumer
+Direccion de TemperatureFunctions
+
+getTemperature
+ciudads - ejemplos
+Sao-Paulo
+Rio-De-Janeiro
+Buenos-Aires
+Cordoba
+Cali
+Bogota
+Lima
+Rosario
+Maracay
+
+De F para C
+https://www.metric-conversions.org/temperature/fahrenheit-to-celsius.htm
+Centígrados = (Fahrenheit - 32) / 1.79999999
+
+
+
+
+*********************************
+
+En Remix
+
+Crea
+WeatherFunctions.sol
+
+No esta listo, funciona pero hay cosas para hacer
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+contract WeatherFunctions is FunctionsClient {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public lastRequestId;
+    bytes public lastResponse;
+    bytes public lastError;
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        bytes response;
+        bytes err;
+    }
+    mapping(bytes32 => RequestStatus) public requests; /* requestId --> requestStatus */          
+    bytes32[] public requestIds;
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string temperature,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // Your subscription ID.
+    uint64 public subscriptionId;
+
+    // JavaScript source code    
+    string public source =
+        "const city = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://wttr.in/${city}?format=3&m`,"
+        "responseType: 'text'"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data);";
+    string public lastCity;    
+    string public lastTemperature;
+    address public lastSender;
+
+    struct CityStruct {
+        address sender;
+        bool exists;
+        string name;
+        string temperature;
+    }
+    CityStruct[] public cities;
+    mapping(string => uint256) public cityIndex;
+    mapping(bytes32 => string) public request_city; /* requestId --> city*/
+
+    constructor(uint64 functionsSubscriptionId) FunctionsClient(router) {
+        subscriptionId = functionsSubscriptionId;
+    }
+
+    function getTemperature(
+        string memory _city
+    ) external returns (bytes32 requestId) {
+
+        string[] memory args = new string[](1);
+        args[0] = _city;
+
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            subscriptionId,
+            gasLimit,
+            donID
+        );
+        lastCity = _city;
+        request_city[lastRequestId] = _city;
+
+        CityStruct memory auxCityStruct = CityStruct({
+            sender: msg.sender,
+            exists: true,
+            name: _city,
+            temperature: ""            
+        });
+        cities.push(auxCityStruct);
+        cityIndex[_city] = cities.length-1;
+
+        requests[lastRequestId] = RequestStatus({
+            exists: true,
+            fulfilled: false,
+            response: "",
+            err: ""
+        });
+        requestIds.push(lastRequestId);
+
+        return lastRequestId;
+    }
+
+    /**
+     * @notice Callback function for fulfilling a request
+     * @param requestId The ID of the request to fulfill
+     * @param response The HTTP response data
+     * @param err Any errors from the Functions request
+     */
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        require(requests[requestId].exists, "request not found");
+
+        lastError = err;
+        lastResponse = response;
+
+        requests[requestId].fulfilled = true;
+        requests[requestId].response = response;
+        requests[requestId].err = err;
+
+        string memory auxCity = request_city[requestId];
+
+        lastTemperature = string(response);
+
+        require(cities[cityIndex[auxCity]].exists, "city not found");
+        cities[cityIndex[auxCity]].temperature = lastTemperature;
+
+        // Emit an event to log the response
+        emit Response(requestId, lastTemperature, lastResponse, lastError);
+    }
+
+    function listCities() public view returns (CityStruct[] memory) {
+        return cities;
+    }
+
+    function getCity(string memory city) public view returns (CityStruct memory) {
+        return cities[cityIndex[city]];
+    }
+
+}
+
+// Fin
+
+function fahrenheitACelsius(uint16 temperaturaFahrenheit) external pure returns (uint16) {
+        return (temperaturaFahrenheit - 32) * 5 / 9;
+    } Esta funcion donde va
+
+Parametro
+SubscriptionId => Id de tu cuenta en Chainlink Functions
+
+Nombre - WeatherFunctions
+Sol - 0x7cF1e5fDC296ee96437aB7a7Aed55d8B42e6C6cd
+OSCAR SEGURA | 0x7dca5E8b8180197B26A7d9Fe60F49AFf250656ea
+Patricio: 0xbEF0d2a62F472024CbAB452F370Cbd63D52fe2Bc
+Rulo - 0x285f16536f00fBee3A68c4467d37b6C390c931Ec
+daniel plaquin - 0xFD91D4f30C1b3f9ED1C74304861e1dCD738D1e37
+Armando Colón Mendinueta - 0x040F13E739e6c15e8545844e2d3Cc594aA434Fa3
+Malcoln Portillo - 0x746849082E42Bc95E27A81df1354C65032534AD6
+Guillermo Boccardo - 0xCe656fC5960bb95A9982F3Cc7a339968fC1C5137
+Javier Montes - 0x8dcd73f8852dcB9e91ccac61F637cFd728478124
+Juan Fuente - 0x714bad2C3aD0EC81842024Fc5f0a00f79E7D40fa
+Chula 0x1cED6A3ED2B0918C502069cd530AE7bdf730A2ec 
+Juan Blacutt - 0x0d69d7C55bCE25b189B3A9149231FEa32b1Af4Ac
+Santiago - 0x55D8D8503F76693d0E5971C6d4025683EA2Aa390
+Johan - 0x40D99D71187EcDcCEeCb4AF9142dE321DAF2F720
+Juan Ramis -0xF83d88D87eDBE6100Ae6f351FEF5f1782cdd511c
+Michael - 0x8fB92Bf01e50afE06d2635A6E0961b3db96A155f
+Juan Pablo Tixe - 0x730A9Fa5252491e3b02499aB173e9813d2534Dca
+Karinna - 0x19eebE8aEEDd9C23E9c8d93D8bDF581e3EC88184
+Eliezer - 0x94d97E68b8CF7e15Deb91AF07aA7d62e761EB458
+Filadelfo Caicedo - 0x6A391489f954c2e66b563ffE5730899D512f01e0
+Javier S - 0xfd4d48fb37BF99EC1faE0E338aFd455E4BE09bcB  //En principio lo he modificado para que no añada ciudades extra, añado el codigo al final del documento
+Santiago - 0xf1794FBdccCE651F05b1a9F2490cf3014637992F
+Luis Anton - 0x8dBF3204A361e1D3d5eE481b3A7Cb2dAC384Cc7a
+David Hernandez - 0xF48b311278eB8bf129166399f8A9F04FD6B966Af
+Alexander Durán - 0xD1E26B034F90a898b8Bc46ed33578Ab61774eBD0
+Juan Carlos MM - 0x523756b1dd977682238e3aD53d28fD4f2bD28cC4
+Carolina - 0x2e52E5b08Dc964093971626d38B6131E93ef4514
+Ariel 0x175dFED02a247BDb01ea1F63e87dc794f997F27d
+orland - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Marcelo Haro - 0xB288645B3b80130dc153321bFf5858DD6E2436af
+Lucila AGUIN - 0xEbf0af8dD9B5083127962C941d11FA99c23be433
+
+************************************************
+
+https://functions.chain.link/fuji/
+AddConsumer
+
+getTemperature
+Sao-Paulo
+Rio-De-Janeiro
+Buenos-Aires
+
+listCities
+
+getCity
+
+
+
+Para add en contrato de Sol
+
+At Address
+Sol - 0x7cF1e5fDC296ee96437aB7a7Aed55d8B42e6C6cd
+
+
+listCities
+
+0xa52515946DAABe072f446Cc014a4eaA93fb9Fd79,true,Sao-Paulo,Sao-Paulo: ⛅️ +24°C ,0xC516594f9100Ee40be213118E3e0Af8dD5eD0622,true,Mexico,Mexico: ⛅️ +21°C ,0x8Aa59bdB18312AD541Cf765B42757c9a96042F76,true,Los Teques,Los Teques: ☀️ +22°C ,0x889dd1471793A0B7bf5AC53018Cbe4aCcecd0364,true,San Diego,San Diego: ⛅️ +17°C ,0x8Aa59bdB18312AD541Cf765B42757c9a96042F76,true,Mérida,Mérida: 🌦 +13°C ,0xbd20520647247DF64953518962cf10ABF61b781D,true,Rosario,Rosario: ⛅️ +27°C ,0xe00c3cf28B1919Ee9eBF5A9C2D50088A299a0C37,true,cuernavaca,cuernavaca: ⛅️ +26°C ,0xB82C3739a5b983b6B12ac143E3f06417d9482C18,true,Maracaibo,Maracaibo: ☀️ +28°C ,0x8757c7D953ea058baCDF82717Caf403Bd01F1099,true,Lima,Lima: ☁️ +23°C ,0xdBEC8b42Af49A5EBA0435f0796C5810d179DCD73,true,Corrientes,,0x97D171596b6cC8C1Ad852F23a8E0977C2CE1D806,true,carlos spegazzini,,0x6122D4939B63A37cbdFDD1E40564a7Afd5163708,true,Sunchales,,0x3D51304D6f3A902A89686F288d3a7dA64cB7D571,true,Mar del Plata,Mar del Plata: 🌦 +21°C ,0x2D8AE4c1d690d2772845e754d01bE5125529679e,true,San pedro sula,San pedro sula: ⛅️ +26°C ,0xF6910298bC7f60ba391694b8728C6F551aa0A153,true,Palma,Palma: ☀️ +14°C ,0xC516594f9100Ee40be213118E3e0Af8dD5eD0622,true,Hidalgo,Hidalgo: ⛅️ +19°C ,0x8757c7D953ea058baCDF82717Caf403Bd01F1099,true,Manila,Manila: ⛅️ +25°C ,0xa52515946DAABe072f446Cc014a4eaA93fb9Fd79,true,mar-del-plata,mar-del-plata: 🌦 +21°C ,0x2D8AE4c1d690d2772845e754d01bE5125529679e,true,san-pedro-sula,
+
+
+
+
+// Javier S - Modificación para que no añada ciudades extra (sin optimizar) en la linea 102, tambien habría que eliminar el push posterior
+ 
+ bool cityExists = false;
+        for (uint i = 0; i < cities.length; i++) {
+            if (keccak256(abi.encodePacked(cities[i].name)) == keccak256(abi.encodePacked(auxCityStruct.name))) {
+                cityExists = true;
+                break;
+            }
+        }
+        if (!cityExists) {
+            cities.push(auxCityStruct);
+        }
+
+
+
+
+
+
+
+G
+M
+T
+Y
+
+
+Detectar idiomaAfrikáansAlbanésAlemánAlto SorbioAmháricoArabeArmenioAsamésAymaraAzeríBajo SoraboBambaraBashkirBengalíBhojpuriBielorrusoBirmanoBosnioBúlgaroCamboyanoCanarésCantonés (Tradicional)CatalánCebuanoChecoChichewaChino (Literaria)Chino simpChino tradChuvasioCincalésColina maríaCoreanoCorsoCriollo haitianoCroataDanésDaríDhivehiDogriEmojiEslovacoEslovenoEspañolEsperantoEstonioEuskeraEweFeroésFinlandésFiyianoFrancésFrancés (Canadá)FrisioGaélico escocésGalésGallegoGandaGeorgianoGriegoGujaratiHausaHawaianoHebreoHindiHmongHolandésHúngaroIgboIlocanoIndonesioInglésInglés Reino UnidoInuinnaqtunInuktitutInuktitut (latín)IrlandésIslandésItalianoJaponésJavanésKazajoKazajo (latín)KinyarwandaKirguísKlingon (latín)KonkaniKrioKurdo (Kurmanji)Kurdo (Sorani)LaoLatínLetónLingalaLituanoLuxemburguésMacedonioMaithiliMalayalamMalayoMalgacheMaltésMaoríMaratíMariMaya YucatecoMeiteilon (Manipuri)MizoMongolMongol (tradicional)NepalíNoruegoNyanjaOdia (Oriya)OromoPanyabíPapiamentoPastúnPersaPolacoPortugués (Brasil)Portugués (Portugal)QuechuaQuerétaro otomíRumanoRundiRusoSamoanoSanskritSepediSerbioSerbio (Cirílico)Serbio (Latín)SesotoSetswanaShonaSindhiSomalíSuajiliSuecoSundanésTagaloTagaloTahitianoTailandésTamilTártaroTayikoTeluguTibetanoTigrinyaTonganoTsongaTurcoTurcomanoTwiUcranianoUdmurtoUigurUrduUzbecoUzbeko (Cirílico)VietnamitaXhosaYakutoYidisYorubaZulú
+
+Español-------- [ Todos ] --------AfrikáansAlbanésAlemánAlto SorbioAmháricoArabeArmenioAsamésAymaraAzeríBajo SoraboBambaraBashkirBengalíBhojpuriBielorrusoBirmanoBosnioBúlgaroCamboyanoCanarésCantonés (Tradicional)CatalánCebuanoChecoChichewaChino (Literaria)Chino simpChino tradChuvasioCincalésColina maríaCoreanoCorsoCriollo haitianoCroataDanésDaríDhivehiDogriEmojiEslovacoEslovenoEspañolEsperantoEstonioEuskeraEweFeroésFinlandésFiyianoFrancésFrancés (Canadá)FrisioGaélico escocésGalésGallegoGandaGeorgianoGriegoGujaratiHausaHawaianoHebreoHindiHmongHolandésHúngaroIgboIlocanoIndonesioInglésInglés Reino UnidoInuinnaqtunInuktitutInuktitut (latín)IrlandésIslandésItalianoJaponésJavanésKazajoKazajo (latín)KinyarwandaKirguísKlingon (latín)KonkaniKrioKurdo (Kurmanji)Kurdo (Sorani)LaoLatínLetónLingalaLituanoLuxemburguésMacedonioMaithiliMalayalamMalayoMalgacheMaltésMaoríMaratíMariMaya YucatecoMeiteilon (Manipuri)MizoMongolMongol (tradicional)NepalíNoruegoNyanjaOdia (Oriya)OromoPanyabíPapiamentoPastúnPersaPolacoPortugués (Brasil)Portugués (Portugal)QuechuaQuerétaro otomíRumanoRundiRusoSamoanoSanskritSepediSerbioSerbio (Cirílico)Serbio (Latín)SesotoSetswanaShonaSindhiSomalíSuajiliSuecoSundanésTagaloTagaloTahitianoTailandésTamilTártaroTayikoTeluguTibetanoTigrinyaTonganoTsongaTurcoTurcomanoTwiUcranianoUdmurtoUigurUrduUzbecoUzbeko (Cirílico)VietnamitaXhosaYakutoYidisYorubaZulú 
+
+
+
+
+
+
+
+
+
+La función de sonido está limitada a 200 caracteres
+
+
+Opciones : Historia : Feedback : DonateCerrar
+
+
+
+
+G
+M
+T
+Y
+
+
+Detectar idiomaAfrikáansAlbanésAlemánAlto SorbioAmháricoArabeArmenioAsamésAymaraAzeríBajo SoraboBambaraBashkirBengalíBhojpuriBielorrusoBirmanoBosnioBúlgaroCamboyanoCanarésCantonés (Tradicional)CatalánCebuanoChecoChichewaChino (Literaria)Chino simpChino tradChuvasioCincalésColina maríaCoreanoCorsoCriollo haitianoCroataDanésDaríDhivehiDogriEmojiEslovacoEslovenoEspañolEsperantoEstonioEuskeraEweFeroésFinlandésFiyianoFrancésFrancés (Canadá)FrisioGaélico escocésGalésGallegoGandaGeorgianoGriegoGujaratiHausaHawaianoHebreoHindiHmongHolandésHúngaroIgboIlocanoIndonesioInglésInglés Reino UnidoInuinnaqtunInuktitutInuktitut (latín)IrlandésIslandésItalianoJaponésJavanésKazajoKazajo (latín)KinyarwandaKirguísKlingon (latín)KonkaniKrioKurdo (Kurmanji)Kurdo (Sorani)LaoLatínLetónLingalaLituanoLuxemburguésMacedonioMaithiliMalayalamMalayoMalgacheMaltésMaoríMaratíMariMaya YucatecoMeiteilon (Manipuri)MizoMongolMongol (tradicional)NepalíNoruegoNyanjaOdia (Oriya)OromoPanyabíPapiamentoPastúnPersaPolacoPortugués (Brasil)Portugués (Portugal)QuechuaQuerétaro otomíRumanoRundiRusoSamoanoSanskritSepediSerbioSerbio (Cirílico)Serbio (Latín)SesotoSetswanaShonaSindhiSomalíSuajiliSuecoSundanésTagaloTagaloTahitianoTailandésTamilTártaroTayikoTeluguTibetanoTigrinyaTonganoTsongaTurcoTurcomanoTwiUcranianoUdmurtoUigurUrduUzbecoUzbeko (Cirílico)VietnamitaXhosaYakutoYidisYorubaZulú
+
+Español-------- [ Todos ] --------AfrikáansAlbanésAlemánAlto SorbioAmháricoArabeArmenioAsamésAymaraAzeríBajo SoraboBambaraBashkirBengalíBhojpuriBielorrusoBirmanoBosnioBúlgaroCamboyanoCanarésCantonés (Tradicional)CatalánCebuanoChecoChichewaChino (Literaria)Chino simpChino tradChuvasioCincalésColina maríaCoreanoCorsoCriollo haitianoCroataDanésDaríDhivehiDogriEmojiEslovacoEslovenoEspañolEsperantoEstonioEuskeraEweFeroésFinlandésFiyianoFrancésFrancés (Canadá)FrisioGaélico escocésGalésGallegoGandaGeorgianoGriegoGujaratiHausaHawaianoHebreoHindiHmongHolandésHúngaroIgboIlocanoIndonesioInglésInglés Reino UnidoInuinnaqtunInuktitutInuktitut (latín)IrlandésIslandésItalianoJaponésJavanésKazajoKazajo (latín)KinyarwandaKirguísKlingon (latín)KonkaniKrioKurdo (Kurmanji)Kurdo (Sorani)LaoLatínLetónLingalaLituanoLuxemburguésMacedonioMaithiliMalayalamMalayoMalgacheMaltésMaoríMaratíMariMaya YucatecoMeiteilon (Manipuri)MizoMongolMongol (tradicional)NepalíNoruegoNyanjaOdia (Oriya)OromoPanyabíPapiamentoPastúnPersaPolacoPortugués (Brasil)Portugués (Portugal)QuechuaQuerétaro otomíRumanoRundiRusoSamoanoSanskritSepediSerbioSerbio (Cirílico)Serbio (Latín)SesotoSetswanaShonaSindhiSomalíSuajiliSuecoSundanésTagaloTagaloTahitianoTailandésTamilTártaroTayikoTeluguTibetanoTigrinyaTonganoTsongaTurcoTurcomanoTwiUcranianoUdmurtoUigurUrduUzbecoUzbeko (Cirílico)VietnamitaXhosaYakutoYidisYorubaZulú 
+
+
+
+
+
+
+
+
+
+La función de sonido está limitada a 200 caracteres
+
+
+Opciones : Historia : Feedback : DonateCerrar

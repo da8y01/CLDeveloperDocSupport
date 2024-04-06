@@ -1,0 +1,574 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 06
+
+https://pad.riseup.net/p/cl-es-06
+
+Clases passadas
+https://lu.ma/fkr85zi7
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+
+Ejercicios
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://workshop-faucet.vercel.app/faucets/
+cllworkshop0101
+
+https://dev.chain.link/
+
+
+Nombre - Ciudad, Pais
+OSCAR SEGURA | CDMX MÉXICO
+Luis Anton - Maturin, Venezuela
+Tomas Sosa Giraldo - Medellín, Colombia
+camilo munar - bogota colombia
+Santiago - Rosario, Argentina
+Joaquin Alcerro, Tegucigalpa, Honduras
+Rama - Resistencia, Arg
+Javier Montes - Lima, Perú
+Alexis Gonzalez - Aragua, Venezuela
+Juan Camargo - Pereira, Colombia
+Arturo - Monterrey - Mexico
+Guillermo Malagón - Bogotá Colombia
+Andrés Serna - Medellín - Colombia
+Juan Fuente - Galicia, España
+Santiago - Bogota, Colombia
+David Hernandez - Valencia, Venezuela
+Javier - Córdoba, Argentina
+orland - Bogota Colombia
+Jonathan Juez - Bogota Colombia
+Jorge - Argentina
+Alberto Silva - México
+Juan Ramis- Palma, España
+Johnnatan Olave - Bogotá Colombia
+Pablo Guzmán - Santiago, Chile
+Karinna Serrano - Mexico
+Luciano Delaude - Mar del Plata, Argentina
+Roman Diaz - Buenos Aires, Argentina
+Yamid Calderon -Colombia
+Patricio Gonzalez, Formosa, Argentina
+Anibal Elbaum - Còrdoba - Argentina
+Michael Montilla - Maracaibo Venezuela
+Javier Shen - España
+Juan Carlos MM - Bogotá, Colombia
+Alexander Durán - Pereira - Colombia
+Eduar Cortes - Bogota - Colombia
+William Ardila - Bogotá,Colombia
+villawolf - friend.Tech, Metaverso
+David Yánez - Quito, Ecuador 
+Joaquin - Buenos Aires, Argentina
+Joel Garmendia - Valencia, Venezuela
+Mónica Ledesma - Argentina
+Armando Colón Mendinueta - Barranquilla, Colombia
+Eliot Pinto - Lima, Perú
+Javier- España
+Carlos Vazquez San Miguel de Allende, Mx
+Lucila Aguin - Buenos Aires, Argentina
+Rubén Bocanegra - Lima, Perú
+Rocío Grajales - Bogotá,Colombia
+daniel plaquin - Argentina
+Willy Gonzalez - Argentina
+Ariel Robotti -Mar del Plata - Argentina
+Marcelo Haro - Quito,Ecuador
+José Miguel - Lima, Perú
+Dannuver Cabezas Bogotá - Colombia
+Daniel Campillo - Medellín, Colombia
+Diana - Puebla, México
+jair diaz - bogota- Colombia
+Julio M Cruz - Fairfax, VA (:D)
+Tulio Duque - Medellin - Colombia
+Rosendo Guzman Nogueda
+Gabriela Ramírez - Lima, Perú
+Juan Ignacio Blacutt - Argentina
+André Neyra - Lima, Perú
+Mario Galvez - Guatemala Guatemala
+Carlos Oñates - Valencia - Venezuela
+Malcoln Portillo - Tegucigalpa, Honduras
+Diego Raúl Barrionuevo Córdoba, Argentina
+Darwin Cevallos - Ecuador
+javier velazquez -  argentina
+Carolina Argentina
+Max Cabanillas  - Peru
+Raúl Parra Hernández - México
+Jorge Abalo - Cabimas, Venezuela
+Gustavo Torres - Bogotá - Colombia
+Heler Paez - Colombia
+Rulo - Hidalgo, Mexico
+Alejandro Betancourt - Barinas, Venezuela
+Joaquín Precioso - Madrid, España
+Johan - Bogotá, Colombia
+Sébastien Léger - Barcelona- Spain (Y Fr)
+Juan Melenciano - Republica Dominicana
+Alfonso Zapata - Mérida - México
+Filadelfo Caicedo - Cali, Colombia
+Manuel David - Córdoba, España
+Juan Pablo Tixe - Quito - Ecuador
+Daniel Martinez Trinidad - Madrid - España
+Juan David Duque - panama
+Adan Reh - Barcelona, España
+Diego Guillen - Bogotá.
+
+
+__________________________________________________________________________
+
+Metamask
+Sepolia
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Mira se es Sepolia
+
+Crea
+PhotoAlbum.sol
+
+Copia aca o del pad
+https://raw.githubusercontent.com/solangegueiros/chainlink-bootcamp-2024/main/PhotoAlbum.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol";
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+
+contract PhotoAlbum is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
+    using Counters for Counters.Counter;
+
+    Counters.Counter public tokenIdCounter;
+ 
+   // Metadata information for each stage of the NFT on IPFS.
+    string[] IpfsUri = [
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo01.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo02.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo03.json"
+    ];
+
+    uint public immutable interval;
+    uint public lastTimeStamp;
+
+    constructor(uint updateInterval) ERC721("Photo Album Chainlink Bootcamp 2024", "PHO") {
+        interval = updateInterval;
+        lastTimeStamp = block.timestamp;
+        safeMint(msg.sender);
+    }
+
+    function safeMint(address to) public {
+        uint256 tokenId = tokenIdCounter.current();
+        tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, IpfsUri[0]);
+    }
+   
+    // helper function to compare strings
+    function compareStrings(string memory a, string memory b)
+        public pure returns (bool)
+    {
+        return (keccak256(abi.encodePacked((a))) ==
+            keccak256(abi.encodePacked((b))));
+    }
+
+    // determine the stage of the flower growth
+    function photoAlbumIndex(uint256 _tokenId) public view returns (uint256) {
+        string memory _uri = tokenURI(_tokenId);
+        // Photo 01
+        if (compareStrings(_uri, IpfsUri[0])) {
+            return 0;
+        }
+        // Photo 02
+        if (
+            compareStrings(_uri, IpfsUri[1])
+        ) {
+            return 1;
+        }
+        // Photo 03
+        return 2;
+    }
+
+    function rotatePhoto(uint256 _tokenId) public {
+        if(photoAlbumIndex(_tokenId) >= 2) {
+            return;
+        }
+        else {
+            uint256 newVal = photoAlbumIndex(_tokenId) + 1;
+            // store the new URI
+            string memory newUri = IpfsUri[newVal];
+            // Update the URI
+            _setTokenURI(_tokenId, newUri);
+        }
+    }
+
+    // Chainlink Automation
+    function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
+        if ((block.timestamp - lastTimeStamp) > interval ) {
+            uint256 tokenId = tokenIdCounter.current() - 1;
+            if (photoAlbumIndex(tokenId) < 2) {
+                upkeepNeeded = true;
+            }
+        }
+        // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
+    }
+
+    function performUpkeep(bytes calldata /* performData */) external override {
+        //We highly recommend revalidating the upkeep in the performUpkeep function
+        if ((block.timestamp - lastTimeStamp) > interval ) {
+            uint256 tokenId = tokenIdCounter.current() - 1;
+            if (photoAlbumIndex(tokenId) < 2) {
+                lastTimeStamp = block.timestamp;            
+                rotatePhoto(tokenId);
+            }
+        }
+        // We don't use the performData in this example. The performData is generated by the Automation's call to your checkUpkeep function
+    }
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    // The following function is an override required by Solidity.
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+// Fin 
+
+
+Deploy
+Parameter updateInterval
+120
+
+120s = 2 minutos
+
+Name - PhotoAlbum address
+Sol - 0xd1699Ad92236Ca1A874cd3677e98f12AC0DE70e2
+OSCAR SEGURA | 0xf91c7078703F74fa4D3d012b67E1300e989Bc0bC
+Camilo Munar - 0x6FcdD9ab55893be83A287B1F7840835eb001aFd7
+Joaquin Alcerro - 0xfC33A3Aa3B9da05DfB5Dd83e497834c9038aE136
+Juan Fuente - 0x5CA97F6b52722AD44ba64551a112C3dC8789b1a9
+Arturo - 0x8bAf805f85E8289C8c5268D588e569B264468fd1
+Carolina 0x4ce0CA63FcC46D0D030647e18BB1A2917d6c9286
+Santiago - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Chula 0x5b2D0901eBF4683838Bdf6ab69890C095B21D128
+daniel plaquin - 0xB755DE02b855CBeF1ab531f7518B67F95957A062
+Rama - 0x7247B69e732b4FEc3AC606aD14ec635903BDe968 contract address
+Javier- 0xa6967bff25a9552257840c69b1507e3e6b049d05
+jair Diaz - 0x913206f3936acD87A4F3957E64B90043B0c2de28
+Julio M Cruz - 0xFd1FB5119177f4a7dA158AFc99CB3c3b87E13D57
+Karinna - 0x19eebE8aEEDd9C23E9c8d93D8bDF581e3EC88184
+Juan Carlos MM - 0xfaE4a60644559E50654168c7aAd9CEb375B84F5E
+Javier Montes - 0x3c348c7c8F5f1A4c3fCF6a265cd681deFFf4AEbb
+Andrés Serna - 0xc0E39252119253033f12DB4a78CCfab89348344f
+orland - 0xa073FC387C9a20cE41dFeCf4ED9e56b44C867666
+Luciano Delaude - 0x32E0D7b2C0170674D34Df1aFbFE2C1B3Bcf2E7f2
+David Yánez - 0xE18CD77091A61609D42cE0Fd7F0a9ebc5fe14b1E
+Daniel B - 0x4d0321bc8ce440a6688893ed7f5a4a97a37e6d8a
+Michael - 0x531e8Ed31Bcf8b9782AFac827CbF48C00AB4d846
+Anibal Elbaum - 0xcFa525A10e4B85BB181059bA5953C669C7ca007A
+Patricio Gonzalez: 0xf9037037B7DCceEdD7e2251fDFaEfDc8af0d67d7
+Armando Colón Mendinueta - 0x839B186EDbdf3b7F0B14E8df3178b5C45E34E17e
+Diego Barrionuevo 0xc34A944E29c64b9342eccc2fb9e3B08345B9742f
+Eduar Cortes 0xf5E60DAEcf921789464b35f2e35D4B7b258915Ea
+Santiago - 0x35e82E7a8988D53F75B0D6FdB4E54cd7ddf47c71
+Lucila _ 0xc18458Ce9EC0fBa8590fE7d320E4b58Ec257c9a6
+Emerson Silva - 0x21E58d515122163F3Abf139B616aE917f36C2031
+jonathan juez - 0x015FE6F32c414F3323bc288c02072112Df534B62
+Joel Garmendia - 0x8d9c0223577D229f656Aaea203913F5bB74A6621
+Jorge - 0x9b0b61c822fc16a6b17edd9bee35d1416e9281ef
+Juan Blacutt - 0x5208985C82e60328FE3Cfa685a2bb03AA69D2D39
+Javier S - 0xA04e891C20D13407e9E0B5fFffFf00AB3A5B39a4
+javier velazquez - 0x1857e20c9bac90daeeffcd168026e261f863f829
+Alberto Silva - 0x01d98c3666583081E4435C5BaD564597CeAbee45
+Rubén Bocanegra - 0xf1f90b72B36af24140e79aE464536514abaF6506
+carlos vazquez 0x0bde45af71335414573b2711eda5eadc12ec9d8e
+Pablo Guzmán - 0x2b04eaeEa61BAfEc3039c6aaA0Ce51F9A1431B77
+Juan Camargo - 0xE7FFD440800FeF51BEb305bf2B1a0DB4C6fb6Bed
+villawolf - 0xa7fAeE5C304Ff7f5AD583295a7dAC691780FF88D
+Alexander Durán - 0x13ac482ef2C9cf2eEca544de62a75D5570ab4a28
+Guillermo Malagón - 0xdb1d5e41AC18C063f5AD1283dF19871d29cE381a
+David Hernandez - 0xad7ba919082565a7bb6D395C565eDBFE49d7C168
+Roman Diaz - 0xA9c3dFF991FcD0A6Bd4d1bbCE82b9DEb559ce951
+Rocío Grajales - 0xf611ecda6fda08f34684b64203ac70227f1c763e
+Alexis - 0xd81c2751c60424E319eD236200e396A7085E3141
+daniel plaquin -https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-226
+Luis Anton - 0xB17aD6c1A420Eac9cebdA4F21A4004aC4Fe18a5F
+Tomas Sosa Giraldo - 0x823790D82d3B5FC022aC6D44b201791d6a4BCCaf
+Malcoln Portillo - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Eliezer Rincon - 0x8169a2E68bB2363B0450821377c82e8BCa869a6a
+Willy Gonzalez - 0x0fD3E81695DF3C6cf8b0e71D70379082f502380b
+Juan Ramis - 0x32ed20401b6f2d1096041F89c2f496D56FE8ADB6
+Eliot Pinto - 0x23565247c275a7917a425155763faf3645eace72
+José Miguel D. - 0x2d0d5346DBc98c8B6C2f6346719227555D7C9521
+Xun 0x3E9200e22c5b1B12ce2e3793cC50B0FD61d26cBB
+Johnnatan Olave - 0x0216546259D958755F4231670704DACA0a971799
+Rulo - 0x19611E49ebd2BEC09Eb49F546DF291662CfB1FC2
+Heler Paez - 0x9e3665Df3bCb9D2284eC646ae702b3581f7d9F02
+Alejandro Betancourt - 0x09AfE62957E704Be263d3b1617CdaC5c08bFA069
+Joaquín Precioso - 0xd9182dede0c8f9cb4d35bf54e9118dd061f9cfe1
+Sébastien Léger - 0x3504Efb60FD6Ca8A792062050A15FA202174459F
+Guillermo Boccardo - 0x2d004b325B692c793244696B63FF66707e844Ed2
+Filadelfo Caicedo - 0xf56382e9EEb085bEFe73b2B30fA1cabDdcbeb2f6
+Alfonso Zapata - 0x43f331b5215f45e7FAb407137a9D84e9B83cCd95
+Manuel David - 0xf30045AACeB61833EAF083b19d18Bc19a935B750
+Juan Pablo Tixe - 0xD3Cd8cE32fA66a034973542592925855f75bd1fb
+Horacio Barrabasqui - 0xFEEB0807A0D784416C625730B1b6aC0b4Ee72252
+Alex - 0x6492456562aB31937Fc2958a1287EAe179C97F9F
+Marcelo Haro - 0x03e70fDcE92Ea02b307A7aAEDAe04037AaB5e3ba
+Daniel Martinez - 0xF2F82A07a1dACeadF8DF7ffFaD5Bc723446f63D4
+Juan David Duque - 0xe84F03ca90ba597a2155A42bB3Fb66721947cE70
+Adan Reh - 0xF6309542D6AdecE7C3eB75d725D5Bd2996798783
+
+***********************************************
+
+https://testnets.opensea.io/
+
+Busca la direccion de tu Photo Album
+
+Nombre - Enlace de la collecion
+
+Horacio - https://testnets.opensea.io/collection/crosschain-price-268
+Sol - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-227
+Tomas Sosa Giraldo - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-270
+Guillermo Malagón - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-259
+OSCAR SEGURA | https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-244
+camilo munar -https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-260
+Juan Fuente - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-246
+Karinna - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-263
+Arturo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-233
+Joaquin Alcerro - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-242
+orland - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-231
+Juan Blacutt - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-243
+Chula https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-245
+Lucila - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-240
+Andrés Serna - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-228
+Rama - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-45
+Pablo Guzmán - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-249
+Javier- https://testnets.opensea.io/assets/sepolia/0xa6967bff25a9552257840c69b1507e3e6b049d05/0
+Eduar https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-238
+Jorge - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-253
+Santiago - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-241
+Javier S - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-288
+Michael - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-230
+Luciano - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-232
+villawolf - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-254
+Rubén Bocanegra - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-294
+Juan Carlos MM : https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-239
+Patricio : https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-235
+David Yánez : https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-252
+Jonathan Juez : https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-289
+jair diaz : https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-293
+Armando Colón Mendinueta - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-237
+Diego R Barrionuevo https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-234
+ javier velazquez - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-56
+ Roman Diaz- https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-256
+ Rocío Grajales - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-255
+Javier Montes - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-266
+Alberto Silva - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-272
+ Luis Anton - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-265
+Alexander Durán - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-258
+Carolina https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-282
+Emerson silva - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-264
+Andre Neyra - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-277
+Eliot Pinto - https://testnets.opensea.io/es/assets/sepolia/0x23565247c275a7917a425155763faf3645eace72/0
+Juan Ramis - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-281
+Eliezer Rincon - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-268
+Juan Camargo - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-290
+Malcoln Portillo - Photo Album Chainlink Bootcamp 2024 - Collection | OpenSea
+José Miguel D. - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-284 
+Xun https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-287
+carlos vazquez https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-297
+David Hernandez - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-257
+Johnnatan Olave - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-298
+Carlos Oñates - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-291
+Joel Garmendia - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-302
+Rulo - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-304
+Anibal Elbaum - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-248
+Heler Paez - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-306
+Alejandro Betancourt - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-308
+Joaquín Precioso - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-315
+Sébastien Léger - https://testnets.opensea.io/fr/collection/photo-album-chainlink-bootcamp-2024-342
+Guillermo Boccardo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-361
+Filadelfo Caicedo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024
+Gustavo Torres - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-378
+Manuel David - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-385
+Alfonso Zapata - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-379
+Alex - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-392
+Marcelo Haro - https://testnets.opensea.io/es/collection/photo-album-chainlink-bootcamp-2024-398
+Daniel Martinez -https://testnets.opensea.io/es/0x9b1c3E0Db81E42D1A00728739eCB6D7C9eDF4586
+Juan David Duque- https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-410
+Adan - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-411
+
+**********************************************
+
+En Remix
+Expandir el contrato
+
+BalanceOf 
+direccion de tu billetera Metamask
+
+Mint de otros 2 NFTs en tu collecion
+
+SafeMint
+direccion de tu billetera Metamask
+
+photoAlbumIndex
+Index 1
+Return 0
+(primeiro Json)
+
+
+rotatePhoto
+Index 1
+
+
+Abre el Index 1 NFT
+Ejemplo
+https://testnets.opensea.io/assets/sepolia/0xd1699ad92236ca1a874cd3677e98f12ac0de70e2/1
+
+en la derecha superior
+clic en ...
+Refresh metadata
+Refresca la pagina
+
+ctrl + f5 para refrescar
+
+******************************************
+Chainlink Automation
+
+https://automation.chain.link/
+
+Connect you wallet
+Register new Upkeep
+Custom logic
+
+La direcion de tu contrato
+
+Upkeep name
+PhotoAlbum Automation
+
+Starting balance (LINK)
+3
+
+Haz clic em Register Upkeep
+
+Nombre - Automation Link
+Sol - https://automation.chain.link/sepolia/9812226503844998116271647894909926379034460773474954721454159682113897085186
+Carlos https://automation.chain.link/sepolia/68656412519105769779538043418015016840343890977498677647759082824733991011021
+orland -https://automation.chain.link/sepolia/77714213578174291448060764269676930925051287477114938940154157628588029095351
+Arturo - https://automation.chain.link/sepolia/73558055771430935260869951882368029544509806842720898964112557334108843476345
+Tomas Sosa Giraldo - https://automation.chain.link/sepolia/88010606511988994440882732323107584442894756291552939201150241143283763213699
+jair diaz - https://automation.chain.link/sepolia/32851934389631290171863758520883985355331514954050989750274064692494965750677
+OSCAR SEGURA | https://automation.chain.link/sepolia/83449291148898578376425130521026005826909493039014412096752887099779888505278
+Juan Fuente -https://automation.chain.link/sepolia/99926893745527763731757383010118116526922661141035631855398819672144746456811
+Joaquin Alcerro - https://automation.chain.link/sepolia/106941523249250007281406555496588534177339788159728358762440545858917173304087
+Julio M Cruz - https://automation.chain.link/sepolia/5945344988687954890084202558100542930423491976129498439919740346021130135371
+Guillermo Malagón - https://automation.chain.link/sepolia/1988287142960012857994920327885703958746506247288211849852030676960542904571
+Jorge - https://automation.chain.link/sepolia/78106914776442834380921944094134922306195319764188509972665902345672971230446
+Diego R Barrionuevo https://automation.chain.link/sepolia/81172901793069660300639261096480808553800936832530312303938066402986339048154
+Andre Neyra - https://automation.chain.link/sepolia/81154720598156160586475813144180454429115837193479612683700963194609309176230
+Juan Carlos MM - https://automation.chain.link/sepolia/46544995717750541998003060228930687801650569356373594503209373931298027211234
+Santiago - https://automation.chain.link/sepolia/84593526499423225853821098119366017168600253034736509984458318548455010489158
+Andrés Serna - https://automation.chain.link/sepolia/29252722089844225359265604560665612869148555318464660823908293248454861742877
+Alberto Silva https://automation.chain.link/sepolia/105521748104365160101242200611941067710255654433739907653630318523303647822061
+Willy Gonzalez - https://automation.chain.link/sepolia/74995711049504850084003167672758373387898015279220544751911619425095702213941
+Alexander Durán - https://automation.chain.link/sepolia/39093034064209834320242067229208411774345722822084418973363386200513116692165
+javier velazquez - https://automation.chain.link/sepolia/59452106769296538123118095064980809072409361842356330075614637325317853810530
+Emerson silva - https://automation.chain.link/sepolia/113996365427582519378004899257419312785348856710927592613947648498616472437563
+Karinna - https://automation.chain.link/sepolia/13281148849294950687469399293975912094569861237517422401900616573079634659061
+Javier https://automation.chain.link/sepolia/23457006234036129879025713053649828501149821593206913657541954742937438119235
+Patricio: https://automation.chain.link/sepolia/137575098085456354436357276636216302470164218805690227138111173631707983366
+Javier Montes - https://automation.chain.link/sepolia/104965022347934152671514508515690513112753005129114419743854006614718979824291
+Javier S - https://automation.chain.link/sepolia/60983740808819286678389787584584481687452820056577396152556680104884099803494
+Michael https://automation.chain.link/sepolia/72376832048077623784441696006004004444456621220097751589432521366895088789319
+Juan Ramis - https://automation.chain.link/sepolia/66787124801378079813654556846700421788013303249592293913050537581379951783089
+Pablo Guzman - https://automation.chain.link/sepolia/72131033900721744657331349682733232548686402868357239390614993128609578090728
+Lucila AGUIN -https://automation.chain.link/sepolia/69352017965441456983161756727761848619761668108496400551682157438253534412424
+Daniel plaqun - https://automation.chain.link/sepolia/54491502518009514199814846758637710741166779441829234669740181542929604110841
+Rocío Grajales - https://automation.chain.link/sepolia/69352017965441456983161756727761848619761668108496400551682157438253534412424
+Armando Colón Mendinueta - https://automation.chain.link/sepolia/100604236901430376432093146009183212426791279792631044307242805706332672844382
+Xun https://automation.chain.link/sepolia/40675681795696005317585148058760788195839125151844994963015147996160908169450
+Eliezer Rincon https://automation.chain.link/sepolia/36597107840674308548310239700783482122116256258358517544586065905275497993499
+Eliot Pinto - https://automation.chain.link/sepolia/95541122710131112295345436338039663919157719753961759927957684099230275389495
+Jonathan Juez - https://automation.chain.link/sepolia/74846672015937641267362682293299839510987073397195581430579581211453205246733
+Juan Camargo - https://automation.chain.link/sepolia/24666826345859341371933532438249640236388201503694509619903787896192032778625
+José Miguel D. -https://automation.chain.link/sepolia/96139661133127243661042193811994948828194072932901271220070286320464635789557
+Johnnatan Olave - https://automation.chain.link/sepolia/98089483333939579346613911744107338050823717230889240663476569410981825988235
+David Hernandez - https://automation.chain.link/sepolia/86697889261399509117041720566036642754888826381414043679484092439929541329312
+Joel Garmendia - https://automation.chain.link/sepolia/89491692161267848906975252690775940123738231881828110449552272798853740036667
+Rulo - https://automation.chain.link/sepolia/58529572361397470523724403491821565175224470256941733487895477590534392235413
+Anibal Elbaum - https://automation.chain.link/sepolia/9083576736158424382163127528777206204338955458597449639693060322256757756636
+Carlos Oñates - https://automation.chain.link/sepolia/31940918511105976014719779251252610247390359196470671098283656411500680475592
+Heler Paez - https://automation.chain.link/sepolia/63960865468755877380087580174506223574417215752967471436280574213128603063643
+Alejandro Betancourt - https://automation.chain.link/sepolia/17244472267508178529698881522498019689378110104555016760527755318427881995337
+Joaquín Precioso - https://automation.chain.link/sepolia/47029791635514978174841946067586681761951290158274503324882070684219217135279
+Sébastien Léger - https://automation.chain.link/sepolia/26833478366133436157909425959256874196743939986578557079207605134321812638774
+Luis Anton - https://automation.chain.link/sepolia/95799273608490466506952661346286142252595517127626711742401269650144683262628
+FIladelfo Caicedo - https://automation.chain.link/sepolia/77186699166596661740906352036276297880622758330485184808138371389286878707281
+Manuel - https://automation.chain.link/sepolia/44345123435513610856467059654597107555998632544363297783930265303713562625437
+Alfonso Zapata - https://automation.chain.link/sepolia/94825601708552880909749644352244914954942358576465284399269622611801502879847
+Alex - https://automation.chain.link/sepolia/29224602811550493907658487274595821220573533499100702868201139877538576380721
+Marcelo Haro - https://automation.chain.link/sepolia/62523995587848269989392862623599394786939100217615570939728244292640105546644
+Daniel - https://automation.chain.link/sepolia/48611902513583166201494795692867630361728252739974396741632985038436471642237
+https://automation.chain.link/sepolia/112954991844374118429902713428426637226108588397721736316535264609038003269002
+Juan Duque - https://automation.chain.link/sepolia/80480508219980164088487485441576368857646937010573140719711744685900405686051
+
+
+**********************************************
+
+Mint otro NFT 
+
+Flower - La collecion the flores
+https://testnets.opensea.io/collection/flower-chainlink-bootcamp-2024-1
+
+*******************************************
+
+Tareas
+
+la direcion del smart contract PhotoAlbum
+
+URL del Automation Job
+
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

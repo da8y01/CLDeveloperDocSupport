@@ -1,0 +1,1423 @@
+Chainlink Bootcamp by Solange Gueiros - Jan/2024
+Aula 02
+
+https://www.youtube.com/@chainlink
+
+Aula 01
+https://www.youtube.com/watch?v=1SNmVktaagU
+
+
+Formulario de tareas
+https://forms.gle/N8eAXAaSE5WzPd1t7
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+
+Nombre - Ciudad, Pais
+Sergio Griñán - España
+Rulo - Hidalgo, Mexico
+Lau-Med, Col
+Camilo munar - colombia
+Anibal Elbaum - Córdoba - Argentina
+Carlos Delgado - Venezuela
+Diego Rosales - Guatemala
+Felipe - Valencia, España
+Saray Rodrúiguez - Venezuela
+Ramsil Ortiz - Santiago, Republica Dominicana
+Jair Díaz - Bogota- Colombia
+Sandra Divan - Córdoba, Argentina
+Sol - Sao Pablo, Brasil
+OSCAR SEGURA - CIUDAD DE MÉXICO, CHILANGOLANDIA
+Chula Sao Pablo, Brasil
+Yamid Calderon Colombia
+Mónica Ledesma Argentina
+Jair Díaz-Bogotá-Colombia 
+Ramon Bastardo - Puerto La Cruz, Venezuela
+Alberto Chaves - San Jose, Costa Ric
+Luis Anton - Maturin, Venezuela
+Pablo Guzmán - Santiago, Chile
+Tomas Sosa Giraldo - Medellín, Colombia
+Roman Diaz - Buenos aires, Argentina
+Carolina  Argentina
+Carlos Gonzalez - santa marta Colombia
+Jonathan Juez- Bogotá,Colombia
+Guillermo Malagón - Bogotá, Colombia
+Claudio - Buenos Aires, Argentina
+villawolf - Friend, metaverso
+Camilo Barrero - Bogota - Colombia
+Edgar Sanchez - Guadalajara, Mexico
+Emerson David Silva Martinez - (Arauca-Colombia)
+Arturo - Monterrey, Mexico
+Javier Chacon España
+Marcelo Haro - Quito,Ecuador
+Lucía Egas - Perú, Lima
+Diego Raúl Barrionuevo - Córdoba - Argentina
+Guillermo - Buenos Aires, Argentina
+Filadelfo Caicedo
+Luis Tapia Navarro - Panamá
+Nairobi Melina Monroy - Jujuy - Argentina
+Juan - Palma , España
+Julian Nicholls - Colombia
+Joaquin de Sousa - Argentina
+Willy Gonzalez - Argentina
+Darlos vazquez Mexico
+Juan Camargo - Colombia
+Juan Fuente - Galicia, España
+Santiago - Bogota, Colombia 
+Alexis - Aragua, Venezuela
+Juan Pablo Tixe - Quito - Ecuador
+Abner Ismael Romero, La Plata, Buenos Aires, Argentina.
+Daniel Campillo - Medellín, Colombia
+Erick Ojeda Vazquez - Puebla - México
+Cristian C. Carvajal - colombia
+Alejandro Betancourt - Barinas, Venezuela 
+Karinna Serrano ' Ciudad de Mexico
+ Daniel Levano - Caba, Argentina
+Wilffren Muñoz - Barranquilla, Colombia
+daniel plaquin -Buenos aires - Argentina
+Javier Montes - Lima, Peru
+Tulio Duque Medellin - Colombia
+Eduar Cortes - Bogota - Colombia
+Andrés Serna - Medellín - Colombia 
+Omar Villa - Madrid, España
+Patricio Gonzalez, Formosa, Argentina
+Michael - Maracaibo, Venezuela
+Camilo Bayona - Bogotá, Colombia
+Carlos Oñates - Valencia, Venezuela
+Nicolas - Córdoba, Argentina
+Johnatan Olave - Bogotá Colombia
+Javier Shen - Barcelona,España
+Eliot Pinto - Lima, Perú
+Luciano Delaude - Mar del Plata, Argentina.
+Johan Gonzalez - Maracay, Venezuela
+Candela Mathieu - Cordoba, Argentina.
+Blanco Sergio - Catamarca, Argentina
+Emily Rodriguez- Caracas, Venezuela
+Rubén Bocanegra lima Peru
+Arturo Collado - Buenos Aires,  Argentina
+Arce Luz Andrea- Catamarca ARgentinaa
+Raúl Parra Hernández
+Santiago - Rosario, Argentina
+Luis Alberto Silva Cazares - México
+alexander durán - Pereira - Colombia
+Silvia Martos, Mallorca, España
+Juan Carlos Martínez - Bogotá - Colombia
+Daniel Luque - Bogotá - Colombia
+Daniela Castellano - México 
+javier velazquez -argentina
+orland -Bogota-Colombia
+Rosendo Martin Gravanago - Argentina
+Rom - Atlixco, México
+Facu Miglio - San Rafael, Mendoza, Argetina
+Rocío Grajales - Bogotá,Colombia
+Armando Colón Mendinueta - Barranquilla, Colombia
+Gabriela - Lima, Perú
+Diego Guillen - Bogotá.
+Lucila - Buenos Aires, Argentina
+José Miguel de la Vega - Lima, Perú
+Joann Cruz -  Bogota - Colombia 
+Hernán Hernández - Colombia
+Javier - Argentina
+Emilio Espinoza - Caracas, Venezuela
+Jorge Moreno - Colombia
+Martha Barrera _bogota Colombia 
+Juan David Duque - Panama
+Max Cabanillas Salas - Peru
+Jorge - Argentina
+David Hernandez - Valencia, Venezuela
+Alexander Aponte - Bogotá, Colombia
+Julio M Cruz - Fairfax, VA
+Josue Román Martínez Mireles, Hidalgo, México
+Luz Dary Lopez - Bogotá - Colombia
+Humberto Paez - Valencia, Venezuela
+Juan Carlos Gallardo - Ciudad de México
+Gil Sanjuan - México
+Heler Paez - Colombia
+Roberto Villavicencio - Ecuador
+Fidelina Arteaga venezolana Brazil
+William Martinez - Cali, Colombia
+Horacio Barrozo - Argentina
+Johan - Bogotá, Colombia
+Salvador Vargas - Colima, México
+Dannuver Cabezas - Bogotá Colombia
+Joaquin Alcerro - Tegucigalpa, Honduras
+André Neyra - Lima, Perú
+Gerson Aliaga - Lima, Perú
+Edvin Gerardo Aguirre Hernández - Managua, Nicaragua
+Rosendo Guzmán Nogueda - México
+Joel Garmendia - Valencia, Venezuela
+Mauro Cambarieri - Viedma. Patagonia Argentina
+Joaquín Precioso - Madrid - España
+Andres Jaimes - Santander - Colombia
+Alfonso Zapata - Mérida - México
+Daniel Martinez Trinidad - Madrid - España
+Manuel David - Córdoba, España
+Set Israel Ortiz - España
+Andres Guzman - Costa Rica
+Jorge Chavez - Lima. Perú
+Daniela Castellano - Monterrey, México
+Sébastien Léger - Barcelona - Spain
+Celic Torres - Cuernavaca - México 
+Gustavo Meghirditchian - Montevideo, Uruguay
+Alejandro Armas - Buenos Aires, Argentina
+Amparo Sanchez - Huelva, España
+Miguel Rivas, Madrid, España
+Carlos Cardenas - Chile - participacion asincrona
+Gustavo Torres - Colombia 
+Cristian Mendoza - Medellin, Colombia
+152. Nicolás Locatti - Buenos Aires, Argentina
+153. Roberto Daniel Baltazar Macias - Ciudad de México - México
+154. Diana - Puebla, Mexico
+155. Adan - Barcelona, España
+156. Juan Melenciano, Republica Dominicana
+157. Fernando Hernandez - Argentina
+158. Alessia Cocozza - Portugal
+
+**********************************
+
+https://remix.ethereum.org/
+
+Icon 4 - SOLIDITY COMPILER
+Habilitar Auto compile
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+Environment
+Injected provider - Metamask
+Mira el Sepolia (11155111) network
+
+Icon 2 - FILE EXPLORER
+
+Crea el archivo
+Register.sol
+
+Copiar e pegar el que esta entre el inicio y el fin
+
+// inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+
+contract Register {
+    string private info;
+    
+    function getInfo() public view returns (string memory) {
+        return info;
+    }
+
+    function setInfo(string memory _info) public {
+        info = _info;
+    }
+}
+
+// fin
+
+
+Icon 4 - SOLIDITY COMPILER
+Sinal verde
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+Deploy
+
+
+Faucets
+
+https://sepolia-faucet.pk910.de/
+https://sepoliafaucet.com/
+https://faucets.chain.link/
+
+Deployed Contracts
+
+Nombre - Register address
+Saray Rodríguez - 0x7598E744dbE5EA536df828E73AB3119FBc783854
+Sergio Griñán - 0x85AF1AA7235EbCC5bd10dE6A586FAC95AAa4f51e
+Luis Anton - 0xC61B0F0265223C01D9B57Dd5a0EC69F012FbFa42
+Camilo Munar- 0x58c720D0fd82a4A1799c15B6b64D0070Ff47ABC9
+Juan Camargo - 0xf14117B5dcbFA8902100CDf4200602960c1f0eA8
+Candela - 0xE129fCfbFAe0a6c1e172f76622c7864daCB2F40C
+Tomas Sosa Giraldo - 0x69975F92138568F33A0FeD867Ba329a3Fefb6419
+Carlos Oñates - 0x4e60CfD1fEf08aC4E23559ACEf12aF7B9c7a10BC
+Arturo - 0x34950b0feccfb7ca034e2493f12e8c0982ac0c77
+Diego R - 0x0EC57e9B931477e9B9f70322ed788cFBD736a455
+Jair Díaz - 0xBC7AEC689C941b133C4bBb4c59425998FA3988e8
+Ramon - 0x69Eca051716fe6a3EDff92DB253190F80f402d3b
+orland: 0x45D395D34d9C0c4A412F2399425e07EE8c94F8eE
+Sandra - 0xa59dDfd609CB513B07f26351c9395E2e86aFBeA6
+Rulo - 0xDc614c88c465F949b2D161B9192e5196477E71EA
+Karinna Serrani ' 0xfADfDf585FF9B632D765FAEF8c7a9554FDC7B845
+Diego Barrionuevo 0x387FB03c9AB7Fec1d1469f9DD9ce1c78a75d65B7
+Carolina 0x38886f1cA89364f3c7e9bB18b033E9E51E596E62
+Daniel Campillo - 0x09398dB4e67B5e62607ba7C35187EAe657428239
+Andrés Felipe Serna - 0xfe9A3B90e6E0a171aef9Ec48Fe46Ed7f66805274
+Alejandro Betancourt - 0x58eF9D5581Eb4Dcb97381e9D19Ebaa825f0C94bE
+Sol - 0x8Ba83E0D9689A5e7Bf174fA4E9A7fEcC8515A698
+Felipe - 0x0E1c9cb5f51EDec459DC9b5b605F39a201663Dc9
+Filadelfo Caicedo - 0x4971cA8BD9Ff80cD9410030B7FAc8818511d29F0
+Juan Bailon - 0x064De1B9ff22708332Cad744A57cAaaa29c748c5
+Santiago -0x408e32c1023e9fB82d0a4e043C9A371ba8Ec2D88
+Julio M Cruz :D - 0x81d194C25CC2AA13c387c684AFbeF3Bb24bE388c
+Camilo - 0x0586316c151af071f90aaa25AbAECb6F150119D6
+Raúl - 0xEbC31ED1ba11511BA356b9099A10723747F612F9
+Pablo Guzman - 0xe9b6616731c4360A62003560C1e41639d11de88a
+Edgar Sanchez - 0x8A6BD5Ec65Be243C5789ceA9086FCE47A81eb073
+Jonathan Juez - 0x09c4E151766730bDc72808F7648d9B8983d495Fa
+Guillermo Malagón - 0xcdb0334638F03794C7c4436b69c36f67647ea763
+David Yánez - 0x55b0F79340Aa78913281cC66dDD62089c3f7d32f
+Claudio Herrera - 0x71207B1a6AaE5695E552B162077665c1414905D8
+Juan Pablo Tixe - 0x87E5253C4b0342c608948726834D4Df39B0F0F6c 
+Guillermo - 0x7477a998638da710ab241cadbf2051D376f7DaFF
+villawolf- 0x6920c9a7aC16674a033Be4B4bD477B1Af07611EF
+Johan - 0x55fA0F88fe9B83bf2eC3fdB6335B7571a0644919
+Marcelo Haro - 0x706C8E1B1C9fcf5150b05E5FF0a6D455dC171c
+Wilffren Muñoz - 0xf0DeDd1c74D3b00Ad2A0447D2C9A39AEe0330e8d
+Eliot Pinto - 0x00c229bb08F84BDE536F42FE655B2148b925d1B3
+Juan Carlos MM - 0xb5ec19e1e21166eE919d776E3326EA95650b140A
+Javier Shen - 0xF329B46AA39F8ecBD8679E191F44695dD560CD95
+Nicolas - 0x081af2f15A584Fdb2046cEAd1c9E4c91c9cfAf1A
+Emerson Silv
+Patricio Gonzalez 0x3fE5AA827107Cf1ED33DE64577A5F906A140b25F
+Bryan Acosta - 0xa3A22B44A2d612B42686456b8104C7B8F0D98858
+Javier Montes - 0xF0Ee1154fB8b1F3C74335E44d03A9685570B34F3
+carlos vazquez 0x0733896A240196C3defE00be78E540C4E2b937Ca
+Michael - 0xf9988618786c79Bb7FfD3122b1bEb60CeD718a34
+Hernán Hernández - 0xe437e792c6773Fd57544bf19e62FeA7560bFe98f
+Arturo Collado - 0xf4B4eaA8feB77f124F66ac856ba95203Ad0cf666
+Johan Gonzalez - 0x4fcb684165781aDa456FC24da8b88982DF8551eD
+Santiago - 0x05e9a620731e5731d4159d44fF5939dBCb999A9F
+Rubén Bocanegra 0x3189dD7Fc815Bcf566b78C3b8A777FF059A90adB
+Alexander Durán 0xcDBf4d6bCC3caAB08150Ea8Ab9BC1D4569666c51
+Tulio Duque 0x74bF11B083e76cc0AacA1eb1E503aA241fE393b8
+Ramsil Ortiz - 0x282038b241b21db20e5ed93105b4128f66e7469d
+daniel plaquin 0x06cBF01C49bE4e18770731f1D0AcD6a25f3a54BB
+Alberto Silva - 0xc0FDC19b383AA8E4c8Cc6A2a23EA3cb2ab97532F
+Johnnatan Olave - 0x5C7A881447eb8948Aa19Ec301CDa2D0d54d769ab 
+Armando Colón Mendinueta- 0x2f9208F9Dc785A20ac636BeAf76B7c9c438f4b6B
+Silvia Martos 
+0x2e12eBcEda3aE92678c2E7Fc5F7227c767456EC5
+Jorge - 0xa781E6207248D2F9E799Ee3911991e73442B62b2
+Rocío Grajales - 0x25a3E0CD6fe385319A8f398C03ec26750cCB19e8
+carlos delgado - 0xf955c4b0f4b790818d5dd0b5b48c48472cb9dc4b
+Eliezer Rincon - 0x4bDf124567d0A8F23b2F8D8a35bFe295cd7879db
+Josue Román Martínez Mireles - 0x23f7fbF317e71Cd25CC9a46f8d8C33758A7a9E9F
+Roman Diaz - 0x6eA23e060E806FdF2E9f102c34B13cd3c0dbB977
+Gil Sanjuan - 0xb628e715dB49FdDA61CA768aE68A98ed0144eB96
+Willy Gonzalez - 0x299ff03a5de1d9e1297a54be5f0f899837e62a0f422db01c5a426892f5226bbe
+Chula 0xedC2c9b65f8E0b959C6fA262C3b1522C39253f45
+Cristian Carvajal 0x0a9a644d843357dB04C0462b6e57a038bb9178d8
+Juan Fuente - 0xceebb00c4ce2bc2d248dbde36e991f909d478685
+Juan - 0x578e47D379f70DD77B42738340Ef0Bc7D39a8d9a
+Alexis - 0x0dcA4F58600A55f3D72F148ea3d7c208DB6f762F
+Luciano - 0x951606852Fc93Eb8A2E956368efcbF7Ab61DF4f4
+Humberto Paez- 0xfF2e84ca418c59f64744E7203bDA99ae232a4764
+Lau - 0xc3FCD10A3c27417843d3dFB0eb5D9fe88FB41275
+Anibal - 0x3903C1d607dCb88257858AAFCddA605b8aC914B0
+Daniel Luque - 0xA2F44c7A199aB20C038499c2B8E81B415e7f41DE
+David Hernandez - 0x1c7663fb50C9fb862c89d8d6d6D2DCE957664F61
+José Miguel de la Vega - 0x610E911BA08908E4AbD10Aa57AD07c777D9b89A3
+Javier - 0xcEDD13D115a5DbAD2E1FDe47bF2b0C624784B386
+javier velazquez - 0x87D7868637eBc0bE64213353F6cE0F3A1a7197B7
+OSCAR SEGURA - 0x697094D80F872275bE0a3EF43BC780fe6A488e02
+Juan Carlos Gallardo - 0x0131993DEb27e564C0022C669Cf459159EcdfbaB
+André Neyra - 0xb8e1777DF3649b5f3DBe8FD3D2C05f31Dc42F4f2
+Juan David Duque - 0xEaE0A8A42b378A1e5C4c4D5aFc5e1d3cEcC0b63A
+Camilo Bayona - 0xD48C7BdE06de35768f245319cde0D1c1C7644902
+William Martinez - 0xb3e854A348C6C208d1971396fe4FB642692b3Fb5
+fidelina arteaga-0xea572331EAb179a8209cb4d15d5fcCc1d0B11908
+Emily Rodriguez - 0x2783e08862544D5A5D337c116cB395dB62Ca3c89 
+Joaquin Alcerro - 0xe1613572cc72705e42e41adfa04083d9a73b8903
+Rom - 0xa3053D06b7119d1cc4710Ea3b86650050D56F162
+Rosendo Guzman. - 0x1FF7cF531Ad52E4ceaE6B17034163Af2142AC25b
+Mauro Cambarieri - 0x60159bE002F5BF9C3D1b7Fa052B319A0B6FbDD7a
+ANDRES JAIMES - 0x74b1A131d804d24B4C93891436539290286B1B37
+Daniel Martinez - 0xF0DcD57a904fcF4b25417695bc98ff3affBf558C
+Eduar Cortes - 0xb0743A97397313556B352893d217e9DEBc0385A2
+Alfonso Zapata - 0xE8B7366431103EfA8BedE6E449B07bd65076d3Fb
+Joel Garmendia - 0x4a4365D9c9a9c3fbc7C92830F90eAD5d0eb48087
+Diego Guillen - 0x2ba89edB6De602Ee19ad575835CF2C290183F091
+Manuel David - 0x76D3FC66F3717Fd2f9480C6DEE872b94cf8bD7Af
+Andres Guzman - 0x7a944c4f6FF5619489895057453b0998525bEB02
+Set Israel Ortiz - 0xE97255D741261475A4b5361BD7835431338cc7c5
+Edvin Gerardo Aguirre Hernández - 0xfCcC2AaABE80216d834F3a6Aeeaebd4021FB00cf
+Jorge Chavez - 0xeAc0Dc54fD54bf8185BCBEd612721F410E7B7465
+Sébastien Léger - 0xF80e3a36c1be0054E2D59f348d38F10E63164AeA
+Heler Paez - 0xA777f7975cDff757835EB2f41A424D190647ae5a
+Karina- 0x41FEA0Bf9aa2167Be717542D4A01cB79BAD2952D
+Celic Torres - 0x6194B887eC4891C38f227582008267ee344a37D4
+Rosendo Martin Gravanago - 0x53c1079610142F43d9980Fa263Cd0ff4492d3dE5
+Gustavo Meghirditchian - 0x4a0F9a624f79Ed05688aB9FDEBA2774cF5a902Ae
+Amparo Sanchez - 0x9a95C88b0c594ca0b7f006C925a996e7c92dE5a9
+118. Miguel Rivas - 0xaDA0C32954842cF5Fb7E031EcDC88FdCa0Ff8E6F
+119. Alejandro Armas - 0x0d27Df1De1FF839B4eB6E280b11fDA4dc3Dc4978
+120. Carlos Cardenas - 0xa6Aa07f53Edb9c4C18E9eA5374AE359c50B6B96B
+121. Gustavo Torres - 0xE33a6108f57cA98A1b551EF4f48bC09084a631d4
+122. Cristian Mendoza - 0x86397B255B28ff865742a6c6736EBC25A7Dba3F3
+123. Nicolás Locatti - 0x0438E853DB50e0478B06D67D4677Ec2B61E0b672
+124. Roberto Daniel Baltazar Macias - 0x5dC218d7751311BcD027D2632B87E46E4A1AE6B7
+125. Carlos Oñates - 0x133C82ea81795F6eEB52B30e8a540cC0838aa569
+126. Diana - 0xf0c66c89c35FE91D4D65978E4CEEb98F88665E54
+127. Adan - 0xBbdc2a052Ee4aDb02Cf7B9Ca6c8ccddF33672525
+128. Alessia - 
+
+**************************************
+
+
+Metamask
+Transaction
+View on block explorer
+
+https://sepolia.etherscan.io/
+
+
+Tab Contract
+
+Ejemplo - Sol
+https://sepolia.etherscan.io/address/0x8ba83e0d9689a5e7bf174fa4e9a7fecc8515a698#readContract
+
+https://sepolia.etherscan.io/address/0x8ba83e0d9689a5e7bf174fa4e9a7fecc8515a698#writeContract
+
+
+Icon 2 - FILE EXPLORER 
+Crea RegisterAccess.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+ 
+contract RegisterAccess {
+    string[] private info;
+    address public owner;
+    mapping (address => bool) public allowlist; 
+ 
+    constructor() {
+        owner = msg.sender;
+        allowlist[msg.sender] = true;
+    } 
+ 
+    event InfoChange(string oldInfo, string newInfo); 
+ 
+    modifier onlyOwner {
+        require(msg.sender == owner,"Only owner");
+        _;
+    }
+ 
+    modifier onlyAllowlist {
+        require(allowlist[msg.sender] == true, "Only allowlist");
+        _;
+    } 
+ 
+    function getInfo(uint index) public view returns (string memory) {
+        return info[index];
+    }
+ 
+    function setInfo(uint index, string memory _info) public onlyAllowlist {
+        emit InfoChange (info[index], _info);
+        info[index] = _info;
+    }
+ 
+    function addInfo(string memory _info) public onlyAllowlist returns (uint index) {
+        info.push (_info);
+        index = info.length -1;
+    }
+   
+    function listInfo() public view returns (string[] memory) {
+        return info;
+    }
+ 
+    function addMember (address _member) public onlyOwner {        
+        allowlist[_member] = true;
+    }
+ 
+    function delMember (address _member) public onlyOwner {
+        allowlist[_member] = false;
+    }    
+}
+
+
+// Fin
+
+Este es un contrato inteligente de Ethereum escrito en Solidity. El contrato se llama `RegisterAccess` y su propósito principal es gestionar una lista de información (`info`) y controlar quién puede acceder y modificar esa lista.
+
+Aquí está lo que hace cada parte:
+
+- `string[] private info;`: Declara una variable de estado privada llamada `info` que es un array de strings.
+
+- `address public owner;`: Declara una variable de estado pública llamada `owner` que almacena una dirección de Ethereum.
+
+- `mapping (address => bool) public allowlist;`: Declara una variable de estado pública llamada `allowlist` que es un mapeo de direcciones de Ethereum a booleanos. Este mapeo se utiliza para controlar qué direcciones tienen permiso para modificar la lista de `info`.
+
+- `constructor() { ... }`: Este es el constructor del contrato, que se ejecuta una vez cuando se despliega el contrato. Establece al propietario del contrato como el remitente del mensaje (`msg.sender`) y añade al remitente a la lista de permitidos.
+
+- `event InfoChange(string oldInfo, string newInfo);`: Declara un evento que se puede emitir cuando la información cambia. Los eventos son una forma de registrar la actividad en la blockchain.
+
+- `modifier onlyOwner { ... }`: Declara un modificador que requiere que el remitente del mensaje sea el propietario del contrato. Este modificador se puede añadir a las funciones para restringir su uso al propietario del contrato.
+
+- `modifier onlyAllowlist { ... }`: Declara un modificador que requiere que el remitente del mensaje esté en la lista de permitidos. Este modificador se puede añadir a las funciones para restringir su uso a las direcciones en la lista de permitidos.
+
+- `function getInfo(uint index) public view returns (string memory) { ... }`: Esta función devuelve el elemento de `info` en el índice especificado.
+
+- `function setInfo(uint index, string memory _info) public onlyAllowlist { ... }`: Esta función establece el elemento de `info` en el índice especificado. Emite un evento `InfoChange` y sólo puede ser llamada por direcciones en la lista de permitidos.
+
+- `function addInfo(string memory _info) public onlyAllowlist returns (uint index) { ... }`: Esta función añade un nuevo elemento a `info` y devuelve su índice. Sólo puede ser llamada por direcciones en la lista de permitidos.
+
+- `function listInfo() public view returns (string[] memory) { ... }`: Esta función devuelve toda la lista de `info`.
+
+- `function addMember (address _member) public onlyOwner { ... }`: Esta función añade una dirección a la lista de permitidos. Sólo puede ser llamada por el propietario del contrato.
+
+- `function delMember (address _member) public onlyOwner { ... }`: Esta función elimina una dirección de la lista de permitidos. Sólo puede ser llamada por el propietario del contrato.
+
+En resumen, este contrato permite al propietario del contrato gestionar una lista de direcciones permitidas. Las direcciones en la lista de permitidos pueden ver y modificar una lista de información.
+
+
+Cada parte
+
+
+
+Deploy
+
+Nombre - RegisterAccess address
+Saray Rodríguez - 0xf6EeC9BC8809A526F0573348967a41855de9C0DE
+Eduar Cortes - 0xb0743A97397313556B352893d217e9DEBc0385A2
+Sergio Griñán 0xC264ee1200d9012a8284252928499647e8b6bB24 
+Luis Anton - 0xDD090d6c2F3a81070E116bCfdA579Ba90C991eB8
+camilo munar- 0xC61B0F0265223C01D9B57Dd5a0EC69F012FbFa42
+Tomas Sosa Giraldo - 0x5c98145a9bBD9939317122a6838842b799EF9BF0
+Alexis - 0x0Cd30B888ee1C2fCeD713a4eF831FaBb4218D69c
+Candela- 0x72d1AF08E52C95E0c5C1F3df4f29590A8B05ceEF
+Jair Díaz - 0xE8b49150FEfBfFA89F7b17928ee50aC0e31CB79f
+Camilo Barrero - 0xa5f6487632B038c0D3Ae95f486DF45E3b9437D67
+Alejandro Betancourt - 0x77E6802a802a0b564DB407bECC75405cE360EbB4
+Juan Fuente - 0x6F977d6C601AfFd2E45DF2C0974eaA969db84F5D
+Guillermo Malagón - 0x5E0f294365E19e03fd5090331Cf42CC9A70c5597
+OSCAR SEGURA - 0xC30B5F98378e135d8828eD08bd4B8ba4ECFfB518
+Ramsil Ortiz - 0x4F729D067CA2E639595001ebEB54952E18f3bB89
+Andrés Serna - 0x48B1175530cd58ED2465b9437243D9e6E2A8f009
+Javier: 0x529f64d80b8afa7e6bb522ecc8978ff9220d4248
+Diego R - 0xB8a1514c6E2f7bA73BC37FB05AC79a88f9A4c9D5
+Rulo - 0x08A634DE5656F3Ae63F8669072DaF8D1cE606D98
+Sol - 0xe5C40c48e2BCbE99632AeE90c486182BDF265999
+orland - 0xa712833B012e4077062CF50BdbC57F1CCB6b5758
+Felipe Aceituno - 0x8C3f3b763961C75adFEcb43Cd88B6C908cb6c442
+Carlos Oñates - 0x0e0db17a655def5c4fb7020b283904b10358f63d
+Santiago - 0xf1794FBdccCE651F05b1a9F2490cf3014637992F
+Javier - 0x04E7B6170B89735FaA4A0e73A64DED67Eadb5210
+Tulio Duque - 0xdc2aC9f203b14D1d41b9365E6EAB755084312B81
+Arturo - 0x4A7CFc3e6eca03137Ff574B087add6B46606DA71
+Filadelfo Caicedo - 0xA0f4D3C9201633c11b2a039f700C3b94E94Fa6f4
+Alberto Silva - 0xB82F14ef4EB0E091C90119d67fB80EF08731cA66
+Juan Pablo - 0x02BA738F25FFce80B162Af874b7523029eE58DBa
+javier velazquez -0xcb453e8fcd3d687722ca88a7b623a7dad2b58109
+Pablo Guzmán - 0xe20e7252f9b135D324CDaaF941e9A3D0E6Bee768
+Julio M Cruz :D - 0x5c3A7C71Ba86e67328EA802705614E5C67c9881b
+Karinna Serrano - 0xE1936A328800C443423796d8C6B3Db7bf8aa54ec
+Marcelo Haro - 0x351f7bD791Ddbfd8112E6BAA9B233e0e0567d9Bb
+Patricio 0x8fA75571365FdBa85a2A8fEB15Ad93f102805150
+Claudio - 0xACDDa47A43d704ADaaC5b049288C94e5cb401fdE
+Javier - 0x04E7B6170B89735FaA4A0e73A64DED67Eadb5210
+Michael - 0x9BE7b2c8b83B5b21796CF1561E2bC89fd31B6fD0
+villawolf - 0xC7DB87436f7e84b97a6E40FCe40eC54873b873bc
+Javier Montes - 0xe64403296Aec674DA664c1c446A1aDeF7b47F914
+Emerson Silva - 0xD45Ff4557bb93087D4337303925f78678dBd19A1
+Ruben Bocanegra -  0x7242F6954907ff154282283FE17dbB8F2041bAd3
+Wilffren Muñoz - 0x2e12eBcEda3aE92678c2E7Fc5F7227c767456EC5
+Lau - 0xa74B96dcE6E645e693b0E2EBB34C83840C47a264
+Raúl Parra - 0xBc00F9e8Cc650fBC6Aa857aA6d1Ce28D1AE3275f
+Johan - 0x4e5De11106B5C0824f43da7C2C645cf3B95eBf45
+Juan Ramis - 0x8259AeBf9C4a0C3b84757183f9d06dF17DfD88E3
+Juan Carlos MM  - 0xb3A063C5483716d446788a0f2Cb2dF793eDa3218
+Josue Román Martínez Mireles - 0xef97AD3FcC47e104287a05b0d727C3516553fcf0
+daniel plaquin 0x173b43294BF2CABF04a600dDaE5e6F784aadba48
+David Yánez - 0x328a18D373194EB5CBc53b4B5F5bd14C8678A29f
+Johan Gonzalez - 0xAe5C4B13559d36e29e51Cd2ED1CFDd74c3C5ad91
+Juan Pablo Tixe - 0x02192Ac1b5b1eF5Fe624143F43AE56577fbd86b7
+Daniel Luque - 0xcA98432004824f33c31EcF2E033543753e49c357
+Hernán Hernández - 0x3dbEc3655a599235CbA3FCFfebE8f04D3b119865
+Bryan - 0x5CC45F5F998b24333fBD6F8B76A35845da034F90
+Santiago - 0x648f60846cE3F2Bc954D8Cbf0041866396575163
+Jorge - 0x05A2DE05C174331F495c222BB3383Ec8A92E4bbf
+Eliezer Rincon - 0xe6448a7B556209404eC88C38b6b741d609e180b3
+Anibal - 0x0212a65A7aD807aA3283D46A2D393630883530Ca
+Diego Barrio 0x014c9baa2000d13f77608c16a245542953d1fddcb507e15b0d0c6a65e7cc0181
+Eliot Pinto - 0xa44D322A3ccaa8439C50b729FC538565909C0757
+Daniel Campillo - 0xc2ffdf683caba6471adac6bceaa711af3969bb38
+Nicolas - 0xF0C335862D197E42d06d93Dd2a486Fe88cdb9dA5
+Gil Sanjuan - 0xbc92F0F024403CAfBCdE06F83837A0Dc06F725A5
+Willy Gonzalez - 0xb71cdcf96df1bf454db76e9456d7129c6f1f40bc
+Alexander Durán - 0x082125dF985D99102ebccC36142fAd341749Da43
+Juan David Duque- 0xEaE0A8A42b378A1e5C4c4D5aFc5e1d3cEcC0b63A
+Guillermo - 0x15CCB2533dA78f3225897C67498E2576B5b8969b
+Sandra - 0xCd1d8d730226006ab513013E2b8840443c8C9141
+Arturo Collado - 0xed2eC6c0A0F6cDe451c98402C409B5A0695D6696
+Humberto Paez - 0x03224dc2b48B658dC9e20CF6785d14201671755B
+Jonathan Juez - 0xE29b9C9B4bAc0049077B0E54F9246E1f62E41f8d
+Chula 0xedc2c9b65f8e0b959c6fa262c3b1522c39253f45
+André Neyra-0xBd365C088147281b5ae47b1F4E9cFC34782bEE4a
+Rocío Grajales - 0x12433e2624e4B7c1739cE904Be706824f9D3387d
+caros vazquez 0x19a232E656E25bc784A07B678d259E289838206F
+Juan Camargo - 0x572f7188733d9Fef16bB8B5Da1C6A33d7e7873f3
+Joann Cruz 0x5CcF3CB9eE0302d0B7e8da35D40F6fC34eB7f4FC
+David Hernandez - 0x0D0579aA218AD58aACbf0341F16748AB14487ECd
+José Miguel de la Vega - 0xd6311AaD5F39FAF2fe18017d88624B9910b13383
+Juan Carlos Gallardo - 0x8C654b6562794Ef8D4C23b6235bA9729D84CcA8E
+Armando Colón Mendinueta- 0xd1997873d9d604a2b99034800aaAC9AfFe7cf8b8
+Joaquin Alcerro - 0x2c4Ba72E493fF75AeFd562a3Dde7AB15E5D9d782
+Camilo Bayona - 0xB2dE33aeaB58B03Ff72bb50f1CC12Bab758Ad45d
+Johnnatan Olave - 0x5b8170c769867A87e7FB21Df27A530d7876A7298
+Emily Rodriguez - 0xC4aE4b1C8543941b3bF52A750D29dA0D13bd668A
+Rosendo Guzmán Nogueda - 0xF463aabd545a8ec27d57E7C868db038C9EF3C4E8
+Alfonso Zapata - 0x507c337e77bd5f44b58adc191772e3d42c7b8744
+Joel Garmendia - 0x2A86B75F424E585a35fC3FBe111090a622872fB6
+Diego Guillen - 0x4c3B58D3599003958001C452537cbDf2A4B95E1c
+Manuel David - 0xe9270235487296691f0F1A976E2f2E1023A39A35
+Andres Guzman - 0x31466203520fA04Db6966f45EDd9318f94BfE6E5
+Set Israel Ortiz - 0x7275711191e94dd796f2ADEFfF30789e3a422CeB
+Jorge Chavez - 0x4a20E493690a935b69C7eC8c4B72620c8718603F
+Sebastien Léger - 0x757099A0eb3fFA0C154741A518AA61034e877D59
+Rosendo Martin Gravanago - 0xDB2e8f89707a4d559F0E971dC05134Ee6BEfeF2A
+Heler Paez - 0x9f22A2b22077cf08aa95a6AB6aCF98832Ef6727a
+Miguel Rivas - 0x8df1c615ae2ab6d8a17286c12d03e637d12df23d
+Gustavo Torres - 0xF547fA46cC5cdfD0c5759141cb05DfDFA51fbFE6
+Carlos Cardenas - 0xE2ec5FF38dCFD6A86B48F4c010faBc41d3B08f82
+Cristian Mendoza - 0xDBAcd8d4D5b28A1Bc73A09649769c73bdE25972B
+Celic Torres - 0x1B5D5c0D50ECEe08Cd5004f6c2EeCF38458A7823
+105. Nicolás Locatti - 0xe750f9509dA6da6f73Aa7f98F8C16682F97036e8
+106. Diana - 0xeec99a50b25f3deadb5c6ce8d5a832036127d096
+107. Adan - 0xf181d1ea03a1af1d8983dfa18e4770f631b99de7
+108. Roberto Daniel Baltazar Macias - 0xfBC1785cc3DF0Cb910398D2CB53b8968f9Bd4540
+
+****************************
+Nombre - Tu direccion
+
+camilo munar - 0x43fCe8CeC049e00E083c160672e7e56807859373
+Juan Carlos Gallardo - 0xF93eE5a787F26D8DE540C78608348d18c77D2c6b
+Carolina 0x6122D4939B63A37cbdFDD1E40564a7Afd5163708
+OSCAR SEGURA - 0xe00c3cf28B1919Ee9eBF5A9C2D50088A299a0C37
+Tomas Sosa Giraldo - 0xc0fa10cb70f536B79DA6cE42F1db703dd8f8E6ce
+alejandro Betancourt 0x377307274977ac9E3b2b71BEaA8a1aC859FB1097
+Lau - 0x1801CE04bC58857824833a93a7277D68D07D61dD
+Camilo Barrero - 0x60F8b3FFcffb3cF470F7D2416b677eBe770935Ff
+Candela - 0xd0401bF645f94228c826Cec6aF3cb54D09c76928
+Guillermo Malagón - WALLET: 0xBCDd813Db2461393527753aDc8C96BA8F4BD400d
+Diego R - 0xB799E361c6bD2900826684c38fA8a44837D962bD
+Michael - 0xB82C3739a5b983b6B12ac143E3f06417d9482C18
+Juan Pablo Tixe - 0x02192Ac1b5b1eF5Fe624143F43AE56577fbd86b7
+Rulo - 0xC516594f9100Ee40be213118E3e0Af8dD5eD0622
+Patricio 0xdBEC8b42Af49A5EBA0435f0796C5810d179DCD73
+Karinna - 0xB82d22a9C33D20F8175169A9130b335d4A488BBA
+Santiago - 0xbd20520647247DF64953518962cf10ABF61b781D
+Julio M Cruz :D : 0x369e1a5a71B71D23F13059C5b06A6aA2789EAA2D
+Gil Sanjuan - 0x7072DB334bA9E422c16Eb31de4f1E37600A8D1Dd
+Emerson - 0x3B8C85F34cE5DE33f1fE784a680C616092ee5380
+Guillermo - 0x850485AFBC342BfD851eEbF6d6b429FDdD6AaF62
+Alberto Silva - 0x078fc9E8cAe1B2961E1F6e9e543D2A9C05f9B718
+Cristian Carvajal 0x3aD3DFEedfff41f6eF5d5b190958b0103C60a8Cb
+Willy - 0x8Aa59bdB18312AD541Cf765B42757c9a96042F76
+Javier M. - 0x8757c7D953ea058baCDF82717Caf403Bd01F1099
+Juan - 0x6F9308620FFa71D1E93e1663F067c5d902B6f5Fe
+Santiago - 0xD6baeEe78bd7F36B550D9A64fBc4383dF3AF73de
+Juan Ramis - 0xF6910298bC7f60ba391694b8728C6F551aa0A153
+Josue Roman MArtínez Mireles -0x602ad61Ff6Ac0a5EaEb23070D394cDF9c6dD5F53
+Ruben Bocanegra 0x975BD36BBb1C8C51C912412189d3113d73dA49c4
+Rocío Grajales - 0xE83712B38AF76ca31c5F0557891A1B7ac7aF8537
+Javier 0x44543E6812b22BEeD85fB6b808429C357F412A72
+Horacio B 0x00B20f23ef6e45B28734CE681658Cc34fD7F991e
+Johan - 0x6E5956FE3F9e98d427d0393FAe75Ce1C482F351A
+Ramon B - 0x833A65E3d3C76Ce23BfC20D17aC954b399019782
+Alexander Durán - 0xe89ce7817857Ef0318Cafc88BA4C29c8Ce48e220
+Bryan - 0xcDe11d543D7490Fa27aB3455C91A792Bf927CF8c
+Juan David Duque - 0x7423E6EC356818FF77F614F3ca8C8Ae935cC9F91
+Eliot Pinto - 0xa44D322A3ccaa8439C50b729FC538565909C0757
+Hernán Hernández - 0x035a68471B4A3162FdF2Ac113755E8959ecf77a4
+Andrés Serna - 0xe70e1c08db30ebfc918ab91dcf62880518cabb03
+Juan Fuente - 0xe67F18c5064f12470Efc943798236edF45CF3Afb
+Silvia Martos 0x1A0e0721f08F0A2e01112bb17aF82DccA504Be8D
+Humberto Paez - 0xe5DF886D4Dc849Ec0B795D21F4C908f4062Dcf36
+orland - 0x1a9A333E76DFc5643e1df7042bCA9492e80E24F2
+Joann cruz 0x6BB5a049C7Ee43a46077e0B2BF588A48986dB2a2
+Carolina 0x2D40aaBDBbE8847625147BDc15118CEb9E2E93ad
+David Hernandez - 0x8b3582B1141439585eDa68069a6F1FC20a137291
+Armando Colón Mendinueta- 0x5698E9d3b4A1d0890d8b4E90DC6D146Dcf1408a2
+Jose Miguel - 0x99df767D48FF42D9688C3964fE59A1e7b73A50F8
+Carlos Oñates - 0x00b91E26BC2997259A904bF0aEc459eA214d2F34
+Luis Anton - 0xfeE4FF9de5f3C37fF5E18E210e196C91F4B78a4A
+Emily Rodriguez - 0xeFf8af3D736F7dFb884e3B8993dd148afB7Be60D 
+Alfonso Zapata - 0x270e64E02aFAc1C97412BdB36D37D01Cd6587223
+Manuel David - 0x07031A455D0A9e6Df7FdBcC1D989b55A9F78a555
+Diego Guillen - 0x48B6e7EBb811AD77B403011C1916f452dedA3488
+Set Israel Ortiz - 0xEa1642fD01Bb72dB4202b2492307f43B39Ff3c57
+Sol Address
+0xf213A0f44B0f1FD55Bbb5C6080541b47E49303fE
+Andres - 0x39D3a91E5b0b4F50bDBaa92CF8D358B831d197CC
+Jorge Chavez - 0x498Bef244274232D61025bC2732c9c53dAa22FB2
+Roman Diaz - 0x35a5b6093f14722aAB6f78a65E8F36BFaFD6c792
+Andres Jaimes - 0x9C9AAd079C2D43D29654C70e8e1D8aB0C0da1c33
+Heler Paez - 0x603731Df392e41144437611C11dE93949f3Dd94c
+Alejandro Armas - 0xfAf01B48724fd6Cec72747e5675d614610b7EBB2
+Gustavo Torres - 0x941182DEFC72e30000A1b3CE6bc17DE10ba1E12B
+Celic Bootcamp - 0x9418bcCF5169A186876823536354c5b1ca42d88a
+Nicolás Locatti - 0x8AD47900BFc7b0B59Bb4Fd6a5103b52B51906931
+Diana - 0xcA07c08fa3c018Ba1173ad3257CBa14C63B95365
+Roberto Daniel Baltazar Macias - 0x11417c831c9Cd4d2ff01422b786E0b97c1effE53
+
+_________________________________________________________________________
+
+
+Sol RegisterAccess
+Sol - 0xe5C40c48e2BCbE99632AeE90c486182BDF2659
+
+Candela autoriza a  Camilo Barrero - 0xd0401bF645f94228c826Cec6aF3cb54D09c76928
+
+Alejandro Betancourt autoriza a Sol 0x77E6802a802a0b564DB407bECC75405cE360EbB4
+
+autorizada en 0x6F977d6C601AfFd2E45DF2C0974eaA969db84F5D Juan Fuente
+0xB8a1514c6E2f7bA73BC37FB05AC79a88f9A4c9D5   Diego R
+
+autorizada :0xcA98432004824f33c31EcF2E033543753e49c357 (Daniel Luque)
+
+0x9BE7b2c8b83B5b21796CF1561E2bC89fd31B6fD0 Michael
+0xa74B96dcE6E645e693b0E2EBB34C83840C47a264 (Laura)
+
+autorizada (Rubén Bocanegra): 0x7242F6954907ff154282283FE17dbB8F2041bAd3
+
+te autoricé (Juan Martínez): 0xb3A063C5483716d446788a0f2Cb2dF793eDa3218
+
+Juan Ramis te ha autorizado : 0x8259AeBf9C4a0C3b84757183f9d06dF17DfD88E3
+
+Willy Autorizo a Solange - 0xb71cdcf96df1bf454db76e9456d7129c6f1f40bc
+
+OSCAR SEGURA AUTORIZÓ A SILVIA MATOS Y A JULIO M CRUZ
+Silvia Martos autorizó a Oscar0xe00c3cf28B1919Ee9eBF5A9C2D50088A299a0C37
+autorizame -  0xFAE7D0812e3D4A0a0326aCe5877f2A6fd61a9F60 - Pablo
+
+alexander duran autorizo a Solange - 0x082125dF985D99102ebccC36142fAd341749Da43
+
+José Miguel autorizó a Carolina: 0xd6311AaD5F39FAF2fe18017d88624B9910b13383
+
+Alguien autoriceme 
+Candela 0xd0401bF645f94228c826Cec6aF3cb54D09c76928
+José Miguel autorizó a Candela: 0xd6311AaD5F39FAF2fe18017d88624B9910b13383
+Jose Miguel autorizo a Solange: 0xd6311AaD5F39FAF2fe18017d88624B9910b13383
+Juan Carlos Gallardo autorizó a Candela: 0x8C654b6562794Ef8D4C23b6235bA9729D84CcA8E
+gracias <3
+
+Jose Miguel autorizado 0x6122D4939B63A37cbdFDD1E40564a7Afd5163708
+
+David Hernandez autorizó a Sol: 0x8b3582B1141439585eDa68069a6F1FC20a137291
+David Hernandez autorizó a Eliezer: 0x8b3582B1141439585eDa68069a6F1FC20a137291
+David Hernandez autorizó a Johan: 0x8b3582B1141439585eDa68069a6F1FC20a137291
+David Hernandez autorizó a Humbeto Paez: 0x8b3582B1141439585eDa68069a6F1FC20a137291
+
+Eliezer Rincon - 0x889dd1471793A0B7bf5AC53018Cbe4aCcecd0364
+
+Armando Colón Mendinuetaautoriza a Rocío Grajales: 0xd1997873d9d604a2b99034800aaAC9AfFe7cf8b8
+Armando Colón Mendinuetaautoriza a Jose Miguel: 0xd1997873d9d604a2b99034800aaAC9AfFe7cf8b8
+
+Me autorizan xfa (Jose Miguel) : 0x99df767D48FF42D9688C3964fE59A1e7b73A50F8
+
+Johnnatan Olave autoriza a Carlos Oñates
+
+Por favor alguien que autorize a Johnnatan Olave: 0xe7deD5a789De4FA604309F3ebD6c536Fc1FEdB84 Autorizado a interactuar con Carlos Oñates: 0x00b91E26BC2997259A904bF0aEc459eA214d2F34
+
+
+
+si cierro remix se borra todo? no
+los ficheros que has creado no se borran, pero los contratos desplegados se borran de remix (no de la blockchain)
+
+Quien esta activo para interactuar contratos... 
+yo camilo munar
+Voy
+cual es contrato  y tu direccion
+espera estoy un poco confundido
+contrato 0xC61B0F0265223C01D9B57Dd5a0EC69F012FbFa42
+direccion 0x43fCe8CeC049e00E083c160672e7e56807859373
+0x362Ea9bfE37A21bC77092d7f4c2Ca48b64b518Ad contrato Luis Anton
+y tu direccion es cual
+0x362ea9bfe37a21bc77092d7f4c2ca48b64b518 direccion creo es esa
+
+es la que te sale directamente en el metamask 
+
+de la primera tarea que se debe enviar ? yo creo que esa es la primera
+cuando coloco tu contrato y le doy att address no me dice tu informacion
+
+es esta 
+0xC61B0F0265223C01D9B57Dd5a0EC69F012FbFa42  Ahora si ... Creo que te envie la info...
+No lo se hacer, tendre que observar el video de la clase nuevamente...
+
+Candela- 0x72d1AF08E52C95E0c5C1F3df4f29590A8B05ceEF, autorizada a interactuar con mi contrato Carlos Oñates - 0x00b91E26BC2997259A904bF0aEc459eA214d2F34
+
+Rosendo Guzman
+Terminé un poco tarde mi tarea, si alguien puede autorizarme por favor:
+    0xc727FAbfAbbcD6f3fC21305ea63CbecCd182D938  Autorizado Luis Anton 
+    Saludos Rosendo Interactuaste con mi contrato ?
+
+Luis Anton Quien Puede Autorizarme para la segunda Tarea 
+0xBef0FB8B441a174C23E28f2E4Ae2323BEB037c41  
+Alguien esta por aqui... Autorizado por Juan Pablo Tixe No estoy autorizado
+
+Hola, por favor alguien puede autorizarme? 0x02192Ac1b5b1eF5Fe624143F43AE56577fbd86b7 (Juan Pablo Tixe)
+
+Alfonso Zapata autorizó a Juan Pablo Tixe 0x02192Ac1b5b1eF5Fe624143F43AE56577fbd86b7
+Alfonso Zapata autorizó a Luis Antón 0xBef0FB8B441a174C23E28f2E4Ae2323BEB037c41 
+
+Andres Jaimes 0x9C9AAd079C2D43D29654C7 cet.com/ 0e8e1D8aB0C0da1c33
+autorizo a 0x498Bef244274232D61025bC2732c9c53dAa22FB2
+
+Alguien sabe como obtener mas sepolia ?
+Faucets
+
+https://sepolia-faucet.pk910.de/
+https://sepoliafaucet.com/
+https://faucets.chain.link/
+
+Aqui pude obtener sepolia 
+https://www.infura.io/faucet/sepolia
+Hay un video en la misma pagina de como hacerlo
+
+
+
+HOLA ALGUIEN PUEDE AUTORIZAR MI CONTRTATO
+SARAY  - 0xD4F1cc202EA9491B11bc29aC070949b99CFB6145. Saray, este es tu contrato pero cual es tu address?. Puedes mirarla en la parte inferior de tu contrato desplegado, abajo del boton owner
+
+Autorizada por Juan Pablo Tixe
+Hola Saray, pudiste interactuar con mi contrato?
+creo que no, pues, cuando intento cambiar la info la transacción queda pendiente, como hago en ese caso. Usa listInfo para validar si puedes consultar, donde sale esa opción
+y en mi set info tampoco cambió,
+
+Quien me autoriza para intentar 
+Luis Anton - 0xBef0FB8B441a174C23E28f2E4Ae2323BEB037c41
+Address
+0xfeE4FF9de5f3C37fF5E18E210e196C91F4B78a4A 
+Autorizado por Juan Pablo Tixe - 0x02192Ac1b5b1eF5Fe624143F43AE56577fbd86b7 (contrato)
+ - 0x2EFac3eC8a802478e984794d0549b27561e5C01A (address)
+
+
+HOLA ALGUIEN PUEDNTERACTUAR CON MI CONTRATO Y CAMBIAR GETINFO PARA PROBAR
+0x7598E744dbE5EA536df828E73AB3119FBc783854
+
+Autorizame por favor, 0x2EFac3eC8a802478e984794d0549b27561e5C01A (address)OKIS, PERO NO HE LLEGADO AHÍ, PUEDES INTERACTUAR? ,
+
+
+
+
+HOLA ALGUIEN NECESITA AUTORIZACIÓN? Yo Para realizar una ultima practica
+
+TU DIRECCIÓN? ME PUEDES AUTORIZAR TB? SI
+Address
+0xfeE4FF9de5f3C37fF5E18E210e196C91F4B78a4A 
+
+YA TE AUTORICE YO, HAZ UN CAMBIO EN EL MIO
+
+
+CUÁL ES TU REGISTER ACCES? AUTORIZAME PARAPODER CAMBIAR
+MI DIREC: 0x62caE94267aF381ccA0d6691246B6626aEFdC706
+MI REGISTER ACCESS: 0xf6EeC9BC8809A526F0573348967a41855de9C0DE
+
+PUEDES ? voy...  me dice false
+EN ALLOWLIST ME DICE TRUE
+0xfeE4FF9de5f3C37fF5E18E210e196C91F4B78a4A  → ESA ES LA DIRECCIÓN DE TU WALLET? si
+ESTA ES LA MIA DE NUEVO → 0x62caE94267aF381ccA0d6691246B6626aEFdC706
+VOLVI A HACER LA TRANSACCIÓN DE ADD, PUEDES AHORA? si
+CAMBIAR LA INFO? voy OKIS ME AVISAS
+
+TU REGISTER ACCESS PARA INTENTAR CAMBIAR LA INFO? 0x57EE07fF7f7b96F92205a8e4A4De6bBCdC3A7bCF
+LISTO, YA VI, SALDUOS DESDE VZLA TAMBIEN asi es
+
+VOY A CPROBAR CAMBIAR EL TUYIO ok
+TU REGISTER ACCES ES? 0x57EE07fF7f7b96F92205a8e4A4De6bBCdC3A7bCF
+LISTOOIOO LOLOGRE, DICE SARAY AQUI 
+Saludos desde Ecuador Luis,SARA AQUI Pefecto que bueno...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Automatic detection
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+        
+        
+0x09c4E151766730bDc72808F7648d9B8983d495Fa
+        
+0x09c4E151766730bDc72808F7648d9B8983d495Fa
+        
+
+        
+        
+        
+das0x09c4E151766730bDc72808F7648d9B8983d495Fa
+        
+
+        
+
+        
+
+        
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+Añadir al glosario de frases
+No hay listas de palabras para Arabic → Spanish...
+Crea una nueva lista de palabras
+Copiar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+

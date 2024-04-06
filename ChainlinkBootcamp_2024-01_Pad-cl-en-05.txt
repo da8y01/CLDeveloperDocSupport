@@ -1,0 +1,359 @@
+
+Chainlink Bootcamp 2024
+Session 05
+
+https://pad.riseup.net/p/cl-en-05
+
+https://chain.link/discord
+#bootcamp
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+
+Exercises
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Name - City, Country:
+Andrea Marchini - Rome, Italy
+Emmanuel Effiong - Nigeria
+koxy - Nigeria
+Jan Röschl, Lucerne, Switzerland
+Andre - Zebbug, Malta
+Alex C. - Indiana, USA
+Uthman Yaro, Lagos, Nigeria
+Dj
+Romain-Pierre - Amsterdam, The Netherlands
+Sarthak Rawat (Eik) - India
+Ashok Raj - Cambridge, UK
+Simona Miani - Rome, Italy
+Raffaele - Naples, Italy
+Jeffrey - Amsterdam - NL
+Joel - Madrid, Spain
+Chiara Maalouf - New Jersey, USA
+Marco Manzi - Rome, Italy
+Sylvia – Berlin, Germany
+Eric Atlanta, GA
+Manu - Bienne, Switzerland🇨🇭
+Augustin - Geneve, Switzerland🇨🇭
+Andy - Miami, USA
+Felipe- Toronto
+Vinh - HCM, VietNam
+Tebbo- Boston UK
+Swati - India
+Leon - Cayman Islands
+Sama ER - DC, Kampaax
+Zac-USA-North Carolina 
+Luis - Zurich, Switzerland🇨🇭
+David - Kampala, Uganda
+Duda - Prague, Czechia
+Konstantinos - Greece
+Daniel Y - Toronto, Canada
+Phan I. Vancouver WA
+Mike Elmore - CA , USA
+Arson Tomanta - Jakarta, Indonesia
+Stefanie - Attersee, Austria
+Tomas - Brno Czechia
+Tahlil- Bangladesh
+Farhan - VA USA
+Tianchi - Toronto, Canada
+Clement - NIGERIA
+Shane - Florida, USA
+dco - Denver, USA
+Ingrid - London, UK
+Rafat - India
+tipi - manitoba canada
+Daniel - Barcelona, Spain
+Minh Vu - Hanoi, Vietnam
+Seppo - Helsinki, Finland
+Stella - Greece
+Jeff C - Naples, FL USA
+Hemanshu Mahajan - Pune, Bharat(India)
+Michael - Borken, Germany
+Kenny - Commewijne, Suriname
+La Toya- Texas, USA 
+Ravinder Kinnera - Bogotá, Colombia
+Christopher Cialone - New York, New York
+Nawodya - Sri Lanka
+Michelle Breaux - New Orleans, LA
+Jad Kachmar - Toronto, Canada
+Vandana - Mississauga, Canada
+Sunil - Pune, Bharat(India)
+Tameka - Ontario, Canada
+Lindsay - Valencia, Spain
+Dmitrii - Lagos, Portugal 
+Cliona Chee - Selangor, Malaysia
+Craig - Parker, USA
+Arthur London
+Fred Janon, Valence, France
+AzraiHasan - KL, Malaysia
+Aymane Fekkak - Morocco
+Khalid H. - Ireland
+Oliver Inzunza -Coachella Valley, USA
+ Rama -Resistencia, Argentina
+Sarmad Tufail , Pakistan
+Yann - Marseille, France
+Brian - Switzerland
+Iddhie - Colombo, Sri Lanka
+Phan I.
+Thomas Hall - California, USA
+Jose Morillo -Valencia, Venezuela 
+Erfan - Toronto, Canada
+victor - Burton
+Ryan O'Sullivan
+Kakooza - Kampala - Uganda
+Dike - Lagos, Nigeria
+Ohmarkely Ambrosio - Singapore
+
+
+
+******************************************
+
+Name - Question / Doubt
+
+Romain-Pierre - What's your best advices to learn Solidity (material, content) and do you foresee a good futur for Solidity (any competitors to look at?)
+Lucas Archangelo - This is a good way to start: https://roadmap.sh/blockchain >> Awesome thanks!
+Simona Miani - could you please repeat the exercise (4th session) on CCIP communication please? the video should be available Simona I'll check tks
+
+Daniel Y- does chainlink support cross chain from erc20 to brc20 and viseversa?
+BRC-20 is an experimental standard for fungible tokens on the Bitcoin blockchain
+
+
+Nimnath- Any solidity  plans to incorporate nonevm chains to CCIP-- sui, aptos, solana? Right now CCIP libraries are only forlanguage, right?
+Nimnath- What apps will have a traction with CCIP other than cross chain Defi? Machine learning projects?
+Nimnath- This question for a machine learning project. We can pull data using graph protocol/ etherscan API. Is there a quickway to differentiate between a wallet address and a contract address of a defi? https://viem.sh/docs/utilities/getAddress & https://viem.sh/docs/utilities/getContractAddress
+
+what so you tkink about AI the is still sense to learn how to code?
+
+dco - Is the off-chain infrastructure for CCIP decentralized? Can you talk a bit about what makes the risk management and execution networks decentralized as compared to a bridge? https://docs.chain.link/ccip/architecture#risk-management-network-contract
+
+*D Marl - error message when verifying Register.sol contract (similar match), I've connected with wallet like Sol showed us how to in the Video but still did not work
+*D Marl - error message when verifying Token.sol contract, something to do with construct and ABI
+*D Marl - what's the best way to reach any of you to get assistance related to the assignment? 
+
+a Remix newbie question: I came back to review my codes yesterday but my project and the files are all gone. How/Where can I find the project files and restore them back?Try the electron app - https://remix-project.org/
+
+Lucas Archangelo - You have to allow cookies to keep your code after you close, if you didn't do that you probably loose your progress.
+you can put in the "At Address" the address of your contract if you have it and it will load itself
+
+Struggling going through the chainlink / solidity documentation to understand what the code we used in remix is actually doing.  Any recommendations on resources?
+https://tenderly.co/    Tenderly is a tool to debug and understand all the flow that the solidity code is doing. With it, you can understand exceptions and integration problems.
+
+* QQ - Does Bootcamp cover contract code security best practices? Not sure - will find out
+* QQ - What's the best tool for code quality for Solidarity? A:
+https://www.youtube.com/@PatrickAlphaC
+* QQ - What's the best tool for load testing - Is there some place you can recommend where I can read up on this? 
+* QQ - What are some best practices for CI/CD?
+
+Travis - I'm having trouble getting the CCIP Test Tokens. Using https://docs.chain.link/ccip/test-tokens#mint-tokens-in-a-block-explorer The Mint tokens in the documentation doesn't want to connect to my MetaMask wallet. I attemted the Mint tokens in a block explorer, and while the process works, it wants to change to the Sepolia network vs. Fuji Testnet. Any suggestions on this? I really want to do the crosschain transfer :-)
+It could just be my browser. Dosen't seem like others are having issues
+I think you just answered my question :-)
+Yep - Thanks!
+CCiP-BnM on Fuji Token Address (for importing the custom token into MetaMask): 0xeFf90B14351B3E400Ba0ee20fd4706c3FF7cd055
+
+Hi 👋🏻 yesterday I could not deploy the CCIP contract on Avax Fuji network because Remix keept me pushing to the Sepoia environment, it would not recognize the Avax Fuji environment. See, even though I was logged into this network (Fuji Avax) with my MetaMask. How can I fix this other than uninstalling the wallet all over again? Thanks Marina
+
+Vandana - Will we be getting the step by step guides everything we learned so 
+far as mentioned by Solange. If so when? Would be great to have a written version as well. Can we get a list of all the terms/definitions? 
+
+Kyle - Can you explain how CCIP is secured? Understand consensus needed, but how do we trust the bridges? Extended to the more complicated bridges like ETH<->SOL ?
+
+Craig - 
+ 
+ Ashok Raj : Can i create an ERC20 token and deploy it on multiple chains and then use
+ CCIP to transfer tokens across chain. Its same as the exercise we did yesterday, but will use a custom token, if there are some guidance on implementing some standard functions, like mint or burn and option to provide some action rights to ccip, can do that during implementation.
+  Ashok Raj : How testing is managed for solidity/smart contracts?
+
+Farhan -  What other wallets do you support other than Metamask? or plan to support
+
+
+Daniel Y- does chainlink support cross chain from erc20 to brc20 and viseversa?
+BRC-20 is an experimental standard for fungible tokens on the Bitcoin blockchain
+
+
+* ANSWERED ALREADY - ty!Ananda- I refreshed my remix page and could not get my contracts to load afterwards. It said no contracts deployed. How do we use the functions in deployed contracts when they do not appear on the bottom left under deployed contracts. They show up in my inventory but not under deployed contracts so I cant interact with them. 
+
+
+Leon - Does Chainlink support the Cardano blockchain, and if no, are there any plans to do so in the future? 
+https://docs.chain.link/ and https://www.chainlinkecosystem.com/
+
+
+Alex B. - CCIP-BnM and CCIP-LnM tokens - are these sort of like stand-in, representational tokens for testing? Not sure if I understand how these function
+
+
+Nick - Can you explain slides 94, 95, 96, the CCIP Archtecture one more time? 
+https://docs.google.com/presentation/d/1MjXyh847CJaS_SDFiwpEwSE-plFEufZLHlcXIhQpEsM/edit#slide=id.g2acdc1ce0f8_0_0 
+
+I verified a contract on fuji yesterday, checking the same contract address on sepolia showed me the fund.me contract from Patrick Collins's course :) Is the hash from the contract yesterday + wallet address the same as the fundme contract + wallet address in this case ?  Thank you 
+
+Daniel S - I dont think so...but...Any way to recover deleted workspace in remix after a browser update? Already answered. Github setup next time. Do you think is a good practice to save the deployed address as a comment at the code?
+Lucas Archangelo - If you deployed your contract you should find it on transaction on your wallet
+
+Sarthak - What are your thoughts on ICP ? Vitalik said it is the biggest competitor to Ethereum since it is faster, cheaper and better. But what could be some faults with ICP ? I really want to learn their programming language Motoko but idk if it will be a right choice. Internet Computer Protocol  No. 17 on coinmarketcap
+Luis: You don't need to learn a lot of Motoko to use ETH smart contracts on the IC: https://internetcomputer.org/docs/current/tutorials/developer-journey/level-5/5.2-ICP-ETH-tutorial
+lmao
+
+
+** Maybe the Patrick Collins answer fits here as well! ** 
+Hi both from Florida! The course has been great so far.  I have a question about troubleshooting.  Thus far we’ve copied and pasted most code we’ve used.  I’ve tried playing around with variables, but  do you have any troubleshooting tips?
+-related but one of the things that has previously kept me from building in web3 is being afraid of things going wrong.  It's one thing in Web2 to get an error and hey your code just doesn't run, but it's another thing in web3 that involves money.  How do you test/troubleshoot to the point of feeling comfortable to deploy
+>> Romain-Pierre: That is the reason why we use testnet networks. Once you feel comfortable, then you can deploy to the mainnet. Still scary! but understood.  
+Interesting thanks!
+
+
+
+Ryan O'Sullivan - Can you recommend any other resources for solidity? I'm in the process of working through Patrick Collins' 32hr and 16hr courses - they are wonderful. What is the preferred IDE form Solidity developers? Are there VS Code extensions that let me use VS code like Remix? I worry about not pushing much of this to github...
+there is an extention for vs-code called -  Ethereum Remix
+**^^^^^^ https://github.com/ethereum/remix-vscode this is deprecated
+you can search remix in the extentions marketplace on vscode and see all the extentions available
+Lucas Archangelo - That's a good plugin: https://
+github.com/juanfranblanco/vscode-solidity
+awesome, thanks! - Thanks Richard
+
+Kyle - What IDE do pro users use? i.e. do people stay in Remix, move to something else? Similar to Ryan question re VS Code Extensions
+
+Arson - ​i want to ask again about verify contract, is there a periode for the contract to be able be verified?
+
+Nick -- CCIP is wonderful technology. How difficult task would it be if one wants to make a private Ethereum-compatible chain to be available for CCIP? That is, how many top-notch man hours would be needed?
+
+Ingrid - Can you give a realy world example of how somebody might use a Smart Contract (what we created on day one) - yes, thanks
+Lucas Archangelo - Register could store for example cross chain address that your project is and use as index to get this information and call the contract. example:
+mapping(uint256 => address)
+and ask for maybe 
+Ethereum=1 address=0x..
+BSC=5 address=0x..
+
+Dj - What is the recommended integrated development environment (IDE) for local Solidity development, and what tools or frameworks are commonly used for unit and integration testing within the Solidity ecosystem?
+
+Christopher - How useful is Vyper to learn, taking into account your own insights from the web3 space and where things are going in regard to other programming options for Smart Contracts
+
+How can we use Chainlink for new Network or rollups to provide Value and also to potentialy get airdrops
+
+What is Openzeppelin? How is it related to solidity and chainlink?
+
+La Toya- Will there be applications in the future that are phone,and web based friendly? asking because for people likr myself, alway not Able to access my laptop or pc when traveling. Yup same , Uniswap, Coinbase and metamask apps are way buggy on my phone too.
+
+Sarthak - What is a practical use of ccip ?
+
+What are Alchemy, Infura and Moralis ?
+
+Mike E - What projects should a new developer be working on/building to increase skills quickly?
+what are the best projects/things to build to add to a resume for smart contract dev?
+Lucas Archangelo - I would say that you could find some project on the internet that offer some interesting on you and you can try to repeat it without see their code.
+thank you
+
+Elisabeth - Why  after I broadcasted “bootcamp” in my register.sol contract 0x7F682080bf7BDCcb3114fBBA6A94C450d87fCe4E does Sepolia Etherscan show no “verify and publish” option under “contract” and UTF-8 input data say “ÊmVÜZ³A;ÿpÓMæ±û"MLØ1\” when the "info" is English words? Does wallet acceptance of “Deploy” always verify and publish the contract? Do I need to use a PC to encode my words in UTF-8?
+I did not "decode" first because I got the same lack of option to "decode" that Richard got 1 hour and 45 minutes into the video. Thanks.
+
+Sama - How did you (Richard and Jeff) get to the position you currently hold as Chainlink advocates? Do you have a suggested roadmap to increase one's chances in the blockchain space? Also what is the most-used Chainlink feature (cross-chain capabilities, data feeds, oracles, etc) by dApps? Thanks.
+Jeff: I recommend that you actively participate in the communities of the protocols you identify with. Once you are already engaged in the development of the ecosystem, your chances of standing out increase. It's also advisable to keep qualifying and participating in educational sessions, as well as observing the job opportunities of the protocols you're interested in. Thanks Jeff, Lucas and Richard.
+
+​https://chain.link/community/advocates !!!
+
+
+Mike G - just a quick question about the google form: when compiling the form with lessons’ questions do we have to put the addresses of our contracts or the addresses of the contracts made by Sol?
+Your contracts
+Sol will add theirs in her form :)
+thanks! 
+
+
+
+What protocol is ccip using?
+
+We've learned how to deploy a smart contract and how to interact with it. Is it easy to learn how to launch your own token and let it trade on (for example) uniswap? would be cool...
+
+you should be able to see the contract using snowtrace on fuji https://testnet.snowtrace.io/ copy and paste your wallet there, you should be able to find the contract address that we did yesterday
+
+How to become a web 3 developer starting from zero, what We need to know to get a job?
+Lucas Archangelo - Try to follow this roadmap: https://roadmap.sh/blockchain
+
+How far off from a proper/real-world/current ERC-20 token contract is the bootcamp example?
+https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code
+
+Ryan O'Sullivan - Thanks for answering these questions! Unrelated to this course, when will stakers (in particular, early access stakers) start to recieve and learn more about BUILD rewards? 
+
+The space moves so quickly, whats the best way to stay up on best practices, current versioning and solutions, and to know stability of those?
+
+Jad - More of a general question about interoperability: What are in your opinion alternative ways to achieve cross-chain interoperability and why is CCIP is the best solution? 
+
+Daniel S - Most of times i get this message interacting with your faucets "This request doesnt look human to us". What could be?
+
+Whenever I try to deploy contracts that were written by Sol,I keep getting gas error in errors. What could be happening?
+If you dont send the link token or avax to the contract you will get this error
+
+How does CCIP differ from the COSMOS project?
+
+Dmitrii - Guys tell me please can I use chainlink oracle to verify transactions status in different blockchains? For example main contract on solidity will call oracle contract that will check transactions status in some blockchains (Aptos, Polygon, btc, etc)
+
+
+who is using CCIP for bridges?
+
+For chainlink price feeds, are there companies utilizing it to identify arbitrage opportunities?
+
+
+Ashok : Same COntract can have two different addresses in two different chains. But in yesterdays exercise. we provided only one address for the MintandBurn Token.
+
+
+Can we transfer the Bootcamp POAP certificate that we receive to a differenent address? If so how?
+I tried transferring my hackathon POAP to a different chain buy the gas fees was too high ($250) for me gnosis = free
+Thanks. How about transferring it to a different address on the same chain (eth)? It may not be on Eth, but Gnosis
+i remember solange confirmed this can be done
+can be done on gnosis there is a faucet for gnosis, althogh that might depens where it was minted
+
+Evelyn from ireland: In terms of speed/latency in exchanging or delivering data using chainlink/ccip , how does ccip deal with the challenges faced by interoperability. Such as reliability of data, latency in data etc.? I am a researcher in Ireland looking to highlight what chainlink can do. 
+
+Cliona Chee - How to use Chainlink for Unity Game Engine for VR? 
+I saw use cases on Chainlink site, but I'm not quite sure which path did they take? I've searched online saying ChainSafe / Thirdweb / Web3 Unity sdk so I have to reconfirm if these are really okay for Chainlink, especially Chainlink VRF v2.
+Answer: All are okay to use.((( Noted w/ thanks <3
+
+AShok - what is the benefit of Verifying a contract?
+
+Tameka - Can you demo how to verify a contract WITH a constructor argument?
+- Okay, so it has be to flattened first. Thank you!
+
+Marco - Is it possible to understand how a method on  contract was called if the contract was not verified?
+
+Arson - 1 question again, where do we can find a resource about build the front-end side for our dApps, let's say to interact with our contract. because i think this section is the one that very little resource we can get about build the front end of dApps, thank you. https://scaffoldeth.io/  thankyou for the source..
+
+Can we share the link to the roadmap to Web3 Dev again please!?
+https://roadmap.sh/blockchain  Thank you 
+
+
+Bogdan from Serbia:
+1) Do companies more often than not separate solidity developers from frontend dapp developers when hiring? Or is full stack what most companies are looking for?
+2) What do you think would make junior solidity devs stand out in getting their first job? I'm thinking getting comfortable with foundry with all it's testing capabilities.
+
+I understand, thank you Richard! I'll let you know when I land my first job! :)
+Hi Bogdan. I have been working on my own projects for the last 1.5 years and landed a job as a Junior Web Developer. I was new to coding things, just started out of interest. So my tip to you: Just start building your own stuff. Thank you!
+
+Ravinder - Could you please comment on if and/or what Chainlink has done or is doing to avoid issues like Price Oracle attacks?
+
+AzraiHasan - before we end the session, can we go through step-by-step on how to properly set up git so we can have it in our own Github repo?  Richard...it's so that we can save our workspace from remix and don't loose them accidentally.
+
+Where can the decentralization of the CCIP network (its DONs) be verified? Is there a dashboard or something showing which entities are participating? 
+Example from the internet computer: https://dashboard.internetcomputer.org/subnet/mpubz-g52jc-grhjo-5oze5-qcj74-sex34-omprz-ivnsm-qvvhr-rfzpv-vae
+
+Fred Janon​ - Should we lock and mint and then burn the source token?
+
+Arthur- How big institutions will be using CCIP? Is it will they need to have lots of Link tokens to transact?
+
+Jeff C - does the MIT stand for Mass. Institute of Technology?
+Yes: https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology
+https://en.wikipedia.org/wiki/Open-source_license
+
+What consensus protocol is used to determine which data is sent to a smartcontact on a blockchain by ccip if any at all/ or chainlink?
+
+Jeff C - what would be a  position to work in web3 as an entry level position to grow?
+
+Thank you Richard! and Jeff!
+
+Thx Richard
+
+Thanks Richard and Jeff
+
+
+https://chain.link/discord
+
+

@@ -1,0 +1,625 @@
+Chainlink Bootcamp
+Apr/2024
+Clase 02
+
+https://pad.riseup.net/p/cl-es-02 
+
+BootcampSupport
+https://chain.link/discord 
+spanish channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Todas las sesiones en la página de Luma
+https://lu.ma/ChainlinkBootcamp2024-es
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vR3PCyiWjqf3N0aFrRBl3H3m6yXLHDi8rkr35oqwTd6X8Js7xORY6F2WAog0uF1nbk6fIbDT7INESjK/pub?start=false&loop=false&delayms=3000
+
+Tareas
+https://forms.gle/kLrr2k7RZWcQ7npQ7
+
+https://sepolia.etherscan.io/
+
+Faucet
+https://workshop-faucet.vercel.app/faucets
+Contraseña: LinkShadowFork18
+
+Block Magic, nuestro próximo Hackathon!!!
+Regístrate aquí >>> https://chn.lk/3vqRoLN
+
+Metamask
+Show Test Networks
+Sepolia
+
+Remix
+https://remix.ethereum.org/
+
+Icon 4 - SOLIDITY COMPILER
+Habilitar Auto compile
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check the Sepolia (11155111) network
+
+Icon 2 - FILE EXPLORER
+
+Crea el archivo
+Register.sol
+
+Copiar entre inicio y fin
+
+// inicio 
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+contract Register {
+    string private info;
+
+    function getInfo() public view returns (string memory) {
+        return info;
+    }
+
+    function setInfo(string memory _info) public {
+        info = _info;
+    }
+}
+
+// fin
+
+
+
+Nombre - Ciudad, Pais
+Adrian Perez Herrera - Madrid España
+Malcoln Portillo - Tegucigalpa, Honduras
+Ernesto Nurnberg - Eldorado Argentina 
+John Haver Herrera - Bogotá, Colombia
+Beatriz Gonzalez - Misiones, Argentina
+juliam maya - cdmx -México
+Carlos Bolivar - Swindon, UK 
+JHORMAN ANDRES JAIMES ANDRADE COLOMBIA
+Daniel Cejudo - Madrid, España
+Luis Rodriguez, Buenos Aires, Argentina 
+Orlando Sánchez - Venezuela 
+Camilo A. - Medellin - Colombia
+JULIO ZORRILLA - HERNANDARIAS - PARAGUAY
+Alejandro Rial - Ourense - España
+Sara Chao - Ourense, España
+Alexander vanegas - Guatemala, Guatemala 
+Laura QCh - Maturín, Venezuela
+Xavier Flores - Ecuador Galapagod
+Diego Herrera - El Salvador
+Zaid J Seijas - Caracas, Venezuela.
+Melo - Sevilla, España
+Norber Faraz - Argentina
+Daniel Benitez - Bogotá, Colombia
+Laura Noriega - Argentina
+Juan M. - CDMX, México
+Enmanuel Cabrera - La Habana, Cuba
+JOHAN CARDENAS - Colombia
+Ariel - Hurlingham - Argentina
+Gabriel Agustin - Buenos Aires, Argentina
+WEIMAR ,MEDELLIN COLOMBIA
+gabriel - manizales colombia
+Marco Gallardo - Quito - Ecuador
+Juan Ignacio Lazarte- Mendoza-Argentina 
+Agustin Zalazar - Buenos Aires, Argentina
+Eduardo García - Palencia, España
+Hyrum David Perez - Trujillo, Peru
+Sebastian Gil - Rosario, Argentina - https://www.linkedin.com/in/sgninja
+Karinna Serrano - Mexico
+Franco Queirolo - Lima - Perú
+Maria Eugenia Giacinti - Santa fe - Argentina
+DANIEL Fernández Madrid
+Rodrigo Bogado Posadas - Argentina
+Daroch - Bilbao - España
+Javier Cornejo, Cuenca, Ecuador
+Johnnatan Olave - Bogotá D.C. - Colombia - https://www.linkedin.com/in/johnnatan-olave
+Luis Rodriguez - Queretaro, Mexico
+Ruben - Peru
+Alex Ramirez - Loja - Ecuador
+Fernando Sosa- Argentina
+Salvador Carballo - Buenos Aires, Argentina
+Gabriel calvo, Argentina
+Alejandro Gamero - Mendoza - Argentina
+Agustin Arenas - SF - Argentina
+Pedro Machado -Atizpan-Mexico 
+Federico Uñates - Neuquén, Argentina
+Lucas Malizia - Buenos Aires, Argentina
+Sol - Sao Paulo, Brasil
+Ciro Arrieta - Lima Perú
+Hector Navas - Guayaquil, Ecuador
+Paulina - España
+Gago Alejandro- Buenos Aires, Argentina
+Alexis Zeballos - Córdoba, Argentina
+Brayan Angarita - Cali, Colombia
+Jonathan Miranda - San Salvador - El Salvador
+Walter Rios - Rosario - Argentina
+Martin Gomez - Buenos Aires, Argentina
+Andrea Martins - Barcelona, España
+Christian Pazmiño - Quito -Ecuador
+Juan José de la Rosa - Toledo, España
+Sergio Domínguez Robles - Madrid, España
+Raúl Domínguez Robles - Madrid, España 
+Núria Ciscar - Barcelona
+Ariel De Avila, Cartagena - Colombia
+Ignacio Festari- Montevideo Uruguay
+Yatel Nicolás Lara - Bahía Blanca, Argentina
+Marcelo Santiago Zeballos Murillo - Sucre, Bolivia
+Jorge Flores - El Salvador
+Hugo Chiacchiarini - Argentina
+Damian Kruse - Buenos Aires - Argentina
+Rocío Grajales - Bogotá,Colombia
+Edwin Mejía Quito Ecuador
+Fernando Rosso -Mexico
+Clever Edu Perea - Medellín - Colombia
+Esther Ortegon - Cali, Colombia
+Carlos Carrasquillo - Puerto Rico
+david arenas - Colombia
+César Mar - Lima - Peru
+Jani Jesse - Barcelona - España
+Victor Leonel Roa - Bogotá, Colombia
+Marcelo - Rosario Argentina
+Emir Maya - Mendoza, Argentina
+Anderson Camilo Gaon - Colombia
+Carlos Dapena aracas - Venezuela
+Gonzalo Hoyos - Buenos aires, Argentina
+Julian Roman - Buenos Aires, Argentina
+Ivan Morales - Guadalajara, Mexico
+Alan Castro - Buenos Aires - Argenti, Argetna
+Augusto - Corrientes, Argentina
+Nilds Amir Vasquez Gonzalez - Lima, Peru
+Marcelo - Buenos Aires, Argentina
+David Franco, Santander, España
+JAose Muñoz - Caracas, Venezuela
+Fernando G. - Rosario, Argentina
+Rafael Crespo - Madrid - España 
+Alejandro Chazarreta - Barcelona - España
+Jose Franqueiro - Buenos Aires - Argentina
+Alexis Avila - Tornquist - Argentina
+12. Yoan Santiago - firenze Italia
+Lorena - Manizales - Colombia
+Santiago Gómez - Pereira - Colombia
+Mauricio Fernandes - Porto Alegre, Brasil
+Eduardo Cabrerizo - Madrid, España
+Avi Mielgo - Madrid
+Xavier SuhZ - Ecuador
+Omar Bastias - Mendoza - Argentina 
+María del Milagro Ventura-Salta-Argentina
+l Nicolás L
+Willy Rosal, Guatemala
+Guillermo - Bs As, Arg. 
+Marco Del Rio, Lima- Perú
+8. david arenas ara 
+Natalia Gonzalez - Argentina Buenos Aires
+Susana Rodriguez - Mty Mexico
+Rodrigo Alvarado | Barranquilla, Colombia
+David Janer. Málaga, España
+Gaston Chalub. Argentina 
+José Manuel Fernández Rodríguez - Tarragona - España  
+Gustavo Faskowicz, Buenos Aires, Argentina
+MJulian adrid Medellin Colombia España
+Jose Bidegain / Uruguay, Punta del este
+jhonn condori- Mendoza -Argentina
+Kelvin Helmut - Lima, Peru
+Juan Manuel Sanchez - Argentina 
+Abraham Trillo-Sarmiento, La Paz-Bolivia
+Javier Sonzini - Buenos Aires, Argentina
+Gustavo tayupo, Barcelona - Venezuela
+Javier Velez, Mendoza, Argentina
+Camilo Morón, desde Carrizal, Venezuela
+Cacao – Mallorca - España
+Roberto B - España
+ivan mrsnik eeuu
+Roberto Rodriguez/ Barcelona/ españa
+Jesús León / Caracas / Venezuela
+Lucas Nuñez, Buenos Aires, Argentina
+Samuel B - Medellín - Colombia
+Joel Bejar - Acapulco, Mexico
+Elia Toribio - Santo Domingo, República Dominicana
+Eliud Rojas - Ciudad de Mexico, Mexico
+Daniel F Varon Quintero - Colombiauu
+Roberto Zavala - México
+Franco Stanziola - Mendoza, Argentina :)
+Karla Arias -san salvador-El salvador 
+Carlos Rodriguez - Barcelona, España *.*
+Danny Andres Barrientos Agudelo Medellin Colombia
+Diego Rodriguez - España
+Gabriela Ramírez - Lima, Perú 
+Maria Lopez - Argentina - https://www.linkedin.com/in/maria-lopez-470862243/
+Gustavo desde Argentina
+Denis Faundez, Neuquén, Argentina 
+Clemencia ibañez padilla, Buenos Aires, Argentina
+Oscar Moctezuma Rodríguez - Monterrey, México
+Manuel Andrés Muñoz Quemba Colombia
+Raul Moctezuma - Monterrey, Mexico.
+jesus ramos - valencia, venezuela
+kamal majaiti - Logroño, España.
+Salvador Juanatey - Las Palmas de Gran Canaria, España
+Diego Q - Argentina
+Fernando Arevalo - Colombia
+Jordan Barilla - Panama
+Alex Molina - Guatemala - Guatemala
+Mariano Guarriello - BS AS - Argentina
+Juan Felipe Vélez - Medellín Colombia
+Gabriel Del Castillo - Colombia
+Marlon - Ecuador
+Matias - Buenos Aires, Argentina
+Jorge Calleja Pérez - Málaga, España
+Camilo Ramírez -Edmonton,Canada
+Jorge Morales - Ciudad de Panama
+Rafael Huanca - La Paz, Bolivia
+Atilio Calderón - Maullín, Chile 
+Miguel Flores - Colima, México
+Carlos Gonzales Fung - Lima, Perú
+Luis Montoya - Guatemala
+Gilberto Perpiñan - Colombia
+*************************************************
+
+Icon 4 - SOLIDITY COMPILER
+Compilation Successful
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+
+Deploy
+
+Deployed/Unpinned Contracts
+
+Nombre - Register Address
+Sol - 0x5aE7A1e5FEF1530FCc450FAd29d1320CE03732f7
+Franco Queirolo - 0xeD5FDD7b8D5Ab94666F418D56E7c3A838F985848
+Gabriel del Castillo - 0xC0E589F25FE8f6bCc2D7701468e907576c8Fb1Ec
+Adrian Perez Herrera - 0x4680BB27Cf510D3BdAC9B77403d94c48D1FcEbfd
+Kamal Majaiti - 0xaEcd905fE8e96d8CdFcEF21Ad1dB7E512f3F5bEF
+Camilo A - 0x7Bc60609de386B4a01E1E64eA3B590118C13ad84
+JHORMAN ANDRES JAIMES ANDRADE - 0x67091a8db5fED55A63Be6230a6ee453AC56d7266
+Zaid Seijas - 0x30B432f9A1a18f0E79bdF34ad3C300CC821733EC
+Ciro Arrieta - 0x8b1b4329ec6d6225225ce167daaec059cdd4f401
+Emir Maya - 0xA9b5c93a9Bb5836aAD592B4DC6ab9f4Ea95cD5b7
+juliam maya - 0x655d22d37B683D2818ED056C7EfC5B5a9A1326de
+Fede Uñates - 0x9D7f74d0C41E726EC95884E0e97Fa6129e3b5E99
+Ariel De avila - 0xeb3ef28B4FCEFebC4a1C528a7888c02Ef1874729
+Eduardo - 0x4ac2EEf627eD52231069c19F4Ef10fdACCb10541
+Gabriel Agustin - 0xB99Eb0F7734211Aa00e667c200FEf06B76705C26
+patricio - 0xd35791BB28AE5CBf8831D1cDdEb1Ed2571856C08
+Javier - 0x2D8BE3061f7a1afE6A536D57eE8E5fc988B625dF
+Natalia Gonzalez 0x3405F41037EC08357b714939A358686AD323F341
+Luis Rodriguez - 0xB66e2f1768d4E3A0d7A472c3cefc8cC3Cf1c7c3f
+Andrea 0x65F99335845cFF1F17521f8F6EA71558C43C6a71
+Hugo Chiacchiarini - 0x86D32F4B8Fb918F8B13b81980CF968b66C23837f
+Jorge Flores -- 0xF09Efa6573f90e594DcBd35B3e69da3ff84129Bc
+Yatel - 0xdc88b468a0D7a3dbbc22E4A23c76B2CDB233cA8f
+Lucas - 0xa51FDb52B1eb0b5e793D499BFFFDd8089B9a8453
+Alexander Vanegas - 0x3D01531F36b73b6dB9CF24Fc515c2c0b21B0F482
+Rallsen - 0x11031B88e970E68bC73e287AF17b7656a8841632
+Marco Gallardo - 0xADD9De38DAaA1B06aadD90675567ca582B78bAc9
+Jonathan Miranda - 0x4e28806dFbB0E3C4bE7B8B1dF46A7DC45A12354f
+Juan José de la Rosa - 0x0821c3AA19eDa12451B7e70B54f7cF15D9C09FDe
+johan - 0x02aa6F589584034A1f4D0460eCceA59aA001E626 
+Karinna Serrano - 0x6261C79DDa91a4f3cE5DD90F251aA48d8CA12f67
+Rocío Grajales - 0x1314D032C4B7D07636a302b7A47bcCcB90778937
+Esther Ortegon - 0x41ACb7E838A14049D3fb2Ad07123371d5F26450a
+Marcelo - 0x2a544d8fA138b5AA2FeA2694876bBD033eE461B2
+Enmanuel Cabrera - 0x2a8f9804C5f830ECbe831B2717D210B6d9895134Gustavo 
+Alex Ramirez - 0x15CEc29140734edCF633c5df5A6fA5161Ae586DA
+0x3496D9ca4BeeD4fD3d0C7edeb5Ee7646e4F36Ae1
+Melo, España - 0xEFCEFace3b2E98f7D9BA1f26FE4f7B79A353b601
+Carlos Bolivar - 0xa4B1e01d0d774768886A5Dd2236bCDd97ecb6914
+Ruben - 0x0452FE61c955661e6b8Cf1eFe64621B2BB183a24
+DanielB - 0xd292eC971B4d3F279E9E88E14ebC0a0239650deC
+edward - 0x1b155Df229714cc4aDDC7651294B4b5f8E9E628A
+carlos oliva - 0xBbB1b3AF0569152a98854879aFf0D915E63b3a85
+Roberto - 0x41C7E0c38C5A74f4722B83080CB2dce0db8C57b4
+Ronald - 0x50041480ff45d22F6d5C4D16D058aE28C6C9Cc5d
+Nilds Vasquez - 0x6c70D34E95E45eDf5cf768E5cB5c0420a095E65e
+Avi Mielgo - 0x604DBAB221Ae81D682CFe3A94609fBA29c382bd7
+Marco 0xE33ebf3adD02B38C8f82bA55195204b60b89C7f2
+Marlon 0xcdD292fC8239CF40B3B129AeB19ea5f559c7Bf19
+Oscar Moctezuma - 0x69390b485B740CFD0c391c15fDD1C9B10e3B91df
+Alejandro - 0x841fC6f44Dcc6105c7e3c1818De0DE495D1f0A42
+Jose Muñoz - 0xca635CbF14cfe983678f1BcbC0632fE9BA7e97D9
+Guillermo - 0x5161825A47aA05e16684C9196c291f683a33FDF3
+Eduardo - 0x0fc0682B7AF4f796244C7c9559Dd5df4b732210A
+Núria - 0xc0C0A9e50A34cF6aEbED4b5BB428355CB0a71DE7 
+Fernando Rosso 0x06353cfEd039ea087d02fEEc4Db70709A30294c8
+Yoan santiago - 0x57fbcaaa950248698e13299919417de5502afab6
+Brayan Angarita - 0x6B8325C0194141FeA35a13b2BF2F3ef9aDED728f
+Martin Gomez 0x4e8bB54c11FA3fdE3bb85baaA122F8Bbf0080E0
+Hyrum Perez - 0x2BDBAe5d64F3D42B4A6f6fB7C34A6cc4E65B7266
+Andesron Camilo Gaon - 0x9b07581774A6213d3031ca16629015DE0187D171
+Franco Stanziola 0x06675cfEd039aa087d02fEKc4Db70729A33294c9
+jhonn - 0xb30419F312E886E73f83c1395063d74Be8886761
+Clever Edu Perea - 0x9c8F2CeBcDe5368977183B77B013cadC69309898
+Fernando G. 0x50dDCc87052b7a07eC4E48840761E469220A48C9
+Ferado G. Sossa 0xd9145CCE52D386f254917e481eB44e9943F39138
+Ivan Morales -  0x647E60708509293b2717eEa1783818865829cE69
+Maria Lopez - 0x119317bF400E6A15e0C08f87ddaFe1857f078272
+Kelvin Helmut 0xC322DA9ed0a2555E85653A885f60e701e58b9788
+Diego - 0xada9877fE96d92292c9833b0d7b8d92c36502963
+Oscar Quiroga Pilonieta - 0xf4C4621064ec91F44f07fC5092a4EDc89ADFD1cA
+Carlos Carrasquillo - 0xc8ea77E84DAa81D4988f9bCc8bA90d1339D28912
+David - 0x3f8Fba37689e6FD7B5b2B02C7A0F5A160742B024
+Carlos Rodriguez- 00xABc78355F6368F0FE37f6b383fAc7710f0a28804
+Gustavo Faskowicz - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Julian 0x8a38eb57ae98f80cf002d067f1ee0ccf37402581
+Cacao -0x0547e963A83688D4117c2EED5C45863542A479DF 
+David 0x4807755976B786DCC20Ad1E750DF6519630DacDa
+Facundo - 0xC74df8bF1124f8Ca3Ff2938E227392BD479B260A
+Janer 0x8Da206f68f6d1A40CDE3f360826b1B0d2Ef1028C
+David A 0x64C9cB1600B1b4eAD69FFb48265839EAEDD671c3
+Alejandro Chazarreta - 0xcb8e8a4Ee99Bd3C46385Dc49eA7352Fb87620Dc3
+Sergio Domínguez Robles - 0xD09d2802d832A541cb12b38A061c9536c9e17D34
+Raúl Domínguez Robles - 0xbF60c679127C6F1f1654750927cD9Cd156ea27c9
+Alex Molina - 
+0x3e9B6E428f047f9e8577112F3F699081b00032f8
+Carlos Dapena - 0x3F1AEcf88c3Ee6b0F3a0a49a3F7127a369Cb62E7
+Gonzalo Hoyos 0x1a391d7AF931027D01BeE066061561abAa6d2401
+Maria Eugenia Giacinti 0x9bB462A3067787EfbF9Fa4814fB9106C2c4235E3
+Sebastian - 0x1FEbC8a5D9d5FEb6658D7b2E83F9E26517507eeb
+Samuel B - 0x0148143a06e08825a3D0F6507b6b093688EDe2ca
+Jesús - 0xCb57b1F2Aa25eB023206408882e67C40689a50c2
+Elia - 0xb5Cb5068b87931EFf875EfcC0eBA728DA7908Bf5
+Edwin Mejía - 0xbB585756BFe00995aE51b2D90086f1102146E0e6
+Roberto https://sepolia.etherscan.io/address/0xF7F2E2856B85f0251cb64FE78068c21430bB454c
+Juan Felipe Vélez 0x2A566fa9A374fF9Ad87b4Db1F4007E5331b85D15
+Daroch - 0x4567238873f90f820C4E48c988c2b5d308E62105
+Willy - 0x6Ede30686E64FC220F6A25657F18962c7E7CF990
+Rafael Crespo - 0xaD9b29fe21871FbEa85067d81fC56FAaAbD7344C
+Matias - 0x4aEcEdD887118789B0c5945E2c85f652e9C23ba7
+Fernando - 0x9c5DDC988C6097B19392ADa5f02eeb757a9Cd1f9
+ramon - 0x71e1b7392F1Ef5e33dd192f6a64a81aB26F0fE7e
+Luis Masuelli - 0x156BaCdB151dC835ceefDb84e6f3e9a5d76e9503
+Diego Q - 0x734F060556fb96791aAe267C671D549747d1BFC9
+Ignacio Festari - 0x5A9E2B803BBb553163AEF1490B337023bfAd039c
+Laura QCh - 0xFa964A2D1dcb8D6BB9206EECe8165414747b7F7d
+Roberto - 0x41C7E0c38C5A74f4722B83080CB2dce0db8C57b4
+gabriel 0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B
+ gustavo0x3496D9ca4BeeD4fD3d0C7edeb5Ee7646e4F36Ae1
+RODRIGO 0xf2A77FA69e3f4c875D29C98A70a6f61f96aE1285
+Gaston 0xDcb8e7c7DDcfce553FF5Ebc23541B43c0299c2cA
+Jose Bidegain 0x0A01B3E911f7a24Cb0622D713A12857a2200B1C8
+Alejandro - 0x88F4Da58d12f22B0Bc55ffC7c06F49A70f5e59a4
+Fernando Arevalo - 0xCD28B68be7b210aae4A629D4207E24F5bC43A0da
+Jorge Calleja Pérez - 0x4af87dF622A2dfc0794503202040D5c20eC1c662
+David R - 0x9de29efAffB56E28329EfC52AaCAF11ce2fB040b
+Daniel-0xDeAc0b78AF54b11B138B5c7039934C7F6F607A33
+Javier Sonzini - 0x304497613e2d73eC70Ae24B2C1c07089F7663E96
+Alexis Zeballos - 0x919195dc9ce180B21cC68FC49F8A4E36902640d9
+
+**************************************
+
+https://sepolia.etherscan.io/
+
+
+Crea el archivo
+RegisterAccess.sol
+
+Copiar entre inicio y fin
+
+// inicio 
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+contract RegisterAccess {
+        string[] private info;        
+        address public owner;
+        mapping (address => bool) public allowlist; 
+ 
+        constructor() {
+            owner = msg.sender;
+            allowlist[msg.sender] = true;
+        } 
+ 
+        event InfoChange(string oldInfo, string newInfo); 
+ 
+        modifier onlyOwner {
+            require(msg.sender == owner,"Only owner");
+            _;
+        }
+ 
+        modifier onlyAllowlist {
+            require(allowlist[msg.sender] == true, "Only allowlist");
+            _;
+        } 
+ 
+        function getInfo(uint index) public view returns (string memory) {
+            return info[index];
+        }
+ 
+        function setInfo(uint index, string memory _info) public onlyAllowlist {
+            emit InfoChange (info[index], _info);
+            info[index] = _info;
+        }
+ 
+        function addInfo(string memory _info) public onlyAllowlist returns (uint index) {
+            info.push (_info);
+            index = info.length -1;
+        }
+   
+        function listInfo() public view returns (string[] memory) {
+            return info;
+        }
+ 
+        function addMember (address _member) public onlyOwner {        
+            allowlist[_member] = true;
+        }
+ 
+        function delMember (address _member) public onlyOwner {
+            allowlist[_member] = false;
+        }    
+}
+
+// Fin
+
+
+Nombre - RegisterAccess 
+Sol - 0xc2fec4a95B6913C35dee08fcF53511E2125f0eb9
+lucas - 0x2F1011B1a605b8416B552E6035003f988AA7b78A
+Johan cardenas - 0x531AEedf1e5EDd029Fc0D74d778B7526CD1A739d Verify
+Natalia Gonzalez  0x2084B73BC11e5F63f272d0423040d13A001e0808
+Ariel De avila - 0x21155bDdA7327b9eBb8Fa756C7bDA12Eb90963B8
+Ciro Arriera - 0x6b7555fa1cca843da2352b7f095f9d590c45a998
+Javier - 0x4B85669bEEF9c3aac318aA92c368AA439CA118A9
+Fede Uñates - 0x893685397ede7407EDE754C3475094435e85c597
+joan 0x43c440dE02a924a62fEbbe849eafBC60161BF82E
+Emir - 0x890b99C021394Db8b678680A7521547c96d227C4
+Yoan Santiago -0x5041bF8Eed9cc53e2DCE3925681bD0CC009e0d04
+Clever Edu Perea - 0xbC929D54a2705D907c505E6AAB5C963b8e5CD324
+Eduardo - 0x895ea34347325B8AAF2cA1473449e7555B9653D6
+Rafael Crespo - 0x00C75a169edc688fA33cA9B84E70AF1D68C609C1
+Alex Ramirez - 0x658aFc54c8940446461b7Efd1f317073622562f8
+Carlos Rodriguez - 0x24f51C77A9Fa0bD3a6d824996ab9E1dB0777CB15 
+Sebastian G. Gil - 0xcaec8d22587ddc6a49c7eb14e5eb309aeb85f0f7
+Ignacio Festari - 0xcC4a6A87d6D32310D59879E89D7d75c3526E874B AKA
+Adrian Perez Herrera - 0xC9b4C83d640a672d7142ea5c7bDE193733B23F3F
+Matias - 0x40689A8701178C0D87Dfe359f1D8f3fC41e86905
+Julian - 0x47504cdeca257aecf9e578c7ede9b9da76b6cbae
+Enmanuel Cabrera - 0x40071637a05a085C1fa750Be6b62674E13592AA1
+Fernando G. - 0x410335D99c5c704A79F2C317d49cC76b2BdfB5AA
+Martin Gomez - 0xa87E1Ec5cB4DA8C48dD2aD860071613fFfa7d0D3 😈 
+David Franco - 0xE90047E2F93bA8DBD3f6ABbC1C9478DeE3f0b677
+Juan José de la Rosa - 0xF3281Cf8e22d281E8d098A46feA1cDD532C04aAC
+Sergio Domínguez Robles - 0x61AeddbDbd41d3D8C67a002b46A46aEB57ba59E8
+Raúl Domínguez Robles - 0xbbe0729332941AC3041B70c0f1CB65ecBA4ca04e
+Esther Ortegon - 0x87fCd2F4AF23765158972d7Ef7bf4AA6Ef461A13
+rodrigo 0x4f4286de9bacc0538e6b8a82a4d0b773eebb5ccd
+Jonathan Miranda - 0xeA40655521717d6144d55d8650cc962e983982cc
+Alejandro - 0x4e173E6ed7590075E3e26C6D13C829cc62d31a50
+Marlon - 0xbF483086FbF24ca88e15469019BeF15b8b73e1EC
+Carlos Bolivar - 0xEF93EDb07348bbA2d3dFB41702D3BF927f161575
+Natalia Inzeo - 0xd9145CCE52D386f254917e481eB44e9943F39138
+juliam Maya - 0x655d22d37B683D2818ED056C7EfC5B5a9A1326de
+Gonzalo Hoyos - 0x8013db0957e68802a47e8af925acd5ffa47e1cb6
+
+Melo España - contract 0xF58F9d22153318dF1fbD7672592D3C67Bc32771e ; wallet 0x1420Da6443F1E0C560921313592D7838A870dBF2
+
+Oscar Quiroga - 0xb0adc94151247Aeb8bE5fD1a91a2a3A434f6352d
+Fernando A - 0x3D000664C6A3ae810b98f2cDEE6EB1dd545Db74C
+Fernando Rosso- 0xab7bC03077267dEeD08f75dA6bBE117EC373f757
+Alexander Vanegas - 0x2b97cB5350bF1ECa6862e77644f3c346bFe19bd3
+Yatel - 0xc3ebeabb75b3e9cb238ab27ac72ee41f563b87d6
+ramon puig 0x246B059f76FaAE61B1aE7f43981460ECFE41F0C9
+jhonn - 0xFf56d97c86Ec6B13b2BE81DF2A72a9ee9A783114
+Jorge Flores -- 0xf0359b515E8ebd779625eAFe111DdD02367d8724
+DanielB - 0xa0E3fD747DA367c72D2800c48DdB4Fb9D08E5c0e
+Brayan Angarita - 0x13bac4b6925fcc50263e82acfc30e7782173db43
+Juan Felipe Vélez 0xf9c68783Bc7Aa4Ca5a29c2291EEaC679d458c5d3
+Oscar Moctezuma Rodrígeuz - 0xdfD6cc550c301A1A98347851f5CAa8b1Bbb11F7A
+Karinna Serrano - 0x35B7BbB47C5365141E88b0eAb7f8735836DA7d47
+Roberto Rodriguez 0x9DB59b1B5524C77D01a8Dc97CA0d2d7176B7BB76
+Alex Molina - 
+0xcA7B21d718b23d2433c4E12A84ab7892d5ff8Eab (agregados Sol)
+Eduardo - 0x94067dA2D7820740c0271525450F0Bb7f3129075
+Rocío Grajales - 0x50179b0fb645a7e50e87a96e084bdc0525b0c1ef
+Samuel B - 0x2E9be2CE6F9a6752Fda4bc0759E1690C130739e1
+Hugo Chiacchiarini - 0xea6534bd7f31E13996261cB1C06e2667Dc99E2b3
+Kelvin Helmut - 0x5910f3C207b6fA0c8D871e0298DAea8c18227278
+Jose Bidegain - 0x2881246781b4d863f33eccc69f7bdf20eb22279b
+Gustavo0x07d5E1DaaD1f7CCb7CBdA977fCa259604785c1d7
+Miguel Flores - 0x9573415296Cd098b74Ad45eABDE1a32900cF4Ef8
+carlos oliva - 0xC3AAca424500898BD5cFB282dF711306C4b6a816
+Anderson Camilo Gaon - 0xbf074878C8167db976ef2a1Ff196CfB11E57d882
+Nilds Vasquez Gonzalez - 0x3fA34f4cfaB0130DCf70d02CECeC448736E87973
+Camilo A - 0x6807f1f76B72d9eeb02A84F19C1526BA10163F50
+Diego Q - 0x511c326fa0cFf6218d2520d8E34f19E92943Ce57
+David Arenas - 0x6E4f606B6A8B872518f6FE34Cbad4DE152117f13
+Luis Masuelli - 0x79d220D0Bb3ac48570caBB17A8f2AcC6755cd522
+Gaston 0x511cF125c9e9C97f2e8aEeb79a941646C6dE75e0
+Rallsen - 0xa92C7F676E63b03AC341DC6f7BEbf1a45Ad49A67
+Roberto B - 0xef717ae1b3166ac96bc5b39380c7739319dc845b (Sol agregada)
+Daroch - 0x0322Bb392E34240CD3B5d3EE5Fd40F8991706f57 
+Facundo - 0xA98C4DF4f93F1a5A0cD69f0b8F3dCEC8b9994A12
+Cacao 0xF517b4B7Cb47f49f58c9aFaa58115138CD7cC6F7
+Maria Eugenia 0x23228cf9dfdf608766ff03e14313f95b017b13f5
+Willy 0xDc88b1F7B74dFFAbf85264fDFed0e891263fE7b8
+
+************************
+
+Sol Address - 0x12Fbc10072650d844492De4bcCd0298eaE07dB96
+Yoan santiago - 0x5041bF8Eed9cc53e2DCE3925681bD0CC009e0d04
+Ariel De avila - 0x71f458094CBA8060B97d4A3A4C0052603Fd49A45
+Javier 0x416c17Db908D3CEbD84C4C5A126A5bFc0D96BB0c
+Rallsen adress - 0x3C19d67dd2f729DBfD60ECC1C1B6e1B3707905C8
+Oscar Moctezuma - 0x4059f3c0064cd380276DE8dbAb6935005535EeD6
+juliam Maya - x655d22d37B683D2818ED056C7Ef0C5B5a9A1326de
+Camilo A - 0x3EC53e9A18e5C2f1128C7E608075D47fDA219eC7
+Ignacio Festari- 0xF1cBfEAFb6553fa49450118351Ac9d7059C1F015 -AKA- (Agregue a Sol y a Martin Gomez y a Gaston)
+Martin Gomez - Contrato RegisterAccess: 0xa87E1Ec5cB4DA8C48dD2aD860071613fFfa7d0D3 
+
+    Mi Address: 0x2E58F363018D5A90067CB1E66c95292369A578f7        
+
+    (Ya agregue a Sol, Ignacio Festari, y Camilo A)
+
+Johan cardenas - 0x8CF522c7ec4EeE250114A8c86b9D6a988A854e39
+Adrian Perez Herrera - 0x0c1A290E894A9B63b79102eD367869d7445509DF
+Fede Uñates address - 0xD6Cc642dfB6Ba93F4ACc51522D5fF9359BCDadE5
+Miguel Flores address  - 0xeEfD82a2588a1B4460E7dfe1F7e0D986858E745f
+Alex Address - 5558e23390x96c9763a6C7f8faDD28BeFA2434A3eb
+Kelvin Helmut Address - 0xAAB016d0283B68ADB7E5ae54984376Bf838404Ae
+Enmanuel - 0x05A77F5E555B047279D2A6EE91b72cA23410d752
+Alex Ramirez - 0x95558e23396c9763a6C7f8faDD28BeFA2434A3eb (Agregue a sol y Enmanuel)
+Joan - 0x4BaBf69ACD4842731109debDB035Fb400eAf33aC
+Norber - 0x6D231CbA4822Db5e775ae109FC2b412F13b4D296 (Sol agregada)
+Samuel B - 0xDb65202c20C73d708e458DD31D29D3F59cBa8cC1
+Juan José de la Rosa - 0xe4123777084ab17A410ACe8280EB6caF998FE957
+Sergio Domínguez Robles - 0x879E5F0C693f4ad118e51E6E1F0874b2605D8aFa
+Raúl Domínguez Robles - 0x1FA188b4533cED23180DffC9942045311699766E
+Hugo C address - 0xFc7EcDc7B92dAda269E3b12D63D6F0d805b4Eb3E
+Esther Ortegon  - 0xec1C1e342276d210950C4Cf88F710BE6dfbE4B6a
+Brayan Angarita - 0x13BaC4B6925fCc50263e82AcfC30e7782173Db43 (Sol Agregada)
+Roberto B - 0xe78655ACFA5eC1cF16af2F0CE585b114ECe631ce (Sol agregada)
+Gustavo 0x2fFaC4F434Ad152A8A8E5efeB37Eaad12483f38C
+carlos - 0xE15341650b66D181330633345Af965f901C3814E (sol agregada)
+F Rosso - 0xc6d252F30DEbbC488e04FdaB6b7A2D161C72751E
+Jorge Flores -- Address: 0xb62822a1CCcEF2d6bD8BBA690Ac2A3Ee03Ebc7e1
+Alejandro - 0xBa63B307001Dff4fC9A0d6512d91Fd625a16FA65
+Jonathan Miranda - 0xeA40655521717d6144d55d8650cc962e983982cc (Sol agregada)
+Kamal Majaiti - 0xcB83268F5e10F9404B7614E74A05AbEf1f35cA99 (Sol agregada, Gaston Agregado, que alguien me agrege)
+jhonn - 0x7E6c12201C3AE635f231933C32fBf49Ccfa66c72
+Roberto Rodriguez 0x9DB59b1B5524C77D01a8Dc97CA0d2d7176B7BB76 (Sol agregada  y Alejandro)
+Daroch - 0xE266001911Cc921c16FBB2403e53E3074D6003A4 (Gaston agregado) Ya interactue con tu contrato. OK, yo no puedo escribir en el tuyo :-)
+Gaston - 0x3B5FfF8696Edb3E470b7898c8929b18119e70413 (que alguien me agregue)
+Janer - 0x9FA656c538d79891018F49D90419C2C8C442C811  (Gaston, Daroch Y Roberto agregados, salvo error,comprobarlo, por favor) 
+Jesus - 0x333f781782477CD77f9d30194b5be65757ba1EC2
+Eduardo - 0xeDdEDabB97884e4A533a8C52FF19BacEe538B10e
+David A - 0x6E4f606B6A8B872518f6FE34Cbad4DE152117f13
+David R - 0xF470185d63A7056bca0b16ccBB6937c845a1A277
+
+Diego Q - 0x622dBeA474f8D7F52576e128dbDA5ccCB7D64e95 (Sol, Camilio A, David Arenas, Gaston, kamal majaiti)
+
+Rafael Crespo - 0x3D8d3FFd08FF30951983E91FcEF3C0D571b149B1 (Sol,Eduardo ,Diego Q)
+Paulina - 0x71e3A3938728cd8190Ad8b00f047170a338214D9
+Cacao Address - 0xD1BfB4B9B30bAa29264f49a51522fF23fd9BaC05
+
+***********************************************
+Verify and Publish 
+
+https://sepolia.etherscan.io/
+
+Search for your RegisterAccess
+
+Tab Contract
+Verify and Publish 
+
+Compiler Type:
+SINGLE FILE / CONCATENATED METHOD
+Compiler Version:
+v0.8.19+commit.7dd6d404
+
+
+
+
+
+
+
+
+
+
+
+
+
+

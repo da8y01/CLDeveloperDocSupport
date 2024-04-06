@@ -1,0 +1,762 @@
+Chainlink Bootcamp
+Apr/2024
+Clase 03
+
+
+Soporte del Bootcamp
+https://chain.link/discord 
+spanish channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Todas las sesiones en la página de Luma
+https://lu.ma/ChainlinkBootcamp2024-es
+
+
+Youtube Sesión 01 : https://www.youtube.com/watch?v=fHv80iLeji0
+
+Youtube Sesión 02 : https://www.youtube.com/watch?v=L4oOD1alaps
+
+Youtube Sesión 03 : https://www.youtube.com/watch?v=kn4Rdl3EKPc
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vR3PCyiWjqf3N0aFrRBl3H3m6yXLHDi8rkr35oqwTd6X8Js7xORY6F2WAog0uF1nbk6fIbDT7INESjK/pub?start=false&loop=false&delayms=3000
+
+Tareas
+https://forms.gle/kLrr2k7RZWcQ7npQ7
+
+https://sepolia.etherscan.io/
+
+
+Workshop Faucet
+https://workshop-faucet.vercel.app/faucets
+LinkShadowFork18
+
+Block Magic, nuestro próximo Hackathon!!!
+Regístrate aquí >>> https://chn.lk/3vqRoLN
+
+
+Nombre - Ocupación o Rol
+
+    Luis Rodriguez - Business Developer
+
+    Javier Cornejo - Python Developer
+
+    Juan M. - Developer
+
+    Oscar Quiroga Pilonieta - Matemático - Analista de datos (on-chain data)
+
+    Renzo Yanzon - Ingeniero Industrial
+
+    Adan Reh - Fullstack web3
+
+    Melo - Sysadmin/DevOps
+
+    Sebastian G. Gil - Security Researcher/Pentester SAP e Instructor de Ciberseguridad, Linux y Redes
+
+    Emir Maya - Técnico en Programación - Desarrollador Full Stack
+
+    Eduardo García - amante de blockchain y desarrollador en proceso xD
+
+    Ariel De avila - Desarrollador Front-end
+
+    Pedro Machado - Atizapan de Zaragoza - Mexico - Desarrollador Blockchain
+
+    Hugo Chiacchiarini - Desarrollador salesforce
+
+    Sebastian esteban programador movil en java , kotlin y backend.
+
+    Nestor - LA, CA, Desarrollador Blockchain
+
+    Adrian Perez Herrera - Desarrollador backend cobol en bbva
+
+    Daniel Benitez - Desarrollador Full-stack
+
+    gabriel, docente universitario de ecosistemas digitales
+
+    Zaid Seijas - Web Developer
+
+    Jonathan Miranda - Backend Java EE
+
+    Juan Arguello - Desarrollador Full stack
+
+    ramon puig - fullstack dev y enmprendedor
+
+    Armando Martín Canevaro - Backend Developer Go/Java/Python Aws, Tech Lead en Formación
+
+    Alejandro Gamero - periodista crypto - Argentina
+
+    Sol - Educadora Blockchain
+
+    Sergio Domínguez Robles - Blockchain Developer
+
+     Walter Ríos - Operador Especial de Custodias - Full Stack Developer
+
+    Oscar Moctezuma Rodríguez - UI-UX designer, Frontend, 3D Artist
+
+    Eliana Córdoba - Desarrolador ABAP
+
+    Franco Queirolo - Front-end Developer
+
+    Daroch - España - FullStack Developer
+
+    David R - Game developer
+
+    Marco Gallardo - trader
+
+    Agustín - Web3 designer
+
+    Diego - automatizacion
+
+    Luis Rodriguez - Aprendiz de blockchain
+
+    Rich - Farcaster
+
+    Juliam maya - cdmx - México - Desarollador  C#
+
+    Gabriel - Córdoba, Argentina
+
+    Matías Zelarayán, Artista visual - Arg
+
+    Edwin Mejía - Estudiante de Derecho
+
+    Mariano Guarriello - estudiante
+
+    John Haver Herrera - Project Manager / Software Developer (Mainframe - Unity 3D)
+
+    Camilo A - Tester automation
+
+    Jorge Morales - Educador / HR
+
+    Abeena student
+
+    j4c0b0 bl4nd0n - art dev
+
+    Gonzalo Hoyos - Backend Java developer
+
+    Abel Lopez - Ingeniero
+
+    Viglianco Matias - ARG - system engineer and full stack dev
+
+    IVAN MRSNIK  DEVELOPER DE venezuela en EEUU
+
+    Ernesto Nurnberg - ARG - DevOps
+
+    Alexander Vanegas - Guatemala, IT Infraestructura
+
+    Hiram García - Professor
+
+    Clever Edu Perea - Medellín Desarrollador Web
+
+    Samuel Buriticá - Backend Developer
+
+    Javier Rodriguez - Data Engineer
+
+    Omar Bastias - Argentina - Estudiante Desarrollo WEB
+
+    Martin Gomez - Buenos Aires - Systems Engineer
+
+    Marcelo 
+
+    Jorge Flores - El Salvador - Desarrollador
+
+    Gustavo desde Argentina
+
+    Natalia Gonzalez - Data Analyst - SEO Manager
+
+    Clemencia Ibañez Padilla - Support agent
+
+    Horvey Gutierrez - Portuguesa, Venezuela - Web Developer
+
+    Jhonn- estudiante -Argentina
+
+    Ruben - Estudinte
+
+    Sofía Di Francisco - Estudiante de ing. en sistemas (Mendoza,Argentina)
+
+    Fernando G. - Self Employed (Software Developer)
+
+    Alex Ramirez- Estudiante de Ing en Sistemas
+
+    Facundo Costa - Crypto enthusias
+
+    Jose Franqueiro - Buenos Aires, Argentina
+
+    Daniel Roa - Developer Engineer 
+
+    Rocío Grajales - Bogotá,Colombia | Ingeniera Química - Desarrolladora Web
+
+    Gabriel Agustin - Blockchain Engineer
+
+    Marcelo Mijlin - Rosario Argentina - Analista
+
+    Nilds Vasquez - Fullstack Developer
+
+    Avi Mielgo - Crypto consultant, programmer analyst, venture capital investor
+
+    Lionel - Argentina - Developer
+
+    Núria Ciscar - Frontend developer 
+
+    Ignacio Festari - Creador de contenido, entusiasta crypto
+
+    Julian Grisales- Blockchain Architect - Cybersecurity Specialist
+
+    GAGO ALEJANDRO- Buenos Aires, Argentina
+
+    Alberto Urizar Fernandez- Buenos Aires , Argentina - Soporte Técnico
+
+    Zalazar Agustin - Buenos Aires, Argentina - Desarrollador Fullstack
+
+    Jose Bidegain - Uruguay- Web dev 
+
+    Enmanuel Cabrera - La Habana, Cuba - Experto en Criptografía
+
+    Edward - Lima - Perú PROGRAMADOR JAVASCRIPT
+
+    ivan mrsnik de Venezuela en EEUU
+
+    Zaid Seijas - Caracas, Venezuela
+
+    Rodrigo Alvarado -Barranquilla, Colombia- Docente
+
+    Luis Masuelli - Quito, Pichincha, Ecuador (Ingeniero en Sistemas / DE / GameDev / Brujo en todo esto jaja)
+
+    Victor Leonel Roa Rodriguez, Software Enginner
+
+    Yatel Nicolás Lara - Bahía Blanca, Argentina - Frontend Developer
+
+    Jose Muñoz - Caracas - Venezuela / Devops
+
+    Karinna Serrano - Mexico
+
+    Roberto Canelón - Ornitólogo
+
+    Jorge Morales - Panama
+
+    Alexander Vanegas - Guatemala, Guatemala
+
+    Rallsen - Mexico.
+
+    Rodrigo Castro - Estudiante
+
+    Carlos Dapena - Caracas, Venezuela - Old studient and researcher
+
+    LUIS RODRIGUEZ - QUERETARO - MEXICO
+
+    Hyrum Perez - Lima Peru (Developer MERN)
+
+    David Arenas - Bogota Colombia - Product manager
+
+    Diego Herrera - El Salvador - Desarrollador Python/Rust - Redes
+
+    Fernando Rosso- Mexico- Dessarrollador Web3-Consultor Startups
+
+    Nilds Vasquez Gonzalez - Lima, Peru
+
+    Rafael Crespo - Desarrollador Java - Madrid, España
+
+    Natalia Gonzalez - Argentina - Bs As
+
+    Daniel Roa  - Loja, Ecuador
+
+    Luciano Florio - ArgRe
+
+    Laura Noriega-Rio Negro-Argentina- empleada judicial
+
+    Jose Espinoza - Desarrolador Backend - España
+
+    Paulina López - España - Digital Business Manager
+
+    Clemencia Ibañez Padilla - Buenos Aires, Argentina
+
+    Edwin Mejía - Quito Ecuador
+
+    Jesús - Venezuela - Entusiasta
+
+    Brayan Angarita - Cali, Colombia
+
+    Juan Villar - República Dominicana / UX designer
+
+    Walter rizzo - Argentina  - Developer Visual Fox
+
+    Alex Molina - Software Engineer JAVA and .NET C#
+
+    Eliud Rojas, Mexico City, Java Developer - CTO
+
+    Eduardo Cabrerizo, Analista de software - España
+
+    Fernando Arevalo - Developer
+
+    Cacao – ingeniero industrial
+
+    Gabriela Ramírez - Estudiante de ingeniería 
+
+    Willy Peitzner, Delivery manager, Guatemala 
+
+    José Manuel Fernández Rodríguez - Perito Forense Digital - España
+
+    Roberto B - Financiero - España
+
+    Luis Esteche -  Argentina - Paraguay-  emprendedor, integraciones, backend, java
+
+    Camilo Morón, TSU Informatica,  Redes. Carrizal, Venezuela
+
+    Pablo Moracci - Productor de Teatro y Coder . BCN BUE
+
+    jairo Vargas,   Bogota,
+
+     entusiasta de esta tecnonoligia
+
+    David Barranzuela - Diseñador y Desarrollador-Development Peru
+
+    Joel Bejar - Acapulco, Mexico, Desarollador
+
+    Gustavo Faskowicz - Buenos Aires - Argentina
+
+    Juan Felipe Vélez - Software Developer- Medellín - Colombia
+
+    Salvador Carballo - Buenos Aires, Argentina - Asesor Independiente de Gestión de Proyectos/Estudiante de Ing. Electrónica
+
+    Javier Sonzini - Buenos Aires, Analista de desarrollo de producto
+
+    David Janer - Málaga - Fullstack Developer
+
+    Juan Igancio Lazarte-Mendoza Argentina Desarrollador
+
+    Jordan Barilla - Panama - Devops
+
+    Carlos Oliva - Chile, Marketing and Business Development
+
+    Hernan de Paul - Argentina - Desarrollador
+
+    Esther Ortegon /Enfermera - Estudiante Ing Sistema
+
+    Lucas malizia ux engineer|Road to web3
+
+    Gaston Aguirre Moro - .Net Backend Developer
+
+    Diego Quiroga - Desarrollador Java
+
+    Noemi Chuquichambi - Analista QA
+
+    Marcelo Taito - Santiago, Chile - Consultor de Empresas 
+
+    Joan - Entusiasta
+
+    Julio Monje - Lima Peru - Ingeniero de Sistemas
+
+    Jani Jesse - Barcelona - España
+
+    Kamal Majaiti - Logroño - Administrador de sistemas, Ethical hacker.
+
+     Marco Del Rio - Lima - Ingeniero Químico, docente universitario  
+
+    karla Arias -analista jr ciberseguridad
+
+    Johnnatan Olave - Bogotá D.C. - Administrador Público
+
+    María del Milagro Ventura-Argentina-Estudiante y entusiasta
+
+    Andrea Ciricugno Business developper
+
+    Antonio Maroto Enriquez - Granada - España - FullStack Web3
+
+    Natalia Inzeo - Desarrollo Pl/SQL - Salesforce
+
+    jesus flores - vina del mar, chile Ing. en 
+
+    Julieta Risso - Business Developer
+
+    Baigoarria Martin Santiago - Tucuman - Argentina FullStack
+
+    Leo - Barcelona, España - Estudiante
+
+    Carlos Rodriguez / Espana
+
+    Nelson Hernandez - PHP Developer
+
+     Roberto Rodriguez-Frontend developer
+
+    Chalub Gaston - Tec en CS de Datos e IA
+
+    Helmut Vega - Bolivia, Economist - Tutor in Statistics
+
+    Alan Castro - Web3 developer - Argentina
+
+    Manuel Elias - Bolivia 
+
+175. Pablo Kisilevski - PHP Developer - Buenos Aires
+
+***********************************************
+
+Data Feed
+https://data.chain.link/
+Price Feed
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1
+
+Par ETH/USD
+0x694AA1769357215DE4FAC081bf1f309aDC325306
+
+ERC 20
+https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+
+https://eips.ethereum.org/EIPS/eip-20
+
+https://remix.ethereum.org/
+
+OpenZepellin
+https://wizard.openzeppelin.com/
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import "@openzeppelin/contracts@4.6.0/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts@4.6.0/access/AccessControl.sol";
+
+contract Token is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+
+    constructor() ERC20("Chainlink Bootcamp 2024 Token", "CLBoot24") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
+    }
+
+    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+        _mint(to, amount);
+    }
+
+    function decimals() public pure override returns (uint8) {
+        return 2;
+    }    
+}
+
+
+// Fin
+
+Crea tu propio token :)
+Actualizar el nombre y símbolo del token en la línea 10
+
+Tu Nombre - Nombre y direccion del token
+Alberto Urizar Fernandez - 
+Ale Gamero "Chainlink Bootcamp AleGam", "CLBootGam"0xa8A1401ad94b04B05dFbf139F336251d574B0fee
+Coast token - CTKK - 0x6d1bE6919Fa0F353055Ce5B2Ae67986a428e4705
+Adan Reh - My Token Chainlink Bootcamp 24 (MOON) - 0x7b6bA59D7C9B21f81070Fd9a310816F710afe5d3
+Diego Herrera - 0x23f090af833e79697c2c19c7b5cbf876a950d1f9 (DiegoH DH)
+Jonathan Miranda - Chainlink Bootcamp Jonathan 24 - SAAP - 0x1fc1E036F13BE230412f4FC29cb0918a8cd5b9b6
+Javier Cornejo - Javier Chainlink Bootcamp 2024 Token, 0x9cded4323794674a697A1D181ad022157A0D4560
+Ariel De avila - Alter Token - 0x22AA22cb23d77709dB1A2Ca50c376bC192563B06
+Eduardo García - SuperCoin (SUPERC) - 0xDF17D9EC8347dCf79881281e8e5152EfaaF73Dcf
+Clever Edu Perea - Chailink Bootcamp Edu CLEU - 0xd80Ef8bC0edf2896E5c68296B4c0207439C9479f
+TokenShop - 0x37ce1805BfF3B4601923b4fADa62e6763111B3a7
+Gabriel Agustin Uriarte - BASED(BSD) 0x2Cd2dB783A8499a9E4D61B11C676780cDBdaF48E
+Alejandro-fasocoin 0xF4f422f24A40ec67C051E8e9844c26c14aBCdced
+Javier Rodriguez - Chainlink Bootcamp Javote \ CLBootJAVO \ 0x9DaE206F1E104A00F85d09232D20f7DE8Fa4B61D
+Samuel Buriticá - Chainlink Bootcamp Samuel B - CLBSAM - 
+Emir Maya - Jersey Token(JEY) - 0x03FC3f8156ec7f47eA25250A824a52Bf186FdC06
+Sebastian G. Gil - CLBootSGNinja - 0xaDdfc973E474C9e482Ae1f3B5f588FA612e9e410
+Enmanuel Cabrera - 0xD3695533f16fED952c262d173C9f820927b7fc19
+Rich - RMV - 0x66C0E99C4a2c544FE91eDD2fF9edc8433d624BEd
+Avi Mielgo - 0x4A111d3cE382261dA7DE7ad80180b57Dd1B0640A - AVI
+Adrian Perez Herrera 2024 Token", "APH24" - 0x14BA215d09afCA3AED7F5e52d834c139d70EC23e
+Alex Molina - LINKBC - 0x72159a6c1362Cd7716Ba5a313565d2b0e570C8b2
+Natalia Gonzalez - Chainlink Bootcamp 2024 Navy Blue - 0xf6412ba28c092d62f32a649b416c604867a3b603e0bf8e2752f7e23deb7701bc
+Jorge Flores - 0xAbd5193C2deB559BB2Fe046319502484a46278dA
+Rodrigo Castro - Rodrigo - CLBootRo - 0x6BdbdBe2487A21A5e6B49deFDbD27dEaed906cc6
+Jhonn condori-Chainlink Bootcamp 2024 jhonn-ZONO- 0x10A09748A074Ed7E11BC904B32A35A75277f4c14
+Martin Gomez | (GOOD) | 0x146bCd09c70c654f2018F88dDbC71cE5E172533A
+Edward - Chainlink Bootcamp 2024 EDWARD", "EDU"
+0xf4C4b0Cf7464d8337894dd9FEfFe51fFbA42A4D0
+ivanmrsnik  0x1f4B25e1634967E2D9543E13A5d8F6F65E7b38Bc
+Yatel - $CLBY - 0xbad14989df2128b4784de1a383feed05ca5e50e9
+Daroch - (CLBDAROCH) - 0x194E3012990A4cbB6867E7885563F7a5ED467E79
+Roberto | Fantasmin Token (FMT) 👻| 0x07b6b34cE64AF3601244Fb484152F47812e3f90F
+Karinna Serrano - 0xb05A7d3863D135Bf613bD28ceAE4981cA148F3B2 CLBootkse
+Ignacio Festari - 0xDd6Aa199818519648918dDcaf3E29f4c7B1c0C01 MYTO MYT
+Marcelo - 0x7b4A999914F28F9e66dE514E3C64B761CEAE17fA - MGM TOKEN
+Oscar Moctezuma - Orbital / $ORBS - 0x43f35983937A29e365B017c300B4098e52e9C469
+David R - Chainlink Bootcamp DR - CLBDR - 0x7B248E3D0D8E744FB0485530c89A1f2Fd370F24B
+Julian 0x3cB5c2593E98279D378174CAD1c43a81c7b8C87D - JGZ Token
+Chainlink 3.0 ec - Link3ec - 0x7e65590ddac7fe01056b7fa3a02f022e57e2dc99
+Alex | Bleit (BLT) - 0x67535883E90Ec2008F4B44d04F352bC752ddece2
+Jose 0x1a4daCDB97320744e1D0456B7dA2544aA95503B5 - symbolJPB
+ramon  -  MiTokenMeme - MTM  0x5de5084C2c1Ce9F4Cd8A435e6CE2992C08687F4e
+Eduardo - ECA - 0x40D3864Da1F3C14f280E421615D0d96c09540060
+Daniel B - 0x4e744F32BD36927A6315acba44A0BC11afCd1194
+Jose Muñoz - JOMUZ - 0xc8CBC0547AB8FD669d1E62Da50a54B695d78DDA5
+Rafael Crespo - Chainlink Bootcamp 2024 Token Rafa, RAFA - 0x0e876dd2ed0744E90761A1f5e6a8A2D4320F3004
+Melo - 0x47632e1e55D1469Ee4452FF261691DD5BF40c2cA - MeloLink
+Sergio Domínguez Robles - 0xb4d83225C3310f872221774deD493CfBcb566841 ¨ROLA TOKEN¨
+Núria Ciscar - 0x46873FC588e84DbB0C8B9302025AF3Ea80cB0C2C
+Hyrum Perez - 
+Kamal majaiti - 0xf8d8727E7E0aBD1145Ec4B9425044E80DB74399c - cat
+Jesus |  0x73C85c90F6A045909dE78f9835275e02b23F85c8 - CLBootJes
+BOOTCAMPAL 0xa37128cd8914c16e34e0145335c1469aa76553fd
+Fernando A - 0x452e776686f7c58aa5a3dc8e1c4cd54fe3495c8420f8bd4e6f71c7eda53f1318
+Roberto B - Chainlink Bootcamp OneFinity - ONEFIN - 0xd88d6873c6defa613bff2c58fcf7f744d81316ef759d6e06b6a1ae5041462ce7
+Diego H0xcf6299e6f63fa30d7369cd5ea22d48c34a21574d - CLBootBB24
+Lucas LukeCoin(LUK) 0x57BF87b6A413be73de06aa6A1612C9d6989Ae4E8
+Hiram Garcia
+Token - 0x0f6625ae5990d136a8d1ec499b8f0648698c5689 - CB24GTM
+Tokenshop - 0xD75eA26bdB4792C8B681488e147D7ddB723DD753
+Ruben -0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8 - Pruebita
+Juan Felipe Vélez 0xeea3d72ed85ea06b391f8ddb4507fb41dc238671 - DITO
+Fernando G- 0x72170Ea46f16E8fC10ae7B6cEd5640cd5F9AEd45 - CARP
+Brayan Angarita - FANCL24 0x58E44d32af151159f1E79C2D9eb3f7D08e6473f1
+Gustavo Faskowicz - 0xE3cE528Fa2C38e3d9BAD3F8263ca57a2a7cEa22A - Bostero - BST
+Carlos Dapena - CCS - 0xA2C2a75EB7373295106B537928Dd133f981379A3
+Daniel Roa - CL_BC24_
+Salvador Carballo - Salva Token - SLV - 0x4aEA6d1A51aeaC57F6c84aB85eff87Bbe988323a
+Fernando Arevalo - CLNX - 0x35e0B6d7786c4a4f06b18dF6A9F9F9fB7f4413EB
+laura noriega 0x9125f5307087724DCf0b3a3C3348f8A106609360
+Oscar Quiroga  Pilonieta - PIL - 0xdCa86F7a9e2D6983f38591d5DeD2Bd6E7612b0bc
+John Herrera - JHH Token - JHT - 0xEbB55aD8846EC134CD43503824d2616322f0a426 
+Hugo Chiacchiarini - HCBoot2024 - 0x16CDE62ABa446DBc2c87F1eEcaeB7C42cd5bc62C
+Edwin "Chainlink Bootcamp 2024 Edwin" 0x997834855c8d46Eb68DcE572864A97b44491d789
+Franco Chainlink Bootcamp Franco - 0x15A757436e6A850C12b3984BE0c9566723fc5a44
+Luis Masuelli - 0x68CA226D592d6135791A5DD134B81Cb1Ef45B4f8 - SCAM (Sample Coins for Academic Means)
+Fernando G- 0x72170Ea46f16E8fC10ae7B6cEd5640cd5F9AEd45 - CARP
+Brayan Angarita - FANCL24 0x58E44d32af151159f1E79C2D9eb3f7D08e6473f1
+Gustavo Faskowicz - 0xE3cE528Fa2C38e3d9BAD3F8263ca57a2a7cEa22A - Bostero - BST
+Carlos Dapena - CCS - 0xA2C2a75EB7373295106B537928Dd133f981379A3
+Daniel Roa - CL_BC24_dnroa - 0xd5642d36CA8154C32E7eDc01BcEBA74E7aF9Ec20
+MARCO DEL RIO - MKO - 0x80753eD1Ddb16a827a21249CA277a7A8c8daDa84
+Gustavo TDTe 
+0x42d18aCa3f6514537e63BF1Dab8E02ab784dBC08
+Joel Bejar - Chainlink Bootcamp 2024 Pugy, CLBootPgy, 
+Token: 0xEa409D14ECF0026c3023Ef38B8aCBfA467b845b8
+Token Shop: 0x1B093075c084a5e1162C84Af7b5eB7c6594Ee66d
+Gaston Aguirre Moro - 0x3FD21aB8F3551e989c239D357Ed9D9c37ECBFa0d - Chainlink Bootcamp Gaston, CLBootGaston
+Diego Q -  0xa48be7E1bFb0614c4d35A01Fa636feFc5D929E6D - MOSQUITO
+Cacao - 0x1F3A00b5fFCc88440Db4755A1A34d930caF15706  -  CLBootCacao
+Willy - 0x64FD64Ab52B8fF6F17446A79FCd3B12FD0F9EcF2 - CLBoot24WPR
+CELE - 0x1CaA1ad1A88DD26B2e91FB12952D7439B930CB2B
+Julio - 0xe6d2658851dbdc3ac9c32db5431755aa798f88de - Chainlink Bootcamp 2024 Token El-Aurian - ELAURIAN
+Antonio Maroto . 0xd9145CCE52D386f254917e481eB44e9943F39138 - KATANAn
+Gonzalo Hoyos - 0x1C646F9aEeF53Dd70ae55FDf0E5dC2c9d3505ADb
+Fernando G. Sosa 0x1eC454192b314F644898eD552e98754A07F51379
+
+
+**************************
+
+Icone 2 - FILE EXPLORER
+Crea el archivo
+TokenShop.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import "@openzeppelin/contracts@4.6.0/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts@4.6.0/access/AccessControl.sol";
+
+contract Token is ERC20, AccessControl {
+        bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+
+        constructor() ERC20("Chainlink Bootcamp 2024 Token", "CLBoot24") {
+            _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+            _grantRole(MINTER_ROLE, msg.sender);
+        }
+
+        function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+            _mint(to, amount);
+        }
+
+        function decimals() public pure override returns (uint8) {
+            return 2;
+        }    
+}
+
+
+// Fin
+
+Espera la explicacion para hacer el deploy!
+
+Tu nombre - Token Shop Address
+
+Adan Reh - 0x102211bF4d8eBd5419EcaAd3a40BcfD788f46C67
+
+Julian Token $JGZ 0x3cB5c2593E98279D378174CAD1c43a81c7b8C87D
+Julian TokenShop 0xf2dA8cE972f24c5A849Fc77Bf349C9215752bE1b
+
+Ariel De avila
+token: 0x22AA22cb23d77709dB1A2Ca50c376bC192563B06
+tokenShop: 0x2b35d699c119143ac1147C7E599e045bEe23CA3c
+
+edward - tokenShop
+0x6695e2C8486a54FB7C5bC8A8bA91c14cb81bb19c
+
+Chainlink Bootcamp 2024 Pau Rodas - Token: 0xF3f864793A329125bC47C75fAAEdCB658278dea4
+
+Roberto | Fantasmin Token (FMT) 👻
+Token: 0x07b6b34cE64AF3601244Fb484152F47812e3f90F
+TokenShop: 0x589DC304253AEab4D0A13604d2C6Ea890cc938F3
+
+Eduardo García - SuperCoin (SUPERC) 🦹🏼‍♀
+Token - 0xDF17D9EC8347dCf79881281e8e5152EfaaF73Dcf
+TokenShop - 0x28b2e77458d9C7D7C244be31C85B24EC5e06D6b6
+
+Ignacio Festari - MYTO-MYT -
+Token: 0xDd6Aa199818519648918dDcaf3E29f4c7B1c0C01
+TokenShop: 0x0f45af2DB0F78027ca3f426a266dD846254F5BDd
+
+Yatel Nicolás Lara | $CLBY | Supply: 100
+Token: 0xbad14989df2128b4784de1a383feed05ca5e50e9
+TokenShop: 0xa9470b19da31ae1b4e8aa8456fcfafe8c0fbdcec
+
+Luis Masuelli | $SCAM | Supply total hasta ahora: 100
+Token: 0x8647af8753006102331767fDdDE037dDC6382ac8
+TokenShop: 0xf81cfee9fe2e6832ec51efe4ba10e8028abc80a4
+
+Emir - Jersey Token(JEY) -
+Token: 0x03FC3f8156ec7f47eA25250A824a52Bf186FdC06
+TokenShop: 0x883af9eA547CabAE8dC00A368c34396714F30C2A
+
+Rafael Crespo - RAFA-
+Token: 0x0e876dd2ed0744E90761A1f5e6a8A2D4320F3004
+TokenShop: 0xBda1D5e5DCe540aF213819166c2730E2f87CEB07
+
+Rallsen - INVDR
+Token: 0x66Ff461eb7EA612Ee8C0406d983c0A48c81d1b30
+TokenShop: 0x2B4a57Ace5469A94073Fb1c9B9f92a818adf1161
+
+Enmanuel Cabrera - MECuadra - 🕵️
+Token - 0xD3695533f16fED952c262d173C9f820927b7fc19
+TokenShop - 0xcAE48436905caD986772808dD6F3327B2c2Ff74F
+
+Sebastian G. Gil - CLBSGNinja - 
+Token: 0xaDdfc973E474C9e482Ae1f3B5f588FA612e9e410
+TokenShop: 0x0CBaAf858984684fDD039a8490918F2f53e3A6b3
+
+David R - Chainlink Bootcamp DR - CLBDR
+Token - 0x7B248E3D0D8E744FB0485530c89A1f2Fd370F24B
+TokenShop - 0xefB49A101bdCd278CFacB11F27a423B3Dd99AA6D
+
+Daniel B - Token: Chainlink Bootcamp 2024 Token - CLBC24DBES
+Token: 0x4e744F32BD36927A6315acba44A0BC11afCd1194
+TokenShop: 0xD8a0CeCd164752e840060c53BDFBa892013795eD
+
+Martin Gomez | Token: $GOOD 🐸 | Total Supply: 210.000
+Token: 0x146bCd09c70c654f2018F88dDbC71cE5E172533A
+TokenShop: 0xC15672e6e8BbBE6f71f0fC6224E890B421539FB6
+
+Alex Ramirez | Bleit (BLT) 
+Token: 0x67535883E90Ec2008F4B44d04F352bC752ddece2
+TokenShop: 0xD921d9ADf9F6DA3cEF3eF3C51E22A17aF5d32C21
+
+Laura Noriega - Token:Chainlink Bootcamp 2024 Laura -  Nor 
+token: 0x9125f5307087724DCf0b3a3C3348f8A106609360
+TokenShop: 0xec9bd6d2d9122a8cbe21c729c3503129ab1e2c11
+
+TokenShop: 0x51d299B925b33da5A1cD4593e9454c49DB744dDa
+
+Hiram Garcia
+Token - 0x0f6625ae5990d136a8d1ec499b8f0648698c5689 - CB24GTM
+Tokenshop - 0xD75eA26bdB4792C8B681488e147D7ddB723DD753
+token 0x42d18aCa3f6514537e63BF1Dab8E02ab784dBC08
+
+Jose Muñoz
+token: 0xc8CBC0547AB8FD669d1E62Da50a54B695d78DDA5
+TokenShop: 0xdE558731ae8b28f429Df22c4FaeedA578C78cc81
+
+Gabriel: 
+Token: 0x833FE871fd6572a30AA9AC948223b2152d0dECf3
+Token Shop: 0xd5d00E4f9e7604B2B63ca63384dBdd287293A710
+
+Jorge Flores:
+    Token: 0xAbd5193C2deB559BB2Fe046319502484a46278dA
+    tokenshop: 0x845EeaD96086ce3f931E6ED2e8204aF815d3aC72
+
+Daroch:
+
+    Token: 0x194E3012990A4cbB6867E7885563F7a5ED467E79
+
+    Token Shop: 0x2da56eB4B3BeFaAc28A29A911Fa58eAf9F7F5464
+
+
+Gaon:
+    token:0x1605cb76efD77696915AAb936B66d622096EF0a3
+    tokenshop:0xEb60F2ed9940B25ec661A10813A1634cFFE90232
+
+Thiago Fernandez:
+    token:0x80669E01Dc2BC21bA78Fbee927dB5b88E82Aa7B1
+    tokenshop:0x9648D57aB03c5DdA797794A46378154d7a4b1F3E
+
+Oscar Moctezuma: Orbital - $ORBS
+Token: 0x43f35983937A29e365B017c300B4098e52e9C469
+Token Shop: 0xe49BE1C49710DD194ff44Ca75dEC5b559B406dca
+
+
+ramon puig
+token 0x5de5084C2c1Ce9F4Cd8A435e6CE2992C08687F4e
+tokenshop 0xC8EE35F963756bd6c998d8b4920EdA2B22b5Fa0a
+
+Hugo Chiacchiarini
+Token - 0x16CDE62ABa446DBc2c87F1eEcaeB7C42cd5bc62C
+TokenShop - 0x7C3Aa0E665C2de257E57BA30c1A202de47e63a09
+
+Diego Q - 0x54e19BE241f1bB41781C2cab4C21191cF2e82F68
+
+Fernando G. | $CARP | Total Supply: 266.3
+Token: 0x72170Ea46f16E8fC10ae7B6cEd5640cd5F9AEd45
+TokenShop: 0xe9ECB65c8B834d067aEC595E67A1dD60bF30Ad59
+
+Roberto B - Chainlink Bootcamp OneFinity - ONEFIN
+Token: 0x211A2C11cfD5831a22F190C05cd04d852542A047
+TokenShop: 0x211A2C11cfD5831a22F190C05cd04d852542A047
+
+Kamal M. - Cryptocolmena Access Token (cat)
+Token: 0xf8d8727E7E0aBD1145Ec4B9425044E80DB74399c
+TokenShop: 0xff9480432E3B3FEc3cCF866EcDBB941364D696Ee
+
+Agustín L. $BOOTCAMPAL
+Token: 0xa37128cd8914c16e34e0145335c1469aa76553fd
+TokenShop: 0xba73f1d26D74b9bD0aAb3f11E2c529A9e5d558f9
+
+Cacao   -  CLBootCacao
+Token – Dirección    0x1F3A00b5fFCc88440Db4755A1A34d930caF15706
+TokenShop – Dirección   0x6D8C37df9791054DF70A3F0924B02eBA3b667A23
+
+
+David A
+Token 0xed278F2330FB179C4d314673B571800C16B9B7B9
+tokenshop: Direccion 0x3B9B3c2e7457C0C7c015974dAc2a4d0f1c667354
+
+Eduardo C
+Token 0x40D3864Da1F3C14f280E421615D0d96c09540060 - ECA
+TokenShop 0xE14a77087c1dfC66949756C314D3DA340158e735
+
+Marco Gallardo
+
+
+rodrigo
+TOKENSHOP 0x34fB3dB11C631FF2200e0ee06b2d6a539544f3Cd
+PROFETOKEN(PFT) 0x5a63b8897E006b965878A8CAe01dEA6D9a92D85d
+
+Antonio Maroto
+TOKEN:0xd9145CCE52D386f254917e481eB44e9943F39138
+TOKENSHOP:0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+
+Willy
+Token:
+TokenShop: 
+    
+Adrian Perez Herrera
+token:0x4680BB27Cf510D3BdAC9B77403d94c48D1FcEbfd
+tokenshop:0xEa72B396a15EF4174740Da8E8C62EbFa63c901a2
+****************************************
+
+Precio Eth en USD
+330609609972
+3,306.09609972
+
+33.06 / 2
+~16
+
+
+
+

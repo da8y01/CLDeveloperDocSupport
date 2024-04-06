@@ -1,0 +1,524 @@
+Chainlink Bootcamp
+Apr/2024
+Clase 01
+
+https://pad.riseup.net/p/cl-es-01
+
+BootcampSupport
+https://chain.link/discord 
+spanish channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+
+Nombre - Ciudad, Pais 
+326. Benjis Moran - Venezuela 
+Johan Cardenas - Colombia
+Pablo López - Vigo - España  
+Julieta Risso,Buenos Aires, Argentina
+Jorge Ibargüen Flores , Lima - Perú
+Cristian Sanhueza, Neuquén - Argentina
+Julian Gonzalez - Medellin, Colombia 
+Daniel Buitrago - Bogota, Colombia 
+Zaid J Seijas Borges, Caracas - Venezuela.
+Luis Rodriguez, Buenos Aires, Argentina
+Willy Rosal - Guatemala
+Oscar Montenegro - Mexico
+Laura QCh, Maturín - Venezuelar 
+Martin R - Argentina
+Jorge Morales - Panama - 0x8588dd0a8812f0f60c95f882b6dc26df38eAeE68
+Florencia Constanza Luna - San Miguel de Tucumán - Argentina 
+Raúl Domínguez Robles - Madrid, España
+Sergio Domínguez Robles - Madrid, España
+Camilo Sacanamboy - Cali, Colombia
+Angelica Graterol - Lima, Peru
+Renato Terreros - Barcelona, España
+Joaquin Solari - Buenos Aires, Argentina
+Gabriel - Buenos Aires, Argentina
+Juan M., México
+Juliam maya -CDMX -México
+Marcelo Haro - Quito, Ecuador
+Santiago - Rosario, Argentina
+Pau Cordellat, campinas, BR
+Victor Roa, Bogotá - Colombia
+Alejandro Cosulich - Bolivia
+Daniel Benitez - Bogotá, Colombia
+Carlos Gómez, Pereira Colombia
+John Haver Herrera - Bogotá, Colombia
+César Escribano, Portugal 
+JCuenca, Ecuador
+Alex Ramirez- Loja -Ecuador
+Sofía Di Francisco - Mendoza, Argentina
+Bernardo, CDMX, México
+Pedro , Atizpana de Zaragoza, Mexico
+Yedid Romero, México   -  0x369DB4c69319E1ca009FdfeA6d172A88210dbf05
+Malcoln Portillo, Tegucigalpa, Honduras
+Jose Luis ,Venezuela_pORTUGAL
+Melo - Sevilla, España - 0x1420Da6443F1E0C560921313592D7838A870dBF2
+Juan Pablo Camussi - Roldán, Argentina
+Daniel Schwarze Fraile -Santiago, Chile.
+Mónica Vargas -Perú 
+Javier Cornejo, Cuenca, Ecuador 
+Manuel Alejandro Mijangos Gonzalez
+Gustavo Guerrero - Republica Dominicana
+Joel Béjar - Acapulco, Mexico
+Karen Daiana Martinez (Argentina)
+Edwin Mejia (Ecuador)
+José Augusto Mersch (Argentina)
+Clemencia Ibañez Padilla - Argentina
+Maya - Mendoza, Argentina.
+Joann cruz - Colombia
+Eduardo García - Palencia  (España)
+Carlos Bolivar - Swindon, UK (Venezolano)
+nicolas botache colombia
+Eduardo Parede - Trujillo, Perú
+Alexis Gonzalez, Aragua,  Venezuela
+José Luis, Rosario, Argentina
+Paco Trejo - Guadalajara - Mexico
+Marco Bustamante - San Salvador, El Salvador
+Marcelo - Buenos Aires, Argentina
+jhonn condori-mendoza-argentina
+Javier Sonzini - Buenos Aires, Argentina
+Alan - Argentina
+Rosario, Argentina
+Carlos Machin - Venezuela
+tatiana gonzalez
+Alex - Almería-España
+Lucas Malizia - Buenos Aires, Argentina
+Eliana Córdoba - Córdoba - Argentina
+leonardo casas  la rioja argentina
+Norber Faraz - Mendoza - Argentina
+Martín Mednik - Fracrán (Misiones), Argentina
+Hugo CYNl- Villa Regina, Argentin
+Ciro Arrieta - Lima Perú
+YOLFRY---- VENEZUELA
+luis edgar - Bogota - Colombia   
+Natalia Inzeo, Buenos Aires, Argentina
+Federico Uñates - Neuquén, Argentina
+Gerardo Barboni - Cordoba, Argentina
+Daroch - Bilbao - España
+Diego Herrera - El Salvador - 0x8AbEb07B39c11875D661F8BdF5d4Ce6452Ce4F26
+Hernan Mauricio O- Colombia
+Jose Muñoz - Caracas Venezuela
+Horvey Blockchain - Portuguesa, Venezuela
+Carlos Dapena Caracas Venezuela
+Jesús Guillén - Venezuela
+Ariel De Avila - Cartagena, Colombia
+David Estrada Jimenez  Medellin-Colombia 
+Juan Ignacio Blacutt - Argentina
+Rallsen - Monterrey, Mexico 
+RJafael La Paz Bolivia
+Luis
+Ezequiel Álvarez - Buenos Aires - Argentina
+Ivan, España 
+MAelo - Spain
+José Manuel Fernández - Tarragona  - España 
+Ronald Llumpo - Madrid - España
+Julio - Peru
+Javier Velez, Mendoza,Argentina
+César Mar - Lima Peru
+Lionel 
+Rafael Crespo, Madrid España
+Maria Lopez Argentina
+Edwin Muñoz Colombia
+Mauricio Fernandes - Porto Alegre, Brasil
+Camilo A. - Colombia - Medellin
+Laura argaez Velez- Colombia - Medellín
+Pablo Mescher - Argentina 
+Facundo Costa, Montevideo, Uruguay.
+Salvador Carballo - Buenos Aires, Argentina
+Luis - Quito, Ecuador
+Nelson Hernandez - Buenos aires
+Gil Sanjuan - Guadalajara, México
+Diego Valdeolmillos, Salamanca, España
+Ruben Monrroy - Puno, Peru
+Jesús - Caracas, Venezuela
+Leo - Barcelona, España. 
+Gilberts Ahumada
+Juan Arguello - Argentina, Buenos aires
+ramon- barcelona, spain
+Santiago Baigorria-Tucuman- Argentina 
+Tomas Emanuel Sanchez - Tucuman, Argentina 
+JHORMAN ANDRES JAIMES ANDRADE - COLOMBIA
+Kevin Gutierrez Gomez - Medellín, Colombia
+Adrián Pérez Herrera - Madrid, España
+Kevin Alcalde-Argentina 
+Franco Queirolo - Lima - Perú
+Muaro Lobo , Cordoba Argentina
+Eduardo Cabrerizo, Madrid España
+Oscar Quiroga Pilonieta - Colombia 
+Yerar Valdivia lopez, Las Tunas, Cuba
+d3lm0nt - Córdoba, Argentina.
+Alex Molina - Guatemala - Guatemala
+Eduardo Paredes - Trujillo, Perú
+Abel Lopez - Veracruz, Mexico
+Matias Rodriguez - Santiago, Chile
+Pedro Gutierrez - Argentina
+Juan V. Argentina
+GILBERTO PERPIÑAN-COLOMBIA
+Federico navos - rosario, aRgentina
+Viglianco Matias - Cordoba, Argentina
+Martin Gomez - Buenos Aires - Argentina https://www.linkedin.com/in/martingomez 
+Veronica Delfino
+Adryan Ynfante Valero / Pereira - Colombia
+Jorge Flores - El salvador
+Tommy Peñaloza - La Paz, Bolivia
+Marco gallardo - Quito, Ecuador
+Maria Eugenia de Argetnin 
+mario cordente - Madrid, España
+Gonzalo Hoyos - Argentina. Buenos Aires 
+Julian Roman - Argentina, Buenos Aires
+Agustín Arenas - Santa Fe - Argentina
+Ignacio Festari - Montevideo, Uruguay
+Jose Alejandro Niño  - Barcelona, España
+carlos oliva - Chile
+Fernando G. - Rosario, Argentina
+Gabriel E. Calvo - Argentina
+Carlos Martin - Madrid
+Grover Pinto
+Orlando Sánchez - Caracas, Venezuela
+Alejandro Contreras, Buenos Aires - Argentina
+Alejandra Carballeira, Bs As, Argentina
+Sebastian Gil - Rosario, Argentina https://www.linkedin.com/in/sgninja
+gabriel Manizales, Colombia 
+Edward - Lima, Peru
+Sol - Sao Paulo, Brasil
+Luis - Caracas, Venezuela
+david Arenas russi Colombia
+Juan David Bolaños - Bogota, Colombia
+Alejandro Lavale - Valencia, España
+Carlos, Madrid, España
+Waler Rizzo - buenos aires Argentina 
+Javier Rodriguez - Buenos Aires, Argentina
+Alejandro Chazarreta, Barcelona, España - 0xF4d0318B2BB3c46Fd3BF69A1f78b76CF833f0C82
+Enmanuel Cabrera - La Habana, Cuba
+Hector Navas - Guayaquil, Ecuador
+Karinna Serrano . Mexico
+Cuciano Oliva yrum David Perez, Peru
+Bianco - Buenos Aires, Argnetina
+Sebastián Marichal - Uruguay
+Julian Grisales - Medellin, Colombia
+Pablo Guzman - Santiago, Chile
+Bruno Torossi - Buenos Aires, Argentina
+Maximiliano Santin - Mar del Plata, Argentina
+Martin - Neuquén, Argentina 😎
+Oscar Moctezuma Rodríguez - Monterrey, México
+Rodrigo Castro - Buenos Aires, Argentina
+Santiago Apaza - Lima, Peru 
+Damian - Buenos Aires - Argentina
+joan B. Mele (Barcelona, España)
+Pablo Mengibar, España
+Fernando Valdez - Barcelona, España
+Jaime Jiménez - Bogotá, Colombia
+Pilliam Parra - Bogota Colombia)
+Damian Kruse - Buenos Aires - Argentina
+ALEJANDRO 
+William Parra (Bogotá - Colombia)
+Niicolas Parra - Colombia
+arina Oreskovic
+Esteban restrepo - medellin colombia
+Avi Mielgo - Madrid
+Matias (Buenos Aires, Argentina)
+Jorge Bastidas - Lima, Perú
+Cecilia Biagiola- Argentina
+Luis Rodriguez, Mexico
+Edgar Flores - Acapulco, México
+Daniel Fernández - Espa
+Roberto Bértolo - España
+Jose Bidegain / Uruguay
+Maira sol, Argentina
+Kelvin Helmut - Arequipa, Peru
+Adrian Martinez Torres, CDMX, México
+Manuel Andrés Muñoz Colombia
+Benjamín Marcolongo - Argentina
+Anderson Gomez T - Colombia, Medellín 
+Carlos Gomez - Venezuela
+Marco Del Rio Lima - Peru
+Roman Ramos - Venezuela
+Marcelo Taito - Santiago - Chile
+Ernesto Suárez - Cali - Colombia 
+Fernando - Argentina 
+Juan c mexico
+Alberto Urizar - Buenos Aires - Argentina
+Kamal MJT - La Rioja España
+martín cruz- el salvador
+Alexi Landaeta - Venezuela
+Rocío Grajales - Bogotá
+Paulina - Madrid
+Xavier - España
+Gustavo Tayupo  - Barcelona Venezuela
+Alejandro GAmero - Argentina
+Rodolfo de la Fuente - Valencia - España
+Alexis Cedeño - Venezuela
+Roberto Zavala - México
+Cesar Gutierrez - Peru
+Alejandro Betancourt - Panama City
+Erick Bravo (Caracas - Venezuela)
+Julio Cesar Gonzales Ochoa - Perú
+susana rodriguez - mty México
+Juan Villar - República Dominicana
+Elia Toribio - República Dominicana
+Alonso Tagle - CDMX México
+Manuel Elias - Bolivia
+David Garcia - Barcelona, España
+Carlos García-Legaz - Madrid España
+Aleksei Boklag - Malaga, España
+Gonzalez tatiana- Argentina
+Alexander Vanegas - Guatemala, Guatemala 
+Gabriela Ramírez - Lima, Perú 
+Adan Reh - Barcelona, España 💕
+Alan Castro - Buenos Aires - Argentina
+Cacao-Mallorca-España
+Martín Cruz - El Salvador
+Rodrigo Alvarado - Colombia 
+Laura Noriega -Rìo Negro - Argentina
+Miguel Angel Rivas - España
+Luciano Florio - Lanus, Argentina
+Gago Alejandro,Buenos Aires, Argentina
+Walter Stamm, Buenos Aires, Argentina
+Edgar Morales - Bogota, Colombia
+Laura Valdivia Lima, Peru
+Brayan Angarita - Cali, Colombia - 0x29507Ea73B762be5906a9dF881D36B8943a29838
+Gustavo desde Argentina
+Diego Q - Argentina
+Jani Jesse - Barcelona, España.
+Moises Morales Venezuela
+Marlon, Ecuador
+Jair Vargas Colombia
+Marina Oreskovic - Buenos Aires, Argentina
+Juan José de la Rosa Robles - Toledo, España
+Carlos Gonzales Fung - Peru
+Omar Bastias - Mendoza - Argentina 
+Gustavo Faskowicz - Buenos Aires - Argentina
+Tomas - Valencia, España
+Jose Franqueiro - Buenos Aires - Argentina
+Gabriel del Castillo - Colombia
+276. Sergio Serafini - Argentina
+278. Bernardo Villalba - Argentina buenos aires 
+279. Diego - España
+280. Carlos Dapena - Caracas,Venezuela
+281. Gino Chávez - Lima, Perú
+282. Esther Ortegon - Cali, Colombia
+283. Luis Esteche -  Argentina - Paraguay
+284. María del Milagro Ventura-Salta-Argentina
+285. Iván Morales Duarte. Guadalajara, México
+286. Jordan Barilla - Ciudad de Panama - Panama
+287. Mariano - Bs. AS - Argentina
+288. Ariel - Hurlingham - Argentina
+299. Johnnatan Olave - Bogotá D.C. - Colombia
+300. Christian Pazmiño - Quito - Ecuador
+301. Hernan - Rosario Argntina
+302. Walter Rios - Rosario - Argentina
+303. Roberto Rodríguez- Barcelona- España
+304.Mario Ron - UIO - Ecuador
+305.Agustin Zalazar - Buenos Aires - Argentina
+306. Yatel Nicolás Lara - Buenos Aires, Argentina
+307. jesus ramos - venezuela-valencia
+308. Jonathan Miranda - La Libertad - El Salvador
+309. Luis Fernando Méndez - Sao Paulo - Brasil / San Cristóbal - Venezuela
+310. Jesus Piñerúa - Caracas/Venezuela
+311. Kleber Edu Perea - Medellín - Colombia
+312. Antonio Maroto Enriquez - Granada - España
+313. Ricardo Merlos - Mexico
+314. Daniel Cejudo - España
+315. David Janer Pérez - Málaga, España
+316. Alfredo Ernesto Duran Alvarez - Caracas, Venezuela
+317. Carlos Padilla Lanza - San Pedro Sula, Honduras.
+318. Nicolas Gimenez - Mar del Plata - Argentina
+319. Aldo Munaretto - Madrid - España
+320. Julio Zorrilla - Paraguay
+321. Nilds Amir Vasquez Gonzalez - Lima, Perú
+322. Anush - Londres, Inglaterra
+323. Adrian Lardies Utrilla - España
+324. Anderson Camilo Gaon - Colombia
+325. Chalub Gaston - Argentina
+
+*******************************************
+
+:D
+
+https://andersbrownworth.com/blockchain/hash
+
+
+como traduces Nonce? Incremento (pero no suelo traducir)
+En el Blockchain - El nonce es el número que deben "encontrar" los mineros para obtener el hash correcto de cada bloque
+El la billetera - El nonce es el numero secuencia de transacciones
+
+
+https://blockstream.info/block/00000000000000000000723ae3fdf845fae93bd74e499e5ed2bf4bf586f52900
+
+🦊## MetaMask
+
+https://metamask.io/
+
+
+* ❗ nunca JAMAS compartir la frase semilla con terceros (las 12 palabras). Tampoco guardar en archivo de texto, tampoco sacar fotos. Guardar en un lugar seguro, o mejor utilizar una Hardware Wallet.
+
+Pero puedes compartir tu direccion para recibir fondos :)
+
+
+Nombre - Direccion
+Juliam Maya - 0x655d22d37B683D2818ED056C7EfC5B5a9A1326de
+d3lm0nt - 0x62c1356320E04C8600fA3175bFda86F48197EcB2
+Ciro Arrieta - 0xB265A9813D9402823a89f47df9FAB5567B0A4641
+Adan Reh - 0xb36a9190D654f067B3af11d356e3E9087D2122d2
+Juan Arguello - 0x2E54D912361f6A4b1e57E239138Ff4C1344940Ae
+PEPEPALOS - 0x0c1a290e894a9b63b79102ed367869d7445509df
+Daniel Buitrago - 0x5036db9847388fE98eD505c56bc9cf65786584B7
+Xavier - 0xf3adfDFdB3f9f3151db8595C4e850C11a2b1b70E
+liana - 0xA54995Ac8F71f73fa77e920483464EC74fCd1383
+Luis - 0xeF8f7e5480213c8a64E029beA3eE4C47ae9304a4
+Sebastian - 0x65545b0211Fe93c1A430D0AaBEbC2CFb38313f13
+Carlos 0x1e11aCb52FFCcd9CA5037AB7f59126ebe141501F
+JHORMAN ANDRES JAIMES ANDRADE - 0x9C9AAd079C2D43D29654C70e8e1D8aB0C0da1c33
+Alejandra -   0xFaF5018b589C5608bBF16D4c2677671C07cC7438
+Martin G - 0x2E58F363018D5A90067CB1E66c95292369A578f7
+Yedid    0x369DB4c69319E1ca009FdfeA6d172A88210dbf05  
+Lucas 0xEa5605D533D06169cB0E52AD8f09522e538be7c0
+Luis Espitia 0x046e37233eD0cfaD32828664F548FD48c302Fb66
+Sofía - 0xdFd7579106922258211059DF38b87AFdDEd318F6
+Marlon -  0xa5B8DbffC2A052E495110ef33142Ae14de2e97A2
+Cristian - 0x57eF4C0822CAbfdac8CEd382b6a7908b2e123Eed
+Eduardo - 0x6504294c1F96D3cceFeaF98a9562a418A89861Cb
+Agustín - 0x0C85b7DFbBC51A9FAAF691c7A9385d742bAB416B
+Alejandro Betancourt - 0x377307274977ac9E3b2b71BEaA8a1aC859FB1097
+Pablo Guzman - 0x840Da8c8C5E5D93A3dE4d692E3282830DB7F6AC8
+Johnnatan Olave - 0x2219AF4a16B674e47b53097fbE35e30aC8Ad37Ad 
+Edwin 0xB5DED7Bf956d49b1D6f9C2da4099927e52d9B7f6
+David - 0x7313239aa1d90A1F9F790414804a7329D965d043
+Alex Ramirez - 0x91EFDa7b3FbfF2352dac0AA8a8E1182B2fdf76c2
+Daniel Benitez - 0x4376A8cfEBb2363f05076487857F37a89b429417
+Christian - 0xAc145927D88A7e79Ef43B65f88699957C525895A
+Emir- 0x040511e75F129f64228c307A3CE94CF4EdF86eAe
+Enmanuel Cabrera - 0x8f84Aa82DE503dA4F70d6e21EfbfE5DCb7bA1058
+0x1e11aCb52FFCcd9CA5037AB7f59126ebe141501F
+ronald - 0x4d74a7a307c3ecfc50b02dbcf08d497b6d3e054e
+walter - 0x7b1c22A5fE6B47DED7D63ce84a81aD3308B3694a
+Karinna Serrano - 0xB82d22a9C33D20F8175169A9130b335d4A488BBA
+Matias - 0xCC0aa37331c47D31A155545676DE9cE7B4ae3b11
+jhonn - 0x7E6c12201C3AE635f231933C32fBf49Ccfa66c72
+Bernardo - 0x80a3a89a2eaa16c071541d0ccd7a89dc8ccac4ae
+Facundo - 0x132088966e44514b376B38C1339C8DE752434f58
+Abel Lopez - 0x78E1A316724236880b9B086E7257201697668c66
+Fernando - 0x165054C5c631749d8e2b54a049cb26597d7E79aB
+Eduardo 0xeDdEDabB97884e4A533a8C52FF19BacEe538B10e
+Hugo Gomez
+Javier Sonzini - 0xa1Ee49FA8247CAf3119f75264E372D40B0fB4114
+Javier Velez - 0x123Fe8707cecad1a908168386d05B6A779d19C04
+Alejandro 0x55DFd62172db3579581380D700AE846312074c59
+Elia - 0x6018098474D606b0C53BcdD95136D3f35E30b2d0
+RODRIGO 0x65ebBF8aCeC5f36E35C254fD8d582215c3A03D5c
+Rocío Grajales - 0xE83712B38AF76ca31c5F0557891A1B7ac7aF8537
+Pablo López 0x1715c2099Eb712749a5A41F0B3506726A5837A28
+julian 0xeDa6A12d24848531CB6eE2Ba0E473d5CaAd606Ed
+Gustavo - 0xd3c7dAB10D88226e158F8CE4413CBe5f48367B7b
+Daroch - 0x1c2a2135e74A78F2Ead6c5f35ED03976729Be2bc
+Laura Argaez - 0x6A14Af798B733e133d384e6E11759FC421a71F1f
+Jorge Flores - 0x26282d33690e071Ab08F8E2fff10dCA9a1867ef7
+Ignacio Festari - 0xF1cBfEAFb6553fa49450118351Ac9d7059C1F015
+Diego Herrera - 0x8AbEb07B39c11875D661F8BdF5d4Ce6452Ce4F26
+Roberto 0xBF8c10d922dCf1c658164c7bcFDa203372f700CB
+Alan - 0x742ef7404f748DC8cD95E96a5C6C51aE3e7C24DE
+Manuel - 0x9b63FA365019Dd7bdF8cBED2823480F808391970
+Norber - 0x4a7c7702544A8a825D14d56692B4626197E4f86f
+Fernando - 0xE05C028f1D75Cc7f6BebDE3519f263939D23edB9
+Clemencia - 0x4113B2FF77C12791d0eBBC7604a8fD68D815fCCf
+John Haver Herrera: 0x7d18f315955FFae2f8A5B0fD4107848212786734
+Carlos Bolivar: 0x98b6ff25eD103bDfD8D47D9F27d996Ed79ef5E2d
+Katerin 0x2F4a1AEA33bEA542208015B14d6b143845cc8F16
+Alexis - 0x334c8da9F71ae777C12C7398BC4383F88b16D944
+Gustavo - 0x686DC07d02cc286e46ECaDaccD1f65770eC5C1B4
+Gustavo-0x2fFaC4F434Ad152A8A8E5efeB37Eaad12483f38C
+o   Cacao 0xD1BfB4B9B30bAa29264f49a51522fF23fd9BaC05
+Ariel - 0x71f458094CBA8060B97d4A3A4C0052603Fd49A45
+ramon puig - 0x943A9036E3e2eB76c32da025BEEb026f6a28A8F9
+Juan Blacutt - 0xA0637b960F9f783F7880f035099FEAda10bD1A62
+Jonathan Miranda - 0x02c241493527cB25ec2B511b7DB2F9837b0993f5
+Yatel Nicolás Lara - 0x3171c42007e284f79EFc2d4C8fC4067B9D84F1ea
+Joaquin Solari - 0x52377E888F5a8B1432dACA8f121b126a9062f324
+Jordan Barilla - 0xFF57034A87879Ad455914642355C7a72B9825089
+Laura Noriega - 0x039FE7De09ae2f8CFefaF94236B89FAac22Ceb14
+Samuel Buriticá - 0xDb65202c20C73d708e458DD31D29D3F59cBa8cC1
+Manuel Andres Muñoz - 0x00aDB38769603A488D7b859B03E080709E9FE1a8
+Ariel - 0x5B749620cAdBE700024b4586495B0f87905aA2b9
+cesar mar 0x2d4e8E7AAc8f3A974355ce66B4a1FB21486af09A
+Juan romero 0x50a18027B6BF05db09067ecE1F796dEa52E42935
+Laura QCh - 0x8c4b40D3955a11E3CF59A603A389a8E8A2f68B4A
+Alexis Cedeño 0xf0B35e979B3b9fDc4a8EC2D8367BA9487dCceb6e
+Mario Ron - 0x200FE8618227036A42E527E71e296FC5DCDD86F3
+Avi Mielgo - 0x47d6Fb5BaeA8c4679B533b3F00A7f9FeAa57502b
+Yerar Valdivia- 0xBaFaa7040F084daD0401d2dFd3A3d08F5B5137c1
+Franco Queirolo - 0xb13ebB4bB9335D85A7eC8805CA52384E0Cc5b441
+Rafael Crespo - 0x3D8d3FFd08FF30951983E91FcEF3C0D571b149B1
+89. Walter Rios - 0xbe2b0049E808F0Ed5a76CaA1cEEada64bcEED602
+91. Alan - 0x226681295b89a7046FfFDd9F71a2ca9637a75ACc
+92. María del Milagro Ventura- 0xc9B5dD8E7834026d99648df78759391c889FB773
+93. Gabriel - 0x23e15D3BeFB62847aea5549E6429c46cFf12c1Cb
+94. Malcoln Portillo - 0x70dD3cC36651BE62054E0bd5CaC329558Ace1fbB
+95. Abraham TS: 0xB59D4c3731BE916880371EDd6c1F225916d7eaCA
+96. Cesar Gutierrez - 0xD19d4b2CEb0DfC4e8F3D21252405d300Da7E2416
+97. Gustavo Tayupo - 0x1ea6b36fA3F9340Fbe3f9dAD5E54616EFe3be7fe
+98. Juan José de la Rosa Robles - 0xe4123777084ab17A410ACe8280EB6caF998FE957
+99. Sergio Domínguez Robles - 0x879E5F0C693f4ad118e51E6E1F0874b2605D8aFa
+100. Raúl Domínguez Robles - 0x88108eb021e41E741fE09C0660809B0ff4d948a0
+101. Jose Muñoz - 0x62B31128376cD553d7d473FeA634f20cA8Cb0556
+102. Nelson Hernandez - 0x38f57eB8f727a748cD5764A521B841713d8959d9
+103. Luis Fernando Méndez - 0xf5182F233c3D2966212891e3145e1F84c810fDb3
+104 . Kleber Edu Perea 0xc5493BA10b5795FC727aF956F9367A1F850B0360
+102. Viglianco Matias 0x3a0987784A724fc1CDD98a70B3028a72052314A5
+103 Andrea Ciricugno 0x5d45ea7807154A1DD9B4342ebDB924267f144769
+104. Esther Ortegon - 0xec1C1e342276d210950C4Cf88F710BE6dfbE4B6a
+105. Janer Pérez  0x9FA656c538d79891018F49D90419C2C8C442C811
+106. Jesús Piñerúa 0xf7BFb812Fd28109c07D612444983B2512d69A205
+108 Dan 0x654bFcacDB88De0424070d5A85b661A683bc37c7
+109 Orlando Sánchez 0xE1E87d878988c078E4234ba5C8Fa9d4bcC487799
+110- Paulina - 0xdEe59e7c8A7E27413ff9c88499f2AcCc75B6458e
+120- Horvey Blockchain - 0x519419db848496D31F15B24616837dAb2Fa785Ed
+121. Federico Uñates - 0xD6Cc642dfB6Ba93F4ACc51522D5fF9359BCDadE5
+<
+111. Antonio 0x40a2E4DbFB7D020c7aF84Aaa72567f3cDCBd92d0
+112. gaston  0xC7c0e0c03F7C0ba47E68420aeE290f8BbC7e8003
+113. Anderson - 0x2057445E293C532CBb73FAc8Da61b9d0b09F4193
+114. Alejandro - 0xF4d0318B2BB3c46Fd3BF69A1f78b76CF833f0C82
+
+https://faucets.chain.link/ 
+https://sepolia-faucet.pk910.de/
+
+########################################################
+
+Block explorer
+
+https://sepolia.etherscan.io/ 
+
+
+*************************
+
+https://iancoleman.io/bip39/
+
+
+Dijiste que con una misma cuenta se pueden tener muchas billeteras, no es al revés? Una misma billetera permite tener muchas cuentas?
+R./ Correcto la billetera es la dirección. 0x...
+
+
+
+🚨🚨🚨Hay problemas para loguear github🚨🚨🚨
+
+****************************************************************
+Tengo un problema con el faucet, en la api de chainlink me sale: 
+Try signing in with a different account. +1+1+1+1+1
+****************************************************************
+
+Gustavo- que pasa con MUMBAI que no me carga mas en METAMASK --> Mumbai ya no tendrá soporte, deberías migrar a Amoy
+
+
+
+
+Get Sepolia Testnet LINK Tokens
+1. Malcoln Portillo - https://sepolia.etherscan.io/tx/0x11ad8460e37ff70e34d27ddfdbf7021252d2a663b6a4392026bfd4553f2a4f4e
+Marlon:0x4d347a020d23a955b0b91ee26997e2cb1cff4de5857802856a53225dc28e167b
+
+Cesar Gutierrez - 0xa90e314a1677c46c04824952159ea1d2b5e0fd23165b2ab9a07b2b31a8786f1a
+
+
+

@@ -1,0 +1,452 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 10
+ 
+Pad
+https://pad.riseup.net/p/cl-es-10 
+
+Todas las sesiones en Español para
+https://lu.ma/fkr85zi7
+
+Ejercicios
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Faucet
+https://workshop-faucet.vercel.app/faucets/fuji
+cllworkshop0101
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+Hasta 2024 Jan 31
+
+Twitter
+https://twitter.com/chainlinkesp
+https://twitter.com/solangegueiros
+https://twitter.com/javosalomon
+
+
+Chainlink Community Advocate
+https://chain.link/community/advocates
+
+Chainlink Developer Expert
+https://chain.link/developers/experts
+
+#ChainlinkBootcamp2024
+
+****************************************************
+
+Nombre - Ocupacion
+Sol - Educadora Blockchain, Developer Advocate
+
+OSCAR SEGURA | MARKETING
+Santiago - Software Engineer
+Joaquin Alcerro - Business Development Manager Cloud Solutions
+Arturo - AI Engineer, candidate MsC Blockchain & Digital Currencies 
+Willy Gonzalez - Administrador y Estudiante de Blockchain (Platzi)
+Luis Anton - Ingeniero Electrónico - Aprendiendo desarrollo web
+Pablo Guzmán - Lider en tecnologías de información, Emprendiendo
+Santiago - Estudiante de pregrado
+Orland - Ingeneiro Electronico en Automatizacion
+David Hernandez - Ingeniero Electricista, Desarrollador de Aplicaciones
+Eliezer Rincon - Analista de Aplicaciones
+Santiago MVD - Estudiante de programación // Full-Stack(MERN) + Blockchain
+Jorge - Desarrollador
+Juan Fuente - Desarrollador de aplicaciones y web3(en progreso)
+Filadelfo Caicedo - Emprendedor- estudiante Programacion (Desarrollo blockchain)
+Javier Montes - Especialista de Proyectos (jefe de proyectos)
+Rulo - Full Stack Developer(nodejs, reactjs, solidity jr)
+Diego R Barrionuevo - Trabajo soporte TI en un banco y estudio blockchain
+Jair Díaz -- Ingeniero de Redes
+Juan Pablo Tixe - Head Automation Officer, entusiasta blockchain, MATIC holder
+Juan Carlos MM - Analytics - SEO - DEV Front
+carlos vazquez desarrollador de vivienda  
+Guillermo Malagón - Gerente de proyectos y/o Desarrollador Senior
+Karinna Serrano - Consultora
+daniel plaquin - futuro desarrollador
+David Yánez - Ingeniero en Sistemas
+Alexander Durán - Desarrollador
+Xunorus Music developer
+Rocío Grajales - Ingeniera química, desarrolladora web
+Adan Reh - Estudiante
+Ruben Bocanegra - Ingeniero Informatico - Desarrollador Fullstack
+Michael - Diseñador web
+Edgar Sanchez- Developer - Guadalajara
+Lucila AGUIN - Estudiante de Programación - Estudiante Avanzado carrera de Abogacia en UBA - Trabajo: Asistente Notarial/Escribanos & Abogado.
+Roman Diaz - DBA/QA Analyst-Data Engineer - www.linkedin.com/in/roman-ezequiel-diaz-48322055
+Patricio Gonzalez- Trabajo de encargado de facturación e internación en un centro de rehabilitación, en mis tiempos libres aprendo porgramación (tengo varios cursos) y a parte blokchaing y solidity!
+Luciano Delaude - Desarrollador Backend Semi Senior.
+Malcoln Portillo - Artista 3D, Digital fashion designer, estudiante de ingeniería en informática, voluntario en ERHLatam 2024
+Darwin Cevallos - Holder de los pequeños crypto jjj, y muy entusiasta en aprender web3
+Johan - Ing. Petróleos y desarrollador
+Guillermo Boccardo - Ing. Industrial
+Rosendo Martin Gravanago - Abogado
+Juan Camargo - Ing. Industrial, Emprendedor, Crypto entusiasta.
+Luis Tapia Navarro - Estudiante :) frontend developer
+Armando Colón Mendinueta - Licenciado en Música, Productor Mulimedia, Desarrollador Web
+Juan Ramis -  Ingeniero Informática
+Anibal Elbaum - Desarrollador full Stack
+javier velazquez -  desarrollador backend.
+villawolf CritoUsuario web3 y APE Degen
+Raúl Parra Hernández - Virtual Assistant developer
+Marcelo Haro - Web3 Developer /Ingeniero en Marketing - Ing. en Administración de  Empresas/ Finanzas y Contador.
+Javier Shen - Desarrollador Full stack y blockchain
+Gabriela Ramírez - Estudiante de Ingeniería
+Daniel B - Desarrollador full-stack
+Rosendo Guzman Nogueda - Desarrollador - Mexico
+Ariel Robotti - Motoko Dev en Mushroom Protocol
+Carolina - Sunchales 
+Yamid Calderon-Estudiante
+Johnnatan Olave - Administrador Público
+JD Nicholls - Medellín, Colombia
+Arturo Collado Rosell - Blockchain developer
+Mauro Cambarieri / Director  Licenciatura en sistemas/Laboratorio de informatica - Universidad Nacional de Río Negro.
+
+
+******************************************
+
+PoR
+https://data.chain.link/ethereum/mainnet/reserves/wbtc-por
+
+
+Test it on Playground
+https://functions.chain.link/playground/17e3c09f-0730-420b-9325-f49f357911a0
+
+Metamask
+Fuji
+
+Remix
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+Create
+WeatherFunctions2.sol
+
+https://raw.githubusercontent.com/solangegueiros/chainlink-bootcamp-2024/main/WeatherFunctions.sol
+
+o
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+contract WeatherFunctions is FunctionsClient {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public lastRequestId;
+    bytes public lastResponse;
+    bytes public lastError;
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        bytes response;
+        bytes err;
+    }
+    mapping(bytes32 => RequestStatus) public requests; /* requestId --> requestStatus */          
+    bytes32[] public requestIds;
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string temperature,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // Your subscription ID.
+    uint64 public subscriptionId;
+
+    // JavaScript source code
+    string public source =
+        "const city = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://wttr.in/${city}?format=3&m`,"
+        "responseType: 'text'"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data);";
+    string public lastCity;    
+    string public lastTemperature;
+    address public lastSender;
+
+    struct CityStruct {
+        address sender;
+        uint timestamp;
+        string name;
+        string temperature;
+    }
+    CityStruct[] public cities;
+    mapping(string => uint256) public cityIndex;
+    mapping(bytes32 => string) public request_city; /* requestId --> city*/
+
+    constructor(uint64 functionsSubscriptionId) FunctionsClient(router) {
+        subscriptionId = functionsSubscriptionId;      
+    }
+
+    function getTemperature(
+        string memory _city
+    ) external returns (bytes32 requestId) {
+
+        string[] memory args = new string[](1);
+        args[0] = _city;
+
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            subscriptionId,
+            gasLimit,
+            donID
+        );
+        lastCity = _city;
+        request_city[lastRequestId] = _city;
+
+        CityStruct memory auxCityStruct = CityStruct({
+            sender: msg.sender,
+            timestamp: 0,
+            name: _city,
+            temperature: ""            
+        });
+        cities.push(auxCityStruct);
+        cityIndex[_city] = cities.length-1;
+
+        requests[lastRequestId] = RequestStatus({
+            exists: true,
+            fulfilled: false,
+            response: "",
+            err: ""
+        });
+        requestIds.push(lastRequestId);
+
+        return lastRequestId;
+    }
+
+    // Receive the weather in the city requested
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        require(requests[requestId].exists, "request not found");
+
+        lastError = err;
+        lastResponse = response;
+
+        requests[requestId].fulfilled = true;
+        requests[requestId].response = response;
+        requests[requestId].err = err;
+
+        string memory auxCity = request_city[requestId];
+        lastTemperature = string(response);
+        cities[cityIndex[auxCity]].temperature = lastTemperature;
+        cities[cityIndex[auxCity]].timestamp = block.timestamp;
+
+        // Emit an event to log the response
+        emit Response(requestId, lastTemperature, lastResponse, lastError);
+    }
+
+    function getCity(string memory city) public view returns (CityStruct memory) {
+        return cities[cityIndex[city]];
+    }
+
+    function listAllCities() public view returns (CityStruct[] memory) {
+        return cities;
+    }
+
+    function listCities(uint start, uint end) public view returns (CityStruct[] memory) {
+        if (end > cities.length)
+            end = cities.length-1;
+        require (start <= end, "start must <= end");
+        uint cityCount = end - start + 1;
+        CityStruct[] memory citiesAux = new CityStruct[](cityCount);
+
+        for (uint i = start; i < (end + 1); i++) {
+            citiesAux[i-start] = cities[i];
+        }
+        return citiesAux;
+    }
+
+}
+
+// Fin
+
+
+Deploy
+
+Parameter
+Function SubscriptionID do functions.chain.link/fuji
+
+En Functions functions.chain.link/fuji
+Add a consumer 
+
+Name - WeatherFunctions address
+Sol - 0x4E6b427e8968De8643D0F4D556A55E538B5f1cd4
+OSCAR SEGURA | 0x5Cca5Bb87A2b36c560c83cD07717A0E465D45Bb8
+Willy Gonzalez - 0xD5d4AF737AAC5A25DaB85dD54a5AE82177809827
+Adan Reh - 0xF6309542D6AdecE7C3eB75d725D5Bd2996798783
+Diego Raúl Barrionuevo 0x3CCA082DDD0EBa1617b5e833e761947Db199c35E
+Javier Montes - 0xA292D52c5084d5952da321315427dE2Efb880ea8
+Armando Colón Mendinueta - 0xfF917d835e70736a054fefd31d2e1d449E2Cc82c
+Patricio gonzalez - 0xA3DcF36040fD2117613c2324ebf6310C08ADdBc2
+Juan Camargo - 0x10e253871bC3f572CB8Cd5c9Ff9f20B78F75045B
+orland - 0x01ffd758258d05cf69ab7ca553bb60f793d9cb2c0928f761837cf20ed33a1884
+Filadelfo Caicedo - 0x4Ad3085f79483f7E4c4bFFd34144Ec632843d697
+Alexander Durán - 0x5151551DbdB481F0C86edd172b7d20E2d6F9f514
+Juan Carlos MM - 0x8428450b41593Deaf375ccEbF5df336047cf1974
+Guillermo Malagón - Contrato: 0x5E0f294365E19e03fd5090331Cf42CC9A70c5597 
+Santiago - 0xC2023BACC67c808a558d421137a3F76F6E917Eed
+Michael - 0x4899bED0E783C2F5dfa8e5d5E795f7e53c369fbA
+Juan -Fuente 0x5099B4780e89fB54c8b4Fc6061654B53CEaAaF95
+Xun 0x5379fecF41256AB5b5f05Eb52F0Cd934362464b3
+Joaco 0x31b01C8a33DEeaff23Ce988e701467C14f795556
+Luis Anton - 0x5275a3F136b2ce4F270E38eE687902f17aA8E865
+Rulo - 0xF72C19d9C571d831d2Ba15F002CF8Ef8Adf34A21
+Santiago - 0xc8247065d15f44b5315ec9f891bb8282dc0997c0
+Anibal Elbaum - 0x4Ee3F62079b461E4f79C362D7D0Bc689d3c70676
+Javier S - 0xB0f99E532E4d0cDCB7E3b846DFc366Fa16c0580E
+Karinna - 0xCEA63eB673d471Da49eA8d77f84C5F6CAFdC5CDB
+Johan - 0x2FD113e67Afe97e7C0963f2d0A9eBf72c51090a7
+DC  0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+SantiagoMVD - 0xeAb013b0bd4c646Db56aEfB2E655fE00009DBc29
+Eliezer - 0x36b9eb99De459428739FD5F59F08fa5dDd6dd4B6
+Guillermo Boccardo - 0xeda341d180C8EF08509327fC505AB15bDc300b1d
+Juan Ramis - 0x63398Ae3d9a114756373c18390cAD163065F2c1F
+Rocío Grajales - 0xb448ed49ed9625fcdfc35fd7c3f4b738fd4e30f5
+jair diaz - 0x5b5bDdFe217850751135381Eb277B2fbbf3B427c
+Lucila AGUIN - 0x93D8D34d9A56A9147923A8F56d76483e60AAdE17
+Roman Diaz - 0x4FD69Ef3Bd122558656c8930A2e4d25efa57785B
+Ariel - 0xc9cD920319c49d5979Fd2044Dd30233149f474c7
+Pablo Guzmán - 0x5d9Eab462AeD7e9fe4a090661d8b8498694f2186
+David Hernandez - 0x780ceDf31570bc2FEBadfb58F63CCC22693e0De7
+Marcelo Haro - 0xE63d6444472CD1B26eBf627b5176Eb182AE27C08
+Malcoln Portillo - 0x82A6c72515575BF8fb659Fe74a11457cc3da5002
+daniel plaquin - 0x93aD261148f9b1B8CD835f3C441BD8e514E0967b
+javier v  - 0xd4F89186c222481078858De77c55138cD2E5fC16
+JD Nicholls - 0x16ba8698005d2b39958412d12671D7FE50f101ea
+Ruben Bocanegra - 0xE6997846aF48Fe15C69B8d88ae3aF0D3eA58ba71
+Paul Enriquez - 0x44697192388de63E9e06976B31647e13A726B594
+************************************************************
+
+https://functions.chain.link/fuji/
+If you has less than 3 LINK
+Actions => Add funds
+
+
+getTemperature
+
+Sao-Paulo
+Buenos-Aires
+Lima
+
+
+Ultima tarea!
+Ejecutar getTemperature en smart contract da Sol
+At Address (abajo do deploy)
+Sol contract address
+0x4E6b427e8968De8643D0F4D556A55E538B5f1cd4
+
+Meta de Sol
+Tener a todos los estudiantes en mi contrato.
+:)
+
+Nombre y Transaction Id
+Sol - 0x71e1d2285cba7185c79ffd0020d497c6b71c13d7f73f0f8ff51b0b6afca02c71
+OSCAR SEGURA | 0x00263887d0981a71abdf2486bd857e4d21c53a761655ac72684f0fef6c57b040
+Willy - 0x36fb59696e477f5a92c046f654492a227c0ace68ba05994bff50d24bb6d2ab2e
+Adan Reh - 0x9fc963ce0e8b4a84e4395f79be88dec97c00ec6c6c24ded9ada69eb7d2b21f96
+Javier Montes - 0x07007efe371cd7dc6ab6704abadaf053bd13387d6f0b734d35ed5c2b0139aba6
+Armando Colón Mendinueta - 0x41c8cd432da5a7c3f8d6411d42c80db32e50abc67a6f226ba73daef36642a05b
+David Hernandez - 0x6b4ccff878de3d7c283cb66f35b63ad69a32d63e1869d36b40115d6bc6c07d7e
+Eliezer - 0x87bd9eac3e32ada9f744c6b201f9f75a6be57dda874fed9e6c31e315fee3f6c1
+Rulo - 0xd029f451e70be052f762ef453a37ef9155d6f716a805c6b74e19130d4d639eb6
+Guillermo Boccardo - 0x5e1d881e4a1f5e47253d01abc61dec893c0954b3e9f308cd32d18d3623801cc2
+Jorge - 0xad2907c7f486ea6ba614bac3d841e7a163272fe166d930f3abcb1d8d467bc759
+Michael - 0x31f2d7c0b9bd3cbe6b9d2d659126fada317374c62726fb53cf5e0ba02005cc2e
+Cristian Carvajal - 0xef0ab071c95f1ca02af18dbc3035f0cb16536aeb6c69a16477c58897e410848d
+Xun 0x02e21bb2d46b04426e10f045ba5525b0c270c7f438b4a42d80589bc7a56be60b
+Bryan - 0x4e539d6152eb7528cdc0c8be6c4adb363a3f2e6b326f8c5177208c93f2eb52cd
+Johan - 0xf9f2fb247af79b02d20d3d1df9a83a962fd35ae924cb583a3504092a285060f0
+Juan Carlos MM - 0x1a7d9c6ccc1e66ee5082b2d75419e435e39ddc7e29ff910b17eb69d006cc7c31
+Juan Camargo - 0xac15153fa56bab1abd4c26315bcea8439f447acf8e765e013ee7b123350c7e91
+Patricio: 0xa9173a48cc7dafb193b231b212c29b9a5e29036b979c423a22c5ee5339f7be6f
+Alexander Durán - 0xf462974efe80241188d02c88b689e6478f90b7ebf795ffbbd411d4cc29cf1261
+Juan Fuente - 0x159afd18e0e9632f81d0edbd2ada31e95f25a38edd59b2f6baf3883c06385329
+Ariel Robotti 0x745c0795b855aed6d9e2769412a2a3caf9a6c002545a7d2cb40209434a08b0c9
+SantiagoMVD - 0x09462fe97adea43dc6f803d23fa57a1043c1333337e1d9d014f8bd25d32e81ee
+Santiago - 0x1574632d01d56324cb32812dc25828fa03da05b536fe08beb98a3a01652ba8cc
+daniel plaquin - 0xe4f29f1861c21202b528f32aaa51b2ae1d41cb029e62b76a6e04e7907ff776a9
+Anibal Elbaum - 0xda554f75cc0e5781e36f241fc1c51852b8c4d0181f957169d1b04e93b2f38785
+Juan Ramis - 0x8766360cc71de7f2c8ceca88cd2397d2128c29f1b7141689b6e7c189a343604c
+jair diaz -  0x1eea9ef50a22abc946e30db43480b416c89c13d207da3a0ad236d9a95c2247f5
+Roman Diaz - 0xb997806CFc53C4E121F2B2E9D9A519138715ED62
+orland - 0x3dc56d69d78cdd71579088a46f957d253dbd7e3f7f02d761d4c886e407c27ff1
+Javier S - 0xd455f1738c615ec93cf88340516f09cd3cc653b37e09ad81242a125b6f518ceb
+orland - 0xe2d3231a2df0ff9bf9d35ee87d64985f6a9a970bd75f53ef9fb5493aac2f346a
+Ruben Bocanegra - 0xa5d4f904714e517f854e1fb4a40e725b332da06863bd1d0f57b98a0ea5dabf9c
+Karinna - 0x0034784104aa241e757c49218b964f5cb39b3a814dff196d833d6f641383bd6a
+javier v - 0x7326b3f056b43ecece9819d58ba42be72d2b58ee0a5a1d02d15eca0421598f30
+Lucila Aguin - 0x8c49702bbcf0d0692125cdefcd0a80b8f66ae4e4c825c3cf09ce6c2b0c74da73
+Luis Anton -   0x6e0c837b61a524a43712bd11e505e9726030abc953da764982f0bb1e24a91d5c
+JD Nicholls - 0xa486aec3398ecae5b10afd1eb2084532473082be6c436e95f4d6b052a433d8c6
+Filadelfo Caicedo - 0x3200c8da4364c13a75e2a07aba254cdea13e1ef88945c4ac8773dbf94788c343
+Marcelo Haro - 0xa64e8cd6f2e8459d9d23a0185ba439f46e8685c9f099d4d0752ccb3e2d8f471c
+Juan Pablo Tixe - 0xa595a522c9e46f84c2bfaf6895fe6abd4b6425dd593a43e581ae212505acab40
+Malcoln Portillo - 0xe382a0711203edbda4b72d33853d82eff2326497d2ad68dd5af33819451b8663
+Arturo Collado - 0x4f781d7df1c1c7b700153fdd05f940a6467e155402e76e78666fca183b0dd973
+paul enriquez - 0x0bac06189e704c0f758a7b8f30429b2b9d03cbf620bdcb01d69fd2199bf4d8c9
+*******************************************
+
+0xC516594f9100Ee40be213118E3e0Af8dD5eD0622,1705711187,Mexico,Mexico: ⛅️ +19°C ,0xa52515946DAABe072f446Cc014a4eaA93fb9Fd79,1705711195,Sao-Paulo,Sao-Paulo: ⛈ +24°C ,0xB82C3739a5b983b6B12ac143E3f06417d9482C18,1705711243,Maracaibo,Maracaibo: ☀️ +32°C ,0x8757c7D953ea058baCDF82717Caf403Bd01F1099,1705711249,Lima,Lima: ☁️ +22°C ,0x6F9308620FFa71D1E93e1663F067c5d902B6f5Fe,1705711297,Bogota,Bogota: ⛅️ +17°C ,0x3987Fb44183F1ce2FD1ABE9aE18B146C66981Ad8,1705711307,Monterrey,Monterrey: ☁️ +17°C ,0x850485AFBC342BfD851eEbF6d6b429FDdD6AaF62,1705711311,Buenos-Aires,Buenos-Aires: ⛅️ +24°C ,0xdBEC8b42Af49A5EBA0435f0796C5810d179DCD73,1705711317,Formosa-Argentina,,0xbd20520647247DF64953518962cf10ABF61b781D,1705711325,rosario,rosario: ☀️ +30°C ,0x2491207eA01b4EFd267690F11aA17BE6c2d70072,0,Buenos-Aires,,0x54810c78b365dE390b61983B26248bb5917f4010,1705711361,Buenos-Aires,Buenos-Aires: ⛅️ +24°C ,0x3D51304D6f3A902A89686F288d3a7dA64cB7D571,1705711363,Mar del Plata,Mar del Plata: ☀️ +19°C ,0xcDe11d543D7490Fa27aB3455C91A792Bf927CF8c,1705711367,Quito,Quito: 🌦 +18°C ,0x6d2339c9D7DFB7f7D93f0cFf0B6Cfad96e7Eb1F0,1705711367,Manizales,Manizales: ⛅️ +21°C ,0x97D171596b6cC8C1Ad852F23a8E0977C2CE1D806,1705711367,Carlos Spegazzini,,0xe89ce7817857Ef0318Cafc88BA4C29c8Ce48e220,1705711369,Pereira,Pereira: ⛅️ +26°C ,0xeA86bfaC66B565f12c4e77ff383A7805CfDe8Bf0,1705711369,Montevideo,Montevideo: ⛅️ +21°C ,0x98b6D933052C7D1b36b12625Bcf18E61Aedd0E90,1705711371,Bogóta,,0xF6910298bC7f60ba391694b8728C6F551aa0A153,1705711373,Mercadal,Mercadal: 🌦 +9°C ,0x8b3582B1141439585eDa68069a6F1FC20a137291,1705711400,Valencia-Venezuela,Valencia-Venezuela: ☀️ +21°C ,0x3B8C85F34cE5DE33f1fE784a680C616092ee5380,1705711400,Arauca,Arauca: ☀️ +31°C ,0x78bfF4115f543aDD5835e552776b2bf5D7928E23,1705711400,Cali,Cali: ⛅️ +28°C ,0x6E5956FE3F9e98d427d0393FAe75Ce1C482F351A,1705711413,Bogota,Bogota: ⛅️ +17°C ,0xe571ae66054Ab90EFca4983c4020F12dC44C7ad2,1705711415,Barcelona,Barcelona: 🌦 +7°C ,0xdcba728797F3703fF86F18CD2D1926D260d2B845,1705711443,Para
+guay,Paraguay: ☀️ +32°C ,0xbd1F78c4351Ac19596626394C96C19B3E6AC1Cd1,1705711441,Alta Gracia,Alta Gracia: ☀️ +30°C ,0xe67F18c5064f12470Efc943798236edF45CF3Afb,1705711445,Boiro,Boiro: ☀️ +3°C ,0x5698E9d3b4A1d0890d8b4E90DC6D146Dcf1408a2,1705711451,Barranquilla,Barranquilla: ☀️ +28°C ,0x5a9Ab532d8ea806f4A3752f6ddB615377C07A5Bd,1705711490,Mar del Plata,Mar del Plata: ☀️ +19°C ,0x60F8b3FFcffb3cF470F7D2416b677eBe770935Ff,1705711495,Bogota,Bogota: ⛅️ +17°C ,0xc9329292127026428D579FDFD05D91305f1dF9Ed,1705711507,Pereira,Pereira: ⛅️ +26°C ,0xBCDd813Db2461393527753aDc8C96BA8F4BD400d,0,Bogota
+0x4E6b427e8968De8643D0F4D556A55E538B5f1cd4,
+0:string: san-pedro-sula: 🌫 +24°C
+
+tuple(address,uint256,string,string): 0x3F9fA8021B43ACe578C2352861Cf335449F33427,1705711811,Medellín,Medellín: ☀️ +15°C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,766 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 08
+ 
+Pad
+https://pad.riseup.net/p/cl-es-08
+ 
+Youtube Link de la Clase de hoy
+https://www.youtube.com/watch?v=y_iOxra1oLc
+ 
+Todas las sesiones en Español para
+https://lu.ma/fkr85zi7
+ 
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Faucet
+https://workshop-faucet.vercel.app/faucets/fuji
+cllworkshop0101
+
+Like y retweet!
+https://twitter.com/javosalomon/status/1747765745348751846
+ 
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+ 
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+ 
+Twitter
+https://twitter.com/chainlinkesp
+https://twitter.com/javosalomon
+ 
+Chainlink Community Advocate
+https://chain.link/community/advocates
+ 
+Chainlink Developer Expert
+https://chain.link/developers/experts
+
+
+
+Nombre - alguna red social (si quieres compartir)
+Sol - solangegueiros
+OSCAR SEGURA | CDMX, MÉXICO | https://twitter.com/BlogchainMkt
+Tomas Sosa Giraldo - Medellín, Colombia
+Joaquin Alcerro - https://twitter.com/jalcerro
+Javier - Fairfax, VA - https://twitter.com/javosalomon
+Julio M Cruz - https://twitter.com/JulioMCruz
+Pablo Guzmán - Santiago, Chile
+Willy Gonzalez - Argentina - https://twitter.com/gonzalezwilly
+orland - Bogota , Colombia
+Santiago - Bogota, Colombia
+Filadelfo Caicedo - Cali Colombia
+Juan Camargo - Pereira, Colombia - https://twitter.com/Sebascamargoo
+Javier Montes - Lima, Perú
+David Hernandez - Valencia, Venezuela
+Eliezer Rincon - Valencia, Venezuela
+Karinna Serrano - Mexico
+Armando Colón Mendinueta - https://www.linkedin.com/in/arcolmen/
+Juan Carlos MM - @matizarCO @juancamatiz Telegram & X
+Santiago - Montevideo, Uruguay /-/ https://twitter.com/MF_CAPS
+villawolf - https://twitter.com/villawolf_eth
+javier velazquez - argentina
+Daniel B - Medellín, Colombia
+Jair Diaz - Bogota - Colombia
+Guillermo Boccardo - Buenos Aires, Argentina 
+Patricio Gonzalez- Formosa Argentina, 
+Alexis Gonzalez - Venezuela - https://www.linkedin.com/in/adjgp/
+JD Nicholls - Colombia - https://twitter.com/jdnichollsc
+Anibal Elbaum - Córdoba - Argentina - https://www.linkedin.com/in/inganibalelbaum/
+Santiago - https://twitter.com/arcesantiago90
+Juan Fuente - Galicia, España
+Jorge - Argentina
+Juan Pablo Tixe - Quito - Ecuador
+Mónica Ledesma - Argentina
+Rulo - Hidalgo, Mexico
+Javier Shen - España
+Luis Tapia Navarro - Panamá
+Michael - https://twitter.com/Maikel13M
+Alberto Silva 
+Marcelo Haro - Quito,Ecuador
+Blanco, Sergio Daniel - Catamarca, Argentina
+Diego Raúl Barrionuevo Córdoba, Argentina
+Rocío Grajales - Bogotá,Colombia
+Luciano Delaude - Mar del Plata, Argentina.
+Tulio Duque  - Medellin, Colombia
+David Yánez - Quito, Ecuador
+Cristian Carvajal - Manizales - Colombia
+Cristina Chacón Santa - Bogotá - Colombia 
+Juan Ramis - Palma, España
+Luis Anton - Maturin, Venezuela - https://twitter.com/luisantonchacon
+Max Cabanillas -  PERU -- https://www.linkedin.com/in/maxcabanillass/
+Carolina - Argentina
+Rubén Bocanegra - Lima, Perú
+Chula https://twitter.com/QueChula_eth
+carlos vazquez san miguel de allende, mx
+Darwin Cevallos _ Ecuador
+xun, argentina
+Andrés Serna - https://twitter.com/AndresSernaG
+Johan - Bogotá. Colombia
+William Ardila - Colombia
+Malcoln Portillo - Tegucigalpa, Honduras
+Gabriela Ramírez - Lima, Perú
+daniel plaquin - Argentina
+José Miguel - https://www.youtube.com/channel/UCs5PAeQ6PjmZMADfoZkg-8w
+Johnnatan Olave - Bogotá Colombia
+Lucila - Buenos Aires - Argentina
+Roman Diaz - Buenos aires - Argentina
+Rosendo Guzman Nogueda
+Cristian Carvajal - 0x7638Ce312D9bd438c06815CDFC59a34e603b31b2
+jonathan juez 
+Dannuver Cabezas Bogotá Colombia 
+
+
+
+************************************
+
+https://dev.chain.link/products/vrf
+
+https://docs.chain.link/vrf
+
+https://docs.chain.link/vrf/v2/security
+https://docs.chain.link/vrf/v2/best-practices
+
+https://vrf.chain.link/
+
+Connect wallet
+En Metamask
+Fuji
+
+Create subscription
+
+Add funds
+10 LINK
+
+O
+Actions => Fund Subscription
+10 LINK
+
+Add Consumer
+I'll do it later
+
+Nombre - Subscription Id / Enlace
+Sol - https://vrf.chain.link/fuji/1093
+OSCAR SEGURA 1 https://vrf.chain.link/fuji/1145
+JD Nicholls - https://vrf.chain.link/fuji/1142
+Joaquin Alcerro - https://vrf.chain.link/fuji/1143
+Chula https://vrf.chain.link/fuji/1115
+Rulo - https://vrf.chain.link/fuji/1099
+Luciano -https://vrf.chain.link/fuji/1153
+Santiago - https://vrf.chain.link/fuji/1141
+Julio M Cruz - https://vrf.chain.link/fuji/1101
+Jorge - https://vrf.chain.link/fuji/1100
+Juan Ramis - https://vrf.chain.link/fuji/1094
+Javier Montes - https://vrf.chain.link/fuji/1106
+Juan Fuente - https://vrf.chain.link/fuji/1127
+daniel plaquin - https://vrf.chain.link/fuji/1113
+Karinna - https://vrf.chain.link/fuji/1139
+Juan Carlos MM - https://vrf.chain.link/fuji/1098
+Daniel B - https://vrf.chain.link/fuji/1097
+Javier S - https://vrf.chain.link/fuji/1148
+Bryan - https://vrf.chain.link/fuji/1135
+Juan Camargo - https://vrf.chain.link/fuji/1110
+Malcoln Portillo - https://vrf.chain.link//fuji/1111
+Armando Colón Mendinueta - https://vrf.chain.link/fuji/1155
+Ruben Bocanegra - https://vrf.chain.link/fuji/1104
+Anibal Elbaum - https://vrf.chain.link/fuji/1123
+Willy Gonzalez - https://vrf.chain.link/fuji/1125
+Patricio Gonzalez: https://vrf.chain.link/fuji/1122
+xun https://vrf.chain.link/fuji/1107
+Guilllermo Boccardo - https://vrf.chain.link/fuji/1126
+David Hernandez - https://vrf.chain.link/fuji
+Eliezer Rincon - https://vrf.chain.link/fuji/1116
+Juan Pablo Tixe - https://vrf.chain.link/fuji/1129
+javier velazquez - https://vrf.chain.link/fuji/1109
+Filadelfo Caicedo - https://vrf.chain.link/sepolia/8634
+Cristian Carvajal- 8635
+Carolina - https://vrf.chain.link/fuji/1119
+Diego Barrionuevo https://vrf.chain.link/fuji/1144
+villawolf - https://vrf.chain.link/fuji/1102
+Michael - https://vrf.chain.link/fuji/1136
+Joaco - https://vrf.chain.link/fuji/1128
+Johan - https://vrf.chain.link/fuji/1149
+Santiago - https://vrf.chain.link/fuji/1134
+Santiago - https://vrf.chain.link/fuji/1137
+Pablo Guzmán - https://vrf.chain.link/fuji/1112
+Rocío Grajales - https://vrf.chain.link/fuji/1132
+orland - https://vrf.chain.link/fuji/1131
+Marcelo Haro - https://vrf.chain.link/fuji/1130
+Carlos Vazquez
+https://vrf.chain.link/fuji/1150
+Luis Anton - https://vrf.chain.link/sepolia/8642
+https://vrf.chain.link/fuji/1146
+José Miguel D. - https://vrf.chain.link/fuji/1147
+Emerson Silva - https://vrf.chain.link/fuji/1154
+
+
+
+**********************************************
+
+Metamask
+Fuji
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+Crea
+Runners.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Base64.sol";
+
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
+
+contract Runners is ERC721, ERC721URIStorage, VRFConsumerBaseV2  {
+    using Counters for Counters.Counter;
+    using Strings for uint256;
+
+    // VRF
+    event RequestSent(uint256 requestId, uint32 numWords);
+    event RequestFulfilled(uint256 requestId, uint256[] randomWords);
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        uint256[] randomWords;
+    }
+    mapping(uint256 => RequestStatus) public s_requests; /* requestId --> requestStatus */          
+
+    // Fuji coordinator
+    // https://docs.chain.link/docs/vrf/v2/subscription/supported-networks/
+    VRFCoordinatorV2Interface COORDINATOR;
+    address vrfCoordinator = 0x2eD832Ba664535e5886b75D64C46EB9a228C2610;
+    bytes32 keyHash = 0x354d2f95da55398f44b7cff77da56283d9c6c829a4bdf1bbcaf2ad6a4d081f61;
+    uint32 callbackGasLimit = 2500000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords =  1;
+
+    // past requests Ids.
+    uint256[] public requestIds;
+    uint256 public lastRequestId;
+    uint256[] public lastRandomWords;
+
+    // Your subscription ID.
+    uint64 public s_subscriptionId;
+
+    //Runners NFT
+    Counters.Counter public tokenIdCounter;
+    string[] characters_image = [
+        "https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png",
+        "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png",
+        "https://ipfs.io/ipfs/QmW1toapYs7M29rzLXTENn3pbvwe8ioikX1PwzACzjfdHP?filename=Chainlink_Orc.png",
+        "https://ipfs.io/ipfs/QmPMwQtFpEdKrUjpQJfoTeZS1aVSeuJT6Mof7uV29AcUpF?filename=Chainlink_Witch.png"
+    ];
+    string[] characters_name = [
+        "Elf",
+        "Knight",
+        "Orc",
+        "Witch"
+    ];
+
+    struct Runner {
+        string name;
+        string image;
+        uint256 distance;
+        uint256 round;
+    }
+    Runner[] public runners;
+    mapping(uint256 => uint256) public request_runner; /* requestId --> tokenId*/
+
+
+    constructor(uint64 subscriptionId) ERC721("Runners", "RUN")
+        VRFConsumerBaseV2(vrfCoordinator)        
+    {
+        COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
+        s_subscriptionId = subscriptionId;
+        safeMint(msg.sender,0);
+    }
+
+    function safeMint(address to, uint256 charId) public {
+        uint8 aux = uint8 (charId);
+        require( (aux >= 0) && (aux <= 3), "invalid charId");
+        string memory yourCharacterImage = characters_image[charId];
+
+        runners.push(Runner(characters_name[charId], yourCharacterImage, 0, 0));
+
+        uint256 tokenId = tokenIdCounter.current();
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "', runners[tokenId].name, '",'
+                        '"description": "Chainlink runner",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+
+    function run(uint256 tokenId) external returns (uint256 requestId) {
+
+        require (tokenId < tokenIdCounter.current(), "tokenId not exists");
+
+        // Will revert if subscription is not set and funded.
+        requestId = COORDINATOR.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        s_requests[requestId] = RequestStatus({
+            randomWords: new uint256[](0),
+            exists: true,
+            fulfilled: false
+        });
+        requestIds.push(requestId);
+        lastRequestId = requestId;
+        emit RequestSent(requestId, numWords);
+        request_runner[requestId] = tokenId;
+        return requestId;      
+    }
+
+    function fulfillRandomWords(
+        uint256 _requestId, /* requestId */
+        uint256[] memory _randomWords
+    ) internal override {
+        require (tokenIdCounter.current() >= 0, "You must mint a NFT");
+        require(s_requests[_requestId].exists, "request not found");
+        s_requests[_requestId].fulfilled = true;
+        s_requests[_requestId].randomWords = _randomWords;
+        lastRandomWords = _randomWords;
+
+        uint aux = (lastRandomWords[0] % 10 + 1) * 10;
+        uint256 tokenId = request_runner[_requestId];
+        runners[tokenId].distance += aux;
+        runners[tokenId].round ++;
+
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "', runners[tokenId].name, '",'
+                        '"description": "Chainlink runner",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+    function getRequestStatus(
+        uint256 _requestId
+    ) external view returns (bool fulfilled, uint256[] memory randomWords) {
+
+    }
+
+    // The following functions are overrides required by Solidity.
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+
+// Fin
+
+https://docs.chain.link/vrf/v2/subscription/supported-networks#avalanche-fuji-testnet
+
+
+Deploy
+Parametro: Subscription ID
+
+Nombre - Runners Address
+Sol - 0x0C1E280589b85a022f74dd3463cE5894fC647852
+OSCAR SEGURA | 0x1679a4519a327a980794f54f04Dc64D170fd1790
+orland - 0x1B2F0f9aDb137c19E10445Fb522D3654c1cAEff2
+Willy Gonzalez - 0x50F66AA17B53767035a6c4B501934E01ba9b4c1e
+Carolina - 0x8B497aC67FBCb9cba8Dda93F054ca3205d5D6DfD
+Joaquin Alcerro - 0xfC33A3Aa3B9da05DfB5Dd83e497834c9038aE136
+Rulo - 0x16CA09270A8c10ed85Fee2d614b61c5f0C1Da0a0
+Luis Anton - 0x8E4E5733e0628134aaac0fe7FeC7FFa50B7f2238
+Julio M Cruz - 0x3DB0A6c2ee7D207E9430C866958EE890a5B696FB
+Rubén Bocanegra - 0x49ebcC745932a77c468156f56aC2626aC4fdF68e
+Juan Camargo - 0xCe50BD6dB4Ed12B682ED2610ce054e8faFd75B3d
+Pablo Guzmán - 0xBf76688B6A2025B5D0A2745E455CBa4ad71e7b54
+Karinna . 0xE1936A328800C443423796d8C6B3Db7bf8aa54ec
+Santiago - 0x65Bf6349Ac4b48A2FbC8FC79cc8658Da18079356
+Juan Carlos MM - 0x1A077119D3C22df1eD928D17463E72d0b18Af6Cc
+Javier Montes - 0xF0BbeB6E5Ddad4596a05b9cf606C7ffa790d23e2
+xun 0x5ED49e17E8b63602C5D4F9f9E79eEB200aE152fd
+Juan Fuente - 0xB8b98C4Dd0170873B547AF7FbC679836be2d0f32
+Johan - 0x1894294B6D972e9FB169F37c1771061FE1F089C8
+Armando Colón Mendinueta - 0x6cAF4dCf9476bf333a3497A4C47832154fe58EB3
+Patricio Gonzalez: 0xc64ba134dAD4F9BC15503Fd43f97308Da6c40c49
+Bryan - 0x4C624168Caf0e35E4B0a79424E54Ed3781AB221B
+CHula 0x857D426232b49Ca42d4c5dDfc1Fe410F37EB29A2
+villawolf - 0x6920c9a7aC16674a033Be4B4bD477B1Af07611EF
+carrlos vazquez 0x87FACBB4232D140B84E667DbB315b53551107295
+Diego Raúl Barrionuevo 0x97d763AC0C036f53A44799676f7F5a05Bc7622D4
+Anibal Elbaum - 0x3DB4Fe5df67E68Bd1c082879c309Ca8f6509d601
+Joaco - 0xDe85f652c4cc2B2aB79C2A484cFa19d71e6e79d6
+Guillermo Boccardo - 0x0E7Bbc408Cb457b957fbBfB585C2373048aC8bcd
+Filadelfo Caicedo - 0xD3eD6A4c9114093f74da0dEbe9b35C7C351D21eC
+Santiago - 0x3655a73863D7C564767450eAd21bBB5a07CAa94F
+Santiago - 0x4aeabb4609d54379c41eded7e0a6837443030f04fb3f83738ff2a8a07abae9f9
+Eliezer Rincon - 0xB6F4123ED2cd4ebADd5B17fBe5be9Ebb52D35180
+JD Nicholls - 0x7c43e790d93A01B78024332900Cdf708e899F660
+Javier S - 0x43311cA0135518b24aFE4148fd3eDF67f278cc65
+Juan Ramis - 0xb5798eaBCB73150C0604db7AD4Ed60fE794A278c
+Juan Pablo Tixe - 0xE60a922c134a123bf6Ebaa4e9b44E3923B3F8913
+Jorge - 0x3eC521fc3001Aa93C3Ca925F50BD90373c89df42
+daniel plaquin - 0x2237EE8D00536eDC0BE44A257E8e7Aa44073fC41
+javier velazquez - 0x276127C4Ee7fe068248438cb3D7C814cbC4751ba
+Malcoln Portillo - 0xD9E5cd9029AC9c1132aE5AFF893246279329cDbE
+Luciano - 0xc7F3C652C2591eCFE28fB9cdF269A35E839C10bB
+David Hernandez - 0x8e1349503F35B8Fbad999EC554F76F0f708554e1
+Marcelo Haro - 0xC6317133E2c5aAF42B134b92E6C6f936ad4EF8b6
+Rocio Grajales - 0xca18d306b2f61bcfad43c8bcb6117aa2c233f831 
+Emerson Silva - 0xE53C4e606E0169cabc36134690abe7F2187B62Ba
+Jose Miguel D. - 0x5eB75856bfA514c139d6D05d4547391bc8F41487
+
+
+*************************************
+
+https://testnets.opensea.io/
+
+Nombre - Enlace de la Collecion
+Sol - https://testnets.opensea.io/collection/runners-363
+OSCAR SEGURA | https://testnets.opensea.io/collection/runners-401
+orland - https://testnets.opensea.io/es/collection/runners-408
+Diego Raúl Barrionuevo https://testnets.opensea.io/es/collection/runners-370
+Chula https://testnets.opensea.io/collection/runners-371
+Willy Gonzalez - https://testnets.opensea.io/collection/runners-391
+Julio M Cruz - https://testnets.opensea.io/collection/runners-353
+Rulo - https://testnets.opensea.io/es/collection/runners-354
+Joaquin Alcerro - https://testnets.opensea.io/collection/runners-372
+Santiago - https://testnets.opensea.io/es/collection/runners-361
+Eliezer Rincon - https://testnets.opensea.io/collection/runners-368
+carlos vazquez https://testnets.opensea.io/collection/runners-369
+Luis Anton - https://testnets.opensea.io/es/collection/runners-376
+Juan Fuente - https://testnets.opensea.io/es/collection/runners-375
+Karinna - https://testnets.opensea.io/es/collection/runners-403
+villawolf - https://testnets.opensea.io/collection/runners-387
+Juan Carlos MM - https://testnets.opensea.io/es/collection/runners-359
+Bryan - https://testnets.opensea.io/collection/runners-381
+Guillermo Boccardo - https://testnets.opensea.io/es/collection/runners-378
+daniel plaquin - https://testnets.opensea.io/es/collection/runners-357
+Daniel B - https://testnets.opensea.io/collection/runners-398
+Johan - https://testnets.opensea.io/es/collection/runners-383
+Filadelfo Caicedo - https://testnets.opensea.io/collection/runners-366
+Pablo Guzmán - https://testnets.opensea.io/collection/runners-364
+Javier Montes - https://testnets.opensea.io/collection/runners-356
+Armando Colón Mendinueta - https://testnets.opensea.io/es/collection/runners-404
+Cristian Carvajal - https://testnets.opensea.io/collection/runners-365
+Rubén Bocanegra - https://testnets.opensea.io/es/collection/runners-373
+Anibal Elbaum - https://testnets.opensea.io/collection/runners-393
+xun https://testnets.opensea.io/es/collection/runners-362
+Carolina - https://testnets.opensea.io/es/collection/runners-380
+Joaco - https://testnets.opensea.io/collection/runners-374
+Juan Ramis - https://testnets.opensea.io/es/collection/runners-390
+javier velazquez - https://testnets.opensea.io/es/collection/runners-355
+Malcoln Portillo - https://testnets.opensea.io/collection/runners-388
+Luciano - https://testnets.opensea.io/collection/runners-394
+Javier S - https://testnets.opensea.io/es/collection/runners-397
+Santiago - https://testnets.opensea.io/es/assets/avalanche-fuji/0x34508da8d229ab07d9df073cb9077190e247d5b9/0
+Juan Camargo - https://testnets.opensea.io/es/collection/runners-392
+David Hernandez - https://testnets.opensea.io/es/collection/runners-395
+JD Nicholls - https://testnets.opensea.io/collection/runners-379
+Juan Pablo Tixe - https://testnets.opensea.io/collection/runners-389
+Emerson Silva - https://testnets.opensea.io/es/collection/runners-400
+Marcelo Haro - https://testnets.opensea.io/es/collection/runners-399
+Rocío grajales - https://testnets.opensea.io/es/collection/runners-396
+José Miguel D. - https://testnets.opensea.io/es/collection/runners-402
+
+
+*********************************
+
+https://vrf.chain.link/fuji/
+
+Add Consumer
+
+Runners Address
+
+
+En Remix
+
+Ejecuta la funcion
+Run
+Parameter: 0
+0 = tokenId del primer NFT
+
+
+LastRequestId
+
+Copia e usa s_requests
+Result
+0:bool: fulfilled true
+1:bool: exists true
+
+
+runners
+Parameter tokenId: 0
+
+Round 1
+
+Nombre - Distancia
+Sol - 30
+OSCAR SEGURA | 0 😒
+Joaquin Alcerro - 30
+Eliezer Rincon - 30
+Javier S - 50
+Javier Montes - 60
+Santiago - 50
+Luciano - 60
+Anibal Elbaum - 80
+David Hernandez - 40
+Bryan - 60
+Juan Pablo Tixe - 20
+Julio M Cruz - 100 🏆 =O
+Juan MM - 60
+Rulo - 90
+RVubcoé
+Chula 30
+Juan Fuente - 20
+Guibo - 90
+Johan - 80
+Daniel B - 30
+Rubén Bocanegra - 60
+Juan Ramis - 10
+JD Nicholls - 90
+Karinna - 90
+Pablo Guzmán - 0 :(
+villawolf - 20 😒
+Santiago - 20
+javier v -50
+Juan - 20 😴
+xun 20 🐢
+Diego Barrionuevo - 10
+carlos vazquez 100 🏆
+Camilo Barrero - 100 🏆
+Carolina - 60 😢
+Malcoln Portillo 100 de 100
+Patricio- 20
+Emerson - 90
+Marcelo Haro - 30
+Armando Colón Mendinueta - 30
+**********************************
+
+Opensea
+
+NFT
+... Canto superior direito
+Refresh Metamdata
+Refresca la a pagina
+
+Round 2
+
+Run
+Parameter: 0
+
+Nombre - Distancia
+OSCAR SEGURA | 120 .U.
+
+Joaquin Alcerro - 90
+Pablo Guzmán - 20
+Julio M Cruz - 120
+Juan MM - 80
+Javier Montes - 90
+Rubén Bocanegra - 80 
+Anibal Elbaum - 100
+Chula 120
+Santiago 130
+Guibo - 190 🏆
+Juan - 120
+Johan - 180 ._.
+Eliezer - 50
+Luciano - 150
+Juan Fuente - 110
+javier v  - 140
+Daniel B - 100
+xun 100
+Juan Pablo Tixe - 70
+Juan Ramis - 20
+Rulo - 170
+Javier S - 130 
+daniel plaquin - 120
+Diego Barrionuevo - 120
+Patricio- 100
+Bryan - 80
+David Hernandez - 120
+Santiago - 120
+Willy - 110
+Carolina - 150💕
+Malcoln Portillo - 130
+JD Nicholls - 160
+Camilo Barrero - 180
+Marcelo Haro - 110
+Armando Colón Mendinueta - 60
+
+
+*************************************
+
+SafeMint
+To - tua billetera
+CharId - alguno entre 0 y 3 - el personaje
+
+
+Despues mira runners
+Id 1
+
+
+Ejecuta 
+run
+Id 1
+
+Nombre - Round 1 NFT TokenId 1
+Sol - 10
+OSCAR SEGURA | 
+
+Joaquin Alcerro - 30
+Eliezer Rincon - 90
+JuliomM Cruz - 40
+Guibo - 50
+David Hernandez - 50
+Santiago - 80
+Javier Montes - 60
+Juan MM - 30
+Johan - 50
+Juan - 100🚀
+Santiago - 90
+Luciano - 100
+Anibal - 40
+Daniel B - 100
+Rulo - 30
+Ruben Bocanegra - Orco - 20
+Patricio - Bruja 1: 60
+Juan Ramis - 20
+Willy - 10
+Javier S - 40
+xun 80
+Diego Barrionuevo - Orc - 70
+Juan Pablo Tixe - 40
+
+javier v - orco - 60
+JD Nicholls - 70
+
+
+******************************
+
+Round 2
+run 
+tokenId 1
+
+Nombre - Round 2 Distancias TokenId 0 y TokenId 1
+Sol - 100 - 100
+Luciano: NFT 0 = 150, NFT 1 = 140
+Julio M Cruz - NFT 0: 120 - NFT 1: 140
+Santiago - NFT0 = 130, NFT1 = 110
+Willy - (10 + 50) = 60
+Anibal - 100 - 70
+Patricio: nft 0: 120 nft 1: 110
+Bryan - NFT 0 = 80, NFT 1 = 40
+Joaquin Alcerro - NFT 0 = 130, NFT 1 = 90
+Malcoln Portillo: NFT 0 = 130, NFT 1 = 120
+Javier Montes: nft 0: 90 nft 1: 70
+Juan MM - nft 0: 80 nft 1: 40
+David Hernandez - NFT 0 = 120 , NFT 1 = 100
+Eliezer - 80 - 160
+Ruben Bocanegra: nft 0:80 nft1: 100
+Javier S - : NFT 0 = 130, NFT 1 = 120
+Daniel B - TokenId1 100 y TokenId2 150
+Rulo - 0: 170, 1: 40
+Johan - Token0 = 180, Token1 = 80
+Guibo - TokenId 0 = 190 TokenId 1 = 110
+javier v -orco -150
+Juan Pablo Tixe - 100
+Juan Ramis - TokenId 0 = 20  TokenId 1 = 90
+Pablo Guzmán - TokenId 0 = 20  TokenId 1 = 120 
+
+Santiago - [120, 170]
+Juan - 120 - 130
+xun 100, 150
+
+JD Nicholls - 110
+
+
+****************************************
+
+Para ver el Json de un jugador
+
+TokenURI
+TokenID
+1
+
+Result
+0:string: data:application/json;base64,eyJuYW1lIjogIldpdGNoIiwiZGVzY3JpcHRpb24iOiAiQ2hhaW5saW5rIHJ1bm5lciIsImltYWdlIjogImh0dHBzOi8vaXBmcy5pby9pcGZzL1FtUE13UXRGcEVkS3JVanBRSmZvVGVaUzFhVlNldUpUNk1vZjd1VjI5QWNVcEY/ZmlsZW5hbWU9Q2hhaW5saW5rX1dpdGNoLnBuZyIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogImRpc3RhbmNlIiwidmFsdWUiOiAxMDB9LHsidHJhaXRfdHlwZSI6ICJyb3VuZCIsInZhbHVlIjogMn1dfQ==
+
+JSON - encoded Base64
+eyJuYW1lIjogIldpdGNoIiwiZGVzY3JpcHRpb24iOiAiQ2hhaW5saW5rIHJ1bm5lciIsImltYWdlIjogImh0dHBzOi8vaXBmcy5pby9pcGZzL1FtUE13UXRGcEVkS3JVanBRSmZvVGVaUzFhVlNldUpUNk1vZjd1VjI5QWNVcEY/ZmlsZW5hbWU9Q2hhaW5saW5rX1dpdGNoLnBuZyIsImF0dHJpYnV0ZXMiOiBbeyJ0cmFpdF90eXBlIjogImRpc3RhbmNlIiwidmFsdWUiOiAxMDB9LHsidHJhaXRfdHlwZSI6ICJyb3VuZCIsInZhbHVlIjogMn1dfQ==
+
+https://www.base64decode.org/
+
+{"name": "Witch","description": "Chainlink runner","image": "https://ipfs.io/ipfs/QmPMwQtFpEdKrUjpQJfoTeZS1aVSeuJT6Mof7uV29AcUpF?filename=Chainlink_Witch.png","attributes": [{"trait_type": "distance","value": 100},{"trait_type": "round","value": 2}]}
+
+{
+    "name": "Witch",
+    "description": "Chainlink runner",
+    "image": "https://ipfs.io/ipfs/QmPMwQtFpEdKrUjpQJfoTeZS1aVSeuJT6Mof7uV29AcUpF?filename=Chainlink_Witch.png",
+    "attributes": [
+        {"trait_type": "distance","value": 100},
+        {"trait_type": "round","value": 2}
+    ]
+}
+
+
+
+
+
+
+
+

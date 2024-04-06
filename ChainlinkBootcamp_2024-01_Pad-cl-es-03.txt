@@ -1,0 +1,771 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 03
+ 
+https://pad.riseup.net/p/cl-es-03
+ 
+Clases passadas
+https://lu.ma/fkr85zi7
+ 
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+ 
+Task Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+ 
+https://workshop-faucet.vercel.app/faucets
+cllworkshop0101
+ 
+ 
+Nombre, Ciudad, Pais
+Mauro Cambarieri - Viedma, Río Negro, Patagonia Argentina
+camilo munar - bogota . colombia
+Juan Carlos Gallardo - Ciudad de México
+Anibal Elbaum - Cordoba - Argentina
+Francisco Bermudez -Guaca Sdr - Colombia
+Sandra Divan - Cordoba, Argentina
+Jair Díaz - Bogota - Colombia
+Rulo - Hidalgo, Mexico
+Tomas Sosa Giraldo - Medellín, Colombia
+Sol - Sao Pablo, Brasil
+Rama - Resistencia, Argentina
+Arturo - Monterrey, Mexico
+orland- Bogota -Colombia
+Ramsil Ortiz - Santiago, Republica Dominicana
+José Miguel - Lima, Perú
+Patricia Delgado - Lima, Perú
+Juan Fuente - Galicia, España
+Javier Shen - España
+Candela - Cordoba, Argentina
+Claudio - Buenos Aires Argentina
+Sharon Graziani. Caracas (Venezuela)
+Yamid Calderon- Colombía
+Diego Raúl Barrionuevo Córdoba-Argentina
+Jhoico - México
+Filadelfo Cali, Colombia
+Santiago - Rosario, Argentina
+Luis Tapia Navarro - Panamá
+Hector Navas - Ecuador
+Andrés Serna - Medellín - Colombia
+Salvador Vargas - Colima, México
+Lucila - Buenos Aires, Argentina
+Juan Camargo - Pereira, Colombia
+Javier Montes - Lima, Peru
+Diego R, Guatemala, Guatemala
+Luciano Delaude, Argentina
+Tulio Duque Colombia - MEdellin
+Mónica Ledesma Argentina
+Marcelo Haro - Quito, Ecuador
+Santiago - Bogota, Colombia
+Guillermo Malagón, Bogotá, Colombia
+Karinna Serrano - Mexico
+Lucía Egas -Lima, Perú
+David Hernandez - Valencia, Venezuela
+Facu Miglio - San Rafael, Argentina 
+Silvia Martos, Mallorca, España
+Juan Pablo Tixe - Quito - Ecuador
+Guillermo Boccardo - Buenos Aires, Argentina
+villawolf Friend.tech Metaverso
+Patricio Gonzalez, Formosa, Argertina!
+Joaquin Alcerro, Tegucigalpa, Honduras
+Horacio Barrozo, Buenos Aires - Argentina
+Willy Gonzalez - Argentina
+Michael - Maracaibo, Venezuela
+Hernán Hernández - Colombia
+Johan Gonzalez - Maracay, Venezuela
+Julio M Cruz, Fairfax, USA
+Silva Cazares Luis Alberto , CDMX México
+Emerson Silva (Arauca-Colombia)
+Juan Carlos MM, Bogotá, Colombia 
+Juan Ramis , Palma, España
+Eduar Cortes - Bogota - Colombia
+Carlos Vazquez San Miguel de allende, MexicoJorge - Argentina
+Malcoln Portillo Tegucigalpa, Honduras
+res, Argentina
+Malcoln Portillo
+David Yánez - Quito - Ecuador
+Rubén Bocanegra - Lima - Perú
+Arturo Collado Rosell - Buenos Aires - Argentina
+Rocío Grajales - Bogotá,Colombia
+Armando Colón Mendinueta - Barranquilla, Colombia
+Alexander durán - Pereira - Colombia
+Jorge Chavez - Lima. Perú
+Rosendo Guzman Nogueda - Mexico
+Raúl Parra Hernández - México
+Rosendo Martin Gravanago - Argentina
+Eliot Pinto - Lima, Perú
+Chula,  sao Pablo, Brasil
+Juan Ignacio Blacutt - Argentina
+Pablo Guzmán, Santiago, Chile
+Mario Galvez Guatemala Guatemala
+carlos delgado - venezuela
+daniel plaquin - Argentina
+OSCAR SEGURA | CHILANGOLANDIA (CDMX, MÉXICO)
+Gabriela Ramírez - Lima, Perú
+Martha Barrera bogota Colombia 
+Ariel Robotti - Mar del Plata - Argentina
+Roberto Villavicencio - Ecuador 
+Horacio Barrabasqui - CABA - Argentina
+javier velazquez - cordoba - argentina
+Alfredo Agudo - Granada - España
+Diana - Puebla,México
+Daniel campillo - Medellín, Colombia
+Guilherme Gonçalves - Brazil
+Cristhian Bonilla - Ibague, Colombia
+André Neyra - Lima, Perú
+Ramon Bastardo - Puerto La Cruz, _Venezuela
+Juan Carlos  Brian  Herrera Pomar -Lima,  PERÚ
+Johnnatan Olave - Bogotá Colombia
+Luis Anton - Maturin, Venezuela
+Daniel Luque - Bogota - Colombia
+Gil Sanjuan - México
+Alexander Aponte - Bogotá, Colombia
+Luis Fernando Ushiña - Sangolquí - Ecuador
+Max Cabanillas Salas - Peru
+Alejandro Betancourt - Barinas, Venezuela
+Joaquín Precioso - Madrid, España
+Joel Garmendia - Valencia, Venezuela
+Alfonso Zapata - Mérida - México
+Juan David Duque - panama
+Manuel David - Córdoba, España
+Andres - Costa Rica
+Josue Román Martínez Mireles - Hidalgo, Mexico
+ANDRES JAIMES - SANTANDER COLOMBIA
+Camilo Bayona - Bogotá, Colombia.
+Diego Guillen - Bogotá.
+Sébastien Léger - Barcelona - Spain (y Fr)
+Gustavo Meghirditchian - Montevideo, Uruguay
+Heler Paez - Colombia
+Carlos Oñates - Valencia, Venezuela
+Amparo sanchez - Huelva, España
+Gustavo Torres - Bogotá - Colombia
+Celic Torres - México 
+121. Nicolás Locatti - Buenos Aires, Argentina
+122. Carlos Cardenas - Chile
+123. Adan Reh - Barcelona, España
+124. Juan Melenciano - Republica Dominicana
+125. Roberto Daniel Baltazar Macias - Ciudad de México - México
+
+ 
+*************************************************
+ 
+https://data.chain.link/
+ 
+https://docs.chain.link/
+ 
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1#sepolia-testnet
+ 
+ETH/USD en Sepolia
+0x694AA1769357215DE4FAC081bf1f309aDC325306
+ 
+https://chain.link/data-feeds
+ 
+Docs - Chainlink Market and Data Feeds
+https://docs.chain.link/docs/using-chainlink-reference-contracts/
+ 
+Chainlink Data Feeds Contract Addresses
+https://docs.chain.link/docs/reference-contracts/
+ 
+ 
+https://remix.ethereum.org/
+ 
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+
+Check the Sepolia (11155111) network
+ 
+ 
+Token ERC20
+https://ethereum.org/en/developers/docs/standards/tokens/
+https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+ 
+https://eips.ethereum.org/EIPS/eip-20
+ 
+https://wizard.openzeppelin.com/#erc20
+ 
+ 
+En Remix
+Crea
+Token.sol
+ 
+// Inicio
+ 
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+ 
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
+ 
+contract Token is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+ 
+    constructor() ERC20("BOOTCAMP", "CBT24ES") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
+    }
+ 
+    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+        _mint(to, amount);
+    }
+ 
+    function decimals() public pure override returns (uint8) {
+        return 2;
+    }    
+}
+ 
+// Fin
+ 
+Cambia el name y Symbol en la linea 10
+ 
+Deploy
+ 
+Nombre - Token Address
+Francisco Bermudez - 0x36965cf48f54Ad1Dfc269E1dc5b436B833DD4F96
+SARAY RODRIGUEZ - 0xaC86f59cbB51084A33CE0bFD8D20726CBE565fa0
+Sharon Graziani  0x639e7b21b50E48344347acDA5A69ca8f235747f6
+jair Diaz -0x98b6D933052C7D1b36b12625Bcf18E61Aedd0E90
+Juan Carlos Gallardo - 0xC9e5FfEa20388f2995a8508AC543322a00473ca9
+ANIBAL ELBAUM - 0xfa4Fca8Bd67B718eedB9e4D0bc2B3bF89B4441BF
+OSCAR SEGURA | 0x319Bf91a4B98121a78Fe0Df00b9e1e074d33C22E
+Rama - 0x472c4eD6Bfc27221951C5B82EFa938C00b97a154
+Tomas Sosa Giraldo - 0x67D22ec0eEFAf2B84FA436F548300D89676c95ba
+Sol - 0x8D01Dc8B36d514ABF98B01163F4c937D140cACA8
+Filadelfo Caicedo - 0xd1154D856a1152AD01F810D9d2f04a9952526794
+Diego R - 0xC300517F3332f7Ba590a69CD308bAc9F976B487a
+Orland - 0x16aD2A10a39447d8fB5a5C872Ca56BE692B3741a
+Ramsil Ortiz - 0x5A6dFd476Fd1F76F7BcCFCbfC2090cA65Db1cCFD
+Felipe A - 0x9Aa9Ea110Fc9d3AF0f76ED0Abfd145Dad123A82d
+Guillermo Malagón - 0x31e7823911aB55da3a736064040A01f9cdA447D8
+Juan Fuente - 0xc362fc9309c3d278814c5007877d760f03153cec
+Julio M Cruz - 0x303B37a8d9E443d3abeB54b2034817BED52377C6
+Arturo - 0x44fad06f0e6e23635f58ebf77f962626e77ae9a9
+Sandra - 0xBf55446151788a1c18450f19A4989F4c07165175
+Daniel Luque - 0xb790C42a4a3164724e066Cf1fdE0D520f1f54Acb
+Daniel Plaquin - 0x634a17c5ea625D456279362AaD46DFAB60A3D4d1
+CAMILO MUNAR - 0xBe1659e8D56A714Befa9059A992c8672fF0ee1FD
+Luciano Delaude - 0x1fE94C5d81397E285a0a6DcA06b955eE7eC52f3e
+Pablo Guzmán - 0xB790b1D84DDFe9Ff31395F6FbBF2BB357F280e95
+David Yánez - 0xf605BBC522E0aeC29C14bcA2A1E9228bC8EfCA9A
+Juan Pablo Tixe - 0x63032837Eb87b68D6249191bd24e9D268982911B
+Karinna Serrano - 0x24c7cf9064e4D9922A713dD6217a827dD9E0777A
+Diego Barrionuevo 0x2bc7801a60Db3860306AEea915a555e899C21d87
+David Hernandez - 0x61351d6D087f17a7C601def09d014aAF7D143176
+Carlos Delgado  - token: 0x9579C3A6c10DF1F9bac5e30418eC5F1316adaADe - token shop:  0x23721bb2C4ec3C4eA0D3E492790253AaF7Eb39c4
+Javier Shen - 0xE5713E830851747D2436aa29450096A41bDBd3D5
+Juan Camargo - 0xa2234630258da4243A994B5ecF5522ffdCb576Da
+Santiago - 0x9c31e85986e98142FB3d66f2334E049F83EccE28
+carlos vazquez 0x9a30b0bf0868de8859d093b9cd3075ecbce06a92
+Andrés Serna - 0x317Fe2E94F240dee8077e9f2B769aFcDaa40e55b
+villawolf - 0x541d1121834b51BaCE5B392407cD7C5A32f3822c
+Juan Ramis - 0xC0aAc1C4fEbbC776A3292764F91B78164747f5A5
+Alberto Silva - 0xC00dbB2D4F7749183c49DBfCAc0B7cE6CCd4D1E2
+Arturo Collado Rosell - 0xBb3A6b36f2C409E64E90F4F2ceF860c6Fcf31273
+Chula 0xaf42148C5a5189fD97a1CBcC34dDa22c69074493
+javier velazquez  - 0x060c91fb1737a44a8b7252f78eefde386d6facfb
+Marcelo Haro - 0xA1cE4aD23E8878cb628FcaF211EBbcA2B9c26Efc
+Rulo - 0xFDde214a10bdE49c95C67BCAC1C429724c53863E
+Ruben Bocanegra - 0x49ebcC745932a77c468156f56aC2626aC4fdF68e
+Michael - 0xC03C185853B1218ab3ef4f55B7663ef97A95f863
+Bryan - 0x9B947fc6B18d48f739dC6ba39cD352B705B653a1
+Alexander Durán - 0x7e5B8e51F379F79A588DE917348447e00FA01e17
+Guillermo Boccardo - 0xDc4db5Ad8751A3B312F1fA1dc60Bc07018c62346
+Hernán Hernández - 0x8180430873dd220f1e19C31Ad2a47203891aFe02
+Rosendo Guzman Nogueda - 0x7BEA82c0AD0BFB7FA60B0Fd4581a355cAA90B02e
+Ariel Robotti - 0x24775af0CF0516a44A5213C082445E6FF8B23aC6
+PATRICIO 0xeDfc9703ca8317AAD96eC52C5B532ffF130a30fB
+Rocío Grajales - 0x0229e2b5b6008545e97B80f4Bca6d0095fBbd265
+Santiago - 0x9AB3649f25E1443D2AA48637a83541975988F735
+Eduar Cortes - 0x82f2a784012afCdDB97763B948eB0ad6Ba58B748
+Javier Montes - 0x7d5C85207e280e003F674DD2aeC2F425f83A2F32
+Horacio Barrozo - 0x28289a2dFF095D0f1e3e625e12E80c3bB701BC7C
+Willy - 0x50F66AA17B53767035a6c4B501934E01ba9b4c1e
+Claudio - 0xfd6F43bB3C1B0EC381b65f3ba0e33Da3e2785Ad4
+Juan Carlos MM - 0x1E9b98564913Cd03D25092992973A10777CAE369
+DC 0xEC4CdFC428fd5787E7626c2379ed6955AbA052C8
+Emerson - 0x9F7b5913d2E3c0bfDf885f7c10d40b942BCB984C
+André Neyra - 0x84385f35aAFE58716ccaE8132D6251C06555a7c4
+Johan Gonzalez - 0x266B41dA28ccf41F05001C758d36032CFb4AC404
+Cristian Carvajal - 0xFf3ebbd6Ab6ab72b1533037C11e51Dba971c25Dc
+Jorge Chavez - 0x1707838Aa6c9Ff9e03c7266b870079130024C292
+Tulio Duque  - 0x3E7040aF7032a067233D72de4435cF7D8bfb977e
+Luis Anton - 0x33387DEF826239147703B550211BB70A89e3d322
+José Miguel - 0x23c32aFF937e5095a1BF74c4AF90768802aaA257
+Malcoln Portillo _  0x91f4c32b8971f95e2b80699f8a37Fa35cb9652ba
+Guilherme Gonçalves - 0xebA3947eADAeC1Fd436F9396feddE38F45bD2867
+Mónica Ledesma 0x4e4EB6Ff0bA2434AEfb5026C26D215791cAe6D0b
+Raúl Parra Hernández - 0xa8c01C920B74AE766E36A36d89EC58891421364a
+Rosendo Martin Gravanago - 0x97cdCd29a239f2a65674f69635561E0B1f0B1Db7
+Joaquin Alcerro - 0x4e022d7748a5cA3224e186622C72591e031bDF59
+Gil Sanjuan - 0x5f4F15F4ea2A977743F48557328F2DC9f58BDBB6
+Silvia Martos 0x1Fd54DE4e765f407b1468B51b3aF144b11c0455a
+Jorge - 0x51dE167a3fA782637dfdb69567491DD4d8af3e58
+Juan Ignacio - 0x068a9CAeA5A52e664141a9EdE1cE17c1e0F82f37
+Johnnatan Olave - 0xF18FEf368ea975Cfa6F3cFE2e79E4D9696595164
+Roman Diaz - 0x16169A843C77656916aED518aaf0aDc32092886f
+Alejandro Betancourt - 0x8847c583a13CF0590c4FA1A0dF88bC802386bE65 
+fidelina venezolana en Arteaga Brasil-0xd9145CCE52D386f254917e481eB44e9943F39138
+Mauro Cambarieri - 0x53F3103830c3bf712d110805AeB4A79B92eb7815
+Joel Garmendia - 0x80EcC44C99cE75E815625843647E7ab5ea0Bc286
+Armando Colón Mendinueta - 0x63Ba2eE83C920D98b2eB2111b7b0274F2E5a7fDE
+Alfonso Zapata - 0xC8A57811be14eD896df99443B94c95f5c3727b05
+Manuel David - 0xb6fE63Be1917b8145f07C672680559088e45F55A
+Andres - 0xbf19F6e4301554A8fBa212A2Aa9CEa208De94867
+ANDRES JAIMES - 0xD8Dc49391bF31e9deDfFdAF4454C5eFaFcb3A2a0
+Camilo Bayona - 0x357F152B6CC5AFA7B5772174aC8205c4E2A648Ef
+Diego Guillen - 0xF84313fb14914FFd2167d4E4Db1264b4d253784E
+Sébastien Léger - 0xe71217198dF29155AdaC044Dc901ace5d91c342B
+Heler Paez - 0xE2a9820789dD758423C06c11349D0c8E3fD9929c
+Carlos Oñates - 0xBfF7395EeEBA440C2b78a9E7CeC7191b134A3B52
+Gustavo Meghirditchian - 0x56770781710fe7De3FB7d9119bB7F4DC9E073C6a
+Alex - 0x5086C53c5F5632338cc11BD1A6b67DB0e4893551
+Celic Torres - 0xEe737781D17EFEeb7D77Ec2Ae0a82C6e7e9bbb35
+97. Nicolás Locatti - 0x7E81EB0495DCdEd31676Ee30Ff47BF224c7Ad7b0
+98. Carlos Cardenas - 0xd9145CCE52D386f254917e481eB44e9943F39138
+99. Adan Reh - 0x7CAA97a8A2Ab1445659A8D91513e86858E0BFa83
+100. Roberto Daniel Baltazar Macias - BALT - 0xDFfE22D0649195Aa66b10CF44B8CDeaB36Cbb338
+
+
+*******************************************************
+
+en Metamask
+Tokens
+Import
+ 
+en Remix
+mint 100 tokens = 10000
+para tu address wallet
+amount 10000
+ 
+balanceOf
+ 
+ 
+en Remix
+Crea
+TokenShop.sol
+ 
+// Inicio
+ 
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+ 
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+ 
+interface TokenInterface {
+    function mint(address account, uint256 amount) external;
+}
+ 
+contract TokenShop {
+    
+    AggregatorV3Interface internal priceFeed;
+    TokenInterface public minter;
+    uint256 public tokenPrice = 200; //1 token = 2.00 usd, with 2 decimal places
+    address public owner;
+    
+    constructor(address tokenAddress) {
+        minter = TokenInterface(tokenAddress);
+        /**
+        * Network: Sepolia
+        * Aggregator: ETH/USD
+        * Address: 0x694AA1769357215DE4FAC081bf1f309aDC325306
+        */
+        priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+        owner = msg.sender;
+    }
+ 
+    /**
+    * Returns the latest answer
+    */
+    function getChainlinkDataFeedLatestAnswer() public view returns (int) {
+        (
+            /*uint80 roundID*/,
+            int price,
+            /*uint startedAt*/,
+            /*uint timeStamp*/,
+            /*uint80 answeredInRound*/
+        ) = priceFeed.latestRoundData();
+        return price;
+    }
+ 
+    function tokenAmount(uint256 amountETH) public view returns (uint256) {
+        //Sent amountETH, how many usd I have
+        uint256 ethUsd = uint256(getChainlinkDataFeedLatestAnswer());       //with 8 decimal places
+        uint256 amountUSD = amountETH * ethUsd / 10**18; //ETH = 18 decimal places
+        uint256 amountToken = amountUSD / tokenPrice / 10**(8/2);  //8 decimal places from ETHUSD / 2 decimal places from token 
+        return amountToken;
+    } 
+ 
+    receive() external payable {
+        uint256 amountToken = tokenAmount(msg.value);
+        minter.mint(msg.sender, amountToken);
+    }
+ 
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+ 
+    function withdraw() external onlyOwner {
+        payable(owner).transfer(address(this).balance);
+    }    
+}
+ 
+ 
+// Fin
+ 
+DEPLOY & RUN TRANSACTIONS
+On CONTRACT
+Select TokenShop
+(NOT TokenInterface)
+ 
+Parameter: your token address
+Deploy
+ 
+Nombre - TokenShop Address
+Francisco Bermudez - 0x9f66E2C0990E913589f710654564daAa1365028a
+Raúl Parra Hernández - 0x1594a47D735488627cb2357ab36C84D58A1eA082
+CAMILO MUNAR- 0x0e856856682E9D47c5D292AD6A31de1eA759E098
+jair diaz - 0xC1A7FA065b6daA93F98e912FE3A0D5EC381a7a5b
+Joaquin Alcerro - 0xF8c1A16b5ce62D0F7eF4446D16930eA66522c93E
+OsCaR SeGuRa | 0xA17049E4c9F1F39D27386Eab659d65a75c16Ff6a
+Saray Rodríguez - 0x58B84b9b225c229B6af8353b5E41c1339cc07dD8
+Carolina 0x8B497aC67FBCb9cba8Dda93F054ca3205d5D6DfD
+Juan Carlos Gallardo - 0x0c7f773475908b6C599D695e86e859EC1c66dC80
+Diego R - 0x6DD521e396F78Ce31BFFD44f1213EEc774517DC8
+Luis Anton - 0x8dBF3204A361e1D3d5eE481b3A7Cb2dAC384Cc7a
+Ramsil Ortiz - 0x06d64F58a4E607fa99827DE7c4b6e2E598879653
+Sol - 0x95eE9F241B0698Fd8979f477F8E308D7d52748D2
+Filadelfo Caicedo - 0x66cF0f234ED77252244166Ed0fD073548A6b3D0C
+daniel plaquin - 0x2237EE8D00536eDC0BE44A257E8e7Aa44073fC41
+Orland - 0x1B2F0f9aDb137c19E10445Fb522D3654c1cAEff2
+Juan Fuente - 0x913dA6e3e7268659C215143030B42A73F36F743a
+Arturo - 0x646ff263915ad4f793bacccab85c394684cb698b
+Sandra- 0xAad8817D006dBa90000b46979053D16CB45B5dE0
+Felipe A - 0x2afF2B9F7e75c1F5c6248ee5604F9a9948Afefa1
+Rulo - 0x6038b88fb1Ed8F75a7beA6758F5739771D5b1685
+Julio M Cruz - 0xfD35F92ccF4B71fE7823982fD093f1860bB16E99
+Rama - 0x8c7aFfC51C451B849D93991f717D721574891D3E
+Tomas Sosa Giraldo - 0x0DD5bc876aaE259794b42cC7f20970579E3F5ACC
+Santiago - 0x62Ee9b359E55b72BB92a13457313F9247C612610
+Camilo Barrero - 0x16BE0c0e65D4d1ff87A27cF095ecD7b5a032D9b2
+Alberto Silva - 0x4002Ebc87FCA73dc4Cc9AB2ec20f31988F3812Eb
+claudio - 0x6A31A96ADDCa5F366f71BFF293F9E26d2ed8664c
+David Hernandez - 0x2468E6b20B6486d2a02CE38E365c1281eb40C005
+Johan Gonzalez - 0x266B41dA28ccf41F05001C758d36032CFb4AC404
+Carlos Delgado  - 0x23721bb2C4ec3C4eA0D3E492790253AaF7Eb39c4
+Delaude - 0x71f58af08CdB3f7a091A58668D9bA89F5A5F17d0
+Gil Sanjuan - 0x83f35Cc90e98B5bF621957a8feB967380e0A838C
+Arturo Collado Rosell - 0xCe0393C5ea721bdA8eC21D11BE384EFc4AceB962
+Diego Barrionuevo 0xAd5F6e2b5d9cBc717DAAEbB06819947F08C6e2dB
+- 0x22287D50a2a70dF787a799DbD764A50978BDC0ef
+Jorge - 0x36c53a23A4530aF43B863CD688C994B206F94D19
+Javier Montes - 0x5a74DC618a00303a79116eADb6FcF1035DFeABE7
+Guillermo Boccardo - 0x967cCAAe57D133606559bCDC9662685EcB4A641d
+PATRICIO 0xCDc521aaD4c542c17CC0EDD367F1730eD2d8FEaD
+Hernán Hernández 0x098B8868f1fD821f223476C09A81EdccfBb545f0
+Eduar Cortes 0xEe089dB3E55a6ABb9290AAEeb3aC9768B05f9603
+Daniel Luque - 0x3775f5a698d20C1ea241Eb627E25F41F35Af8065
+Juan Pablo Tixe - 0x52100dB6D54e59BCEED1bcc4eFdb5592DD65349c
+Silvia Martos 0xc2ea2563Efaf1289ED400AA0406b67155f395cFb
+Juan Ramis - 0xCF16D26E68eA9aB327931a9c2d032F7552236521
+villawolf - 0x541d1121834b51BaCE5B392407cD7C5A32f3822c
+Emerson - 0xE53C4e606E0169cabc36134690abe7F2187B62Ba
+javier velazquez -0x75ad6c41b849f1f1c6c65a0233fabd918072c426
+Santiago - 0x4E7e639EFcC632D065E79a39993E556F0cB7Ac2A
+Andrés Serna - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Willy Gonzalez - 0x92dA7d8c23b9129064dF7d9560Ed3EB2295912b4
+Eliot Pinto - 0x232f3af82CFCfBfE5E18b32Ae4a5797fbC4F4e45
+David Yánez - 0xEe5fC76F849bb8336b5fC355CCddf1E5677E564b
+Malcoln Portillo _ 0xA765Faa46258f174D7f435F5615Cd1ac1e9c034c
+Juan Carlos MM - 0xE20D84bd61530fc0F7019830444d17C1AfB7D920
+DC 0x552C7ce6eEE9BB5F090818A76064eBB6E81c8065
+Guillermo Malagón - 0x6d52B227547643280B64284aACFb9444190d358d
+Alexander Durán - 0x13F8Cf2A0560E1fa2e2EEfD9C0459d44c564deED
+Jorge Chavez - 0x4d7CAb4432428cB8c2b87208b1a97C4dd4d67701
+André Neyra - 0x0bA8a0320dFB6Cd824aBCf541cc9214a73CaA425
+Roman Diaz - 0x24242b414C4ab3833b667246c2be7Ec40Cfbc4ef
+Karinna Serrano - 0x5f22fE6Ebf2Bd7c93B5c06Ca8D1EfcD68804d7D1
+Bryan - 0x4C624168Caf0e35E4B0a79424E54Ed3781AB221B
+Pablo Guzmán - 0x7E6a988e6F90C36C85E51f4c9a39e8F6A0Bd559A
+Marcelo Haro - 0x803A5469e594972355c4E8b33d51Ccf5FD0A901f
+Juan Camargo - 0x83764e7cCFeBaD87bdf4A19020DcC37e7cA08b13
+Tulio Duque - 0x57647630AB1eA2f6344f15Eb45D6dc315ffEE8fC
+Rocío Grajales - 0x8432a8B63f47713Ae3953979096a8DfAfeB5Ca46
+Rubén Bocanegra - 0xE86C9455C994857E9Fa3AcDE7f3bd2a324e1214c
+Horacio B - 0xF889274c96dC8F2dE0e2Dbf22d41AaCaA870ed73
+Ariel Robotti - 0x1532517113Ebc03DeF88cBD4444885C0a48E0Dc4
+José Miguel - 0x0faef87F0966E35048B50d6325D06782CD83Db37
+Juan Ignacio - 0x6c68B624D707837cEaf308e16f83378921a7240A
+ Guilherme Gonçalves RECICLE 0xE9931aD3d4C02cE0F6032bf15Affd30EFa201b6D
+carlos vazquez 0xd67d55dd3dcc6c1f8d00a4986361f670bd4c63db
+Chula 0xd4228c1f2EcF5CE2439640f4d998Fd32B059C76f
+Javier - 0xb309821679338a9c27471f485C9c03d77b78308e
+Anibal Elbaum - 0x4155642A34935067229590cf6213BcD7eD2a3Bc6
+Johnnatan Olave - 0x6DEEd3C5D88985b344A568f436636d452E440CE6 
+Alejandro Betancourt - 0x389b9703097A68B0dcEdBaC2588F8Ad27009C587
+Mauro Cambarieri- 0x64e2188E768e561db8AEf554eDCF5db470959e61
+Joel Garmendia - 0xd3FE321bC0ed324c8bFAcc7670D2005149078228
+Armando Colón Mendinueta - 0xe72AD48574577534cfD932254E387F2A31d8e201
+Alfonso Zapata - 0x9EEdFB97D934398b3151Ceb0bd525C993296AaA3
+Manuel David - 0xECDd29aFdDe3afB68590d50f34014166F48bCA9b
+Andres Guzman - 0xa389FF67AD456f4a3743303155CcE3DcDd7f2B79
+ANDRES JAIMES - 0x8e4352CcD84993Da57E55928AfF0B8569F3c6EC7
+Camilo Bayona - 0x1Efc589B231a7233aaf683a062345f0b5aD2A198
+Sébastien Léger - 0x8670dd16F4e6BD68B67b0C65bbd60c99eC4bC7f2
+Diego Guillen - 0x7455F2a8EE2af0b8D9e1988ED7ecEf3cF5779143
+Heler Paez - 0x1452B3a2fa0F4535CE0b2550602cD2D43d20fD78
+Gustavo Meghirditchian - 0x629D5C1893BbF33147CCe9A6c4046827AA216CcE
+Alex - 0xE153c0eF9DEC6AdBC2530c8e20ea07A6701C1BeA
+Celic Torres - 0x6481cf519d40270922E8Ba393b1c55f78781F678
+93. Nicolás Locatti - 0x746aAb2D1762c7BFfCF7984A5137889D6f27D8DF
+94. Carlos Cardenas - 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+95. Adan Reh - 0x7f865306481ea25419eBDcbAa3DE10b5d53aD7d7
+96. Gustavo Torres - 0x145968abe584D564eb5c71601ac3e7C9D74dE364
+
+
+*******************************
+ 
+En Token
+Autorizo a TokenShop a acuñar Tokens
+
+MINTER_ROLE
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+ 
+grantRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+tu TOKENSHOP address
+
+Confirmarlo
+
+hasRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+your TOKENSHOP address
+
+resultado TRUE
+
+
+En TokenShop
+
+getChainlinkDataFeedLatestAnswer
+260138431462
+
+ETH/USD 2601.38431462
+
+Temprano
+245307033207
+ETH/USD 2453.07033207
+
+
+https://eth-converter.com/
+Amount 0.01 ETH = 10000000000000000
+
+tokenAmount
+10000000000000000
+
+Respuesta: 1300
+Con 0.01 ETH puedo comprar 13.00 tokens
+
+
+Enviando 0.01 ETH = 10000000000000000 wei
+Para tu TokenShop address
+Vas a recibir 13.00
+
+en Metamask
+Envia 0.01 ETH
+Para tu tokenShop address
+
+token balance
+On Metamask
+
+
+SARAY 
+TOKEN : 0xaC86f59cbB51084A33CE0bFD8D20726CBE565fa0
+TOKEN SHOP: 0x58B84b9b225c229B6af8353b5E41c1339cc07dD8
+PUEDEN COMPRAR
+
+Carolina 
+token 0x67d797e59BE27d3f7bF756e47f883fE85175387d
+token shop 0x8B497aC67FBCb9cba8Dda93F054ca3205d5D6DfD
+
+Santiago - Token: 0x9c31e85986e98142FB3d66f2334E049F83EccE28
+Token shop: 0x62Ee9b359E55b72BB92a13457313F9247C612610
+Pablo Guzman - "Chainlink Bootcamp 2024 Token Pablo Guzman" Ya compre :)
+Token - 0xB790b1D84DDFe9Ff31395F6FbBF2BB357F280e95
+TokenShop - 0x7E6a988e6F90C36C85E51f4c9a39e8F6A0Bd559A
+Rama - Pueden comprar Ramaken (RMK)
+Token:     0x472c4eD6Bfc27221951C5B82EFa938C00b97a154 
+TokenSHOP: 0x373c8D98BF3d3aF0dA850F5ca62871696Acee9e6
+
+
+OSCAR SEGURA | QKN | 0x319Bf91a4B98121a78Fe0Df00b9e1e074d33C22E
+OsCaR SeGuRa | 0xA17049E4c9F1F39D27386Eab659d65a75c16Ff6a
+TOKEN Filadelfo Caicedo - 0xd1154D856a1152AD01F810D9d2f04a9952526794
+Token Shop  Filadelfo Caicedo - 0x66cF0f234ED77252244166Ed0fD073548A6b3D0C
+Guillermo Boccardo |Token{GuiboCoin-GBC} - 0xDc4db5Ad8751A3B312F1fA1dc60Bc07018c62346
+Guillermo Boccardo |TokenShop - 0x967cCAAe57D133606559bCDC9662685EcB4A641d
+
+Guillermo Malagón - TOKEN:0x31e7823911aB55da3a736064040A01f9cdA447D8
+Guillermo Malagón - TOKENSHOP: 0x6d52B227547643280B64284aACFb9444190d358d
+Tomas Sosa Giraldo (Token): 0x67D22ec0eEFAf2B84FA436F548300D89676c95ba
+Tomas Sosa Giraldo (Token Shop): 0x0DD5bc876aaE259794b42cC7f20970579E3F5ACC
+Bryan TOKEN BXT (10$): 0x9B947fc6B18d48f739dC6ba39cD352B705B653a1 - SHOP: 0x4C624168Caf0e35E4B0a79424E54Ed3781AB221B
+Guilherme Gonçalves TokenShop > RECICLE 0xE9931aD3d4C02cE0F6032bf15Affd30EFa201b6D
+Guilherme Gonçalves Token 0x11cb7AbD0Aba48f4970671F3f9d15894312A2d41
+ 
+Hernán Hernández ************************************************
+    (Token. Name HH) 0x8180430873dd220f1e19C31Ad2a47203891aFe02
+    (TokenShop) 0x098B8868f1fD821f223476C09A81EdccfBb545f0
+    
+Gil Sanjuan - TokenShop: 0x83f35Cc90e98B5bF621957a8feB967380e0A838C 
+Gil Sanjuan - Token: 0x5f4F15F4ea2A977743F48557328F2DC9f58BDBB6
+
+Juan Pablo Tixe - GGC - 0x63032837Eb87b68D6249191bd24e9D268982911B (Token)
+                - 0x52100dB6D54e59BCEED1bcc4eFdb5592DD65349c (TokenShop)
+
+Julio M Cruz (Token / zkNexus)- 0x303B37a8d9E443d3abeB54b2034817BED52377C6
+Julio M Cruz (Token SHOP)- 0xfD35F92ccF4B71fE7823982fD093f1860bB16E99
+Daniel Luque (Token shop) - 0x3775f5a698d20C1ea241Eb627E25F41F35Af8065
+Daniel Luque (Token / ADN1) - 0xb790C42a4a3164724e066Cf1fdE0D520f1f54Acb
+
+Marcelo Haro - token     0xA1cE4aD23E8878cb628FcaF211EBbcA2B9c26Efc
+               tokenShop 0x803A5469e594972355c4E8b33d51Ccf5FD0A901f
+
+Michael token 0xC03C185853B1218ab3ef4f55B7663ef97A95f863
+Michael tokeshop 0x22287D50a2a70dF787a799DbD764A50978BDC0ef
+
+David Hernandez Token DVC24 0x61351d6D087f17a7C601def09d014aAF7D143176
+David Hernandez TokenShop   0x2468E6b20B6486d2a02CE38E365c1281eb40C005
+
+Johan Gonzalez Token     - 0x266B41dA28ccf41F05001C758d36032CFb4AC404
+Johan Gonzalez TokenShop - 0xDe3b235298bd1a65fa0d3126bDb8B021c58Fa590
+
+Juan Token Test Chainlink(TKTC) : 0xC0aAc1C4fEbbC776A3292764F91B78164747f5A5 Shop:0xCF16D26E68eA9aB327931a9c2d032F7552236521
+
+Juan Fuente Token JFT24 0xc362FC9309c3D278814C5007877d760F03153CeC
+TokenShop 0x913dA6e3e7268659C215143030B42A73F36F743a
+Luis Anton - 0x33387DEF826239147703B550211BB70A89e3d322 token
+
+
+OSCAR SEGURA | 0x319Bf91a4B98121a78Fe0Df00b9e1e074d33C22EOsCaR SeGuRa | 0xA17049E4c9F1F39D27386Eab659d65a75c16Ff6a
+Javier Shen - Token Shop: 0xb309821679338a9c27471f485C9c03d77b78308e
+Token - 0x43311cA0135518b24aFE4148fd3eDF67f278cc65
+
+Ariel Token 0x6C0c06cac11DdF4DEAcc09378499E3b86B83830b
+TokenShop 0x1532517113Ebc03DeF88cBD4444885C0a48E0Dc4
+
+Malcoln Portillo Token - 0x91f4c32b8971f95e2b80699f8a37Fa35cb9652ba
+                 TokenShop - 0xA765Faa46258f174D7f435F5615Cd1ac1e9c034c
+David Yánez  - Token -  0xf605BBC522E0aeC29C14bcA2A1E9228bC8EfCA9A
+                TokenShop - 0xEe5fC76F849bb8336b5fC355CCddf1E5677E564b                
+
+Ramsil Ortiz Token|JUNGLARD - (RD1) | 0x5A6dFd476Fd1F76F7BcCFCbfC2090cA65Db1cCFD
+TokenShop | 0x06d64F58a4E607fa99827DE7c4b6e2E598879653
+
+Silvia Martos token 0x541d1121834b51BaCE5B392407cD7C5A32f3822c
+tokenshop 0x2A7a747bD2fdFc2357C70ACd1B11a8E386bE4e43
+Compre CHICHIES  jajajaCreo que son los que valdrán más... jajaj
+comprados 
+
+Rulo Token PesoMXN - 0xFDde214a10bdE49c95C67BCAC1C429724c53863E
+TokenShop - 0x6038b88fb1Ed8F75a7beA6758F5739771D5b1685
+
+Ruben Bocanegra - Token:  0x49ebcC745932a77c468156f56aC2626aC4fdF68e
+TokenShop: 0xE86C9455C994857E9Fa3AcDE7f3bd2a324e1214c
+
+SARAY 
+TOKEN : 0xaC86f59cbB51084A33CE0bFD8D20726CBE565fa0
+TOKEN SHOP: 0x58B84b9b225c229B6af8353b5E41c1339cc07dD8
+PUEDEN COMPRAR
+
+Jose Miguel de la Vega - Token DEL
+TOKEN: 0x23c32aFF937e5095a1BF74c4AF90768802aaA257
+TOKEN SHOP: 0x0faef87F0966E35048B50d6325D06782CD83Db37
+
+Juan Carlos Gallardo - Token Shop 0x3Bbb11ca90f68Cc91853Bf3787031C2144a0E808
+Juan Carlos Gallardo - Token 0x0c7f773475908b6C599D695e86e859EC1c66dC80
+
+Sol - TokenShop 0x95eE9F241B0698Fd8979f477F8E308D7d52748D2
+Sol - Token 0x8D01Dc8B36d514ABF98B01163F4c937D140cACA8
+
+Armando Colón Mendinueta - Token 0x63Ba2eE83C920D98b2eB2111b7b0274F2E5a7fDE
+Armando Colón Mendinueta - TokenShop 0xe72AD48574577534cfD932254E387F2A31d8e201
+
+Raúl Parra Hernández - TOKEN 0xa8c01C920B74AE766E36A36d89EC58891421364a
+Raúl Parra Hernández - TOKEN SHOP 0x1594a47D735488627cb2357ab36C84D58A1eA082
+
+Karinna Serrano Token . 0x24c7cf9064e4D9922A713dD6217a827dD9E0777A
+Karinna Serrano TokenShop - 0x5f22fE6Ebf2Bd7c93B5c06Ca8D1EfcD68804d7D1
+
+Luciano Delaude Token - 0x1fE94C5d81397E285a0a6DcA06b955eE7eC52f3e
+Luciano Delaude TokenShop - 0x71f58af08CdB3f7a091A58668D9bA89F5A5F17d0
+
+camilo munar      Token - 0xBe1659e8D56A714Befa9059A992c8672fF0ee1FD
+camilo munar  TokenShop - 0x0e856856682E9D47c5D292AD6A31de1eA759E098
+
+alexander durán token kdt 0x7e5B8e51F379F79A588DE917348447e00FA01e17
+alexander durán tokenshop 0x13F8Cf2A0560E1fa2e2EEfD9C0459d44c564deED
+
+Jorge Chavez Token LIM24ESP 0x1707838Aa6c9Ff9e03c7266b870079130024C292
+Jorge Chavez Token Shop 0x4d7CAb4432428cB8c2b87208b1a97C4dd4d67701
+
+Alejandro Betancourt Token: 0x8847c583a13CF0590c4FA1A0dF88bC802386bE65
+Alejandro Betancourt TokenShop: 0x389b9703097A68B0dcEdBaC2588F8Ad27009C587
+
+javier velazquez:
+    token: 0xed3242dbb9092bb31d0bb6b9332fe157d311f7be
+  tokenShop : 0x338dda6e18da1fef1bba11c0e4a3783cdf8930c2
+
+Joel Garmendia (My TokenJoe CB24ES):
+Token MTJCB24ES : 0x80EcC44C99cE75E815625843647E7ab5ea0Bc286
+TokenShop: 0xd3FE321bC0ed324c8bFAcc7670D2005149078228
+
+
+Alguien para comprar mi Token? Compré a Joel G - MTJCB24ES
+Johnnatan Olave - Token JOCBT
+Token: 0xF18FEf368ea975Cfa6F3cFE2e79E4D9696595164 
+TokenShop: 0x6DEEd3C5D88985b344A568f436636d452E440CE6 
+
+Andres Jaimes token 0xD8Dc49391bF31e9deDfFdAF4454C5eFaFcb3A2a0
+token shop - 0x8e4352CcD84993Da57E55928AfF0B8569F3c6EC7
+
+Mauro Cambarieri 
+Token  0x39dd59e56Aecf22e7E2260F504EE87663a3E0A19
+Tokenshop: 0x64e2188E768e561db8AEf554eDCF5db470959e61
+
+Sébastien Léger ->
+TOKEN (BCS) = 0xe71217198dF29155AdaC044Dc901ace5d91c342B
+SHOPTOKEN = 0x8670dd16F4e6BD68B67b0C65bbd60c99eC4bC7f2
+
+Daniel 
+Token: 0x63CfEb62ddbf6F48D63cc7eFd68c7264e7e1e1B6
+TokenShop: 0x196a1C28e7882437b4E5F0Be365d40f04ACED22b
+
+Diego 
+
+Token - 0xF84313fb14914FFd2167d4E4Db1264b4d253784E
+TokenShop - 0x7455F2a8EE2af0b8D9e1988ED7ecEf3cF5779143
+
+Nicolas
+
+Token - 0x7E81EB0495DCdEd31676Ee30Ff47BF224c7Ad7b0
+TokenShop - 0x746aAb2D1762c7BFfCF7984A5137889D6f27D8DF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

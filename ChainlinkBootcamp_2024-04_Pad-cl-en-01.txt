@@ -1,0 +1,610 @@
+0x2bc90dcF139394C8359d22CAC0aa5FD999EaB72A- rChainlink Bootcamp - Apr/2024
+Session 01
+ 
+https://pad.riseup.net/p/cl-en-01
+ 
+BootcampSupport
+https://chain.link/discord 
+#bootcamp channel
+ 
+Youtube
+https://www.youtube.com/@chainlink - <<< Subscribe!
+ 
+Chainlink Bootcamp 2024 Tasks form
+ 
+
+ 
+
+
+ 
+Name - City, Country
+
+     Usman - Karachi, Pakistan (https://www.linkedin.com/in/usman2000/)
+
+    Ini Seven - Portharcourt, Nigeria 
+
+    Antonio - Kingston, Jamaica
+
+    Javier - Córdoba, Argentina
+
+    Ramiro - Buenos Aires, Argentina *(I share my private key)
+
+    Barba - Paraná, Brazil
+
+    Raffa - Paraná, Brazil
+
+    Jos - Greece, Athens
+
+    Luis - Caracas, Venezuela
+
+    T SATHISH - Madanapalle, AP, India 
+
+    Abu Taher Md. Shifat - Rangpur, Bangladesh
+
+    Sol - Sao Paulo, Brazil
+
+    Manuel - Caracas Venezuela
+
+    Rajdeep Jadeja - Mumbai, India
+
+    Jeff C - Naples, FL USA, I will not share my private key
+
+    Dennis Chege , Nairobi Kenya
+
+    Mubashira - mumbai, India
+
+    Satya Bhaskar - India.
+
+    Akhilesh - Bangalore India
+
+    Somto - Lagos, Nigeria
+
+    john  -san francisco, california
+
+    Daniel Benitez - Bogotá, Colombia
+
+    Bruno Cardoso, Praia Cabo Verde
+
+    Ayo Akpata - Lagos
+
+    Alex Péain, Myanmar 
+
+    Ify - Lagos, Nigeria
+
+    David Ogun State, Nigeria
+
+    Amanya, Kampala, Uganda
+
+    James Harrison, - ,Lagos, Nigeria
+
+    Dimosthenis Tsatsos, Athens, Greece
+
+    Med - Casablanca, Morocco
+
+    Gustaf - Jakarta, Indonesia
+
+    Mwendwa D - Nairobi, Kenya
+
+    Ryan - Surakarta, Indonesia
+
+    Daniel - Berlin, Germany
+
+    Mitja - Medvode, Slovenia
+
+    Dr. Felipe P. Sta. Elena, Philippines
+
+    Dennis Barrffou-Gyimah Ghana  Accra
+
+    Brown Memoye - Lagos, Nigeria
+
+    Wamata - Kenya
+
+    James - San Juan, Puerto Rico
+
+    Arcadio Garcia, Madrid, Spain 
+
+    Nicolás - Santiago, Chile
+
+    Samet - Ankara,Turkey
+
+    Siddharth Shukla - Gujarat, India
+
+    Enrique Rondan - Seville, Spain
+
+    Alex Build - Kowloon, HongKong
+
+    Daniel Ofem - Abuja, Nigeria
+
+    Asep - Bandung, Indonesia
+
+    Prashant - Madhya Pradesh,India
+
+    Kelly Egode - United Kingdom - Belfast
+
+    BIDYADHAR SAHU,INDIA
+
+    weneedweed - TORONTO,CANADA
+
+    Hector - Vancouver, Canada; 0xC2076A08bCe8B5FD9128Df8F25F4307df2f2F29f;
+
+    Praise - Lagos, Nigeria
+
+     Duane - US and A
+
+    Lore - Ecuador
+
+    Mohammed  - Lyon - France
+
+    Karen - Boston, Mass
+
+    Praneesh -Hyderabad, India
+
+    HC - Serta, Portugal
+
+     Doyin - Nigeria
+
+    Jeffrey - Rivers state, Nigeria 
+
+     @Anthonyjcr7 - Monagas - Venezuela 
+
+    Cécile - Paris, France
+
+    52. christopher - nigeriaAbdulrahman from Barnstaple, UK.
+
+    53. Sante, L'Aquila, Italy
+
+    54. Uroy, PortHarcourt, Nigeria
+
+    55. Armando Medina, Barcelona, España
+
+    56. Mayowa, Lagos, Nigeria
+
+    57 Umi, Lagos,Nigeria
+
+    58. Nishant - India
+
+    59. Sunday  - Nigeria
+
+    60. Onesimus Addo Appiah   - Ghana , Accra
+
+    61. Walbe - Plateau, Nigeria
+
+    62. Jose Luis - Lima - Perú
+
+    63. Tiago Tavares - Porto, Portugal
+
+    64.G.Vishwanath - India
+
+    Chimezie Nebolisa - Anambra, Nigeria
+
+    65. Deepesh Singh Rathore , Bilaspur India
+
+    Kajin-Indonesia
+
+     Stanley, Lagos, Nigeria
+
+    66. Subhajit Pradhan - India
+
+    67. Dustin Tynes, Nassau, Bahamas
+
+    Kheyral Sutan, Jaka rta, Indonesia 
+
+    Joseph Emmanuel - Nigeria
+
+    DENISE C SOBRINHO, Monterey, CA. USA
+
+    Will Stansill, Greensboro, US
+
+    Juan M - México
+
+    Melanie Marten Athens, Greece
+
+    Dzemal Jukic, Landshut, Germany
+
+    Kojrey - Canberra, Australia 
+
+    Sulav Shrestha, Kathmandu, Nepal
+
+    Naveen -Vijayawada INDIA
+
+    Finn Clancy - Dublin, Ireland
+
+    Enes - Turkey 
+
+    Tos van der Togt- Netherlands
+
+    71. Wilder Rincon - Colombia
+
+    72.Savadogo Daouda - Burkina Faso
+
+    71.Philip Lorber - Chile
+
+    Manuel - Colombia
+
+    73. 
+
+    zheng hualiang singapore
+
+    74. Vijay - Chennai,India
+
+    Mihir - Varanasi, India
+
+    Shane - USA
+
+    Sandriana - Jakarta, Indonesia
+
+    Jasmin - Manila, Philippines
+
+    70.Anand Kajla, Berlin
+
+    71. Eric - San Antonio, USA ; 0xDF1D5Bd5cAA2C5c3d06C8875d6927B0ad7A764fB ; https://www.linkedin.com/in/ericdwkim/ ; https://twitter.com/ericdwkim
+
+    Vladislav - Belgrade, Serbia
+
+    72. Pritish Dakhole, India
+
+    73. Thao Le, Vietnam
+
+    74.Smit,India 0xACc75DaDA16E0A0D50Ccef8eD93ed551dBf9CC87
+
+    Michael L from London
+
+
+    75. Ajay - India
+
+    76. Cesar Gutierrez - Per
+
+    77. Emmanuel William Esin,Nigeria ; 0xC6f4B92F0d1deF0890234C0510aA87d424dd9622
+
+    77. Dinejad, Indonesia
+
+    Marlon, Ecuador
+
+    78. Vilma Ahumada - Switzerland
+
+    78- Hector Encarnacion, London, U.K.
+
+    Konstantinos Skylogiannis - Athens, Greece
+
+    Koang Biel, Rajkot, India
+
+    Tenn, South Africa; 0xB916Fb04568b1E504f36C5D999De0292037Fa968
+
+    Demetris Kyriacou - London, UK
+
+    78 - Tomás - CABA - Argentina
+
+    Enock kipkoech - NAIROBI KENYA
+
+    80 Rhony Antony - 
+
+    Singapore 
+
+    81 - Bruno Moutinho - Brazil
+
+    83 Alisha India
+
+    82. Ben Wang- Taipei, Taiwan
+
+    84 Nebechukwu Christian,Ibadan, Nigeria
+
+    Yunus Tijani - Switzerland
+
+    Aditya Moharana- India
+
+    Chloe Wei - Taipei, Taiwan
+
+    Julio Cesar Gonzales Ochoa - Peru
+
+    Kenneth Hu - Taipei and Singapore
+
+    Jarret - Singapore
+
+    Toyeebat Saadu-Ibadan, Nigeria 
+
+32. Dante - Pennsylvania, United States (https://www.linkedin.com/in/dante-olmo/)
+33. Gino Chávez - Perú
+34. Similoluwa Ogunleye , Lagos Nigera. 0xe09bafd18a947a5e70627d6746763b7875bfdf51
+35. Nolan Rangel - Boise, Idaho
+36. Ian Macharia - Nairobi, Kenya
+37. John Cramer, Long Island,NY USA
+38. Victor, Nairobi kenya
+39. Nachon Boriboonthana - Thailand 
+40. Arun - Ireland
+41. Christin Hidalgo - New York, NY USA
+42. Favour Godspower, Lagos, Nigeria
+43. Alexander Yakovlev, London, UK
+44. Jesse Asiedu-Akrofi, Ghana
+45. RISHIKESH DAS - Dhaka, Bangladesh
+
+***********************************************
+ 
+Blockchain Fundamentals
+https://andersbrownworth.com/blockchain/hash 
+https://andersbrownworth.com/blockchain/block
+ 
+******************************
+ 
+Metamask
+https://metamask.io/
+
+​​DO NOT SHARE PRIVATE KEYS
+ thank you :D
+
+Enable testnets
+Show test networks
+Sepolia
+
+Add other networks
+
+https://chainlist.org/chain/80001
+Mumbai RPC
+https://polygon-mumbai-bor-rpc.publicnode.com/
+
+
+Faucets
+https://faucets.chain.link/
+
+Link Token Sepolia Address:
+    https://docs.chain.link/resources/link-token-contracts/
+
+Block Explorer
+0x2E811B4D17b1DA43b6Dd85F60070138350d97B5E
+
+
+Name - Wallet address
+Ini Seven - 0x8E14670D6E46Da2435eeccAB0C76D80C9d303925
+Usman - 0x673A97a6bd60A4F302D632247DC04aE7Ba6Fc96d
+Aram Yeghiazaryan - 0x2E811B4D17b1DA43b6Dd85F60070138350d97B5E
+Ayo Akpata - 0x080169735c1CA5471674BB6a293178Cc82257AB7
+Finn Clancy - 0xe383497a2a129049bb27ca64A1c58AF8CE2384e2
+Rajdeep Jadeja - 0x5B2f0216203aEEe1375f356664DC1f6D5BD27711
+Stokely   0xEf495F031E9D712ed3a45123100940920388D106
+Dimosthenis Tsatsos - 0x6E13995B245d4e1E7AE5b8fFD1371470A7967708
+Roberto - 0xE0A17418528DCd9C8B2e7811CB1386Fd067d75e8
+Jasmine - 0x463319e6DC9Cd0354c972C6D5CB91A9888eFC15e
+Aram Hernandez  0xF6d71ee3568d04CC8D2C619a59428Ac0e8c2bb6c
+Carlos - 0xe42942E425D9558F588A5D41E2F034a36467bAc9
+mwendwa - 0xdCC07D418F0Ae713DFf701C9A3261c7C2D08C791
+Nolan Rangel - 0xae7341Fff01cc02FEa5F47F5463355C5cCe9A6Ec
+Javier - 0x410cf0e9e6bE7992AC7BaD781ee12c86566A1181
+Francis - 0xA02136cccBD67BC00E9e9344d4B6044a2723Ef0f
+Alesia - 0x3C19fDC9784cD0F925750D56fB4aAF4cd19BeC5f
+Nicolás - 0xefffaaee479a508319aac6557fdfb0b64f97a489
+Liam - 0x5427bD1420c27Dc6ED1E98301311161029e24870
+Vinoth-
+Emil - 0x6876ad124C9f433e41A658a1073EFdcAf1f06B00
+James W - 0xc57405216e351b08Ea6eC69110fadCA1F8A95e59
+jan  0xECaC05b3C3540C10A5901BF9D4909B96242473F9
+Juan 
+Brandon -0x0729510d6ba37f5ab0F6A544599a09559A8c70a1
+Mubashira - 0x75748a3A381BeE1c0d81b5AcEAb7333594a3a9Ff
+James - 0x2dc05EedFa95C3360760cdB5E124D8Dd857814A4
+Jeremy - 0x0757c4f53dC13e1aC4B85D8d348dFCF34a84b1Fa
+Jasmin P- 0x04667f76b9373EF57A4cb97696aE9239BDb2AfbD
+Shane - 0x91536f76d22A0839516afb71BDEAEA61081e6e3C
+Waghdoh Madhuri 0xcaC90c64BF82840ac34aE5C50Fc8c3f6CD6b95d6
+Deepesh Singh Rathore 0x02A12bB5764F200d91A85638Cb803E7d0596a3a6
+Subhajit : 0xBD481dD9efAC34d2A381Ca350423899758430EEb
+Sulav Shrestha 0x3Fb8b40543cAa7C0cb73dA99cf2544983455457F
+Kalyan - 0x85221D0bCBA8e83b9e57a23Cffa0b24eEbb660B3
+Enes : 0x6DbB123C42036d8085Fa65c05BE799f9b22b4daA
+Tony G: 0x6a2e459e2a47ae2B64CA2e57d9237F2b9FB0d38D
+Alex Build: 0x0f6E3171D1042abf19a7f45c8EFBf78207e11E84
+hemanth : 0x845f9B5e77e93Fe97a7a7b2ea8EfD9e8E6dC36Cc
+Daniel Benitez - 0x4376A8cfEBb2363f05076487857F37a89b429417
+Vladislav : 0x50D7782898DC2882C5D68729B93230441CEE6053
+Joseph E : 0x5E8Fc03C9a31Ce0cBAdE4e4f075e9a55974670f
+Bilal B: 0x26AdA64Ba35c767Cff27B376474df71A586B8273
+Emmanuel Ifediora - 0xfdA76Ff30B8E68291d2bCdd0EA6463c55AE1E675
+Dustin Tynes - 0xDfC2e1b5dF8fF8Ace43765791956538B6F356bF7
+Arcadio Garcia - 0x54687d0260cEA0e2aa00D607Be446D4501Aa3AAe
+Philip Lorber - 0x9bf5D1f6f090da1D74bEE971f46285dDAC140963
+HsuanJen Ko - 0x26a1d44315Fa1298473Ae57c1c46f063b985705D
+Alwina H. - 0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+KOUMBIA Zaïnoul Abdine from Burkina FASO   
+Steve Harrington - 0xAE497e9D14007e421C82bb1076a3293d541568e7
+Jos - 0xC79bBFAB7309d5F303192c1D2244a172AB149D8e
+Manuel Mojica - 0x90512Af0B4d88C91b344A7F359CF35c7F83e948f
+Vivesh Ranjan - 0x919944bF32c42d8004FFCD3CDB542bF6b7715b09
+Syed Mehran - 0xF3DBA5dE0835B3Dd68FBf54550fA561704aB29D3
+Pritish - 0x1D484d7A5eF3EB4839B47205fCd7FC178b1c4E08
+Adam - 0xBf50120368Dbdcb379ed9B9F5A887c2be46aBD2d
+Kheyral - 0xeE73AB19e30d5CD91a13EEE38baF5A804BD1858e
+James - 0xa056121Ba74c6F6A6Ce6eE3809DE8E0ba210eE8e
+Orestis,0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73
+Yunus Tijani - 0x421a02Ee62c1f6961E0aE87b60ADFFaf06583968
+Thao - 0x9703cb846Ce6259Ed063407aCDfb8aF8BD22D1fD
+Victor - 0xaDb5fc1D2a26Fb317B93D7270C1d20956117E462
+Tos van der Togt - 0x9547c80683659545ECF836b815709BD2f3adf11a
+Thorsten - 0x4cf9783058eeD9dfDac38a00b70A99dA5DA79a9c
+Duane  0x0ab2ABF00eDAEF5d8AeBEBCAba1480cB0d1786a3
+Iulian Topal from Romania - 0xd3e56facc67fdf8BC76ae71e205a78579d06f4B8
+Filipp 0xefB738860ad5261C7aAbB0daE33D8d270661394b
+Ashish Limbu- 0x811833aa3b572f1e5488b5e544837d7b778838f4
+Mohammed Elnekhaly - 0x2c01f4e81AA6C88386B6bed8cce5B7E6b1289ae2
+Claudio- 0x565259D7a0524bff237113A4ba8ff8d022Dc861aDegen
+Gabriel Ojeh from Nigeria.
+Dezheng :  0xD74D5E9Dd085b19c2f80876f2Ea673B2a7CFEE3e
+Will Stansill : 0x944Cd97fCFa1ABCf974455521B787757A7463fdC
+ Kendrick - 0x5FBbEC65B225c186F6b4271951284Bb91eEFe1d3 (TEST WALLET)
+ Opeyemi: Lagos Nigeria-  0x420F506E3A98c2eAb651b674091d2F0404CC4833
+ Denise Sobrinho, USA: 0xe2619E7988d89d39176a691b582f0D062F7dEd3b
+Ify - 0x93B8a02D050daae01121002771135aF6438Ee099 
+mylux 0x3afb98895C2AfF3F8eDC519196251331d68Cc9b1
+monite Joe from Nigeria 0x8282b3e94C965762dd4Ed23Ceed3E16BC 
+Maria 0xD83A095aAa421D76a279d621A826bf07a2F0EB52
+Marva 0xeEd3B9E2b073FD1fe0917bd574F4E2C557290099
+Enrique Rondan - 0x4e2422DEe4F7DC1FA0636822e5D9A62a662F2590
+Festus 0x454eE423fE8A60f78c4F2FDE812a4285dF503c67
+Degen 0xADb1Ba48A50836a00CC9037369e3955eb6825d09
+Mayowa, 0x9ff02B38A47D5C00202cd81f22fc211DCC6821AC
+Eric - 0xDF1D5Bd5cAA2C5c3d06C8875d6927B0ad7A764fB
+Nachon - 0x1645920cED035B3113c9315725b39f674a7e66A0
+Chloe Wei - 0x1B753FA3bB6501d83bF95B1979eC48cc9484c6e7
+Dancan 0x8dD64B61205bf6fB629d761eAfC249F8702B7CA2
+Wilder Rincon - 0xE8Aa0F55cC3713Bd5b3B51d0E109F0dFf89F7dAE
+Joseph - 0x9eF6983B5E8F1252db5dF99A9021914051aC7547
+Kajin-0x140769f66acd174fb04395d083beb36d3a066270
+Abeena 0xadC186508c01ea79b23FC99f9Eaca913ACDE96EC
+Okaria 0x73Bc774f53dccEE64E2082d55EB8D63c95Aa76dC
+Nadieym Naxir 0x95B29DB544d5605F6239Db6d85ddDA4E52f7B1eb
+Siu 0x65e20A3b0C2A5C67D781B5d19b41c6d695DA6357
+Memoye 0x17BCBe35b79585d0cbF4812B6bCda48BBddFb884
+Demetris 0x7c8e6864f34c1Ce9e8D92e083f0937DB07581AB8
+Bruno Moutinho - 0xfda2Ed0092E2Aaa7635B57C787f9877c911EF0F1
+Hector Encarnacion - 0x51cdD6CC4C007A0F2Fd8ce1A918a6d4fc22B2e56
+Vilma   0xCd123a950B03401937906fC53C49CF65B4868ed8
+Chinecherem Henry Elemuo fron Nigeria
+duke     0x05C9ecB389dfc4b8833a548D421987C6677b09b3
+Cesar Gut
+Rhony 0x7dd92cBA8402bB7a10879709CD4Dc851767bda91
+rohith - ahid Nawaz 0xDfEb1b02552458694cE5ed12Ba8bA32c54E3a18a
+rk - 0xD895c70Cfa9C58a6485354bF79e9d3aDA637E453
+Naveen - 0xfb40D368C241FEa8c15Df684eE56196A9c69eC72
+Aditya Moharana - 0x4D43399293B51C6Fde3D84D7ECC548477A05b84e
+olabisi:0xfBBEaCCe89Bb35A2900e64f5953A1e615103FcdF
+Cesar Gutierrez - 0xD19d4b2CEb0DfC4e8F3D21252405d300Da7E2416
+OLIVATEAZZY:    Lagos Nigeria     0x955Ae0509954672bF2D9e3F6D9d262b040d060BE
+Sante: 0xA331C862c32B11589eeFbc5740B41FA05c4A04a1
+sahad : 0xAf8106197Ba801B23387F9227101bB7D98d98a4F
+Jeff C : 0x58C7b830bBD9032fA0D1A264c0Ee6d53740a07Bc
+shubham 0x478B0Bc02b2e8BB906FB4b1bf824Ad2C88aAa282
+Hamza Lagrari 0x1bd79C92747F87F61b42abBccF5c597dbBeBDA27
+Jonnie - 0xB7686393cc37b7610050E7126e5C61E1f610BB2F
+errez - 0xD19d4b2CEb0DfC4e8F3D21252405d300Da7E2416
+Festus 0x454eE423fE8A60f78c4F2FDE812a4285dF503c67
+Smit 0xACc75DaDA16E0A0D50Ccef8eD93ed551dBf9CC87
+justice Amaram    0x18Dbb5F548a154Cf4e2140e100E3CFBD99062D90
+Ukeme - 0x6aAF970a4c13a9a884dc77d6924d6Cfd83f7eaC8
+KOUMBIA Zaïnoul Abdine from Burkina Faso 0x8ef36ae076eE51256DA59595007a4d571fF30BA2
+Bert 0xeBCAfb63A4Aeced08Ba33122e69bbfE3b154C006
+Mihir - 0x3d7E33057C0822eAD645E8F8aceE30EA34075356
+Mikail Faysal-0x329BD8Fd0f7315692F28e433F70158B3a4993C35
+0x2766ca2B2a25bAF5c89744892C1BE11e24d61e64 Dave B
+Issey - 0x9c9858Af1C2Ac35b240562Bac5a5E19E1385b4cb
+Dzemal - 0x387d542e0BD991EF1317A086bf3c4311692F6d92
+Toyeebat saadu 0x5524365735A135799baeDa434175736Fd50c1c61
+Tiago Tavares - 0x63e0c75EF821eb22e207880e322BdF588cF56dDc
+Julio Cesar Gonzales Ochoa - 0xc8a68998f543B834d63cdAceAfB481DfF2A6D20c
+weneedweed - 0xc70FC5A411E49A2C451Eb51881139B3EE1296300
+Dennis - 0xA1196902849DA5d266f52FD072729981260790A0
+Jason Meng - 0xcE1804A5076B479454F14dd4FCA995c1DC129C23
+Marc,Switzerland; 0x5Df80Ba2beEb57bDeB26B60ADC22d03058d363f
+Enock -  0x9Ea274ABdDB42E69feF8b155E16B7700dFD22b6B
+Kojrey - 0xFA6697386BcF23DB9De898D9646b17996595fC45
+Stanley - 0x2B16f034082cE829c2D2EA15FD3981b119b03FAE
+Mitja - 0x2e5C65F2baD31Dca59d401027C28F44A9AbC14b5
+Med - 0x48132D4972c7a790bc868D7DD278ef8C2018dECB
+Bereket - 0xf027153E4678c74f30b0033B62AC999335c49604
+DOYIN - 
+0x070f498f0458aee7356902332461cfd9bc070a9
+Ajay -
+0x352b71c09A5a788d3d46ABF06bdea91c39E60Db7
+Fery - 0x8fC0A5AeACa424108993A2D1BDB8770386a11bAe
+Godwin -  0x704BEaAa5eaC11f1F8DDA3DD6F616faF3D76C197
+Antonio - 0x358E93E43ABd2f5fDa0C500f2C813266985699c7
+Marlon -  0xa5B8DbffC2A052E495110ef33142Ae14de2e97A2
+Abdulrahman Laoye - 0x300Bd98dc1e4fED2e48b18038Dc7cF9c40fB232e
+yahiya hashmi-0x7ab9dD60f3410b321fdD73C744754B70018c5bc9
+kenneth - 0x796838555b8C3730377b008aA0cC7a164d1A9276
+Jarret - 0xc9FD00bfb9b1dCcd67AD5942103A875c4D660d9e
+craig - 0xCaF5Fb3B92533CEdb37eA8398c8573814bf4dc59
+Ian Macharia - 0x782b04a40D7E122E90D7CAbabe150731E0A9b72C
+Michael L: 0xF566F4a3B8187FBBEc49283D8A86bbdF67F54Aaa
+Authentic - 0x18cEd8A93aEaf55F569E326BD300a4Fb3C7Dea8a
+john -0x83E048fE9699C3d9a81ba9217Ccd064d148cE2A9
+Victor-0x2bc90dcF139394C8359d22CAC0aa5FD999EaB72A
+CScrivo 0xAb8c5886c3220E5f9B16bE9AC1626E91A5ab5756 
+ugur - 0xa3EE5B8d931c15b8f78c1D101bB70cC003001795
+Alexander-0xc32BBce6fA9a340894beF55df9220eEc6f2c6f59
+Enock - 0x9Ea274ABdDB42E69feF8b155E16B7700dFD22b6B
+
+Jesse - 0x3346666F43A147eE8d2Cb77944Fe01E6213c8D98
+somto - 0xe4Ea3E4d26f5BbE58f714dbc4A0CA4233BE16d90
+G – 
+
+can you please share that slide?
+
+
+
+
+
+*********************************
+
+Name Transaction Hash
+Dimosthenis Tsatsos - 0x1b13c960ba42f56d3fde3b6bab6ac845792f31854325a59d01aa8aa1f8eaf03c
+Roberto - 0xd20ab75333775605675d86ac16022ddacbb8c5b59f05089dd8c190631fdc0b36
+Aram - 0xac4e3799361d4103a60aa0ce1bf7c4a4e9c21b171b6790af9a1dd9b4a7575299
+Finn Clancy - 0xc4bee8f80a174d783bc7157396589f8c24e41c6098bd8995c401ea366dd2db5a
+Dustin Tynes - 0xbb515a52be9cb828b9b16bd6a9a493fdf46bca28d01390d97cbdef182afa435b
+Daniel Benitez - 0xf3cec75764f4f3d99dec47a23a0cfba32216d8017fff1dd03da1dabb468c7c06
+Nolan Rangel - 0xad7761e608571271060c20f6978186f89beb53a78a22eb1a673c35be24a87254
+Filipp - 0xc3f5632dc0b96d6ceff1813e83c727e7db5ff5a40b55162867b85fffc597f1dd
+James W - 0x7fbca234deb70e27a7a56a8928880437160af495209d9fe11b92d085b9dc8ac5
+Emmanuel - 0x4758d1587c8039a84c1b5b038d96a6ae9924ea13aaa69caa6edaaa8d2d7a950f
+Enock - 0x19d8b3b7c4b7c3479c1b2835f4b1b0d79103768b4e7a071709d86814963f5d2f
+Ian Macharia - 0x0149f8914ee07a8e5b18fcd97e2c86ab528bb60be307d0a6daebbf180febb0a1
+Alesia - 0x0175b2a2737eae52fffdb4fbc450a571be2e2a5662b2cce91b1ac095900838f6
+weneedweed - 0x7a82273e5608eacf6553106f403e2efdbfa7d0cd52e8b76e520cb98a39bc34d7
+Kendrick - 0xe2b113be487b285e8a576258070d44834127f0a49620ed93db29777ec0ddb543
+Mohammed Elnekhaly - 0x87af7c5611ccbb4648d58d5aea3d70d4fa67bac040862ffb72125e53918f7c9c
+Maria 0x915e52417dd4461f621b0e7ab480cd7c8f402504a6d96286e3aef64affff60c7
+Pritish - 0x7903e185568c07801d2e8e3622dacda5070e127fe10700feea40e3c47ec4de42
+Jose Angel: 0xe4bDB8357E033Ca8D2991f0469AA5526EDe61E18 
+stanley 0xfdb9958c471b4259b222d16409da4309d24a4a41cf99dae9192a56023ce9d6f2
+M.saeed 0x7b8ddd0fc458c3bc02c29bb86ebad76906b793018cecadea633ec6eb9de897ef
+Jeff C: 0xf599c2f5008cdcf3ecdadec9e922bb54e1c7502a4217c4ffb06f6261a0ba8b23
+Bruno Moutinho - 0xff04c7e1d0f4abdc6f8c57c599a62ad7b5100739cf4b8ca03e2bc72ece0a445d
+can you please share that slide?can you please share that slide?can you please share that slide?
+
+yes can we get slide?+1
+
+Tony G: 0x60316bf6c48e8aa3c569c7d2117680f2d4dffcb0b96f4e017d98a6f994a3ef3b
+Resky : 0x9bf3f83909e3fe400824713f8edbd6c9830070ebbe0f2fcbcc9333228ad42ca5
+
+
+Subhajit Txn Hash : 0x4c007b0b67b01fed2e8ea2ec8fca5276c58cd1ab87f49bc4801c097af0e4c57f 
+
+M.Saeed 0x7b8ddd0fc458c3bc02c29bb86ebad76906b793018cecadea633ec6eb9de897ef 
+Tenn 0x2e1be98e2524e3f241cbaa467725e7dd6d725e8712a48e0732c9c29040613dd5
+
+Enock : 0xa6840c64ced9a566ddf54e6a181fb072c33381a05b440db23038376533c52d29
+
+sharon 
+Jonnie - 0xf98989be624573b6bf016e6993b5d35c9be0dea6c9cc8e3964bc0ab3fb10350d
+Taiwo - 0x1979446Db09DE3C205d0a2bE7C7ace4F1FDdBfA6
+
+
+
+Demetris 0x46a51d218adb2891b83b6ddd3aa18289c0c409ff2c0add3ce226a438f3d395af
+
+Abdulrahm
+
+Tiago Tavares - 0x7a677df281d89d3edc0a092d21efbe70dbe3181671fa234f3d1f53cb20561d60 
+
+M.
+
+Van: 0x7Cd4aF6D8ab5B57F62bA80a6250EC3C248664B7d
+
+
+Abdulwakil
+0x254E5075a3c7CBf5b59a77481c5fd8067B7e7709
+
+Sharon- 0xc53C27c82EBfb01bC4795003307C931320765512
+
+sharon 0xc53C27c82EBfb01bC4795003307C931320765512
+
+Nachon - 0xc84e929056c70da4015b932a882ba9788154741647d233bb81200f2151acd43d
+
+Thao - 0xba8882d19e5cb7d286516a2c967c848dee5748b159c2e17b7dff8fd4da9abb42
+DOYIN-0xb486974cb04b21e05210296542494e4b1320514b9b7b5315e5df5abf2008a383
+
+
+Bert:
+    ether scan tx: 0xd07446afa0e84866a942206d60224f396544e5959be9a80d9c00a571dd11f639
+    
+    
+    
+christopher Wise  >    0x0Da18E94EEC42860B47eCE480EF035E35dD6C28f
+NAVEEN -> 0xe1e6888bad208c992dfe4e702180215c97f135ca350137f19e18b4f0d3591692

@@ -1,0 +1,1105 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 07
+
+https://pad.riseup.net/p/cl-en-07
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+https://chain.link/discord
+bootcamp channel
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+
+
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://workshop-faucet.vercel.app/faucets/
+
+
+Name - Social Network (if you´d like to share it):
+kelly egode - https://www.linkedin.com/in/kelly-egode
+koxy - https://www.linkedin.com/in/progress-ochuko-18947a1b2/
+Emil - https://www.linkedin.com/in/epurgar/
+Uzair- @hashuzair
+Fredrik - https://www.linkedin.com/in/frecar/
+Danki - https://wwww.twitter.com/0xdankiii
+Sarthak Rawat (Eik) from India - https://twitter.com/sarthakrawatbiz
+Gabriel Thome, Brazil -> https://www.linkedin.com/in/gabrieltome/
+NFTipi manitoba canada ~ https://twitter.com/NFTipi
+Bidyadhar-https://www.linkedin.com/in/bidyadhar-sahu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+Parnian Yousefi Sabet - https://www.linkedin.com/in/parnian-yousefi-sabet/
+Bahador GhadamKheir - https://www.linkedin.com/in/bghad1/
+
+Tillo - https://www.linkedin.com/in/tillo-tulkinbekov-phd-432610136/
+Romain-Pierre - https://www.linkedin.com/in/rpcacheux/
+Simona Miani - https://www.linkedin.com/in/simonamiani/
+Fatimah - https://www.linkedin.com/in/fatimahahmad123-/
+Andre - Zebbug, Malta - https://www.linkedin.com/in/andre-decarlo/
+Hemanshu Mahajan - https://www.linkedin.com/in/hemanshumahajan/
+dorgo.eth - https://twitter.com/dorgo_eth Lviv, Ukraine
+Jeff C - https://www.linkedin.com/in/jeffchirino/ (@jeffchirino Lens protocol, X (twitter), ig) 
+Daniel S - https://www.linkedin.com/in/daniel-
+Chiara - https://twitter.com/codebychiara 
+Michael G - Denmark
+silberschmidt-a759174/
+Harsh - https://www.linkedin.com/in/harsh-kumar-843a5a289/
+MIKE E - https://twitter.com/216super
+Emmanuel Effiong - https://www.twitter.com/Em_Etok
+quizford - X @quizford
+Daniel Y - Toronto,Canada  https://www.linkedin.com/in/danielye/
+Arson Tomanta - Jakarta, Indonesia   https://www.linkedin.com/in/arson-tomanta/
+Kyle Varga - https://www.linkedin.com/in/kylevarga/
+John-Mac - https://www.linkedin.com/in/john-mclaughlin-981989a5/
+Nick - https://twitter.com/nicklee002
+Tebbo : https://twitter.com/LTebbs2
+Tebbo: https://www.linkedin.com/in/tebbo-/
+Tebbo : discord:  tebbo8177
+Dj - https://www.linkedin.com/in/dhananjay12/
+Stefanie:  www.linkedin.com/in/stefanie-mayer-289000252
+Stefanie: https://twitter.com/StefanieSMayer
+Lindsay : www.linkedin.com/in/lindsay-gaziano-9091b6202
+Ashok Raj - Cambridge UK, https://www.linkedin.com/in/rajashok/
+Stewart - New York, USA
+Felipe- toronto- https://www.linkedin.com/in/felipecv/
+Manu - Bienne, Switzerland  https://www.linkedin.com/in/emmanuel-acho
+   Augustin R - Switzerland https://www.linkedin.com/in/augustinr/ 
+Jonathan - Oslo, Norway 
+Konstantinos - GreeRafat - https://github.com/rafat/
+Katya - Tbilisi Georgia, https://twitter.com/akhkatya1
+Marco M - Rome, Italy
+Rama - https://www.linkedin.com/in/ramiro-romero-43354352/
+La Toya- Texas https://x.com/LaPatel61601?t=EEPeGVUA7j8B_JTERViJMg&s=09  shadow781 on discord
+SadeC-ATL,USA
+Andy - Miami, USA  https://www.linkedin.com/in/andy-luis-romero-acosta/
+Eric - Atlanta, GA www.linkedin.com/in/eric-s-engineering
+Alex B. - _alexblak (Twitter)
+farhan - VA, USA
+Seppo - Helsinki, Finland
+Joel - Madrid Spain  https://www.linkedin.com/in/olusegun-joel-titus/
+AzraiHasan - https://www.linkedin.com/in/azraihasan/
+David - Kampala, Uganda, https://twitter.com/david_xCoder, 
+https://www.linkedin.com/in/david-odie-73b651141/
+Bidyadhar-India
+Marina Wentzel, Basel, Switzerland
+Princewill - https://www.linkedin.com/in/princewill-iwuorie/
+NickATL - https://www.linkedin.com/in/nickjfj 
+Alex C. Indiana, USA, @capt_southpaw(twitter), www.linkedin.com/in/alexchambersdesign
+Iddhie - Sri Lanka - https://www.linkedin.com/in/iddhie-withanachchi-4279b9263/
+Erfan- Toronto, Canada https://twitter.com/erfffi
+Clement - Nigeria
+Tianchi - Toronto
+Phan I. USA
+Ingrid - London, UK
+Tameka - GTA, Canada - https://twitter.com/MLNTDTechBae
+Vandana - https://www.linkedin.com/in/vtaxali/
+Andrea Marchini - Rome, Italy - https://www.linkedin.com/in/marchini-andrea-8001397
+Leon - https://www.linkedin.com/in/hareem-adderley/
+Sama - https://www.linkedin.com/in/samakabegal/
+Jad Kachmar, Toronto, Canada - https://www.linkedin.com/in/jadkachmar/
+D Marl - Indonesia
+elyas - https://www.linkedin.com/in/elyas-sarjoughi-107580151/ - Iran
+https://www.linkedin.com/in/musa-maxwel-a621a01ba
+Musa- https://www.linkedin.com/in/musa-maxwel-a621a01ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+Vinh - https://twitter.com/CzCryptoman
+Ulf - Gothenburg, Sweden 
+Adam Williams - https://twitter.com/adamwil01971623
+Nawodya - Sri Lanka - https://www.linkedin.com/in/nawodyaishan/
+Ohmarkely Ambrosio - Singapore - https://twitter.com/ohmarkely
+Yann - France - https://www.linkedin.com/in/yannick-tison-6538359/
+Khalid H. - Ireland
+Oliver Inzunza - Coachella Valley, USA
+Victor Burton - Lyon, France
+Jose Morillo - Valencia Venezuela - https://twitter.com/josenebet
+
+********************************************************
+
+Metamask
+Sepolia
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Should appear Sepolia
+
+Create
+CrossChainPriceNFT.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Sepolia
+
+// Importing OpenZeppelin contracts
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Base64.sol";
+
+// Importing Chainlink contracts
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+contract CrossChainPriceNFT is ERC721, ERC721URIStorage {
+    using Counters for Counters.Counter;
+    using Strings for uint256;
+
+    Counters.Counter public tokenIdCounter;
+
+    // Create price feed
+    AggregatorV3Interface internal priceFeed;
+    uint256 public lastPrice = 0;
+
+    string priceIndicatorUp = unicode"😀";
+    string priceIndicatorDown = unicode"😔";
+    string priceIndicatorFlat = unicode"😑";
+    string public priceIndicator;
+
+    struct ChainStruct {
+        uint64 code;
+        string name;
+        string color;
+    }
+    mapping (uint256 => ChainStruct) chain;
+
+    //https://docs.chain.link/ccip/supported-networks/testnet
+    constructor() ERC721("CrossChain Price", "CCPrice") {
+        chain[0] = ChainStruct ({
+            code: 16015286601757825753,
+            name: "Sepolia",
+            color: "#0000ff" //blue
+        });
+        chain[1] = ChainStruct ({
+            code: 14767482510784806043,
+            name: "Fuji",
+            color: "#ff0000" //red
+        });
+        chain[2] = ChainStruct ({
+            code: 12532609583862916517,
+            name: "Mumbai",
+            color: "#4b006e" //purple
+        });
+
+        // https://docs.chain.link/data-feeds/price-feeds/addresses        
+        priceFeed = AggregatorV3Interface(
+            // Sepolia BTC/USD
+            0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43  
+        );
+
+        // Mint an NFT
+        mint(msg.sender);
+    }
+
+    function mint(address to) public {
+        // Mint from Sepolia network = chain[0]
+        mintFrom(to, 0);
+    }
+
+    function mintFrom(address to, uint256 sourceId) public {
+        // sourceId 0 Sepolia, 1 Fuji, 2 Mumbai
+        uint256 tokenId = tokenIdCounter.current();
+        _safeMint(to, tokenId);
+        updateMetaData(tokenId, sourceId);    
+        tokenIdCounter.increment();
+    }
+
+    // Update MetaData
+    function updateMetaData(uint256 tokenId, uint256 sourceId) public {
+        // Create the SVG string
+        string memory finalSVG = buildSVG(sourceId);
+           
+        // Base64 encode the SVG
+        string memory json = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "Cross-chain Price SVG",',
+                        '"description": "SVG NFTs in different chains",',
+                        '"image": "data:image/svg+xml;base64,',
+                        Base64.encode(bytes(finalSVG)), '",',
+                        '"attributes": [',
+                            '{"trait_type": "source",',
+                            '"value": "', chain[sourceId].name ,'"},',
+                            '{"trait_type": "price",',
+                            '"value": "', lastPrice.toString() ,'"}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", json)
+        );
+        // Set token URI
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+    // Build the SVG string
+    function buildSVG(uint256 sourceId) internal returns (string memory) {
+
+        // Create SVG rectangle with random color
+        string memory headSVG = string(
+            abi.encodePacked(
+                "<svg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='500' preserveAspectRatio='none' viewBox='0 0 500 500'> <rect width='100%' height='100%' fill='",
+                chain[sourceId].color,
+                "' />"
+            )
+        );
+        // Update emoji based on price
+        string memory bodySVG = string(
+            abi.encodePacked(
+                "<text x='50%' y='50%' font-size='128' dominant-baseline='middle' text-anchor='middle'>",
+                comparePrice(),
+                "</text>"
+            )
+        );
+        // Close SVG
+        string memory tailSVG = "</svg>";
+
+        // Concatenate SVG strings
+        string memory _finalSVG = string(
+            abi.encodePacked(headSVG, bodySVG, tailSVG)
+        );
+        return _finalSVG;
+    }
+
+    // Compare new price to previous price
+    function comparePrice() public returns (string memory) {
+        uint256 currentPrice = getChainlinkDataFeedLatestAnswer();
+        if (currentPrice > lastPrice) {
+            priceIndicator = priceIndicatorUp;
+        } else if (currentPrice < lastPrice) {
+            priceIndicator = priceIndicatorDown;
+        } else {
+            priceIndicator = priceIndicatorFlat;
+        }
+        lastPrice = currentPrice;
+        return priceIndicator;
+    }
+
+    function getChainlinkDataFeedLatestAnswer() public view returns (uint256) {
+        (, int256 price, , , ) = priceFeed.latestRoundData();
+        return uint256(price);
+    }
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    // The following function is an override required by Solidity.
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+// End
+
+
+Deploy
+
+Name - CrossChainPriceNFT Address
+Sol - 0xC0f7F6CD78dD0d91477277A6D7299170F51B85d2
+Harsh - 0x7581a4e1FF13971D22096d1f125d09b8a0CE99B7
+Parnian - 0x9EB91F8bf95118b66f0295Bf7Cd983C4a563aCea
+Gabriel Thome -> 0xB94dCd2232Bf1A836cb3BC8A5563194b18Ad02EC
+Andre - 0x8e52f3a029Bafaa0FEf40633c32d32576Cd42d9d
+Romain-Pierre - 0xbaeA4382836356C3f5660Bc948883Bc322fb7cD0
+Simona - 0x4275DB7134E87c36ffEb36AaB02B56fb1174dAd5
+Quizford - 0x6D1C0c4F79B9Fc041a8999FF3BF4a89681fFE671
+Kyle Varga - 0xe03A6F0c94d7F84Fd6880FfAEA87114724DF4468
+Konstantinos - 0xF927375e025cB3Ca61fdec66E1c14492520630bE
+Joel - 0x67a07eAc2890C63b1Da34350a2bD9221F6471c9f
+Stewart - 0xfc178759F45a4B59d596630b5Da807f0ff239b69
+AzraiHasan - 0xe6334CEBEE999a66dd56dB77bC23dCEa59C5a9Ca
+farhan - 0xF8760Ce643122210FD7feEa7CeA287603B3d3c37
+Daniel B - 0x58857a80b6bc40a04abb9c5e9bb517905cb37731
+Jeff C - 0x0E95B5A349D617E894B715Ad6aCec140c5cd5221
+Lindsay - 0x293916B9E7a3a985B905b4ebBF0e312513ADDb0B
+Tebbo: 0x09493AC31dc3F755787F0b8D597d273De014fC84
+Chiara - 0xb0d4A1d643bf398121b61078Edd3ED74Ab257221
+Rama - 0xa335F41745eC8f2c8016aDA6B4343Dd2594F5a9B
+Rafat - 0xe721F645867534aAFa40d9dC6354089557EFb5B3
+Erfan - 0xc96162FA76A0fbe32334DFFdDACBD453bc2ceB9c
+Bahador - 0x755ef0629b6435cBc50B2657174666152C58B217
+Emil - 0x40Cd652598D860b4a3B94C9F9eb3e2568467DAf0
+Tianchi - 0x02C0c57EFbb834C5671eA4B847550A143a6284B0
+David - 0x41f4bEC9F92Ba2744517ABC88c0eEc1d324e2616
+Shane - 0x3ce3efEcFeABAb56A90ce4Af66571ecef283e9C9
+Stefanie - 0x502cCFa7F7Ab0dAE6398baeE12EF39823b2B597c
+Ingrid - 0x28c34d69ad31B28177baFA72EC7EF2199Cc097a2
+Arson - 0xeaeb2d6aeb10bdbc75c232bc5d4e94616b2f39e4
+Ashok - 0x4E714DA4A37120d5327B61CddDeb2fAed1f97336
+frank - 0x1D1cE94647FA8d03BF29Ebf1C099C78d24bab0eF
+John-Mac - 0x66C8ddc5AdA248074db50E90349D4Debc2a5c24A
+Sade C-0x3eA3bAf048d223f43C03947F16e08845C5Db00D6
+Sama - 0x2ec2E1Bf5a91be53845729b97EdB98c500c277a9
+Nawodya - 0x9b2Bdb2fe0fA46B2F8bC116eA874E6A2FB8B265d
+Luis- 0x03D2325a64c7176dE02f8EF2F922E0f1723ccB08
+Alex C - 0xc0cb877e613d6d3e20da5eb3dc94092d4c2c98db
+Leon - 0xC26810fc127baEB793944DB3215260Ad1005307A
+Iddhie - 0x6228f63dEF9b640bF4CEEfA39E9a9Aa8f5872238
+Sarthak (Eik) - 0x90E9B31160c7f4F0e75eCcdfc26944408A6EC49D
+Daniel S - 0x84818dCBd46b9C652074d50d2a629012CfD201A8
+Tim - 0xFeD50eFc01F7764caAe8eB48c8B0Bc26e76Dd792
+Vinh - 0x01eb5e8DCbd0C531B2Fc312DAe09A243e91D8988
+Craig - 0xF27df34E4f8E9f14d438a2aDD21DaBDC169B9911
+Daniel Y - 0x43Cc45485aDACB88C2BCFB4234bAEa705709a5AD
+Fredrik C -  0x3d25497a214Cf1315227Accd21F455c8686f5843
+elyas - 0x0167a97ABD2a5A99970c9FfCa72ce252F4Bdcb05
+Seppo - 0xA397CB3BcC496bE6dCB44a06eD02E2807FEa91DA
+Inna - 0x29704C3218A1D0aDbBa994F5A35FcEF94279baB6
+Manu - 0x8B078EcF59C3610A4055B2637779189dB12AC618
+Nick - 0x66d487A217Ac1397698839A2A8Aaa047384bB561
+Alex B. - 0x3d116d32a2a47624C7FB8274d4E311202D32069B
+NickATL - 0xdEAFae03C3d15665B1E3198b67256B064230465a
+Marina Wentzel - 0xb1bdd008DD5d284DBF6013F5379010910b60dd8a
+Wlisabeth Green - 0xe1ac4602b9541Dae3441CEDBC2695c8Aa512C71B
+Azmaeen - 0xf8b066deeED43800eaa2EBE66C62d0Df183A807D
+Jad Kachmar - 0xAD391a4db892361348e8a45520408A1891506D70
+Andy - 0xeFdd6eea7F376Bb97AcA3b7228A123c7fA10fAD8
+Princewill - 0xac038F74FFcc14F52796daD84E9E1fa23f77ea1D
+Vandana - 0xbaeb45bd0d074e7385b0cc634dbdcc08a6d4bdfe
+Sama - 0x2ec2E1Bf5a91be53845729b97EdB98c500c277a9
+Felipe - 0x4E7553b2dc4b0A142361F37902D9f739DD43023F
+MIKE E - 0x0596b6480227b26d16b7ad7008918557b0183d29
+Adam Williams -0x088ADd69AeC727695aF699d00eB1805847783bc6 
+Yann - 0xcA3b4099CE7c4690325CA2fe01DA1782F4F20c20
+Khalid H. - 0x38e191DE064449Cc4EFD60d115fD78bf36815D8B 
+Tameka - 0xf12a6910E2d42cd132931CBf56528CcFE22548E9
+Brian - 0xa707b567258e53039e3c9F8dF0655728791f2b6b
+mahesh - 0x8736299635BEd7653Da1fd12bd51458A87BA5619
+Oliver - 0x80f8d3AD7c166a83709CAAAb17C24ce60A4AEB00
+D Marl - 0xFbE2F9FB8442B7Ac0F738dbc2667Fb25194E4edA
+Jose Morillo - 0x91703C93C7B0F245faF7fcE4e99051Ea3bE3b908
+Victor Burton - 0x2c497Bdc2C0C4097112bCCa69982c17ee25bE46D
+Dj - 0xbe2D9314000DeA0246bF4d13F0599BE0D623Ea1e
+
+********************************************
+
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://testnets.opensea.io/
+
+Name - NFT Collection
+SOl - https://testnets.opensea.io/collection/crosschain-price-47
+Harsh - https://testnets.opensea.io/collection/crosschain-price-78
+Parnian - https://testnets.opensea.io/collection/crosschain-price-57
+Simona - https://testnets.opensea.io/collection/crosschain-price-24
+Andre - https://testnets.opensea.io/collection/crosschain-price-42
+Romain-Pierre - https://testnets.opensea.io/collection/crosschain-price-34
+Quizford - https://testnets.opensea.io/de-DE/collection/crosschain-price-2
+Tillo - https://testnets.opensea.io/collection/crosschain-price-11
+farhan - https://testnets.opensea.io/collection/crosschain-price-5
+Jan - https://testnets.opensea.io/collection/crosschain-price-85
+Gabriel Thome -> https://testnets.opensea.io/collection/crosschain-price-45
+Ingrid - https://testnets.opensea.io/collection/crosschain-price-19
+Chiara - https://testnets.opensea.io/collection/crosschain-price-48
+Emil - https://testnets.opensea.io/collection/crosschain-price-51
+Sarthak (Eik) - https://testnets.opensea.io/collection/crosschain-price-31
+Rama - https://testnets.opensea.io/collection/crosschain-price-17
+Jeff C - https://testnets.opensea.io/collection/crosschain-price-52
+Konstantinos - https://testnets.opensea.io/collection/crosschain-price-8
+Joel - https://testnets.opensea.io/collection/crosschain-price-10
+Rafat - https://testnets.opensea.io/collection/crosschain-price-6
+Iddhie - https://testnets.opensea.io/collection/crosschain-price-46
+Fredrik - https://testnets.opensea.io/collection/crosschain-price-33
+Shane -https://testnets.opensea.io/collection/crosschain-price-15
+Stewart - https://testnets.opensea.io/collection/crosschain-price-13
+Erfan - https://testnets.opensea.io/collection/crosschain-price-9
+Daniel B - https://testnets.opensea.io/collection/crosschain-price-53
+Vinh - https://testnets.opensea.io/collection/crosschain-price-44
+Tebbo - https://testnets.opensea.io/collection/crosschain-price-7
+David - https://testnets.opensea.io/collection/crosschain-price-14
+Daniel Y - https://testnets.opensea.io/collection/crosschain-price-50
+Leon - https://testnets.opensea.io/collection/crosschain-price-26
+Stefanie - https://testnets.opensea.io/collection/crosschain-price-21
+elyas - https://testnets.opensea.io/collection/crosschain-price-54
+Kyle - https://testnets.opensea.io/collection/crosschain-price-3
+Alex B. - https://testnets.opensea.io/collection/crosschain-price-63
+Tianchi - https://testnets.opensea.io/collection/crosschain-price-12
+SadeC-https://testnets.opensea.io/collection/crosschain-price-30
+Seppo - https://testnets.opensea.io/collection/crosschain-price-58
+Manu - https://testnets.opensea.io/collection/crosschain-price-56
+Lindsay - https://testnets.opensea.io/collection/crosschain-price-29
+Ashok - https://testnets.opensea.io/collection/crosschain-price-20
+NickATL - https://testnets.opensea.io/collection/crosschain-price-286
+Daniel S - https://testnets.opensea.io/collection/crosschain-price-28
+Tim - https://testnets.opensea.io/collection/crosschain-price-32
+Nick - https://testnets.opensea.io/collection/crosschain-price-62
+John-Mac - https://testnets.opensea.io/collection/crosschain-price-25
+Luis - https://testnets.opensea.io/collection/crosschain-price-310
+Azmaeen - https://testnets.opensea.io/collection/crosschain-price-67
+Alex C - https://testnets.opensea.io/collection/crosschain-price-68
+Nawodya - https://testnets.opensea.io/collection/crosschain-price-55
+Inna - https://testnets.opensea.io/0x0ff882327555dAE45226d414d5C40232bdc5Af43
+Vandana -  https://testnets.opensea.io/collection/crosschain-price-77  
+Elisabeth Green - https://testnets.opensea.io/collection/crosschain-price-69
+Jad - - https://testnets.opensea.io/collection/crosschain-price-81
+Andy - https://testnets.opensea.io/collection/crosschain-price-87
+Sama - https://testnets.opensea.io/collection/crosschain-price-84
+Felipe - https://testnets.opensea.io/collection/crosschain-price-83
+MIKE E - https://testnets.opensea.io/collection/crosschain-price-89
+Khalid H. -  https://testnets.opensea.io/collection/crosschain-price-152  
+Yann - https://testnets.opensea.io/collection/crosschain-price-92
+Tameka - https://testnets.opensea.io/collection/crosschain-price-187
+Adam Williams - https://testnets.opensea.io/collection/crosschain-price-229
+Oliver Inzunza -https://testnets.opensea.io/collection/crosschain-price-309
+D Marl - https://testnets.opensea.io/collection/crosschain-price-308
+Victor Burton - https://testnets.opensea.io/fr/collection/crosschain-price-313
+Mahesh - https://testnets.opensea.io/collection/crosschain-price-306
+Jose Morillo - https://testnets.opensea.io/collection/crosschain-price-105
+
+address Simona avalanche please.. 0x9F9830711064193C1dd24B58b5aCF5952b069e0f
+
+********************************************************************
+
+On Remix
+on CrossChainPriceNFT
+
+Mint
+To your wallet address
+
+
+Create 
+CrossDestinationMinter.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Sepolia
+
+import {CCIPReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+
+interface InftMinter {
+    function mintFrom(address account, uint256 sourceId) external;
+}
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossDestinationMinter is CCIPReceiver {
+    InftMinter public nft;
+
+    event MintCallSuccessfull();
+    // https://docs.chain.link/ccip/supported-networks
+    address routerSepolia = 0x0BF3dE8c5D3e8A2B34D2BEeB17ABfCeBaf363A59;
+
+    constructor(address nftAddress) CCIPReceiver(routerSepolia) {
+        nft = InftMinter(nftAddress);
+    }
+
+    function _ccipReceive(
+        Client.Any2EVMMessage memory message
+    ) internal override {
+        (bool success, ) = address(nft).call(message.data);
+        require(success);
+        emit MintCallSuccessfull();
+    }
+
+    function testMint() external {
+        // Mint from Sepolia
+        nft.mintFrom(msg.sender, 0);
+    }
+
+    function testMessage() external {
+        // Mint from Sepolia
+        bytes memory message;
+        message = abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 0);
+
+        (bool success, ) = address(nft).call(message);
+        require(success);
+        emit MintCallSuccessfull();
+    }
+
+    function updateNFT(address nftAddress) external {
+        nft = InftMinter(nftAddress);
+    }
+}
+
+// End
+
+Deploy
+Parameter: the NFT collection address
+
+
+Name - CrossDestinationMinter address
+Sol - 0x566944AdF031e96C8d167A671D91ab301d4E41a4
+Harsh - 0x8Fa1D2531494695469e2755F4f806A32e22d66B8
+Andre - 0x4E80093b30E18706a9138C1E93F3282643342019
+Simona - 0x9dFf0B2726EfF4d7be281e50d5003c8b03931FE3
+Parnian - 0xc91DD185af42df23dCC4eB7688B336ee4e84CE85
+Gabriel Thome -> 0x4afeeB2A1c0403f207060c3c46645291f3bA9455
+Joe - 0xB604F10Bff079eb3A066D69D023504efA139F7D5
+Emil -0xE7bac49bAF3ebC058d6172ADA5089263100B5657
+Jan - 0x7fb5256969BE1C1b7448b82f6BA54d7c1bC705C5
+quizford - 0x22a96e72EF6B31ad030E65006a85E59811cdEEa6
+Jeff C - 0xA858F1a7E5202a44160FA9B4fd8E98e236A65e60
+Chiara - 0x81027883dde22a09798c6F6438767d8020030795
+Romain-Pierre - 0xEc5eF1037ADA8E7718d2EDE09d9cfC5CB310F671
+Stewart- 0xA2444Dac9A624D28624F6a46cEd19ecAd5F5884A
+Ingrid - 0x471fE6D57021e8bf18e24D3A0862c41b39BFdD50
+Shane - 0x926f6f33c7df562c8fE27742Ac1140b431A1E06C
+Konstantinos - 0xaa67558f473Eb614DFc926156312992037fDC862
+Lindsay - 0x5AAe888101673363289a4353e230b76fa347d30d
+Tebbo - 0x434091160C9f5B343283cA58aaD04E3A44a052f4
+Stefanie - 0x211c4fe798713C7a1A38eaca0a0659cf38314e54
+Kyle - 0x0680b51A6c6e8cD3c9C8f49443Dd901516f5317A
+Erfan - 0x0874093D37b703398bBDf7E398AF5013A18D666f
+Tim - 0x58621124E403CFfFC8a55a08DF237C5B43166686
+Rama -0x2EE3Af3E8FA4C07F29927F6edB41723A9a5EB725
+farhan - 0x42879e5BD3451cF22fFb65e53Cbee1Fb58Ef15B4
+Sarthak(Eik) - 0x4A99CFd7e9300754d1B7e0A911ac00AA65ac8Efe
+Alex B. - 0x3979160Db61d12dd4F2b9154f66867d34c33E3f0
+Tianchi - 0x7e66090cC47822BC6be9e11aa697eA9A8daEd3b3
+Iddhie - 0xC54a9eC0697bE73B0FC424d008e1e7f15ea56FB5
+Rafat - 0x3794b290b9cE5f4879efAe96bdc88A6e1BB9F1E7
+Leon - 0x234f147730279ef9A85ea7c205f7D63db4Dbe239
+Craig - 0xa4367F91Bf033D05E3367B846547EF8C002923B2
+NickATL - 0xeCAE27b079786c311E063A16e38B98D608C454b9
+Batuhan - 0xd9b8d1AAfb021E4aFA7083f81A6689Fb2C414F20
+Ashok - 0x249bb74Db6ad4980Dd5576E4Ac163bE60CD4B2e1
+elyas - 0x435dce4AF6a0dD8E351Da97bb67ccf3a0d647e80
+David - 0xB7E28C2afda24c334a5EF9cF01b10C158C92461d
+Manu - 0xbcea99cbC0aC4F8a37A941c23cFfbe17eC36A585
+Fredrik - 0x332d15d594339fCe98D05643D259d00018766fCE
+Daniel Y - 0xCE62675eC7a096FD963BCeBBE1A8cb7bd5E9DC9c
+John-Mac - 0x54dB0de218f1fAfb58056BA8da6978dea17A68ee
+Daniel S - 0x86579481ad47dAB5F32cE1e913Ea6676335dA2f1
+Inna - 0x615F638dd8922A4D0E7f0C549ABCD6350BC6d0Fd
+Sade C-0x9C5f77760d60B72Be056924564922441385D4432
+AlexC- 0xe801fc933dCC31d6106eFd5f645f28f71577CC5A
+Luis - 0x37b27268fEDAACe73c5e31bAB3b5d8fB86f61F55
+Vinh - 0x65c8d4d1bba91d86ba07abf99c2227d5bb1ea377
+Nick - 0xF405A774F3C497A6c432901b5cdeFfE468005f2b
+Nawodya - 0x711C606cC5aEcCd3f78fd5eb6F63ECE6Fa7f937e
+AzraiHasan - 0x20ca1f31cC6659FD2Aa8f28B1e6bA53761d7F7A5
+Princewill - 0x4ee52cF863FFc2a5071e05F607Dad6E0A21FfAfd
+Andy - 0xfF1D5d49535Cc7712c8A5a0d6F6bc5FDEaA90b7D
+Elisabeth - 0x4BBEDDbDd62A351d45B08D38ae35114857303Caf
+Jad - 0x8dcECe154f8edA221296352E310a09fC7DE6BF4D
+Felipe - 0xAD0De64583675b243Ec8d80DD00FD0Eb7806aDB6
+Sama - 0x9840e88Fd541DB2605aB92Cf1C34Afe140c2E96b
+MIKE E - 0x1267d8fb8854F0A069e05B5df20C71E062d1D527
+Yann - 0xc083dec43e9591A0FA06CCd321950F95376abaDA
+Khalid H. - 0x9c4f48D41df2434f2f53F16ac8973B678C97D943 
+Tameka - 0xA8f64C4F6343650ac6Af2DEf984ab8c15a6D7657
+Adam Williams - 0xba71f78d45b6e9E0fbe66337d8c8BeE4a66252d6
+Oliver Inzunza -0xc9a35357DFF982057DCA4BffC450dEDd15de25e7
+D Marl - 0x79C74B7240539389514a4a198e58A404Df972216
+Azmaeen - 0x8F4Ccf2A63d14EB9C27E8ECa064c765daB48b17B
+Victor B - 0xE49204338aeF4299C3dBA90F90f46f89fE70FeFa
+Mahesh - 0x5D4002ABF9d84bFf01bCf8F2e70bA106f0C34a4C
+Jose Morillo - 0x92Cdaf421da47B203c7187d1c7Baa91601DfBff2
+Dj - 0xd9F6F8EBDf066A07eE54e18423231a18f6aB8728
+*****************************************************
+
+testMint
+
+testMessage
+
+Metamask
+GO TO Avalanche FUJI
+
+On Remix
+Create
+CrossSourceMinter.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossSourceMinter {
+
+    // Custom errors to provide more descriptive revert messages.
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees); // Used to make sure contract has enough balance to cover the fees.
+    error NothingToWithdraw(); // Used when trying to withdraw but there's nothing to withdraw.
+
+    IRouterClient public router;
+    LinkTokenInterface public linkToken;
+    uint64 public destinationChainSelector;
+    address public owner;
+    address public destinationMinter;
+
+    event MessageSent(bytes32 messageId);
+
+    constructor(address destMinterAddress) {
+        owner = msg.sender;
+
+        // https://docs.chain.link/ccip/supported-networks
+
+        // from Fuji
+        address routerAddressFuji = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+        router = IRouterClient(routerAddressFuji);
+        linkToken = LinkTokenInterface(0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846);
+        linkToken.approve(routerAddressFuji, type(uint256).max);
+
+        // to Sepolia
+        destinationChainSelector = 16015286601757825753;
+        destinationMinter = destMinterAddress;
+    }
+
+    function mintOnSepolia() external {
+        // Mint from Fuji network = chain[1]
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(destinationMinter),
+            data: abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 1),
+            tokenAmounts: new Client.EVMTokenAmount[](0),
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 980_000})
+            ),
+            feeToken: address(linkToken)
+        });        
+
+        // Get the fee required to send the message
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        bytes32 messageId;
+        // Send the message through the router and store the returned message ID
+        messageId = router.ccipSend(destinationChainSelector, message);
+        emit MessageSent(messageId);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function linkBalance (address account) public view returns (uint256) {
+        return linkToken.balanceOf(account);
+    }
+
+    function withdrawLINK(
+        address beneficiary
+    ) public onlyOwner {
+        uint256 amount = linkToken.balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        linkToken.transfer(beneficiary, amount);
+    }
+}
+
+// End
+
+
+Deploy
+Parameter is the CrossDestinationMinter address (that you did on Sepolia)
+
+
+
+Name - CrossSourceMinter
+Sol - 0xC0c6ecfEB7e2F8d45Ca7980645790e9042CC71d0
+Harsh - 0xee4a6b2FBEA7A92870C813b5656edB9809a7F45D
+Simona - 0x7C3801d32aC265a87C2e63f8625F094A5DA719Ca
+Jeff C - 0x0939eBb1741c53aF547690fEde6890f79E84E4f8
+Parnian - 0xa05351F374672e3f1C81D8981f531bed6A95Fd7a
+Andre - 0x2ebD660A6253EC19d2eD3ba50BC218D630B48038
+Romain-Pierre - 0xd8E2267A267cc4EA522fA47ecD90dF3FdBE43be0
+Batuhan- 0xa8a1bDe16e00A6375d6867316368680eA84D830b
+Quizford - 0x61e37C31C5D9368f98C25252FA4335702c0Ad214
+Alex B. - 0x525B8f56C8Bd0DE8E773f228eA2008121E1274D7
+Tebbo - 0xB2ceEfC1c8c0cbE1c9C05e64eE6fE5747a424945
+Erfan - 0x5165f1fcFE42b82C381e2A02D830BBb196eC6f23
+Chiara - 0x9a3591Be30358Eb08CE7f95963bb8FB8599C5C8C
+Shane - 0x16bEa1598DB5FE55d4b2e735136273079C34adaA
+Rama - 0x2FAe67f16cBF105A6A704c58C63EFa55c3052eA1
+Gabriel Thome -> 0x971745dD72fE57BF39939b81E6dc93c95976EE7f
+Tillo - 0x250400C4A48d93c95f8eE7D313Cafe586ec80d9f
+Leon - 0x59e77cF43bD104080eAfc3b5BAD7f828DAf33b92
+Stefanie - 0x2bD5AC893eeF06aB0b41404277dac2E1d98144a9
+Tim - 0x047AB25e66072b1c956ec145e9Dd2FB7B9B85B94
+farhan - 0x3906157Fd632c1875fb53F7e9a2Ac75d943C8AE1
+Stewart - 0x645D45DdffBA7B8e4d37f68b3DbAB7d8B706F453
+Rafat - 0x1823E9b9b2eD47243aDB66DC49570EED4B5748C5
+Daniel Y - 0x8acb311560f78ff9e8ddd8b83b809ec54a632b04
+Emil - 0xE7bac49bAF3ebC058d6172ADA5089263100B5657
+Vinh - 0xf8C0a1c713DeD15a5c1800f85d150cF297fc317C
+Iddhie - 0x7bb71ABa11844b6F21c42ceE27B8676ae73692f0
+Joel - 0x26925EA97573e354a234eE83F9Ec1C2a3050ad52
+David - 0xc350aC460C135e9A061156A40AdbAE59f64cd3C3
+AzraiHasan - 0xBb6fA7b7045cC59C62FC998D8316D73894058edb
+elyas - 0x7d5309525F4e912DfcFCb453781FCEa43AFA3972
+Ashok - 0xcCc8796537df937a9743dc0a1457AD6004434F0d
+Vandana - 0xfa1C1956d52A4DF9c299e53D1A51F4957041cbda
+Daniel B - 0x27e41061ad38109ed38c2c2909684940733bd6c7
+Luis - 0x0037a1b33c596D4C7a19B20EA9Cec5A83D47843C
+Jan - 0xe144f09c65E886770Bf912fEB351B74c5BDf7827
+Craig - 0x97027f6079e11721b0955dE02F406edc4D920776
+John-Mac - 0x55374dac2BeF8eD9b5f77584Be72776e63d1C11f
+Princewill - 0xCE2C7689F469f318674AC1F517c4b66E1a0a22AD
+Lindsay - 0x0e64D02E084EdE4f319CCFaA1270d850D8e8918D
+Nick - 0xbBB1f16dEA3b53096E373564981325805AD5aFa9
+NickATL - 0xab6958B419D757426d60657eF313265b75Ec4320
+Manu - 0xCDE269fEa8d66B8010BBffd8b780e89116513565
+Sade C-0x9767e38B0efa3fec543ea62fa47C1Cc20eE79fC0
+Daniel S- 0xf1308BC6b495b42c77ED6FF5715a61feDba5B47a
+Tianchi - 0xcdc8e1E605f6F84c916aa2A851ab86677cF01A9B
+Kyle - 0x91d676F65dd81789622E4F519eeD0d0D22B08687
+Sarthak(eik) - 0x697dBD606f0B88FA98eAd07BA30363EB34242141
+Nawodya - 0x01B3fc0f4bfd38d837dc35629c9AC7967cFE19F0
+Fredrik - 0x6F8cFA96A5d34dC3e6a5384e63Fd6fD8C45Dd066
+Konstantinos - 0x55Be116Ca11C710Af386a653486d484392a32733
+Inna - 0xCC89C4b716f611cb19157904e8484034d550B82F
+Andy - 0x703C45ACbfEB54B40FBb5933327A3A702173FDeF
+Jad - 0xA08F2f6213E176401CE09c7067536e2DBbaa6027
+Elisabeth Green - 0xbea3b91cBF01c67F0B8999f394ECA92F6229f38D
+Felipe - 0x79fF5B866b9B5D5DB31BA45805ea5c43f5770223
+MIKE E - 0x0C8E972B82779386d900C1349615aAd4593f4614
+Sama - 0x4078C7a76c6E279Eb612096099eb199740667d2e
+Yann- 0xc1866C622C3938fCE3871B771253A4dB8d96eecD
+Khalid H. - 0xbd8191B61Dfb68be897805E572CCBDDF6310b381 
+Tameka - 0x000042Ff1c7322B2F55d27AD1050d6864F781596
+Adam Williams - 0xcb171701400B7Ae350505580B5aa244949948743
+Oliver Inzunza - 0x7A1733288553D1956CE407b595C3828338224bB7
+D Marl - 0x12A104C0f2891A5e76Ce20f5487f7471C70E4687
+Victor B - 0x8e8e9c377fD5C1e9957627c2c244Bb4a42531F66
+Ingrid - 0xD91eEF033E88609f0A1313A04645f2Aa6300F309
+Azmaeen - 0x4c686eC53Dd48b1044cA6535cc17F92Da219d54E
+Dj - 0xcd004004AD90354D297147Abeb2D5c82D744150F
+mahesh - 0x60be4eAc3c520e1fED0CCBcF0A6B35264C7F54cA
+Jose Morillo - 0x33E81EAFD3c7a8725B2493ae1b0f07959D9Ff5e1
+Sol why are we able to just mint rather than Burn +Mint or Lock + mint?
+
+*****************************************
+
+On Metamask
+On Fuji
+
+Send 5 LINK to your CrossSourceMinter address
+
+check your balance
+on Remix, CrossSourceMinter
+linkBalance
+CrossSourceMinter address
+
+Should return
+5000000000000000000
+= 5 LINK
+
+
+Let´s mint an NFT from Fuji to Sepolia!
+mintOnSepolia
+
+name - MintOnSepolia transaction id
+Sol - 0x2be86341c59192b3108a8f31fdf8105b06fdc7077c53604a040bae7166225d2c
+Andre - 0x49887023873492004a4c409459d9a09f79dc45ea3fa640041718184fec69b940
+Simona -0x978e0030c51cc1a73f7d530eb6a2be8eb49046ae1313e345dbeda9fee945c887
+Jeff C - 0xc34a3f056893106e3ae8ca6b45c576d42a20175eb2673f2ecff95d874839db93
+Harsh - 0x3f94f249b3f076b4da056f1324b8605f9ca656d1b8a29b775367d236724f681d
+Romain-Pierre - 0xf220d77390ea725d6061e561398280127c7d1ad8eaf090235634df268a93fce3
+Parnian - 0xed544cf4ead7c75c4dda29535f11c4422ededdff8a05f382718132a2a5305fc1
+Gabriel Thome -> 0x02acc775211e3b0e23124db76b417841ec6a01dce6f7b6f59f8a473ed15bacaf
+Tillo - 0x0639e3dc8e7eb2bb5ffecf8787856a14f21748f124bc92f670f56fff011efb1c
+Quizford - 0xa01538bcbe167aca3a2a0391db5b48b907477fddf05dd8b56cc590d0f803415f
+Shane - 0x97ee6801725514c2caadc80aa2c4074f134bb2eef3aa88761313b20ad5eae164
+Erfan - 0x9a8bcc2cf8e504d025e0e88db6bbf1da934c781bee767b5dc06a1a863e421232
+Tebbo - 0x5d4497404a257e55045e9af2a32969b1a46c5a6a9e3aaa446d20670824948514
+Stefanie - 0x70a982cbae98dab4bc66cd2ab98b70a0a0af3ebf419ea1babc14256154e33ded
+john-Mac - 0x860be2b482baeb55a0164aff0de86286c833b3cd2fca8dbe4c1cfc2ae1b5dcd3
+Chiara - 0xd10a00cf5019e0ee9eca6543ef614416228ce7f5b3f46d9ead0700bd4963a717
+Joel - 0xb6f275c9580418240c65eeaf4525e0646db34b3a82f084717c0d21a5d961f156
+Stewart - 0x39c24209d0e638a39b35510abe35762ac7fecf8f81510f0cebf263cc363c330c
+Nawodya - 0xfb68894edf39b5b1a2dfcc1d11855e1ad139ae2e7bcb775131a4784f615869cc
+Daniel B - 0xda8db4da18db23232d2cea2f7aa6106c85cd5ba5615d3ebb9665f3215163ea66
+Kyle - 0xc12c55e9d970712fc6ed60e946c9999905cb9d7c0bf6106845c79943db814512
+Rama - 0xfa10897d8d4ce9281b3147aa8eb92cc94ff87b0a8c799bb37db369fe3d60632c
+Lindsay - 0x6d9b99eca6d4808b6ea5d500a032c4b923ec670c7473acdd86ad005381e222d6
+Manu - 0x01e82ea8fe3a913eb1240fc873a541e253eb2bfa2b489e04f8bbbc83c6f6559e
+Batuhan - 0xe55e09438bdb305ae6e74feb347a90a8ec7335fb651c964c1f81f28e586c9e3a
+Rafat - 0x0018a32fdbb634d620d223e9437fcb17a7599f9613ccf022c10415d61b692440
+Leon - 0x48d418726d88ef6777b1abba1d8110dbae4500e17524ca9636b9827b941676a6
+Daniel Y - 0x86f2579ca3ebc299a86fd618feb0fa2580e770b34f4d21dabda9684721a5662b
+Craig - 0x5ed94a5d0adaa14ede981e5d7ee94d0c98c8d11281b37034b1486e2db504fa9d
+Tianchi - 0xddbae61769929f175798a3c2669585988d79002264e6f734fdca647d41885791
+Vinh - 0x993e69137e94f41ea80689c50859678ae14d0434a4714ee2e69f79e0599a3b6e
+Iddhie - 0x58d63d44c7e4aa3b90ea8879006fed1fc4635752ce797777e161a71f5fcbae25
+farhan - 0x3b3651721b4f6edcf1ce1f3bfa6c9b59bed4ffa4c6a78441ba30736db70d2841
+Nick - 0xcc7b8863d8a3e80a6d18e63a81aaad27b4b7a8b51377993b4293deed5940b99d
+Luis - 0x8d6dda63510c5bc5033a7c59ea30599fc518c30456e2184915c429f62aba1dc4
+elyas - 0x0576f59760dd620c576a86e01ff4c9192098fabf106a4fd3ea97b2671f1b5fa3
+Fredrik - 0x2d93fe0445c74cb2c73f120522b8fad5a76bae06dbf6731348b661cdb1a70bf0
+David - 0x5c9d9b054b27b97bf673d4f51ddf43769b94d900df2b22232059a78807e5b4e9
+Tim - 0x4365aa6a9fc1622c61ea4ededca5f3be3279259332ee2b5d36af57adf4e41a98
+Nimnath- 0x4f465c052ea4301b8737a792d6c7baf759fc9470603130b93a0732931bad91e6
+Alex B. - 0x05497513475edb5face47fedeb771b0fe7c663d3a526abdeeaa4a284dee45df6
+Ashok - 0x9eaf14e40fd4bf2f1054dd1e5e3701abcdbd555955a19af9f51242e35734570d
+Sade C-0x35ff0b2d5497088322f8e993d03e93cc67e264687498f533c304fd08696cdf74
+Daniel S - 0x8336d9daeca1c30dd9aee24751f8148b304248b652828ebc3664e17265185eea
+Vandana - 0xcea07fc2aa89ffbca63e73eb7500349d7673ef8d59d2deff2a0477872cc23c72
+AzraiHasan - 0x91a2ed0b3977f002411e31fce0fc50813fab5f12b65dfd161fd6c6bc0cc3ee40
+Sarthak (Eik) - 0x75e1e57505042ff42ebba4474457c7250773d43c1355c89122fc9ef092af6f05
+Konstantinos - 0x8d796de34560ed8be7d09337d5086c94fd413b2d3343c7bfe9b8ad9de9c47fe2
+Luis- 0x37b22924b97f2ddc19332ef9d9aef370ac8417ffecb5ed1956a66469777b5b4a
+Princewill - 0xa45090723d51a7e3b1515b24db8c81c3977690620e7a4404639d28e7dc8eb346
+Inna - 0xe0bd623bbc03fdb9afb8797a6dc0413b89888082c9347e6c260f424921bbc751
+NickATL - 0x888d3fc90c9f9a88f5a8903b8d31867d45b461acd2ee1158a3d24b8a280cbd55
+Andy - 0xc3781f9954ce08228a16cb136be7e2a33af0362ba34ef96448d2e58113761bd3
+Jad - 0x29f8bb16d5df45043844615afd2a96a39544d3fc872bd14bd706d5790fac1c77
+Elisabeth Green - 0xf7e07bb519e65ebde2fdd3e6c60dd4f50309f819d32adad992243f2c3bed043a
+Felipe - 0x4b048ec4789cf0cdd89a866269b5dcf1f635c20930cbdf112e035172ccf51d4a
+MIKE E - 0x3b8f1b95ea0847acd91bb2cf8aabaf01ee6d63b8c632050da838cd6cbfe9cac3
+Sama - 0x03e626c0e1f329b2e817c93cb9bdc89a0ed879092fda4ca04ea98510896936f8
+Yann - 0xb7872e503b89fc54bd781b649daeb7ae3cc43d9ffd242cdcd7b0bfdd9a51b236
+Khalid H. - 0x315cc5925f7ab240ba1a940aa10e72be4618920cca7a5733f5bef40facc45ff1 
+Tameka - 0xe7c043bd5aace2d2091764b8179043deb832523a360ac8c955dc0b7c8dcfe5e2
+Adam Williams -0xee0498f14a72c81397a10b8e8a76b5a4a07ccf6d9650a3dc72e523a99025f955
+D Marl - 0xb5ca6e85d30bbb955a0b1565e7d4a8145c145131e66b216a38abe5d599988c72
+Oliver Inzunza - 0xb9835a707ac505f4f7fab7b7fa95137a5871358cd037bf1d7e5e6ca74d41f3b6
+Ingrid - 0xce147adc528282c8e4d8093e6db995a6410abad45422af4f96782ad15e6b07b3
+Victor B - 0x09915b4882340e245e4bf6c96416a5397aa3f0a71bcb8016382b37aaf17cf1a7
+Azmaeen - 0x00fc9d622b14febc36636b0c00cf8c58d7a05844ad71d97bccb36b45ce966309
+Dj - 0x86bae0135992193af4ff993216d53523227b44706ff72e1e334631ae2f7d0b84
+mahesh - 0x193ff19d931f7ccd809547254c83041981e5234d97e9a813cf5c7b43576f772f
+Jose Morillo - 0x33E81EAFD3c7a8725B2493ae1b0f07959D9Ff5e1
+
+*******************************************
+
+Go to 
+https://ccip.chain.link/
+
+
+I need Sepolia eth 0xac15a65931391A36328D05B5A5223E8524Aaa588 /elisabeth (Sent)
+Need some sepolia 0xdb035c42e12ee11f1D47797954C25EE36C3dC77c (sent)
+Need link on fuji - 0x92d682351F0E2Bdf19f63e77e97fa8f534D8D673 /Emil (Sent)
+Need Sepolia ETH Please - 0x50E193Ac6d36d1424Dd1e0DdB2d113953976F112 No you dont, you have 3.000536201324405558 (-0.3 / see TX below)( i have been sending to everyone :) wanted to see if the favour gets returned ) THX 😂😂 (favour returned)TXS !
+Send me please some Sepolia 0x0ff882327555dAE45226d414d5C40232bdc5Af43 (Inna)(Sent) / Thank you, so much :))No Problemo
+
+Here is a Faucet list : https://faucetlink.to/sepolia
+
+***********************************************
+
+Challenge - From Mumbai
+
+Add Mumbai to Metamaks
+https://chainlist.org/chain/80001
+
+- this doesn't seem to load when I click link above
+
+Add LINK on Mumbai - Metmask
+https://docs.chain.link/resources/link-token-contracts/#mumbai-testnet
+
+On Metamask
+Mumbai
+
+On Remix
+Create
+CrossSourceMinterMumbai.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Mumbai
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossSourceMinterMumbai {
+
+    // Custom errors to provide more descriptive revert messages.
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees); // Used to make sure contract has enough balance to cover the fees.
+    error NothingToWithdraw(); // Used when trying to withdraw but there's nothing to withdraw.
+
+    IRouterClient public router;
+    LinkTokenInterface public linkToken;
+    uint64 public destinationChainSelector;
+    address public owner;
+    address public destinationMinter;
+
+    event MessageSent(bytes32 messageId);
+
+    constructor(address destMinterAddress) {
+        owner = msg.sender;
+
+        // https://docs.chain.link/ccip/supported-networks
+
+        // from Fuji
+        address routerAddressMumbai = 0x1035CabC275068e0F4b745A29CEDf38E13aF41b1;
+        router = IRouterClient(routerAddressMumbai);
+        linkToken = LinkTokenInterface(0x326C977E6efc84E512bB9C30f76E30c160eD06FB);
+        linkToken.approve(routerAddressMumbai, type(uint256).max);
+
+        // to Sepolia
+        destinationChainSelector = 16015286601757825753;
+        destinationMinter = destMinterAddress;
+    }
+
+    function mintOnSepolia() external {
+        // Mint from Mumbai network = chain[2]
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(destinationMinter),
+            data: abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 2),
+            tokenAmounts: new Client.EVMTokenAmount[](0),
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 980_000})
+            ),
+            feeToken: address(linkToken)
+        });        
+
+        // Get the fee required to send the message
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        bytes32 messageId;
+        // Send the message through the router and store the returned message ID
+        messageId = router.ccipSend(destinationChainSelector, message);
+        emit MessageSent(messageId);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function linkBalance (address account) public view returns (uint256) {
+        return linkToken.balanceOf(account);
+    }
+
+    function withdrawLINK(
+        address beneficiary
+    ) public onlyOwner {
+        uint256 amount = linkToken.balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        linkToken.transfer(beneficiary, amount);
+    }
+}
+
+// End
+
+
+Name - CrossSourceMinterMumbai address
+Sol - 0xFe5270bc96Cd0c19cb5C924c18F66033d81D9563
+Gabriel Thome -> 0xF50c5C44EE30A3A37efe6538F09DD0E6BaD7b712
+Parnian - 0xB7ae134c197483b9DE73BCa436C251386ef64FAf
+Sarthak (Eik) - 0x26322b7F65f4557b4eB9BDCdBB4Aaa9913BeFF42
+Tebbo - 0xb050697bF3a4a6f3ea700dAa33243990ec6f5490
+Chiara - 0x31A681B07D6c55e50a17c9d15aa8c70277fEF133
+Stefanie - 0x351825a67376E1EF69F6694B82B66BD43EeEF7d1
+Joel _ 0x2506D33A5A80Eed8918A2851Efde6274827522c4
+Rafat - 0xF35e93EaeE4c6dCfA24eb0BD6aE1164c8a0ffB64
+Nawodya - 0xaF6Cf567D3467408699EE332083a4072824eE655
+Konstantinos - 0x532D08b1F35b847C216d20B55E75807ea7392E8a
+Nick - 0xc8218AbFf013B9C7372814245879532c59BA64DD 
+Andy - 0xFD0c8d14a500fdEEeB52166681E39EfA6a3c71F1
+Felipe - 0x8940622bEBbB05951f9CDdF43DD2f3F8a498de5c
+Sama - 0x9cd721fe3731E80CDcD1cC772B1Ff15A052a14eF
+David - 0x647Ccd8b9E572B6A4EFDB46f995fc55F906e51A0
+Yann - 0x9b593AcC85FB3EC75D22fcaFcbdA1Ec0Ec50a644
+MIKE E - 0x89664B2dCa7ae4dE97D77F73a355beA43156E718
+NickATL - 0x51811B42E7305060AebE417D816D9A692Fd51080
+Tameka - 0x058E8c2a5061A8A32eEf701962cCb2111353e5b4
+Adam Williams- 0x63188D402e0aB3a159967780f910e10ADDFa0956
+Luis - 0x0De4afe1a9936131F9D025779e9A99D23798d8DA
+Ingrid - 0x694e0b817D9E02ACB27849611e6f5fD6e4F3e1e4
+victor - 0x37A59C1a7e558c19EdB0302a2146Dc78a855dE40
+Azmaeen - 0x8ddf1DC51bd9DE719f855b91A5B7D05f22617E25
+
+
+*******************************************
+
+where can we get Matic on Mumbai
+
+On Metamask
+Fund CrossSourceMinterMumbai address with 5 LINK
+
+
+Name - MintOnSepolia Tx Id
+Sol - 0x1c21e7de7248cce2fc83f89cd82b72cc547237fc8909f0bb052639f268a22aa6
+Batuhan - 0x49fbb041ed50137380bb787650ccf85d751885864eccb505aa005985f6b45d09
+Parnian - 0x0fa619d65784002bcce8c1d2c1019ab752a3b6aed42d3c6cc6a112b443af8a68
+Simona - 0x44e7906c8d89bcdfb8f0fed2626b732fe942fa17ce0898105b78935f3488cd8d
+Gabriel Thome -> 0xa000c78a96af0ba3d2b7e1607c358abc394198e39b64b4f4bafdd64ae0ef035a
+Sarthak (Eik) - 0x7fe81f34bedd02b97c8bb29414581621fec23cdbc208c7dcda00f716a0fbc09f
+Ashok - 0xf5c024397296ab1f3f793feefb28844c65b1417bc78c0aff039463d5e6beb383
+Tebbo - 0xb90bb97d426a0d5100f25911ec1929cdb5b8395dd5696b54593195b28a2b1695
+Leon - 0x497d6c9f8fc4afb6f0ad1beec8826892f603b7296024146f7f08d5ab4f5c6e9e
+Stefanie - 0x9a813cca9230ee01f0acd145cc8e18de91595648b0dd0f75189fc4cd952217eb
+Vinh - 0xd3c519f821ebdc103a90ae2bb11c018601a5cfb29fd33a74e95be0ac5d496db9
+Chiara - 0xc633005ae9e45f493b77c3afed2d9b32c486e5d542f542bd227c229da43e82ba
+Tim - 0x7512682099b73815312b6eee313a43e62e017f624f34c783d65a6ef74689817e
+Shane - 0x9ca8b40b9c12038bfa8e34d33eb95cbfbf5b639b03568af32ddf54078f139180
+Joel - 0x63c5fb2fe4da09c8a85b727ff7dc5546a8268655791831e14d16c627f8c225d5
+Konstantinos - 0x232f8cb02ba6632aacf93eb21d8bc8ae41d632fa5638f83d3d8eb457d22e9617
+Rafat - 0x660a769b403cfee77188d3a56ab97c988482c164cd32e198aa93214a4d63fff9
+Nawodya - 0x525ab9f9b8bfea19959dfad6fc458f02dbd6ec2e283f9ffb495f0dc81a6a4fea
+Nick - 0x0d2643d7acd57cc66b826606cfd33872f9ea4cc68d123e8275ab327ab3a4b09c
+Andy - 0x497b3740360be0883426e857f94c90977e09d5766cf07c124cad7cfd0d55b3a3
+Felipe -0xfd1d0775dea8730830a9aaf3c9c191ea94abcac58112f00c4730c8bb9facd28b
+Sama - 0xe4257acd147babec17b88db70098f5f3265a1635f8e5db22920df2eb4b96451c
+David - 0x1e2008a5e02c7a6c23b7bf1a394a941b23a7dde3a484371f469edc17a1ba697a
+Yann - 0x1377ce61ed47347d970c7a777d861852c7945b78db2d68270f1e4cb4d5ab2774
+Khalid H - 0xa92a3cb35d6a38674944a4858de299900330c5de1b0dfdac02685fd09c1e8f0c 
+MIKE E - 0xada6302079aaef5def0f79ba7a5da10d22eef5d2bbd68def0234e49f94fc835b
+NickATL - 0x015c401ffefb29c8b6417f996a11348223d36e8ee5241a974315835a6e9eed3a
+Tameka - 0x01643b48d4b8860428917c570270ec24c8199682de85aa1986f33d606ddb6653
+Adam Williams- 0xd55385797b1f60084d8254bb73908af62f44ca8c72d262c22e9630c1bdb9fed4
+Ingrid - 0x3cc678b9109156d1d58f56c2e947b8618b51532dfc385c289dcbe7e21447c5cb
+Victor B - 0x2fe093f6186e319fae3beb83fbf687d33648e21818255db4a6686e2dc68285e0
+Azmaeen - 0x94eab7d707eb24a9c365738a032b1c3ec9a0346ed47e5f1c96909098ee363ce3
+Luis - 0x3b0f3071656385745ff993d93e6114e4db7be61dc99b946a7e962b7753751431
+
+
+**********************************************
+
+https://blog.chain.link/five-levels-cross-chain-security/ 
+
+
+#problem solved I have not enough Matic (Stefanie) - 0x432f4fE2F17855AF70A35D18B9baC35FbaaaE7a1
+Just sent you 0.2 MATIC
+https://mumbaifaucet.com/
+Thank you, I got it!#
+
+sry, I have not enough Link (Stefanie ;-) )
+0x432f4fE2F17855AF70A35D18B9baC35FbaaaE7a1
+Request at the chainlink faucet.    https://faucets.chain.link/mumbai
+thanks!
+
+
+Why does my opensea show only tigers? I minted an amoji and got a mint transaction hash of 0xf17e37141d00064fa3645a392cf2cab1c120b2b61d4fbbc0e84e249f43f6794d where do i find the emoji opensea collection? I found it. I had to use that hash to search etherscan and copy the "to" address and search opensea with that. It did not show up in remix.
+
+
+Hi Everyone,
+
+I have created a discord server for us to stay connected, discuss issues and help each other. Please join if interested.
+https://discord.gg/UYXbK7ZT .
+
+Thanks,
+Babjan
+why not just use the #bootcamp in CL discord? 
+

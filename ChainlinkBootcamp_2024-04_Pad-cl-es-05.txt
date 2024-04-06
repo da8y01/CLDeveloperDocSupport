@@ -1,0 +1,262 @@
+Chainlink Bootcamp
+05 Apr/2024
+Clase 05
+
+Todas las sesiones en la página de Luma
+https://lu.ma/ChainlinkBootcamp2024-es
+
+Soporte del Bootcamp
+https://chain.link/discord 
+spanish channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vR3PCyiWjqf3N0aFrRBl3H3m6yXLHDi8rkr35oqwTd6X8Js7xORY6F2WAog0uF1nbk6fIbDT7INESjK/pub?start=false&loop=false&delayms=3000
+ 
+ 
+ Slides en Español 
+ https://docs.google.com/presentation/d/16z_tyYtpnjO4Ab5nZzv95bg6-j-N1U7W-PPi-vfG6Vk/edit#slide=id.g2c983683e51_0_76
+ 
+Tareas
+https://forms.gle/kLrr2k7RZWcQ7npQ7
+
+Hackathon: https://buildwithcelo-5.hackerearth.com/#overview
+
+Account abstraction on Celo :https://www.youtube.com/watch?v=5sgNDf9olJ8
+
+Thank you!!!
+
+CELO Composer
+https://github.com/celo-org/celo-composer
+
+How to Build on MiniPay
+https://docs.celo.org/developer/build-on-minipay/overview#building-dapps-for-minipay-wallet
+
+Celo Faucet
+https://faucet.celo.org/alfajores
+
+Android Studio Setup
+https://docs.celo.org/developer/build-on-minipay/prerequisites/android-studio-setup
+
+Ngrok Setup - open your local deployment on your phone
+https://docs.celo.org/developer/build-on-minipay/prerequisites/ngrok-setup
+
+Set up Testnet in MiniPay: https://docs.celo.org/developer/build-on-minipay/enabling-testnet
+
+Viem: Typescript Framework for interacting with the blockchain: https://viem.sh/docs/introduction.html
+
+Formulario de Dudas / Preguntas
+https://forms.gle/E5nTzaM7s7WH7xzS8 
+
+
+Block Magic, nuestro próximo Hackathon!!!
+Regístrate aquí >>> https://chn.lk/3vqRoLN
+
+Agregar CELO
+https://chainlist.org/chain/44787
+
+
+GIT, NODE.JS, VSCODE!!!!
+
+#######################################################
+
+Como instalar git, node, vscode: https://youtu.be/mjilH3ELe7o
+https://www.youtube.com/@observdev
+
+DOCS CCIP
+https://docs.chain.link/ccip
+
+########################################################
+
+Nombre - Ubicación
+Stein Ramirez - Colombia
+Facundo - Montevideo, Uruguay
+Melo - Sevilla, España
+Jorge Flores - El salvador
+F.Rosso-Mexico
+Gabriel Agustín Uriarte - Argentina
+Malcoln Portillo - Tegucigalpa, Honduras
+IVAN MRSNIK  Un venezolano en EEUU
+Clever Edu Perea - Medellín - Colombia
+Adrian Perez Herrera - España
+Karinna Serrano - Mexico
+Horvey Gutierrez - Portuguesa - Venezuela
+Omar Bastias - Mendoza - Argentina
+Gaston Chalub - Rio Gallegos, Santa Cruz, ARG.
+Juan M - México
+Emir Maya - Mendoza, Argentina
+Hiram García - Guatemala
+Manuel - Bolivia
+John Haver Herrera - Bogotá, Colombia
+Denis Faundez - Neuquén, Argentina 
+Carlos Carrasquillo - Puerto Rico
+Gustavo bs as Argentina
+Nilds Vasquez Gonzalez - Lima, Peru
+Daroch - Bilbao - España
+Victor Roa - Bogotá, Colombia
+Enmanuel Cabrera - La Habana, Cuba
+ramon - barcelona espain
+Rallsen - Monterrey, Mexico.
+Yatel Nicolás Lara - Bahía Blanca, Argentina.
+Oscar Moctezuma - Monterrey, México
+Avi Mielgo - Madrid
+Fernando G. - Rosario, Argentina
+Cacao – Mallorca - España
+Paco Trejo - Guadalajara, Mexico
+Alejandro GAmero -Argentina
+Abel Lopez - Veracruz, Mexico
+Agustin L. - Santa Fe - Argentina
+Brayan Angarita - Cali, Colombia
+Eduardo Cabrerizo - Madrid, España
+Hyrum David Perez Abanto - Trujillo, Peru
+Rocío Grajales - Bogotá, Colombia
+José Manuel Fernández Rodríguez - Tarragona - España
+Gago Alejandro- Bs As-Argentina
+Leo - Barcelona,España - Estudiante
+Sebastian G. Gil - Rosario, Argentina - Security Researcher
+Marco - Lima, Perú - Docente y consultor 
+Ivan Morales - Guadalajara, México
+Walter Rios - Rosario - Argentina - Software Developer 
+Luis Esteche - Argentina-Paraguay - 
+Ruben M -  Peru
+F.Rosso-Mexico
+Diego R - España
+Marco  Gallardo - Quito Ecuador
+Mauricio Teruel - Argentina
+Joel Bejar - Acapulco, Mexico
+Rodrigo Bogado, Argentina
+David Arenas - Colombia
+Juan Felipe Vélez Colombia
+j4c0b0_bl4nd0n - colombia
+Diego Q - Argentina
+Paulina - españa
+Alex Ramirez - Ecuador
+Laura Noriega - Argentina
+Camilo Morón - Venezuela
+Roberto B - España
+Sixto Palacios Quinto
+Jorge Morales - Panama
+Salvador Carballo - Buenos Aires, Argentina
+Jhonn - Argentina
+Natalia Inzeo - Buenos Aires Argentina
+Jesus Piñerua - Caracas, Venezuela
+Daniel Varon - Medellín, Colombia
+María del Milagro Ventura-Salta-Argentina
+Martin Gomez - Buenos Aires, Argentina
+Luis Rodriguez - Queretaro, Mexico
+Jordan Barilla - Panama
+Baigorria Martin Santiago - Tucuman Argentina
+Juan José de la Rosa - España
+José Franqueiro - Buenos Aires, Argentina
+David Janer - Málaga
+Jairo Vargas Colombia
+Karla Arias - El Salvador 
+Lucas Malizia - Buenos Aires Argentina
+Marcelo - Buenos Aires, Argentina
+
+
+
+++++++++++++++++++++++++++++++
+
+
+5
+
+
+
+Preguntas sobre el Bootcamp:
+    
+1.Eduardo: Se puede implementar ccip en cualquier blockchain?
+docs.chain.link
+
+2.Fernango G Sosa: No pude enviar usdc de avax a sepolia contrato 0x04890c56B0EafB6517a8Da8D23DB1435741a8B18
+
+3.Alejandro Gamero: 2) Cuando abro el remix, conecto la billetera, pongo el contrato con el nombre que indica la profe, y sigo el procedimiento, no aparece el botón deploy. Hasta ayer pude manejarme bien pero cuando quise hacer el deploy del Token shop había desaparecido. No logro encontrarlo. Ahora en la cuarta clase cuando abrí el Remix pasó exactamente lo mismo, no he podido avanzar. 3)
+
+4.Diegoq: Por que a veces en los contratos de DEX se necesitan mas de una approve transaction, y a veces se necesita aprobar nuevamente un token que ya habia aprobado
+
+5.Marco Gallardo: Quien paga las comisiones con CCIP la persona que hace la transacción o el dueño del contrato?.
+
+Para mintear por ejemplo tokens o nft en la red de matic necesito agregar todos los contratos de compatibles con CCIP al contrato?, es decir si quiero que paguen con bnb, ethereum, avax, debo programar todo eso para cada red?
+
+6.Kamal: Yo necesito saber como cargar los costes del oráculo al usuario que interactúa con nuestro smartcontract, es decir evitar que pagar las fees el dev o el autor del contrato.
+
+
+7. Mariano: Desde ayer que no puedo desplegar en contrato en la red Fuji Testnet (43113), copie varias veces el codigo, tengo seleccionado bien la version, y me da el error (con cualquier tipo de contrato que quiera hacer el deploy en FUJI me da el mismo error) 
+
+transact to TransferUSDCBasic.allowanceUsdc errored: Error occurred: revert.
+revert
+        The transaction has been reverted to the initial state.
+Note: The called function should be payable if you send value and the value you send should be less than your current balance.
+Debug the transaction to get more information.
+creation of TransferUSDCBasic pending...
+creation of TransferUSDCBasic errored: Error occurred: JsonRpcEngine: Response has no error or result for request:
+.....
+
+Ahi pude, tenia agregado otra testnet FUJI, pero es raro porque me tomaba bien AVAX y USDC y LINK
+
+8. Melo: Estoy interesado en saber si Chainlink como Oraculo ofrece algún servicio de identidad para acceder a distintas cadenas de bloques.Por otra parte, me interesa saber sobre sistemas de identidad dentro de la blockchain, si tienen alguna referencia al respecto lo agradecería :-). DIDs - self sovereign identity
+
+9. Yatel: ¿Que nivel de importancia deberíamos darle al desarrollo web2 para poder ingresar al campo laboral web3? Me refiero al desarrollo con Javascript, React, etc o Kotlin/Swift.
+
+10. Carlos - Hackathon Question: Puedo participar en mas de un grupo, digase que tengo un grupo en vida real, pero me gustaria hacer otro grupo de integrantes de este Bootcamp. 
+
+11 . Ayer no pude enviarme LINK desde la faucet, no había balance
+Address sepolia 0x40a8fD511C72310cbA95a641065b82E850DA5a0c
+https://sepolia.etherscan.io/tx/0x3f063c358c79b873cd95f99da23b0b82b3955fe0dcfb5434517c0b669b131011 
+A mí me pasa lo mismo: 0x7DB0326c0AB4Cc9D7b49522343624a1dceBb7834
+
+12. Darío: No creo pueda participar en el hackathon, pero me ha gustado mucho la experiencia, como seguir profundizando?.
+
+
+
+13. Pedro(Blockitus)-Chainlink provee la arquiectura para generar lanes en CCIP personalizadas?
+
+
+
+14. En esta etapa tan temprana en conocimientos tecnicos en blockchain, a parte de la motivacion, que sugerencias podreis dar para participar en el bootcamp y no morir el intento
+15. Pedro(Blockitus)-Chainlink tiene pensado publicar algun protocolo para la generacion 
+de Customs Cross Chains ERC20 ?
+16. Pedro(Blockitus)- He escuchado que CCIP presenta 5 niveles de seguridad en comparacion con los bridges tradicionales. Podrian de manera rapida, listar y describir los 5 niveles?
+
+The Five Levels of Cross-Chain Security | Sergey Nazarov at Sibos 2023
+https://www.youtube.com/watch?v=Mzn6E02WEKs
+
+17. Daniel Roa - Que es un Mint? Que se logra al hacer un Mint? Cuando se debe hacer un Mint?
+
+
+18 - Kamal - Si exiges al usuario a depositar el costo del GAS podriamos tener un error de concurrencia, es decir ¿que un usuario consuma los fees del otro usuario que estaba depositando antes los tokens? 
+Ejemplo:
+    Usuario A- Deposita USDC, LINK y algo de ETH para el GAS.
+    Usuario B -Deposita USDC, LINK, y algo de ETH.
+    El precio del token LINK baja por lo cual transaccion FEE es mayor y se consume los balances del usuario A y el Usuario B por la TX del usuario A.
+    
+
+19 - Mariano - En el tokenSHOP usabamos un oraculo para saber el precio actual de ETHEREUM. Ejecute varias veces la funcion y no se actualizaba constantemente, sino que por ejemplo durante 5 minutos me daba siempre el mismo valor,y recien despues de ese tiempo lo actualizaba. Porque esa demora? porque es una testnet? o en la mainnet es actualizacion a tiempo real?
+
+20 - Si tuvieras que desarrollar un proyectos para paraticipar en un Hackaton que herramientas basicas tanto lenguaje como conocimiento deberias tener o conocer, y que mas deberias priorizar en conocer.
+
+- https://scaffoldeth.io/
+
+
+21- Kamal - ¿Podeis enseñar un ejemplo de una  webgui para un SC algo sencillo y a ser posible que este subido a github para practicar?
+
+
+22- Kamal - ¿Que buenas practicas podemos hacer en solidity para reduciry el GAS?
+
+
+23 - Qué eventos hacen accionar el contrato? Solo consultas y escrituras?. Puede estar escuchando otro contrato y que reaccione a algún evento que ocurre en la red?
+Eso se hace con las externals functions escuchar no porque no es eficiente, pero el contrato A si puede llamar la funcion externa para invocar a la funcion del contrato B.
+
+24 - Cómo actúan los bots que escuchan la mempool? Se puede suscribir a esos eventos?
+
+
+25- En el bootcamp vimos que al crear el Token le asignabamos un valor arbitrario de USD 2.00, (hard-coded) 
+Cómo tendría valor de mercado? Se debe actualizar ese valor en el contrato?
+
+
+
+
+
+

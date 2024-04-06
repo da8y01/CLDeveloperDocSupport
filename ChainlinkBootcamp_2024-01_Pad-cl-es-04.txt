@@ -1,0 +1,540 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 04
+ 
+https://pad.riseup.net/p/cl-es-04
+ 
+Clases passadas
+https://lu.ma/fkr85zi7
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+
+Ejercicios
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://workshop-faucet.vercel.app/faucets/fuji
+cllworkshop0101
+
+https://dev.chain.link/
+
+
+Nombre, Ciudad, Pais
+Diego Raúl Barrionuevo Córdoba, Argentina
+Ramon Bastardo - Puerto La Cruz, Venezuela
+Tomas Sosa Giraldo - Medellín, Colombia
+Jair Díaz - bogota-colombia
+camilo munar , bogota , colombia
+Luciano Delaude - Mar del Plata, Argentina
+Francisco Bermudez Guaca Colombia
+Joaquin Alcerro, Tegucigalpa, Honduras
+Yamid calderon-Colombia
+Hector Navas - Ecuador
+Javier Shen - España
+Julio M Cruz - Fairfax, USA
+Juan Fuente - España
+orland - Bogota - Colombia
+Horacio Barrabasqui - Argentina
+carlos vazquez
+SANTIAGO - URUGUAY
+Javier Montes - Lima Peru
+Javier - España
+Crsitian Fresnos - Colombia
+Luis Anton - Maturin, Venezuela
+daniel plaquin - argentina
+OSCAR SEGURA | CHILANGOLANDIA, MÉXICO
+Monica Ledesma Argentina
+Michael Maracaibo, Venezuela
+Edgar Sanchez - Guadalajara
+Juan Carlos MM | Bogotá | Colombia 
+Pablo Guzmán - Santiago, Chile
+Juan Pablo Tixe - Quito - Ecuador
+David Hernandez - Valencia, Venezuela
+CArlos Delgado - venezuela
+Karinna Serrano - Ciudad de Mexico
+Hernán Hernández - Colombia
+Rocío Grajalaes - Bogotá,Colombia
+Alexis - Aragua, Venezuela
+Armando Colón Mendinueta - Barranquilla, Colombia
+Claudio - Buenos Aires, Argentina campeon del mundo
+Alexander Durán - Pereira - Colombia
+Luis Tapia Navarro - Panamá
+David Yánez - Quito - Ecuador
+Tulio Duque - Medellin - Colombia
+villawolf - friendTech, Metaverso
+Alberto Silva - CDMX México
+Max Cabanillas Salas  - PERU
+Dannuver Cabezas - Bogotá Colombia
+Xun, Arg 
+Rubén Bocanegra - Lima Perú 
+Andrés Serna - Medellín - Colombia
+Chula, Sao Pablo. Brasil
+Roman Diaz - Buenos aires, Argentina
+Joaquin, Argentina
+Silvia Martos, Mallorca, España
+Guilherme Gonçalves Indaiatuba Brazil
+Steven Fernàndez - Perù
+Juan Camargo - Pereira, Colombia
+Jorge - Argentina
+Anibal Elbaum - Córdoba - Argentina
+Marcelo Haro - Quito,Ecuador
+Johnnatan Olave - Bogotá Colombia
+Arturo Collado Rosell - Buenos Aires - Argentina
+Patricio gonzalez, Formosa, Argentina
+Santiago - Rosario, Argentina
+Malcoln Portillo - Tegucigalpa, Honduras
+Juan Ramis - Palma, España
+Horacio Barrozo - Buenos Aires, Argentina
+Willy Gonzalez - Argentina
+Sergio Enrique Aguilar Delgadillo|Pachuca Hidalgo, México
+Carolina - Santa fe - Argentina
+javier velazquez - Cordoba - Argentina
+Juan Carlos Gallardo - Ciudad de México
+Martha Barrera Bogotá Colombia 
+Jonathan Juez - Bogotá Colombia
+Raúl Parra Hernández - México
+Juan Ignacio Blacutt - Argentina
+Juan David Nicholls Cardona - Colombia
+Eduar Cortes - Bogota - Colombia
+Eliot Pinto - Lima, Perú
+Johan - Bogota, Colombia
+Guillermo Boccardo - 0x850485AFBC342BfD851eEbF6d6b429FDdD6AaF62
+Daniel Jesus Suarez Agamez - Riohacha Colombia 
+Gil Sanjuan - México
+José Miguel - Lima, Perú
+Juan David Duque - panama
+Emily Rodríguez- Caracas, Venezuela
+Gabriela - Lima,Perú
+Rulo - Hidalgo, Mexico
+Horacio Calderon - Saltillo, Mexico
+Julian Nicholls Cardona - Colombia
+Alfonso Zapata . Mérida - México
+Joel Garmendia - Valencia - Venezuela
+Camilo Bayona - Bogotá, Colombia
+Guillermo Malagón - Bogotá, Colombia
+Alejandro Betancourt - Barinas, Venezuela
+Gustavo Meghirditchian - Uruguay
+Filadelfo Caicedo - Cali, Colombia
+Daniel Campillo - Medellín, Colombia
+Heler Paez - Colombia
+Carlos Oñates - Venezuela
+Manuel David - Córdoba, España
+Diego Guillen - Bogotá.
+Gustavo Meghirditchian - Montevideo, Uruguay
+Sébastien Léger - Barcelona - Spain (y Fr)
+Miguel Rivas, Madrid, España
+Celic Torres - México 
+104. Nicolás Locatti - Buenos Aires, Argentina
+105. Juan Melenciano - Republica Dominicana
+106. Adan Reh - Barcelona, España
+
+
+*********************************************
+
+
+https://dev.chain.link/products/ccip
+
+https://docs.chain.link/ccip/tutorials/cross-chain-tokens
+
+Blockchain Origen
+Avalanche Fuji
+
+Blockchain Destino
+Ethereum Sepolia
+
+Adicionar Avalanche Fuji en Metamask
+https://chainlist.org/chain/43113
+
+Conectar Avalanche Fuji en Metamask
+
+Faucet
+Avax Fuji e LINK na Fuji
+https://workshop-faucet.vercel.app/faucets/fuji
+
+Add LINK on Fuji no Metamask
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+
+CCIP-BnM
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+Add CCIP-BnM to wallet
+Mint 1 CCIP-BnM Token
+
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Verifica se a rede é Custom (43113) network = Fuji
+
+Crea
+CCIPTokenSenderFujiSepolia.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/IERC20.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+contract CCIPTokenSenderFujiSepolia {
+    IRouterClient router;
+    LinkTokenInterface linkToken;
+    address public owner;
+
+    // https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+    address link= 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+    address routerAddress = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+    address bnmToken = 0xD21341536c5cF5EB1bcb58f6723cE26e8D8E90e4;
+    
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#ethereum-sepolia
+    uint64 destinationChainSelector = 16015286601757825753;
+   
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees);
+    error NothingToWithdraw();
+   
+    event TokensTransferred(
+        bytes32 indexed messageId, // The unique ID of the message.
+        uint64 indexed destinationChainSelector, // The chain selector of the destination chain.
+        address receiver, // The address of the receiver on the destination chain.
+        address token, // The token address that was transferred.
+        uint256 tokenAmount, // The token amount that was transferred.
+        address feeToken, // the token address used to pay CCIP fees.
+        uint256 fees // The fees paid for sending the message.
+    );
+
+    constructor() {
+        owner = msg.sender;
+        router = IRouterClient(routerAddress);
+        linkToken = LinkTokenInterface(link);
+        linkToken.approve(routerAddress, type(uint256).max);
+    }
+   
+    function transferToSepolia(
+        address _receiver,
+        uint256 _amount
+    )
+        external
+        returns (bytes32 messageId)
+    {
+        Client.EVMTokenAmount[]
+            memory tokenAmounts = new Client.EVMTokenAmount[](1);
+        Client.EVMTokenAmount memory tokenAmount = Client.EVMTokenAmount({
+            token: bnmToken,
+            amount: _amount
+        });
+        tokenAmounts[0] = tokenAmount;
+       
+        // Build the CCIP Message
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(_receiver),
+            data: "",
+            tokenAmounts: tokenAmounts,
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 0})
+            ),
+            feeToken: address(linkToken)
+        });
+       
+        // CCIP Fees Management
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        linkToken.approve(address(router), fees);
+       
+        // Approve Router to spend CCIP-BnM tokens we send
+        IERC20(bnmToken).approve(address(router), _amount);
+       
+        // Send CCIP Message
+        messageId = router.ccipSend(destinationChainSelector, message);
+       
+        emit TokensTransferred(
+            messageId,
+            destinationChainSelector,
+            _receiver,
+            bnmToken,
+            _amount,
+            link,
+            fees
+        );  
+    }
+    
+    function balancesOf(address account) public view returns (uint256 linkBalance, uint256 bnmTokenBalance) {
+        linkBalance =  linkToken.balanceOf(account);
+        bnmTokenBalance = IERC20(bnmToken).balanceOf(account);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdrawToken(
+        address _beneficiary,
+        address _token
+    ) public onlyOwner {
+        uint256 amount = IERC20(_token).balanceOf(address(this));
+       
+        if (amount == 0) revert NothingToWithdraw();
+       
+        IERC20(_token).transfer(_beneficiary, amount);
+    }
+}
+
+
+
+// Fin
+
+
+https://docs.chain.link/ccip/tutorials/cross-chain-tokens
+
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+
+Assegurate que esta en Avax Fuji en Metamask ((4313) network)
+
+
+Deploy
+
+Nombre - CCIPTokenSenderFujiSepolia Contract Address
+Tomas Sosa Giraldo - 0xa659a7175ca041f25A215F09fd1c395794711D3a
+Sol - 0xc3755e049E1700008C1309674591CaC790AccC46
+camilo munar - 0xB567D8D3371220981de143a36C703df4a95331aC
+Jonathan Juez - 0x91E79e8aD1A69Eb237ACD148cae75B72d74d3A1d
+Joaquin Alcerro - 0x2c4Ba72E493fF75AeFd562a3Dde7AB15E5D9d782
+orland - 0x8D5337504021a250068063f55d5cAeeA470DA83b
+OSCAR SEGURA | 0xFE1141d3A93Bb8833865087e972aDA91c40cEcD5
+Luis Anton - 0x0aFA944190C49c6100Cd25e9DB4c89448bf3CC7B
+Gil Sanjuan - 0xb628e715dB49FdDA61CA768aE68A98ed0144eB96
+Arturo - 0x78941d16d1b9d619a966913eb3e3ef76966ba3a5
+Rulo - 0xCCe436E6e7cB76Bc980abCB3ee199e38d8C17fB5
+Juan Fuente - 0xA38dA3bE7CAD9ceDa8957fc51F51621fa34aB8dC
+claudio - 0x358939A6c831e573b2655D3F514c999A4fc31515
+Juan Camargo - 0x857D82b7Dd941E7B491443bD6a5A80940054E426
+Carolina 0x38886f1cA89364f3c7e9bB18b033E9E51E596E62
+Anibal Elbaum - 0x0ea94cccF187cbD2779F9F12a1f40a21D3457a5f
+Javier Montes - 0xC2D1aB954Fe43981F10Ba678cBc47A879D09a30C
+daniel plaquin - 0x7E56430b88527b36b381cc38587336EF466afB72
+Juan Ramis - 0x578e47D379f70DD77B42738340Ef0Bc7D39a8d9a
+Javier Shen - 0x3e76d5b3f379748F1B4EEcaEf6BA52c7fe8A1ED5
+Michael - 0xf9988618786c79Bb7FfD3122b1bEb60CeD718a34
+Bryan - 0x55FE4a8F95EE88B0A2Ff2A13fC8c07530180e886
+PATRICIO Gonzalez - 0xc87d81Fc1b7EeE210CF8BB792EcEBA7975cE3f4e
+Karinna Serrano - 0x51AF8DCD84C9C191FeB27EcF7D863991E6cCFBa2
+Alexis - 0xF23fD8e693DDeEA7834Ae00dd100eCd8e33207C6
+Alexander Durán - 0x0cbC16DE1a311400252F519987D04C29271fa1FE
+Santiago - 0x5Dc81CFB9e3547f61C965235B500EBE29acb5ADc
+Tulio Duque - 0x74bF11B083e76cc0AacA1eb1E503aA241fE393b8
+Guilherme Gonçalves - 0x0128439DFd39b4E9114AFc975763635AC603a901
+Guillermo Boccardo - 0xaFaCadd16794d0AaDFA110bAe23d41033A20Fc2F
+Hernán Hernández - 0x65b23f81e5333EEB6Fc42D7273cDF5b72AEbD678
+Xun - 0x0b3b2F4a81B6d6141be9E8da0324fA9bC4Dc1148
+Juan Pablo Tixe - 0x0dE548F81Ad2F527Dd0ac3Ac7586b2174c1BAb16
+Jorge - 0xc8EF3C3C5B5C150c35C9b59fB1b59fD815B9282e
+Rubén Bocanegra - 0x3189dD7Fc815Bcf566b78C3b8A777FF059A90adB
+Juan Carlos MM | 0x348Cd70f893948660441EC74fcE476e79bA3e0D6
+Eliot Pinto - 0x63b77B284f33D79C23A6e9959FC6E217731Ae696
+Arturo Collado Rosell - 0xE36B311Ea32843668FCF5Dc0019e3473977647Db
+carlos vazquez 0x157D4a62984ff66133f452167AE36CAE045CA340
+Silvia Martos 0x2e12eBcEda3aE92678c2E7Fc5F7227c767456EC5
+Diego bARRIONUEVO 0x772480694ed6383AffB2e76B3E3d4f645f4E5beF
+villawolf- 0x44294AA58b0dF2259aF9217baB7d17DccbbB9D43
+Marcelo Haro - 0x05CA1AefAFE3e2EE9b94C45412e192EBeE259E69
+Chula 0xedC2c9b65f8E0b959C6fA262C3b1522C39253f45
+carlos - 0x9579C3A6c10DF1F9bac5e30418eC5F1316adaADe
+Johan - 0x42453c803873C490755079127A16bB824f119e3d
+Juan David Nicholls Cardona - 0xE76B8a218eED9B9f1eed05D06cCb9d7c3f91e1ee
+David Hernandez - 0x1c7663fb50C9fb862c89d8d6d6D2DCE957664F61
+Malcoln Portillo - 0x010A61dEA15A507cFF6bD24E7E0c3155C2CD2392
+Willy Gonzalez - 0x4CBAe41556D42C507CD65e405468DcDDBec770B1
+SANTIAGO - 0x18f9fb2084e98b4b95e6b6e7882fde21d18404388bcafdb6edad53e666e04ca3
+Horacio Barrozo - 0xC4B3da0E1e0d08ccc87E069f3B88A2711028528B
+javier velazquez - 0xf60bde8a1e8c5ed7165bd48ce17cbf989f53f130
+Alberto Silva - 0x75e3E84DEec2eCe9034EfB0adc72EB396C02835a
+Alfonso Zapata - 0x1E76f9D9e154c196Bf3B67F51522f567A968B20C 
+Juan Blacutt - 0x102BA4404089dfE8EC8F65336c847f9DA64BB5ff
+Raúl Parra Hernández - 0x605Db6129492370765aa7763B8e4C5714C7c1056
+Andrés Serna - 0xfe9A3B90e6E0a171aef9Ec48Fe46Ed7f66805274
+Juan David Duque - 0x4962c65dE47380207AEA7670a022252e9f860885
+Armando Colón Mendinueta - 0x2f9208F9Dc785A20ac636BeAf76B7c9c438f4b6B
+Josue Román Martínez Mireles - 0xC403b701f99722dD70672f6BEA4cB9B1D71b33E4
+Johnnatan Olave - 0x5C7A881447eb8948Aa19Ec301CDa2D0d54d769ab
+jair diaz -0x6705E6e4Fd5FE67bBA9AfFFE6507adbE813c1808
+Joel Garmendia - 0x4a4365D9c9a9c3fbc7C92830F90eAD5d0eb48087
+Guillermo Malagón - 0x36A1cC23F7acc00cD3Af5C1f8239cB7A96ed8f08
+Rocío Grajales - 0xffD33559F33a405A3bBaB61791760504D74A77c3
+Heler Paez - 0xf6606cDa80Fef5A4e4c61a0Cbf43D6c09dBc451c
+Pablo Guzmán - 0x1021F705a2959befd5E29b0bf54D688d0fA8617a
+Alejandro Betancourt - 0x83f15D530f81Fc7602FB5fF9B728a851c54017bE
+Filadelfo Caicedo - 0xA33b54b0f99FEE665bc6D13A5137C370286d6112
+Manuel David - 0x76D3FC66F3717Fd2f9480C6DEE872b94cf8bD7Af
+Diego Guillen - 0x4CFC7b0fC06cDE68720C5D69B61e17ab83830B38
+ Roman Diaz - 0x21b0cA086197F45Df7Cca603Dcf9CF4240eaE01A
+Sébastien Leger - 0xbBC394104eF5fb54A7E11629fA1e8e2979BBA65b
+Daniel - 0x73C009b5b6cda61c32F5d143078b2a5726E06985
+Adan - 0xBbdc2a052Ee4aDb02Cf7B9Ca6c8ccddF33672525
+
+
+*************************************************************
+
+Avax Fuji Block explorer
+https://testnet.snowtrace.io/
+
+Enviar tokens para el CCIPTokenSenderFujiSepolia smart contract
+En Metamask
+
+Envia para la direccion de tu CCIPTokenSenderFujiSepolia
+1 LINK
+0.1 CCIP BnM token
+
+
+100000000000000000
+
+En el smart contract
+balancesOf
+La direccion de tu smart contract
+
+
+Enviar 0.01 BnM de Fuji para Sepolia
+https://eth-converter.com/
+0.01 BnM = 10000000000000000 (wei)
+
+transferToSepolia
+_receiver
+La direccion de tua billetera (do Metamask)
+
+_amount
+10000000000000000
+
+
+https://ccip.chain.link/
+
+Nombre - transferToSepolia TX id
+
+Sol - 0xb733e46eff02de6a8d8475f6509fb000f2b848b0038df59b49b202d470ccef00
+camilo munar - 0x9847ff990799270b0e186e094332ac5e61557f950e8a32e998ce4648a45de5f4
+OSCAR SEGURA | 0xb9e66d0e7cebd40b47b2b5d17b6d20521b19fdc0ecc61b05a6e3a60fe967e02d
+Tomas Sosa Giraldo - 0xd7f5a416a0b4373074094d507cfb2afb9cd7eed5eac588736efef829c91d21a7
+Jonathan Juez - 0x03a00c7064b09859f92b611dd313da95c62ed3119e20cc0144a8d0e5ff95f056
+Joaquin Alcerro - 0xd96881b47b91e7a5480f7fde66cadc18eda88f0eed8bd6920eb23f9d9e2d72fa
+Claudio - 0xf36d44c85a3f018127f87100324472ae8843d43059e4068139ff9ed1b31271fb
+Rulo - 0x164e55b52f27c0649482f77ba633214bf5598967dcde3bc67e7c1bc9fbf98043
+Michael - 0x6a8d28556f53b671c97922fe42b81267562c315c5fe2782b6fdf8536c1b86e2b
+Bryan - 0x21e44bd9048fd5fcbd85e34f696daeb7b2f68acfc22a7874c9a2e411ac33ab0b
+daniel plaquin - 0xa599f8486931837656ed5999c9109c3ae1e60cdb76b618897d91fd15f8ce5139
+Ruben Bocanegra - 0xcd37a3b71bec20fc5d0924ba6ef033249b71e84e7b1ee154868d75a1d28288b7
+Juan David Niccholls - 0xd9efc03cf723194155569aae0dabd1cf3201aff91c66263a3e0fb490aca50491
+Xun - https://ccip.chain.link/msg/0xf3f230f28144f2d196eb90e67716a111e5af328473e54cf9492a9c28d71800b9
+Hernán Hernández - 0x2da21f88a64f7a242c3267993b8909b99aae65401ff1410eb7321f9586139aea
+Juan Camargo - 0x847d40c55b68ae06b09f9dd60748984752833b0bdd2fa3982329426b2f92cd45
+Javier Montes - 0x0928aebd5460c5c6432a53b37436d3016f5b7973255f706dc526cffcf1c99d78
+Juan Ramis - 0x85f65df4913db7f26d5be7a339947419519c0950531e62211e4c0f1d41e54f95
+Jorge - 0x082fdfa78911f3de62572d06bdb71170f8d21df44e823150cd0b030d8890519f
+Juan Pablo Tixe - 0x07a7283266521581e552475aa18cd5a49327487e4c4655126db0d11ae026f9d2
+Juan Fuente - 0xae602d008da392a7e3ae436a00b8e24f752161846a8bac8b2e9dd9016c6ff35c
+Malcoln Portillo - 0x5f90d1400ef6b9925ebe1fb407c46ac54793782f9d1b0be7189d85bef18bbab4
+Karinna Serrano- 0x209564a2e5cba05b82f40a5ffa1ee61455b50eb98a8fc4824d16f68168157628
+Eliot Pinto - 0x4e825d3ee405d4466fbeb55401cc8fad46493f135f72a4155a9c755273e5ffbf
+Silvia Martos 0xd03796c798c9fb9682cf84318f54cc5cb47828eeaad7f20c8d16664d816d1a9b
+Santiago - 0xad38041ee0bac80a64778f4d7c2060aa380c90d6a7c9535073ba2244b703439e
+javier - 0x910570305adff1fa73d5a447def1e4362306a1d7269415840436b183c4150c62
+Arturo Collado - 0x802acf07d6f763bd553f06195274df2ca3481fe84d83a224138e76dcecb3d492
+Carolina 0xd46a01dd174167905b39f8f3dac038ef7ca3acedcb213e81d4a90133ebe74f1f
+Johan - 0x731fcc1fce2158ac61c2df1bfc90757719392387e0c9a5458c411395871437bf
+David Hernandez - 0xe86d16ebd4e080f74e48c54715512a69b7218da6780a850405c22b62c6b15082
+Alexander Durán - 0xac0491063a8c9c56cb029ac1c90864b31533887426ac71d7db640cf1282e8336
+Gil Sanjuan - 0x81f555ca7270f821e8c79cba2b327f60926befd4cea6d42df2d69bc0ca2bb7ca
+Alberto Silva - 0x254a9ce81a1c724a2e7cb3cf0800b758a4c6d6569833afc1ae626ea59589d6b0
+Marcelo Haro - 0xe755ec392360c06939301ae9599d2dcac96e751895e9babeaa8a5b41db50678b
+Emerson Silva - 0x7748e2f1f1e6881ed32ed7d4f00a8cb98fd4e4700f773ed642713fb39c123d82
+Josue Román Martínez Mireles-0x3444308d48cba4958111da56f59e7f1eebc003667ec6c938980908cf2a764873
+Horacio Barrozo - 0xb9a45441d8f5a78dde21a2c895f6930cd23506f5170a70b88a812b15dcb5d0ec
+Armando Colón Mendinueta - 0x404ab002ffda7f66339dbc353580ce468beb9e1e57c3e4123ce841ddb42feb45
+Andrés Serna - 0x176ca87eeef86ca0af6ee640fcbd8b94484245d775243f5cdc71b7cb4bcc059e
+Alfonso Zapata - 0x3531c7f36334d41e4212eaf19c1114c1b09120ff14528eb9e555a6014969eb8c
+javier velazquez  0x9eb3b25bb56e40904c1ac5a1a798ac15216956932b0be2c647d122d117ff16dc
+Luis Anton - 0x21c5da55781d9615984bb5002e7481fa6b14c096f486486cf20636f90bebd4ee
+Johnnatan Olave - 0x5f3d3ef7c75d72c072e1b947ad5a760f24702fc835c61d08f06f619eb31c4631
+jair diaz - 0x7d7507a0c7bab9542a8c82c9a1088fbe63bb9544e039102148578bb5d4dacd42
+Heler Paez - 0x894c85a0ba4d01708e727c35793e2783057d9e9bef518319712fc8a3ec33e2df
+Joel Garmendia - 0xe707e76cefcf1c02709c9a53656ca995bcd35f7df47de6c5954430c5b1e6f041 
+Guillermo Malagón - 0x931c593a2694a489fede9f5095258c544cbbef2ce936e2f44a9318546cc28efa
+Rocío Grajales - 0x4678ab6398e6e38317db8482ee9abb047c127e9f7dec83721244c8b1b713edc4
+Alejandro Betancourt 0xb5083704e7d86b5c543429102674711c6c7c3bfe0f2c1aa5de75f6abfe4db97d
+Filadelfo Caicedo -  0x6d77f10acc3956083af3d1b6a3f38b33ae438e4391ad26b9b693448091792fb1
+Manuel David - 0xd919fa146d3aa0a061fe5f7ab5dd42a4a0e2c7a313e2e53547acd19a9ce9e5e9
+Gustavo Meghirditchian - 0x265b2daa808197f619cf38a1faea38f6bf536c65eed24ecc598f9b698cf78d7c
+Sébastien Léger - 0x831bcc7db4ccd2755947e9292bbad79ddab527b0d14c921cb57784befdc6938a
+Diego Guillen - 0x2e450aa4fc008b16bc9aa9e7d8764461110d5e1b25197a5f10241150a95be0ce
+Adan Reh - 0x43f89d749b59ad081a9731db457e9eee2bc45ddd813c75c308d3ad985fc2a8f6
+
+*********************************************
+
+En Metamask
+Selecionar Sepolia
+
+Agregar CCIP-BnM (Sepolia) no Metamask
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+
+
+Para manana
+https://pad.riseup.net/p/cl-es-05
+
+
+
+
+HOLA ALGUIEN SABE SI TENDRIA ALGUN PROBLEMA SI NO VÍ LA CLASE DE AYER PARA VER DE LA HOY CUIZÁ SE TE COMPLIQUE UN POCO A LA HORA DEL DEPLOYMENT, PERO DALE CON FÉ QUE SE PUEDE!!
+
+
+ 
+ 
+ 
+ TRANSLATE with  x
+ 
+ 
+  English 
+   ArabicHebrewPolish  BulgarianHindiPortuguese  CatalanHmong DawRomanian  Chinese SimplifiedHungarianRussian  Chinese TraditionalIndonesianSlovak  CzechItalianSlovenian  DanishJapaneseSpanish  DutchKlingonSwedish  EnglishKoreanThai  EstonianLatvianTurkish  FinnishLithuanianUkrainian  FrenchMalayUrdu  GermanMalteseVietnamese  GreekNorwegianWelsh  Haitian CreolePersian    
+  
+ 
+        
+ 
+  
+ 
+ 
+ TRANSLATE with 
+ 
+ 
+  COPY THE URL BELOW  
+ 
+     
+ 
+    Back 
+    
+ 
+ 
+ EMBED THE SNIPPET BELOW IN YOUR SITE   
+ 
+  
+ 
+Enable collaborative features and customize widget: Bing Webmaster Portal
+ 
+Back
+ 
+  
+
+
+
+
+
+

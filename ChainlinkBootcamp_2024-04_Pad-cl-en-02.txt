@@ -1,0 +1,1035 @@
+Chainlink Bootcamp
+Apr/2024
+Session 02 - Smart Contracts fundamentals
+
+https://pad.riseup.net/p/cl-en-02
+
+BootcampSupport
+https://chain.link/discord 
+bootcamp channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSnf4bZHTmpZW8s_PKwkS2wT0ZbHmMygg1JKGlvElaS9G0v9wA5kUr_8sJbkGEJZ5cM6y6a3U0a_5t1/pub?start=false&loop=false&delayms=3000&slide=id.g2c872ead6b2_10_586
+
+Tasks form
+https://forms.gle/NNU9mkLLvLbV86nW6 
+
+Take a minute and be sure to register for Block Magic, our next Hackathon
+https://chn.lk/3xjhPDy
+
+
+https://sepolia.etherscan.io/
+https://workshop-faucet.vercel.app/faucets
+Password: LinkShadowFork18 (Do not share it in Youtube comments)
+
+Get 0.1 Sepolia ETH
+
+Metamask
+Enable test networks
+Sepolia 
+
+Remix
+https://remix.ethereum.org/
+
+Icon 4 - SOLIDITY COMPILER
+Enable Auto compile
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check the Sepolia (11155111) network
+
+Icon 2 - FILE EXPLORER
+
+Create file
+Register.sol
+
+Copy between Begin and End
+
+// Begin
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+contract Register {
+    string private info;
+
+    function getInfo() public view returns (string memory) {
+        return info;
+    }
+
+    function setInfo(string memory _info) public {
+        info = _info;
+    }
+}
+// End
+
+Icon 4 - SOLIDITY COMPILER
+Compilation Successful
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+
+Deploy
+https://sepolia.etherscan.io/
+1
+https://workshop-faucet.vercel.app/faucets
+Password: LinkShadowFork18 (Do not share it in Youtube comments)
+
+Get 0.1 Sepolia ETH
+
+Metamask
+Enable test networks
+Sepolia 
+
+Remix
+https://remix.ethereum.org/
+
+Icon 4 - SOLIDITY COMPILER
+Enable Auto compile
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check the Sepolia (11155111) network
+
+Icon 2 - FILE EXPLORER
+
+Create file
+Register.sol
+
+Copy between Begin and End
+
+// Begin
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+contract Register {
+    string private info;
+
+    function getInfo() public view returns (string memory) {
+        return info;
+    }
+
+    function setInfo(string memory _info) public {
+        info = _info;
+    }
+}
+// End
+
+Icon 4 - SOLIDITY COMPILER
+Compilation Successful
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+
+Deploy
+
+
+
+
+Abiodun - 0xd9264B6263A610d4DC422c2447656075472b9b42
+
+
+--------------------------------------------------------------------------------
+Name - City, Country
+
+
+    Subhajit - INDIA
+
+    Durgesh RABHAR  -INDIA
+
+    Lutfi Zain - Jakarta, Indonesia
+
+    Pedro Machado - Atizapan, Mexico
+
+    Jesutofunmi May - lagos,Nigeria
+
+    George P. - Athens, Greece
+
+    Theodoros Savvas - Greece
+
+    Marshall Obasi - Lagos, Nigeria 
+
+    Dr. Felipe P. Sta. Elena, Philippines
+
+    Jeremias - Salto, Argentina
+
+    Arthur, Nairobi, Kenya
+
+    Suliyat Ademola – Nigeria
+
+    Satya Bhaskar - Vijayawada,India
+
+    Sally portugal 
+
+    Ashish Limbu
+
+    Justice Amaram -Nigeria
+
+    Ravikiran Betha -India
+
+    Rajiv - Pune,India
+
+    Julieta Risso, Buenos Aires, Argentina
+
+    Alisha - India
+
+    BIDYADHAR SAHU,INDIA
+
+    iñaki llorens - buenos aires, argentina
+
+    Marcelo Taito - Santiago, Chile
+
+    mwendwa - Nairobi, Kenya
+
+    cheruiyot - nairobi, kenya
+
+    Omemgboji Emmanuel - Lagos, Nigeria
+
+    AS_Andrew - Kaunas, Lithuania
+
+    Ayo Akpata,nigeria
+
+    Akos - Budapest, Hungary
+
+    Usman - Karachi, Pakistan (https://www.linkedin.com/in/usman2000/)
+
+    James - San Juan, Puerto Rico
+
+    BIDYADHAR SAHU,INDIA
+
+    Luis Rodriguez, Buenos Aires, Argentina
+
+    BingFeng - Singapore, Singapore
+
+    Kai New York
+
+    Daniel Benitez - Bogotá, Colombia
+
+    Rusu Gheorghe , Cluj-Napoca, Romania
+
+    Mahreen- Pakistan
+
+    T Sathish - Andhra Pradesh, India 
+
+    Lawal -NIGERIA
+
+    Svidt - Denmark
+
+    Ludwig, South Africa, Discord, Freetissues
+
+    Ganesh -ANDHRA PRADESH, INDIA
+
+    Degen nairobi Kenya 
+
+    Filipp - Tbilisi, Georgia
+
+    Bilal B- Morocco
+
+    Vijay - Chennai, India
+
+    Binta Ade-Olusile - London
+
+    Alvaro Sanchez - Norway
+
+    Rethabile Molapo - South Africa 
+
+    Citch - London
+
+    Tekin - Antalya,Turkey
+
+    elly from kenya ,kisumu 
+
+    Memoye - Lagos, Nigeria
+
+    Favour Godspower, Nigeria
+
+    Jason Adams - South Africa
+
+    Dimosthenis Tsatsos - Athens, Greece
+
+    Sol - Sao Paulo, Braz
+
+    Mubashira - Mumbai, India 
+
+    Kojrey - Canberra, Australia
+
+    Sagar Karmoker - Dhaka, Bangladesh
+
+    Riya Jain - Madhya Pradesh, India
+
+    Sefa - Bursa -Turkiye
+
+    Tiago Tavares - Porto, Portugal
+
+    Monika - Warsaw, Poland
+
+    Ajay - Hyderabad, India
+
+    Prabal - Delhi, India
+
+    Sulav - Kathmandu, Nepal
+
+    TIM - Kaduna, Nigeria
+
+    Bartek - Warsaw, Poland
+
+    Alwina - Armenia, Yerevan
+
+    Belrie Wilson - Maryland near Washington,DC
+
+    Hank - Denver, USA
+
+    dp from uk
+
+    Inder - UK 
+
+    Raymond - Ghana
+
+    Aayushma - Nepal
+
+    Akhilesh  India 
+
+    Nolan - Boise, USA
+
+    Sadik - Turkiye
+
+    Emil - Stockholm, Sweden
+
+    R. B. Bozkurt - Istanbul, Turkey
+
+    Arinze - London, UK
+
+    henry - Tokyo
+
+    Wilder Rincon - La dorada - Colombia
+
+    Enes - Turkiye
+
+    Gilbert Cedillo - Dallas, TX, USA
+
+    Stanley, Lagos
+
+    Shane - Malaysia
+
+    burak demirbilek - turkey
+
+    Kheyral sutan - indonesia, jakarta
+
+    Chris - Boston, MA, USA
+
+    Ken - Denver, USA
+
+    Marlon -Ecuador
+
+    Samuel - Lagos, Nigeria
+
+    HJarras
+
+    Alesia - Berlin, Germanym
+
+    Christian - Berlin, Germany
+
+    Gustaf Ardana - Jakarta, Indonesia
+
+    Juan C - San Antonio, TX
+
+    AbdulRahman Redaa from  Egypt
+
+    Obikobe Amaobi Victor, Lagos, Nigeria
+
+    Ini Seven - Portharcourt, Nigeria
+
+    Mario - Berlin, Germany
+
+    Victor - Montreal Canada
+
+    Luigi - Mushroom Kingdom
+
+    umut- Turkey
+
+    *** CHICAGO 
+
+    Yunus Tijan - Switzerland
+
+    Demetris - London, UK
+
+    Sam
+
+    Maria - Buenos Aires
+
+    Eric - Tokyo, Japan
+
+    Sven - Hamburg, Germany
+
+    Tony G - New York
+
+    Duane USA
+
+    Harry Kenya
+
+    Abdulrahman Laoye - Barnstaple, UK
+
+    Ayeni Sanmi - Nigeria 
+
+    Dustin Tynes - Nassau, The Bahamas
+
+    David Sokoya - Nigeria
+
+    Simon Bournemouth UK
+
+    Murat - Sweden
+
+     Dawid - Polan
+
+    Nickson Kenya
+
+    Abdi Adam Kenya
+
+    Noemi Chuquichambi - Argentina
+
+    Jeff C-  Naples, Florida USA 
+
+    Nilds Vasquez Gonzalez - Santa Cruz, Bolivia
+
+    Bruno Moutinho - Brazil
+
+    Keller from Trinidad and Tobago
+
+    Med - Casablanca, Morocco
+
+    G - London
+
+     Anantashayana S Hegde - India
+
+     Thao Le - Ho Chi Minh, Vietnam
+
+     sahad - Dhaka ,Bangladesh
+
+    Jarret - Singapore 
+
+     Nishant - India
+
+     Chainlink Toads - Everywhere
+
+     Arcadio Garcia, Madrid, Spain
+
+     Vilma Swizterland
+
+    Taiwo from nigeria
+
+    Vivesh India 
+
+    Burak demirbilek - Turkey
+
+    Alex B. (@_alexblak)
+
+    Manajit Halder - India
+
+    Sam Leeds, UK
+
+    Carlos - Germany
+
+    Hugo Martineau - Canada
+
+     Jason from Bournemouth lives in Bangkok
+
+     Okaria- Lagos-Nigeria
+
+     Samuel Ungbede: Lagos,Nigeria
+
+     Iulian Topal - Romania
+
+    Charles Lughas from Lagos, Nigeria
+
+    Emmanuel Ifeediora from Nigeria
+
+    Jesse J - Nigeria
+
+     Victor Adesina, Lagos, Nigeria
+
+     Carlos Eugênio - Fortaleza - Brasil
+
+    Nasir - Nigeria
+
+     Mehran - India
+
+    Ahmed Nig
+
+     Raktim - Nepal
+
+     Akpo Jahswill - Nigeria
+
+     AUSTIN KARIANJAHI - KENYA
+
+     nigeria evans 
+
+     love this program 
+
+     Evans  
+
+    Marius - Johannesburg - South Africa
+
+    Nix - Italy
+
+    MICHAEL L - LONDON, UK
+
+     Tanya - Namibia
+
+    KOUMBIA Zainoul Abdine from Burkina Faso
+
+    Nicolás - Chile
+
+    Mutembei - Kenya
+
+    swamy (INDIA)
+
+    Joseph - Lagos, Nigeria
+
+    Henry - Bermuda
+
+    Tenn - South Africa
+
+    Michael Olawuni - Nigeria
+
+    Gedeon LALEMI Bénin 
+
+    Cyrus - Colorado
+
+    188. Likkee - KL, Malaysia
+
+    189 Dennis Barffour-Gyimah Ghana Accra
+
+    anurag (india)
+
+    190. Dennis - Nigeria
+
+    191. Godspower Abah - Lagos, Nigeria.
+
+    Ukeme - Nigeria
+
+    193. Victor Mengwa - Nigeria
+
+    195.Prabu singapore
+
+    196. Charles Akintaro  - Nigeria
+
+    197.Danny NDAYISHIMIYE (Kigali) Rwanda
+
+    198.Joseph - Lagos, Nigeria
+
+    199.Toyeebat Omolara-Ibadan, Nigeria 
+
+    200. Resky - Indonesia
+
+    AbdulRahman Redaa - Cairo - Egypt
+
+    Tos van der Togt - Netherlands
+
+    pls the link to the slide 
+
+    Visal Meng, Cambodia
+
+    Bright- Tanzania
+
+    203. Orestis AlmpanoudisAbhik cHanda India
+
+    204. Nikolaos Georgakopoulos
+
+    205. @anthonyjcr7 - Venezuela 
+
+    206. Aram - Armenia
+
+    207. Manoj M - India
+
+    208. Raveendra - India
+
+    209. Jason - Dublin, Ireland
+
+    210. Dancan Kenya
+
+    211. Kooda - Aveiro, Portugal
+
+    212.Waza Tennessee
+
+    Bertrand Couture -  Canada
+
+    201. Jelena Cefalu - Sweden
+
+    202. Juan Romero - México
+
+    Alex Peain North Shan,Myanmar
+
+     Siddharth Shukla- Gujarat,India
+
+    Wallis - NYC, US
+
+    Fajar Asikin - Malang, Indonesia
+
+    Barry - Alabama
+
+    Hany - Jakarta, Indonesia
+
+    ZAchary Anello NV USA
+
+    David Luna
+
+    Mathias Gertner - Montevideo, Uruguay
+
+    Sunday Justice Gabriel - Nigeria
+
+    Joey Sacramento CA Hector - Vnacouver
+
+     Rodrigo Tordoya - La Paz, Bolivia
+
+    Eric - San Antonio, TX
+
+    David Sacramento, CA
+
+    Tingan Jeff - Ghana
+
+    Dorien - Jamaica
+
+    Duong - Hung Yen, Vietnam
+
+    Bogning Guy-Robert - Buea, Cameroon.
+
+    Vinoth Kumar Mohanraj -  Chennai, India
+
+    DAVID, LA, Ca
+
+    Victor Ndulue - Lagos, Nigeria
+
+    Usenmfon Uko - Uyo, Nigeria
+
+    Jason - Dublin, Ireland
+
+    Adedipe Oluwasina- Nigeria
+
+    Kumar - Canada
+
+    Albin - Rostock, Germany
+
+    Oluwaropo Titilope- Nigeria
+
+    weneedweed - Toronto,Canada
+
+    Michael - Vienna, Austria
+
+    Victor - Kakamega,Kenya
+
+    Shailesh - Gurgaon, India
+
+    Parvin - Noida India
+
+    Van - Germany
+
+     Dike Ogwuma -Lagos, Nigeria
+
+    Bruk Teshome - Addis Ababa, Ethiopia
+
+     Prima - Jakarta, Indonesia
+
+    Moses - Nairobi, Kenya
+
+    Melanie Marten - Athens, Greece
+
+    Rhony Antony - SingaporeAyo.p , London
+
+    Mike Wang - London, UK
+
+    orkan - turkiye
+
+     Alejandro - Madrid
+
+255. Seyyid - Istanbul,Turkey
+248. Nath  - Ghana
+249. David Cruz - Mexico
+
+Inder - London - United Kingdom 
+251. Afolabi Oladunni - Miramichi, Canada
+252. Enning Festus - Accra, Ghana
+253. C.k.Sungkur--Mauritius
+254. Pat - Nevada
+255. Cesar Gutierrez - Lima, Peru
+256. Daniel N. Treku - USA 
+257 M. Saeed KSA 
+Go to Deployed Contracts
+
+Copy the Register Address
+
+Name - Register Address
+Kai 0xe20c91DcA42d8992699311056564D54fC39B39f8
+Ravikiran Betha - 0xA8F2Db92D0c19BF1611660b9671d9fe55Ffe5e21
+Inder - 0xeb02eF7dE1bA1545B32D5283908aCB167e5E07CD
+Tobi Akinyosoye- 0x6753DEFa1fa1380b5e272468C8739E8772095ec2
+Jason Adams 0x8dC4aeB573fD5C38643FE39B228967fD5A6AE44A
+L0xd9145CCE52D386f254917e481eB44e9943F39138
+Sol - 0x8d8157d9eda4c4891d2246AF6fC05cf47d0B0395
+Lutfi Zain - 0xF5956D2e550a239663bB9630527101Bef04448AC
+jan 0xb65Cd82a97FfE918bf62552EF36372c7123E3176
+Brandon - 0x66E69b1DdCcA1E38aC44264273F363Fd16B46ca7
+Ajay - 0xE7F15Cb0C1B5Eaf3D67DD467A8383F740ce1618B
+Sulav - 0x6C3Ea0efA3234a6F816D0C9a4EeEe981a98529FC
+Jos - 0x1FdCcE00Bc1905Db98531f912443cB834D0B3D35
+Van: 0xcCCE6e8Fe9df89D8329b8929D0b3E09A8338BCbF
+Theo -  0x432715F03F3D745E770d3657992AA52D897CFd84
+Chris - 0x5e52732fde17dc80F57420365580D84836abD6fa
+Mubashira - 0x87880BD3A454d355A0A2b6f63c0477cF98b25465
+eric - 0xe36d8Cb186B1a9b88659389c9a1FC63A49635D02
+Dimosthenis Tsatsos - 0xB35b69779Eeab95da7Ce4b3E0777bf7594065f95
+Mayowa - 0xA18b3321Cd6B65EF503c2eF24138f22FFFD9Abbb
+Akos - 0x16923Db7110dF7D25D44032A591F6e93046F7AA7
+Tiago - 0x4D0183c48D79C448434F551BFA62B31c03d97f14
+Vivesh - 0x039052ff6DaDE7C955Fa16Fe8e5ac1113a210190
+AS_Andrew - 0xc6B680220319d0885b2a1d1e2610E3795e65f613
+stanley - 0xA79C6f46CC1b4B86A4AE6b14554801B1BE2e04a1
+Emil - 0x64a7650182F6D55A20957D03256EEDc3E89011E5
+Sefa - 0x14A336F3536C7C01365F2caC18BBB4765905cDED
+Ayo - 0xE95576cd8Fea9bf6e6328BA452B2f562d30C9f3f
+Prabal - 0x0E8BBeC55309926Fb3915F80066037d83e75B8aB
+Belrie 0xdfe10875a55E8d097190b2cFAc094A95fE898b9C
+Hugo - 0xbB0e54a5E0A4CE2D0bfa92559Efc3C61eA2f3272
+Michael - 0xd0ceBFF403a0d90f61c6797A0Ed34488E9077bbe
+Kojrey - 0xd4b1923cEdbf96a17B90b2B9573771b7310a4E42
+mwendwa - 0x3AC2E585a9A5e57f995A2E0548e00ee7CB7E7698
+Mohammed Elnekhaly - 0x5F67d01DDF9f1a5Caf2e0f8417c3d2fF81E44A2E
+Gilbert Cedillo - 0xe482316b7737D3D138DF8d9B93BBCF2F85418d6c
+Juan C - 0x0f37430Cf48F8c0c5c1f9919D295DBc8777e5166
+R
+Enes - 0xD055F4b151a17D350353d284825aa74d9c8da59A
+Bozkurt - 0xd9145CCE52D386f254917e481eB44e9943F39138
+G – 
+Victor  0xA58dc57BF200e6bAa0344580419f040293e8C41e
+Ini Seven - 0xec21a86F3DB8A31cbB4c9B77B80ed4E3304001d9
+Duane - 0x9c400d0a6aee0816978b1eb97b10fec15494ba67eafd471789d745fd6821d2ab
+Sahad - 0x75d992ab31A607d75982E32687F79A8f217f59B0
+Wilder Rincon - 0xedb05cd44D71DcE7A9eF1B9bf5F9f3EF08741e07
+Nix - 0x484a222dc592109f5880Fd01f82454C28D8C91Da
+Alesia - 0xACB63a345C2CC89FF093b9Facd987987AE2C5395
+jan 0xb65Cd82a97FfE918bf62552EF36372c7123E3176
+Bilal - 0x34e6f7461b9A0F8a3f5468FCAAae486c0BBfb126
+Demetris - 0x15320834021baDf7f617525208eF7ba86dF6Aab6
+Bruno Moutinho - 0x278Dd5D91Faa46782Cc0428Cc857501ef8800d1F
+Thiago - 0x76543305a38c7cd91902490d51a606c0e671e464fad5d5324d9c9d389def326a
+Mario  -  0xa06d3a91fAf28312e1Ea6967691F13120DeD2eDf
+Bidyadhar-
+Resky - 0x0Af2251c21be278c2bDD0Bd97423EF28Ab570771
+Jesse J - 0x7D88B6E9eDdc5D88F6e1677cdA1AB6d0CDfF612a
+Ludwig - 0x07b0f3B45599FE0DEbEE644Be1c791ee0ebf27E7
+Eric - 0xd9145CCE52D386f254917e481eB44e9943F39138
+sth 0x7ff398122d905A31870ffa849fBd3357f401b23F
+Anand-0xaE321E580c73BbE02e5DAd5d0ee8292d9bA6F9F1
+Hank - 0x13d841e163c111c4afa3e136f22d9cebd10985c6aebebdabe2849859c3e16ee3
+Waza 0xDac076bBD3FC42A530127CE6DA1DEa30a508fD69
+Duane - 0xA62D4620B120050ABE972C1a67845659c6ae0f2e
+Tekin - 0x930B51B7177310da15426026827D38B376774569
+Rusu Gheorghe 0xa5cFCaEf369C3d00d5c944496EDcF732818f0dC0
+Simon 0x80Dd7164adfF27AEf812dA4DDd7Fc063592b1905
+Anthonyjcr7 - 0x386b3ed89ac85c2c3d8c4499af9dbea281adc0fb0eae45ef646d9988705ed043
+kenneth - 0x212d17BCDc13DFEF55C9c7FeB44eE75bBA996A93
+carmine - 0x4cc298fe41B5d06e7a951Faec53C770Ab347Ff2f
+Wamata - 0x7b8E6AcaFc135498EdbF6F88f5E937e052688328
+Abhik 0xe28d12674cc5D915C35022cBd4a13f7f00D2c5d7
+JK- 0x2F23Da293c80d69cED94c71725641B06E744606B
+med - 0xA5F261678A33DA60C679877F412fa7D8c53dD7Ef
+RCodrigoS-imon 0x80Dd7164adfF27AEf812dA4DDd7Fc063592b1905
+Kendrick - 0x5fbbec65b225c186f6b4271951284bb91eefe1d3
+Raktim - 0xDFFEAfF299dc16aB5402995b6936405E23afc071
+VInoth - 0x2Bc48a23fC2c719DF34DBC1C8102eb47f0b960d4
+Yunus Tijani - 0xbCe3DB7a2aDC0efF40439f1f26F882521cc70451 
+Aayushma - 0xAf713e7DF1d01b748880649d6c77daa0ebb17E44
+Keller 0x4344df112E541d196FAA9D1bD68baEf35b533780
+G - 0x0D0cac72A79DfaDBEBA954987AF60FbB72Fb837F
+Bartek - 0x883E22796c2Ef4Eb064008Fc37700789992e33ED
+Rodrigo Tordoya - 0xB9e078C2C9C192cd2c5241c5E75F2c65cc81BBf6
+Carlos - 0xBDb3F66A92DF013ffc0Dd279Ce923ebE80087F6f
+Jeff C - 0xb8e1eea548c68A71b41139a1e27566F1bAF20240
+Manoj M - 0xe95e54bc0eec8d3c51b0486d127adf93edd4e6bc
+Jeremias P - 0x702Ce872d5207af8EC92aC65E2ca147ce75F8489
+Parvin Kumar -0x49F3372F7D2Ae38297f9446470B0C0321478FF82
+Charles Lughas - 0x15d82820DdA266a3Ab181546F63F0FA6c45E21dF
+Iulian 0xb78047576Dfa280BEFecb7FbfcD2579A40Cd56aA
+Ben - 0x8698E6721624307191E564a2833eA1fa166df349
+Sadik - 0xfD37dd784244cBaFAe4a9Ff5F7291d57D20fe276
+DanielB - 0xDB73061f585cB03c9387eD091182aD8c54bf0802
+Umut - 0x1dD01a350B6471eFb87C0D958bCDC14BD998368b
+Joseph - 0x6E8a54F7DE8ba31458e2893DA49bB79eCA9CF01f
+Michael L - 0xF566F4a3B8187FBBEc49283D8A86bbdF67F54Aaa
+Mutembei 0xbC6B9947488C7365a44fbfA15BD24e761b1d7C4B
+Favour 0xD99c1388107B1FF2E660f98761cB1C35e4c5D718
+Theophilus - 0x22eEA76fE7d67b80ff45dCfFcf1b35670FafE934
+Jarret - 0x64Db4d02562999a7998E06a38d67CE8C40C132B6
+Duong - 0x0eC90B7937c55de910373588b939dFaBA40A31bc
+JK - 0x2F23Da293c80d69cED94c71725641B06E744606B
+Dike Ogwuma - 0x44FfdCad580Ec6C3899105533291847750eC3130
+George P. - 0x2Bef0c4f4aDB54F3D8789F8014676a2F1F15B855
+Bruk 0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47
+Noemi Chuquichambi - 0xe4aff12367Dc1D7dE5A43DA7439dbbf1C86F9F8b
+Visal Meng - 0x7E2998a7a1C2581a17Adf85274f807ff268485af
+Victor -0x06FB2640C4ADF688B6A3d99fA4331fD7fb1081B6
+karianjahi- 0x8d8157d9eda4c4891d2246AF6fC05cf47d0B0395
+Arinze - 0x8BBE2D692B3F8DFaC314870dB489A83BD403206b
+Jeff - 0x3a5b315c9896be4c581b576b7e8a675831150fe3c4035a6bf91ae96ded096109
+Juan Romero- 0xe967c6A587115C23520667Dd48DF95DEf24dAc5F
+Ukeme - 0x2A6088C63eFD3Be2A7D32dd5A9aE3a8980d1F0bE
+Tanya - 0xF28712E6bCC70189f94BB5DdeFF63941BE247819
+Thao Le - 0x1036d379ff7eee019b7a182aa14118455b7da934
+Liam - 0x75995912ce371C9dAE49dAc25f79CCC2254e23dA
+Jelena 0xd9145CCE52D386f254917e481eB44e9943F39138
+sth 0x7ff398122d905A31870ffa849fBd3357f401b23F
+Durgesh RAjbhar -0xf4fC5eDcf7bA767F3CE140f01a92ff84761D1d3A
+Afolabi - 0xEB448F57DE133CD83bAAa64aF9a6EfbC9a1021fb
+Tot
+Nicolás - 0x168358bAd343c197016CF82D4FBE4C4abF8623b4
+Festus - 0x454eE423fE8A60f78c4F2FDE812a4285dF503c67
+Adesina Victor - 0x25aC1e66dE9552EaAB8bfFc45d1829cED8BCb1fc
+Resky - 0x21b14506828327778b9f35BA815D23AFC9b2d8fe
+Oluwasina - 0xbdeC021f7028382431eF7bfEF360Dd96cC7CF5F0
+Ray - 0xe7CC5cB8c52f1B5d26404DD462e0F57cc48D4248
+David - 0xd619993846dcff5744842edaae4368f3ea818da57a4b42c95d80441ceb7afe5c
+Bereket - 0xBF947b65B690e07daE5A847c1969e846eeFc61ea
+Sunday Justice Gabriel - 0x154f56ec75484b7329152db0F4b458065e6D1B2D
+Red 0x168358bAd343c197016CF82D4FBE4C4abF8623b4
+Jason - 0xD9f81dBEB6d16d26e68B3E16c564F5d44124707d
+Pat - 0xaB2A79Cd80E60F506bbBfBBA8C4270BE565A66a5
+Maria - 0x2104E8ADB48779aF0A436332cBd286F0361088Ea
+***********************************************
+
+Share on your social networks!
+
+"I created my first Smart Contract at #ChainlinkBootcamp2024"
+
+***********************************************
+
+can u eloborate how embedding the yul code in solidity code results in optimistation
+
+Can you show one more time how to alter someones contract
+THANK YOU!!!
+
+
+
+
+0x16d1835A43a48e99DE2d9cC00D4C6cC48474673b
+
+
+RegisterAccess
+Create file
+RegisterAccess.sol
+
+Copy between Begin and End
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+contract RegisterAccess {
+        string[] private info;
+        address public owner;
+        mapping (address => bool) public allowlist; 
+ 
+        constructor() {
+            owner = msg.sender;
+            allowlist[msg.sender] = true;
+        } 
+ 
+        event InfoChange(string oldInfo, string newInfo); 
+ 
+        modifier onlyOwner {
+            require(msg.sender == owner,"Only owner");
+            _;
+        }
+ 
+        modifier onlyAllowlist {
+            require(allowlist[msg.sender] == true, "Only allowlist");
+            _;
+        } 
+ 
+        function getInfo(uint index) public view returns (string memory) {
+            return info[index];
+        }
+ 
+        function setInfo(uint index, string memory _info) public onlyAllowlist {
+            emit InfoChange (info[index], _info);
+            info[index] = _info;
+        }
+ 
+        function addInfo(string memory _info) public onlyAllowlist returns (uint index) {
+            info.push (_info);
+            index = info.length -1;
+        }
+   
+        function listInfo() public view returns (string[] memory) {
+            return info;
+        }
+ 
+        function addMember (address _member) public onlyOwner {        
+            allowlist[_member] = true;
+        }
+ 
+        function delMember (address _member) public onlyOwner {
+            allowlist[_member] = false;
+        }    
+}
+
+// End
+
+Icon 4 - SOLIDITY COMPILER
+Compilation Successful
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+Deploy
+
+Go to Deployed Contracts
+
+Copy the RegisterAccess Address
+
+Name - RegisterAccess Address
+Inder - 0xc1737083E825d9E52Fc76Ac9891257647aa174E5
+Mubashira - 0x6CCcc98f2A70942975F36af853E96D802fC79958
+MostlyCurious -0x022346a054eA805CACB49092bD7f7Fe9a1A5137B
+Mayowa - 0xFa938449986117cdFCa747f40618e56C63881763
+Bilal - 0x29325B0e5b1523841f2198f7AF65199827Acf0F1
+Jarret - 0x91CCD002fB8Fe0fdA52b07cb4DB6cC6ab473C7D4
+Sol - 0x29b5AeC03251a401C3332BdF0824f2CdCa8cDAA8
+0xE0724cf78a94DC9730aa19731894Ff759846671c
+0xE0724cf78a94DC9730aa19731894Ff759846671c
+0xE0724cf78a94DC9730aa19731894Ff759846671c
+0xE0724cf78a94DC9730aa19731894Ff759846671c0xE0724cf78a94DC9730aa19731894Ff759846671c
+Mehran - 0x6aE12E7b6B961eE5EA5A0a93220CB76F93fa643c
+Lutfi Zain - 0x732e29D9e301f33e8d144b9020326C380A025e6e
+Jake - 0xADc1325ec14a3e7a8E2f2b5eeC691536ab5A3993
+Sefa - 0x08A0228B55c3b073f9Ff4bc90f7F170e3DB51031
+mwendwa - 0xe74b1D37ff97AB2cd7E45D93Cf567d3C4ac508A7
+Tiago - 0xef4fdec547d51f1dabc29a8e0696b84503f9b0bb
+Theo - 0x823a27712b77531f1b4E37B553783e3C57591c58
+Ajay -0x12430C6e6dE1e14713547C4f48634A9F613eBda5
+Belrie - 0xA75Db437c375359E9a2D29A4EdFcA265328bF45f
+Sulav- 0x2659EeA39fcb77021cb4a4EC44f3c327B2117bE9
+AS_Andrew - 0x19553e9900E5d3e8361DC0440b71aF67A01010d0
+Stanley - 0x1D9fC4efdA39F69C3189E96FC855b973c260F08D
+Aayushma - 0xB8a3105a92c4427E12fb3d97558CA38c103dFf93
+Eric - 0x7164014bA17B4F52891e16c1B79Ec766Fa6103d0
+Raktim- 0x15F918dCeB249F61130F0b0F6683f205e5C212d9
+Ayo - 0x7eBAEC7C0fB56E9426FEFa43a2336aa6c8A891d5
+Jos - 0xBe73C8B6e6B5b46118cDa7c2C863A61BB455B9F5
+Chris - 0xEA558ECB5D4bdf30962198503cd23581537Cea56
+med - 0x5A1E5BD1Bc8f3D98E2a261FFff626CdC10FdF0A9
+DanielB - 0xB5438A344573647E2629284A316f6fE90A3b0bBF
+Vivesh - 0xC74c9fD3e27ddf11a543bC3AD89d079DeFeb348b
+Dimosthenis Tsatsos - 0x8f4A50F557121F96401778D8701598e26D9Fab6a
+Rodrigo Tordoya - 0xCCEF1d559F6D519fDA5090880d6f89d2e644072C
+Jake - 0xADc1325ec14a3e7a8E2f2b5eeC691536ab5A3993
+Wilder Rincon - 0xB4a681c0b2738101Ed0ec211b6FB4b6331563696
+Eric- 0x51c2Db697c6A43E1c636f860fd78f4e4E645D0D4
+Kojrey - 0x5BE3C2db96F0cC0102431c70934Ef17934F7e36e
+Emil - 0xE4bCaB9e79D8D568BFc15c3f7Dd56F9dccEe4607
+Alesia - 0xd45a4D92391f3dd450A3c033CbADe1609A7f620C
+Hugo - 0x539b10c20b7cC5F9Dff61c8d8424954bc5Ff846d
+Demetris - 0xd7c9DAFF72C9AAde1Afd567C57AD8B1ca6853c8a
+Jeff - 0x47eb5cC394ca50683a3D45cb7ee2F9B1E67246E9
+Bozena - 0x0bE63a528f4cF5f49848b4B641a924e5B394CD7A
+Mohammed Elnekhaly - 0x30BfA1D6e1E0767B7a2D44E6a54569B36D84C942
+Gilbert Cedillo - 0xb9f78449ffF95075f931E0a0E037E95e38a3cDaD
+jan  0xb65Cd82a97FfE918bf62552EF36372c7123E3176
+Durgesh RAjbhar-0xDA289544FEDAf993Df6AD6ddFe9f0c750363b3fc
+Abhik 0xbF8C73B31Cb984D8C1ad30FD9E023c21b324d74d
+Jelena 0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B
+Yunus - 0xbB83c1a13b04d2E9Acc1d205F2306a3bD4014983
+Ben - 0x9DDe8811F7C3362c357f4CBfa0f11314E927B230
+Michael 0x765B00020A94F1ed3862639402eF6A5999cDEE51
+Visal 0x7a539fd4566492f1cB96a313365E841fdA6ba09f
+Tanya - 0x0cea891A0089a60f40903BE757449b76AC32cdbA
+sth 0x468E280Ed668afDd7f6d5019fF79ecd074ce10ae
+Anthonyjcr7 - 0x11cdabf3f2b4972205af98dd089749d7d7c9cc02eeb1fff2f6aba7c764837b90
+Tekin - 0x0f62BAa08899A2E1ECdF413A4793C82d387812DF
+kenneth - 0xFFFE69C6E8C41B7d6cf45cacCc2449477d316a94
+Duong - 0x84e4416943D099E6770eC3Ae87DD9D6DBB42024c
+cheruiyot - 0xC5f2b08E21209Fe29dE31e1A02C724e1B5071537
+Oz - 0xf2D80328c04CFED9bBCf6Ae231bd84B1Bab8F365
+Sahad - 0x9b757a385a857411680503652917B30BC0a29751
+Matt - 0x878CBe72c55C1bA6Db0Fe96Fb28568EA61B90500
+Victor - 0xBb2a78CB267e6BDB16F0C2B4FC2A5BFD08CfA5a6
+Jeremias - 0x5a327fa9e5b5a25de62ba5f563367e3bdf17aeaba69ebc7af4e399982b3a8250
+Nix - 0x005776C9ad89B72A2391d00A86e01CA09b610ed6
+Mario - 0x35454b256a3654ED2D8bb171e3ac720c5225508B
+TIM - 0x94114ebA47A0077321Ee341A7a04c08bE560BE48
+Thao Le - 0x7b3d059E2614AA24bDeD34557D0B74Aa3Ede444A
+Manoj M - 0xdf43e73263cff6bd9e00bb5ac81aca8f185eae04
+Joseph - 0x31bede3D509EADB50B9E376256e775eB6B114b1D
+Sadik - 0x99292dF781162908eB862adC7aB4614ca457338a
+Juan C - 0x2Ee8d08FD15e940a5Ee3309D7d015CF0Fe0516cD
+Jesse J - 0x8eF1148F66f8C814aEF28c84471735648B4F137B
+Vinoth - 0xbd53C222dD8a4601D2b4cad336DD11e485D223FF
+Afolabi - 0x9fdb024607fb97674e16fdc0db86a15ff88267cd
+Dike Ogwuma - 0x1b9bF864E4e36AA8f4a896ebc734f175e7874537
+Prabal - 0x0164033Fb721EC60516D42eB24ed8DfCc61DCca8
+Rusu - 0x57a1a27634c0292884aA4Bfc6ce7c6504dF2125b
+Jarret - 0xAa99d5569B7cffC7adF31FD4b20fA66af6D9960e
+Parvin - 0x63B1A8A867FAf176Da68473bDF5EAFbd8d1C4f8C
+George P. - 0xBAf91Ceb0D234d611FDe159A850b06a9D50c4A47
+Enes - 0xD925fcCbD0059B054CBe5CD86D8b7e3853DA002B
+Arinze - 0x65CDd0c90416b3d09984E912d272254abC9E282d
+Nicolás - 0x506c040Dc115f701A3B8bFFb38d9F1defCFF1C3c
+Victor - 0xD8c194E36c837928873db9d247Da20F6892Af01B
+David - 0x713f726106be8ec77defc879dbdca4a70469b777ba238b53745fbde45f38307c
+kai 0x3026Cb9fc3D88d6643DE2178299fb091FfeacC3c
+
+***********************************
+
+Allow Sol to interact with your contract
+Sol address - 0x12Fbc10072650d844492De4bcCd0298eaE07dB96
+med - 0x5A1E5BD1Bc8f3D98E2a261FFff626CdC10FdF0A9
+mwendwa - 0xe74b1D37ff97AB2cd7E45D93Cf567d3C4ac508A7
+Mubashira - 0x6CCcc98f2A70942975F36af853E96D802fC79958
+Ayo  - 0x080169735c1CA5471674BB6a293178Cc82257AB7
+Arinze - 0x65CDd0c90416b3d09984E912d272254abC9E282d
+Please try to use my address: Hugo - 0x539b10c20b7cC5F9Dff61c8d8424954bc5Ff846d
+
+I got a gas estimation failed box? <- Make sure you are using SEPOLIA TEST NET! 
+YESSS
+karianjahi 0x8d8157d9eda4c4891d2246AF6fC05cf47d0B0395
+
+Please try this address: Dike - 0x1b9bF864E4e36AA8f4a896ebc734f175e7874537
+
+Please try to add my address: Visal - 0xcE1804A5076B479454F14dd4FCA995c1DC129C23
+
+Just for checking the pad
+
+im Anthonyjcr - Try this address! 0x8Be982A881B76c5d584d983A2eE75C38A01eF7eD
+
+
+******************************
+Verify and Publish 
+
+https://sepolia.etherscan.io/
+
+Search for your RegisterAccess
+
+Tab Contract
+Verify and Publish 
+
+Please select Compiler Type 
+Solidity (Single file)
+
+Please select Compiler Version
+
+License Type
+
+I agree to the terms of service
+
+
+
+Note: This Contract Similar Matches the deployed Bytecode at 0xE4bCaB9e79D8D568BFc15c3f7Dd56F9dccEe4607, additional source code verification (with the current user credential) is temporarily unavailable.
+
+error
+
+
+Take a minute and be sure to register for Block Magic, our next Hackathon
+https://chn.lk/3xjhPDy
+
+
+
+

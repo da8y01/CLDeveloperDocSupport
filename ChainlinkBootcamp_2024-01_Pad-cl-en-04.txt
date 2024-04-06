@@ -1,0 +1,695 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 04
+
+welcome to bootcamp!
+
+https://pad.riseup.net/p/cl-en-04
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+https://chain.link/discord
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+
+https://dev.chain.link/
+
+
+
+Name - City, Country:
+Andrew Kim - Nairobi, Kenya
+Kelly Egode - Belfast UK
+dco - Denver, USA
+koxy - Nigeria
+Ayman Fekkak - Morocco
+Sarthak Rawat (Eik) - India
+Uthman Yaro - Lagos, Nigeria
+Araceli - México
+Gabriel Thome - Brazil 
+Simona Miani - Rome, Italy
+Stefanie - Attersee, Austria
+Craig - Parker, CO
+Chiara - New Jersey, USA
+Harsh - Patna , India
+Ashok Raj - Cambridge UK
+La Toya- TX USA 
+Bharat - Hyderabad, India.
+tipi - manitoba canada 
+Marina Wentzel - Basel, Switzerland
+Arson Tomanta - Jakarta, Indonesia
+Jeffrey - Amsterdam - Netherlands
+Emmanuel Effiong - Abuja, Nigeria
+Raman - Minsk, Belarus
+Duda - Prague, Czechia
+Michal - Prague, Czech Republic
+Stephen - Yaounde, Cameroon
+Maciej - Imielin, Poland
+Nathan Tufte - Athans,Greece
+Parnian Yousefi Sabet - Tehran, Iran
+Andre - Zebbug, Malta
+John-Mac - NYC
+Ishant Dahiwale - Nagpur India
+Marco - Denver, USA
+Christopher Cialone - NY NY USA
+Romain-Pierre - Amsterdam, The Netherlands
+Shane - Florida, USA
+Iddhie - Colombo, Sri Lanka
+Tameka - Ontario, Canada
+Daniel Y - Toronto, Canada
+Daniel - Barcelona, Spain
+Elisabeth Green - California
+Evelyn from Ireland
+Stewart - New York, USA
+Jad Kachmar - Toronto, Canada
+Jeff C - Naples, FL USA
+Jan - Lucerne, Switzerland
+Konstantinos - Greece
+Jonathan - Oslo, Norway
+Supreme Bhandari - Kathmandu, Nepal
+Tebbo - Boston UK
+Lindsay - Valencia, Spain
+Sama - DC, USA
+Nicklas - Copenhagen, Denmark
+Luis - Zurich, Switzerland
+Manu -Bienne, Switzerland
+Augustin - Switzerland
+Travis - Kansas City, USA
+Gordon - London, UK
+Dj - Netherlands
+Vinh - HCM, VietNam
+farhan - usa
+Essam - Baghdad, Iraq
+Clement- NIGERIA
+Princewill Iwuorie - Lagos,Nigeria
+Rafat - India
+Hemanshu Mahajan - Pune, Bharat(India)
+D Marl - Yogya, Indonesia
+elyas - mashhad - IRAN
+Joel - Madrid, Spain
+Uzair Ahmad - India
+Sambit Das - Bangalore -India
+AzraiHasan - KL, Malaysia
+kikko barcelona
+Rama - Resistencia, Argentina
+Vandana - mississauga, canada
+Sanjayshanmugam - TamilNadu, India
+Seppo - Helsinki, Finland
+Sade c ATL, USA
+Alex B. - Indiana - USA
+Phan I. Vancouver USA
+Nawodya - Sri Lanka
+Ingrid - London, UK
+Michelle Breaux - New Orleans, Louisiana
+Minh Vu - Hanoi, Vietnam
+Leon - Cayman Islands
+Kyle Varga - Texas USA
+Andy - Miami, USA
+Adam Williams Swansea southwales uk
+Sahid - Bangladesh
+David - Kampala, Uganda
+Jack Harding - London, UK
+Sylvia – Berlin, Germany
+Nick - Seoul, Korea
+Cecilia-Nairobi,Kenya
+David I. - Enugu, Nigeria
+Mahesh K - Sri Lanka
+Tomas - Czechia
+Tahlil- Bangladesh
+Colin Waterford, Ireland
+Alex C. - Indiana, USA
+Fred Janon, Valence, Frsnce
+Erfan - Toronto, Canada
+Hassan - Bahrain
+Oussema Dhifallah - Tunisia
+Katya - Tbilisi Georgia
+Sunday Akinola - Katsina - Nigeria
+Bidyadhar-INDIA
+Adeshola - Lagos, Nigeria
+Lukman -Lagos Nigeria 
+Tianchi - Toronto
+Marco, Rome Italy
+Felipe- Toronto
+Ravinder Kinnera - Bogotá, Colombia
+Ananda (Forrest) California USA
+Eric Atlanta, Georgia
+Mike E - CA - USA
+Fredrik Carlsson - Malmö, Sweden
+Arthur - London UK
+David - Texas, USA
+Thomas Hall - Calfornia, USA
+Oliver Inzunza - Coachella Valley,USA
+Jose Morillo - Valencia, Venezuela
+Andrea Marchini - Rome, Italy
+Khalid H. - Ireland
+ Sarmad - pakistan
+Brent-Chillicothe, USA
+Ryan O'Sullivan - Columbia, MO, USA
+Josh Banks, Lancaster UK
+Yann - Marseille, France
+Evans, Nairobi, Kenya
+Inna- Tbilisi, Georgia
+JL - HK, China
+Victor Burton - Lyon, France
+Melissa Privitera- Barcelona, spain
+Katya - Kyiv, Ukraine
+Kakooza - Kampala - Uganda
+Dike - Lagos, Nigeria
+Ohmarkely Ambrosio - Singapore
+Enver, Bosnia & Herzegovina
+
+I need some Fuji AVAX please: 0xD2d6b8c336B3E14D2F631352FFb459DAB72571d6 - sent
+
+*******************************************
+
+https://dev.chain.link/products/ccip
+
+Source Blockchain
+Avalanche Fuji
+
+Destination Blockchain
+Ethereum Sepolia
+
+Add Fuji to Metamask
+https://chainlist.org/chain/43113
+
+Connect wallet
+Avalanche Fuji Testnet - Add to Metamask
+
+Get Avax Fuji and LINK on Fuji
+https://workshop-faucet.vercel.app/faucets/fuji
+
+https://faucets.chain.link/
+
+Connect wallet
+Be sure that your are on Avalanche Fuji Testnet on Metamask
+
+
+Add LINK on Fuji on Metamask
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+
+https://remix.ethereum.org/
+
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check if you are on Custom (43113) network = Fuji
+
+Fuji Faucets
+https://workshop-faucet.vercel.app/faucets/fuji
+
+https://www.allthatnode.com/faucet/avalanche.dsrv <--- fuji here
+
+Do you need tokens?
+
+1 LINK
+0.1 Avax Fuji
+
+Name - Address - What do you need
+Augustin - Need LINK 0x7fc00C2946Fb7f43a5CFfCDc91Cc36B51CA2b976  Sent you 2 Link Thanks appreciate it :)
+Kelly Egode - 0x020fbD205cA06345070111254469A4f3Bc612004 I need token for Fuji and link
+I am sending you 0,25 avax
+confirm receipt...Kelly yes I got fuji thanks a million. I still need link please
+D marl- Avax only to 
+Parnian - 0xeaC4851342433c6B41202B0A09A66185B374DfC0 - link Sent you 2 Link thank you but still not updated in my wallet!
+Andre - NEED LINK - 0x499A45A7c8C85379E60f527275B35E6b9D85b893 Sent you 2 Link Thanks
+Romain-Pierre - AVAX on Fuji: 0xD2d6b8c336B3E14D2F631352FFb459DAB72571d6 - lindsay sending >> Thank you so much >> Well received!yay!
+Harsh - 0x86f11146840DaeD44ebD2117e016FF640Fa9B814
+Ingrid, I need LINK - 0xf4837edF5E2C1Eb4bd5b2517ffAC9922aA91e194 >> Romain-Pierre sending to you 5 LINK
+Maciej - 0x0647E693c25Ffe846f30fea27c8D9306f89996B7 pls LINK on fuji  Joel sent 1Link and 0.1 avaxnot received yet... still not received :( I will send you 2 link - done- confirmed thx :)
+Supreme - LINK on Fuji 0xab221fF6Ab6665ec3dAd9a2996D9CCc71f31Ad10- done, thanks! 0x86ea5cff73fade0a0cd78bb95e9f4139433503b9580ba690df0bf424396e5e42
+Nimnath- LINK on AVAX 0x78d0f6Fd64873d1E38afb241038E44aD2bCbE36A - sol Thank you, sol!
+Jan - LINK and AVAX 0x0e59a6a20148a58331BfC3e5d0B4C9FCa154e67D - Princewill sent, kindly confirm.received <3:)
+Gordon - Link and AVAX please - 0x3120fAfB147C37F43532f272f3bCdD27cc9EA012 - Thanks 
+
+ - adeshola, kindly confirm
+John-Mac - 0xdCA36fe279d984F6224AA41155489c218E1a0D78 - what tokens you need?
+Manu - needing AVAX 0x9b18c5Bd3d91dD88605b4Dc2Cb13A72b5D3E12b8I'm on it, sent you 0.5 Avax, from Augustin : Thanks a lot mate, you're a star!! :) :)
+
+Tameka - 0xDaD2f90a961D0eE2556570369a3Fd958Dd722ed5 - Need AVAX -- 0.5 avax sended ;) (yw) - Received, tha
+nk you!
+
+Cecilia-0x4F92786cfE1575f7EE0b2518ad9E5E453966Fbb4 - Konstantinos sent you 0.1 avax---thank you:)
+Farakh  - 0x74A1De4f3736Ff4B1470fbe127E4C84EA3B02e4B - LINK - SENT 5 links
+Daniel - 0xA425C8a9c421502b32153Ab795C210153aE11Aa5 - AVAX Fuji- Done Thanks!
+Marina 0x468daC3B4ef96623F75Da669D249D81901119748 (at fuji Avax network, need Avax and Link) - whait a bit will send you (sent to Marina) Thanks! Got the Avax. Only Link missing still -- check now LINK (Raman)
+Marco - LINK on Fuji 0x50E193Ac6d36d1424Dd1e0DdB2d113953976F112 (varga sent)Thanks !!
+Felipe - I need Link - 0xdC22A74bDa95e19A198e3C283C68585b06654110 Done Thank you!!!
+Christopher Cialone - I can send someone some FUJI
+Uzair Ahmad - LINK and AVAX 0xa359A904D30772E75e6b0D764cBC0c444333F8E6(sent FUj.  from Chris)
+La Toya 0xFC2342Cdc9af6ce8E551368d3058D44015C187A5 - Done 0.2 AVAXthank Sent 5 LINK too
+Mahesh - 0xF79E9Fe4a3375E42aff8935df2d584d2d16Be2a2 need 1 LINK 0.1 AVAX tokens - check. sended(Raman) ;) got it thanks YW 
+Thomas Hall - AVAX - LINK - 0x5B85062593E126211da8f634F0830732a809b61d
+Phan I. Avax Fuji - 0x3bD0f1C4C67CE4FbB8Cb7E8bC81dA585a575475B
+
+Mike E - 0xa80361aE81cDC6bA1c2A827E2F038BE3B6B1a373
+plz send test LINK ^^^
+
+
+
+***Sol- Do we need to change the compiler?
+// Make sure AUTO COMPILE is checked 
+
+************************************
+
+Create
+CCIPTokenSenderFujiSepolia.sol
+
+ // Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/IERC20.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+contract CCIPTokenSenderFujiSepolia {
+    IRouterClient router;
+    LinkTokenInterface linkToken;
+    address public owner;
+
+    // https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+    address link= 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+    address routerAddress = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+    address bnmToken = 0xD21341536c5cF5EB1bcb58f6723cE26e8D8E90e4;
+    
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#ethereum-sepolia
+    uint64 destinationChainSelector = 16015286601757825753;
+   
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees);
+    error NothingToWithdraw();
+   
+    event TokensTransferred(
+        bytes32 indexed messageId, // The unique ID of the message.
+        uint64 indexed destinationChainSelector, // The chain selector of the destination chain.
+        address receiver, // The address of the receiver on the destination chain.
+        address token, // The token address that was transferred.
+        uint256 tokenAmount, // The token amount that was transferred.
+        address feeToken, // the token address used to pay CCIP fees.
+        uint256 fees // The fees paid for sending the message.
+    );
+
+    constructor() {
+        owner = msg.sender;
+        router = IRouterClient(routerAddress);
+        linkToken = LinkTokenInterface(link);
+        linkToken.approve(routerAddress, type(uint256).max);
+    }
+   
+    function transferToSepolia(
+        address _receiver,
+        uint256 _amount
+    )
+        external
+        returns (bytes32 messageId)
+    {
+        Client.EVMTokenAmount[]
+            memory tokenAmounts = new Client.EVMTokenAmount[](1);
+        Client.EVMTokenAmount memory tokenAmount = Client.EVMTokenAmount({
+            token: bnmToken,
+            amount: _amount
+        });
+        tokenAmounts[0] = tokenAmount;
+       
+        // Build the CCIP Message
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(_receiver),
+            data: "",
+            tokenAmounts: tokenAmounts,
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 0})
+            ),
+            feeToken: address(linkToken)
+        });
+       
+        // CCIP Fees Management
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        linkToken.approve(address(router), fees);
+       
+        // Approve Router to spend CCIP-BnM tokens we send
+        IERC20(bnmToken).approve(address(router), _amount);
+       
+        // Send CCIP Message
+        messageId = router.ccipSend(destinationChainSelector, message);
+       
+        emit TokensTransferred(
+            messageId,
+            destinationChainSelector,
+            _receiver,
+            bnmToken,
+            _amount,
+            link,
+            fees
+        );  
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdrawToken(
+        address _beneficiary,
+        address _token
+    ) public onlyOwner {
+        uint256 amount = IERC20(_token).balanceOf(address(this));
+       
+        if (amount == 0) revert NothingToWithdraw();
+       
+        IERC20(_token).transfer(_beneficiary, amount);
+    }
+}
+
+//END 
+
+
+https://docs.chain.link/ccip/tutorials/cross-chain-tokens
+
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+
+bnm - burn and mint
+lnm - lock and mint
+
+
+BE SURE that you are on AVAX FUJI ((43113) network)
+Sol you're on Shanghai!
+
+
+Deploy
+
+Name - Contract Address
+Arthur 0x1600D0BAbEcA69132860E24F7B98d2dCBA85AbC6
+Jeffrey - 0xe33896da94D7db6Ce72f6bf45daAB2fDbE6A538D
+koxy - 0xd67302577e0e052CbF061d689DaE18ECCE061bE5
+Kelly -0xf3b6ECb567AA0b5aB4087333956763bda4d61F30
+Nimnath 0x46b252670634F0707dc0187841f061A70801a2Dd
+Tillo - 0xb5996267CBEEe11D2E1b2A32100417B29667eA3c
+Uthman Yaro - 0xe8B88D73aee6Ee1B1b7432A68aD6Cc45eE39e2a4
+Sol - 0x2448175C01aa16dc613Bb23D41D2342009adE6c8
+Fredrik - 0x5a19530ebf855160da1337f8f34fb119a9ba7a686d9f85a1f62e0623b295a577
+Stefanie - 0x351825a67376E1EF69F6694B82B66BD43EeEF7d1
+Duda - 0x201e7B094f983E301462eaD677142338af970D48
+Raman - 0xB6571377d676DAe145ae197281CBc38a7fA9Cfd4
+Chiara - 0x31A681B07D6c55e50a17c9d15aa8c70277fEF133
+Romain-Pierre - 0xEDcA944E4f3050e9613040ba7db01f8fEC06D04B
+Emmanuel Effiong - 0x78906b9d3c2a731dA9D181db2E2EB86004835370
+Nick - 0xF41d369c241037749AdC44583a1e25bdb20Ff622
+Seppo- 0x20fDE68d8b92C7FC53aC6411e05a8E0B734C68C0
+Craig - 0x4CeeD7cBE1C69a8B38A5458Bc193bb8D10802557
+Felipe- 0x8940622bEBbB05951f9CDdF43DD2f3F8a498de5c
+Rama -  0xaE96861DfeaBeE7890e15b8cE9a34a42afF40288
+Christopher Cialone - 0x8eDca3E84fE451f76B205cb9CB6d058E7A12499b
+Tameka - 0x058E8c2a5061A8A32eEf701962cCb2111353e5b4
+Arson - 0xd90c71B5CB499fd8DA493a69dA00F79609f3842f
+Supreme - 0x194150f77181C30C455831c1EB1595CFc29D863E
+Parnian - 0xB7ae134c197483b9DE73BCa436C251386ef64FAf
+Maciej - 0xF42C4ac147589131bEA866d317051E14ABb07720
+Ashok - 0xc0026f7f6CeB3f23Cd2f298d25d80eb6c864697a
+Simona Miani - 0x7ddE5FBB0B0E3084992C34cBE3f88780a0a9d9Ed
+Daniel Y- 0x358B3b385b5ec795b157B9C52B5C53d4F7786C0D
+Dj - 0xDA803bABb08401E96BE30D30ADE21931A4e219A3
+Vandana - 0xc7f874dad071deec2Eb8c4D9C9e7133094E7976E
+Gabriel Thome - 0xF50c5C44EE30A3A37efe6538F09DD0E6BaD7b712
+Phan I. 0xa5ECF451BDECcbf55B358D3f9C3432920e78907E
+Sarthak Rawat (eik) - 0xDBeF18e39286eE4f87Ba29085F499Ce69B638CCD
+Luis - 0xda86eF9173Df98ec3241dd15a54cF9e8864215f6
+Sakar - 0xafE922a205baD30470906854AaAf0b9eB77f2e96
+Shane - 0x74E18f272022f747fd11EFB0a619c786A48559Dd
+Sylvia – 0x4a42ACC1cC54909229E1e183A4a50F96f2a31a2f
+Ingrid - 0x74D17c4bb4302D49508Df97122c8202539A91E8B
+Jan - 0x04dC8ABC1B5004e3e3b48060e7588C91Ad0F4535
+Joel - 0x30B4A502235B912466A25E7d8aD98c2b2C4FEaEd
+Marco - 0xbE411d57fbb98798ef5567dA9ca6671A400c71bB
+AzraiHasan - 0xC36e772537FA1b30eC29a6632138D4e8ACC17038
+Andy - 0xFD0c8d14a500fdEEeB52166681E39EfA6a3c71F1
+Konstantinos - 0x9630E336B2A2d44541336f9F2539A8bEb9cEcac6
+Lindsay - 0x29a94674ba0b5c7996dfcaf4ab1573d4b595ca25c8becb4e8467e6d1bb4af815
+Cecilia-0x7962a416dE80bA7BeeE167588E63c32B36384e2f
+Leon - 0xAB3a8f963768852B4296451bcf658Dd2A6a44246
+Travis - 0xea7393C722dC3cfbdbd7A9aB2001131b2F27bB81
+Daniel S - 0x132600cC19f7147761DBe736c8AAF4F53Bb4C36F
+ Princewill Iwuorie -
+ Harsh - 0xe196637bf385aDFB188e03dd26F849D849559AEa
+Duda - 0xaba48a408f91e92a6a69c747108883fa2056369f6d76a0deac38b9165cd5f59d
+0xc0b6566ed98D374d2d06760797e540a4836EFD34
+Erfan - 0xeeCd7aF6C116480d9997ea2486F3b557578cf79a
+Gordon - 0x288da75D8BF2D8886E15B3DF86B4e2A624275346
+Sama - 0x9cd721fe3731E80CDcD1cC772B1Ff15A052a14eF
+Manu - 0x46AD8d3eACF1AaF17bF0Cd8e835ce61270E71d93
+farhan 0x44B2DC650d6B526f71F23C67f0b290eEbe862463
+NA - 0x9725c2Ca6D52FFA0FB26fD36065bC22Bbaa77Ab7
+Nick - 0xAA43670c8578aeB9134914262aA2F906d1Da1601
+John-Mac - 0x197756bDc63acaB4480D9374600b0faA0EED0B45
+Augustin - 0x425DFDF4F5814090D6F3b6aaf9557cC0887b93be
+Varga - 0xAb51B29f705360cbfC84a8A831dbAadB965c260F
+David - 0xB84d105ECCf929F5604384E63f3ebAFc7DAca327
+Hemanshu - 0x38DCE1cdeA5ecde1C76f6368d9fA921aa7Dca807
+Tebbo - 0x4231Eb752CEb1e7Cd86a596a187e29e7a61a4a70
+ S 0xfe02D0217dEe98407DD2CFDB62e5149dBC877d4f
+Jeff C - 0x2F8dF2Fe52750eEEE8F1f2b6F64FA015A1fEeb2A
+Minh Vu - 0x5CB71796F6AC34bCD44Ec774fD91560c02d63465
+Rafat - 0xF35e93EaeE4c6dCfA24eb0BD6aE1164c8a0ffB64
+Hassan - 0xe5B448bb65F4a3733514f2D8db30473780ba63aa
+Iddhie - 0xd9145CCE52D386f254917e481eB44e9943F39138
+elyas - 0x7D5c35A8996a1D580c507ddC25A297BB19D8c2d4
+David - 0x647Ccd8b9E572B6A4EFDB46f995fc55F906e51A0
+Alex C. - 0x6dF4A8e4D2eF7725FbD398cc7550d244E13Ffa68 
+Andre - 0xd62728626D3eD2C2E8631A85273111f47162e5CE
+Mahesh - 0x36Fa0d7a1084B91DA02E106CEb6e9a9446E71a59
+katya- 0x7eB175F7852c9482b2e67F3fbEd74F25D912788a
+Alex B. - 0xd526f95C869d9100e43Bb39FA3Efa5EC9E4ac799
+Marco M. - 0x54b6baf2EfbFfe67455A64F0c8c2E70Cdae66491
+Raffaele - 0xc2379898685300B631231f80C4A1DdE9d03c5260
+Nawodya - 0x4229Ce7c0b7B698Fb96437aA250810c3c319bDC7
+Ananda (Forrest) - 0xa90604c2b4fb70922136b151a5213eff5f3e7482
+Jad - 0x6DB53762cb8a0BacBf38eC02608b50e8587f4dCC
+Adam Williams - 0x1803f8a5eE59e30942d461CEa0210832D9433a1b
+Mike Elmore - 0x89664B2dCa7ae4dE97D77F73a355beA43156E718
+Thomas Hall - 0x8AC8F0f9eDF38A0f25E1ebdf98317391a3FE875F
+Oliver Inzunza - 0xE272d060a0462f7f610500CE1152c355954b14C7
+Aymane Fekkak - 0xf38D8FCB38477b6aC6660A5310d65341705D9975
+Jose Morillo - 0xf2599a3931E777fd88583B1ED30b46007E7cb713
+Essam Aldeen - 0x2cA20d412A7EC7C07698206B1D699ca80DA7156c
+Sade C-0xeee689a9f03441A54F7E719960AC8aE7f336b590
+Azmaeen - 0xACb9b905dBd93B4BfcF08d2c0474FeC537C4E424
+Khalid H. - 0x59B37C5F90CD8Cc5fd01d30C77879d28C9c62342 
+Tianchi - 0x63c35362118432eaF9Da6249bAd32d0326d8958f
+Marina Wentzel - 
+Elisabeth Green - 0x679714147b25C5FD8FcF393bf3d68762632A565b
+Yann - 0x6F62164fc935b7ec83C0C9b3F73ad8e92aC95f4C
+Evans- 0x54cF6fc656421CDe0DD06A5afc2b56cd36affA2E
+Ryan O'Sullivan - 0xA3F64280Db0Ae1610F3dc9Dc463cf2A0F9d4C5Dd
+Ravinder Kinnera - 0xD0019441Ab78aD38BFC253aEf1F06DD51ea8d100
+Victor Burton -0x37A59C1a7e558c19EdB0302a2146Dc78a855dE40
+Melissa Privitera - 0xdF893242795986aDCeF2B325689e5de5eD9370Bd
+JL - 0x927047E05AA57c612292D111dA464b203b2a689D
+Inna - 0xBC8dC126196Fa79391303B11E9b59A1BE0DC8e23
+Katya - 0xE235B4575413bE2E849db4Dd2E71543249fcE680
+Kakooza - 0xc1D0102C1a0fdd58de7A8b016199Bc1d90F5fa26
+D Marl - 0xa3b2869665b3ce5D4570D7199154a68b6fcB39f8
+Dike - 0xE60e0380B9eaCa58412cf062cA8587302DC40aa3
+Katya A - 0x0dbA1a3CB4a35338B17824c91003EbdBf375a602
+
+*************************************************************
+
+Avax Fuji Block explorer
+https://testnet.snowtrace.io/
+
+Get some CCIP-BnM token!
+
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+
+Connect wallet (on Avax Fuji)
+Add CCIP-BnM to wallet
+Mint 1 CCIP-BnM Token
+
+
+Fund the CCIPTokenSenderFujiSepolia contract - 
+Send to your CCIPTokenSenderFujiSepolia contract address - on Metamask
+1 LINK
+0.1 CCIP BnM token
+
+
+Check the balances - BalanceOf - Contract address
+
+CCIP BnM
+https://testnet.snowtrace.io/address/0xD21341536c5cF5EB1bcb58f6723cE26e8D8E90e4#readContract
+
+To SOL - Ask to fix(verify)
+https://testnet.snowtrace.io/address/0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846/contract/43113/code
+
+transferToSepolia
+_receiver
+your address wallet
+
+_amount
+10000000000000000
+
+https://eth-converter.com/
+0.01 BnM = 10000000000000000 (wei)
+
+
+https://ccip.chain.link/
+
+Name - transferToSepolia TX id
+Raman - 0x4a33b4f25b2673e3fa18bfacfeb2fff1125dddc78ad19377cbc2a2f4a7b8591c
+koxy -0xe915f5c6d7e5f6237c0e446542e777859a9a3e6352029ea6e62b1308c32d4b87
+Andre - 0x3ff8332d67e3c5faa6afb58c961a750c94e5fdf8b6ac5808f205745daa5a6b47
+Chiara - 0x8a59565cf96ac6b2a23228de106e898e40c0cc4139945f4907ea90ee4f3774b2
+Jeffrey - 0xc3b32193f4a5484d44e80150eb4c3fe161449da2d722ca263f1e5ba326732f63
+0xe95635a7bde7a64b357700e30637f9dec4f5d143e2b5f45d09de433b903bd657
+Uthman Yaro - 0xcdcd6854b71e3737e9bfdb79c2026124271eae8c79bb9e48e91579e781f22791
+Gabriel Thome - 0xc6f8d7141c8e6b97217f5e6040c7940c1fe1b21a751717372e007c26c50b1b49
+Augustin - 0x0e7745595504d29ade7855ce0be4eae62a060771ef7124a97e67867790e5a736
+Tillo - 0x5b83b4343a9363466fdb319feb82d84d2f6dcebe9349f9060bcaa0e92826c52a
+Arson - 0x729cff2a9bf4a8a2915246786e822f3adb50cf26b6d4ee677bfea419c40bbca8
+Stefanie - 0x5dfd24fa632abfa32760d870dc8a59e21f23d289b6ed7e1e6fb44dbf18eff0d2
+Romain-Pierre - 0x33c5453b0e072ec6f340f57b0939860622a7e8736b91c89f2dc48388b1ab905f
+Kelly - 0xe7c1285ee32926b1af4b1521cf8f78cd47da3b0f9e7c0c2a05c67f21ea64ed9c
+Sol - 0x9fb6648282e02b5d5d0c11f3600cfdd1f361ffa924a842a0c312aa031d496294
+AzraiHasan - 0x1344be2ae36071862717dc6d9a050ff28a1f41cf66c55d6dfb92acee7849e8d9
+Nimnath- 0x9779af42570d8e4e4d7e0be8f443e9e81b88597dc995d76685734018c83bd6d1
+Ashok - 0x631154b8ce6816b918183cbe2727f21e501dc93dff9c6b41790d3502b772217a
+Lindsay - 0x25bf0480b8e25f76a373f4eba042b31a5e9371c484fd27026fd8727e6831e4fe
+Maciej - 0xfbb9c4ff86585d617621cd318d42a5474025021dd6398abe26487f353a5dc40e
+Marco - 0x0aef851373ce76619826e4aee817b6f09ae302f97901352f8ef68b6ce94dbe9d
+Kyle Varga - 0x5d91c16fca84a8c6ebd827728a7ff2fcca93ee8a941924d236df881fbba083c2 
+Emmanuel Efiong - 0x6c645944c561cecaf0b58c775aedc605de6aef126f72cce793d76bb7dddb3de7
+Sylvia – 0xfea1319338fe25d581eb3ca7997f275254a7779e75fca689c1efa5638733f9c5
+Dj - 0xac995ef4bdfe8aaf3b736d4712e94fb9aafd146603d4430cb0d04c3af0807e94
+Luis - 0x779bb47f697c4f97226903127588eadfaf14c624f0c40721ec0da95c601598de
+Supreme - 0x2e84490bab334c5b3bd11ae8e62c4b1669fa1bcc2cf8498cf43e9778f7425589
+Daniel S - 0x8923579019a213eb939be76faef97dc00b16543a92aa494fdb3530ae50635dca
+Shane - 0x447a4e53467856289f76605991e062fd9cc51129de90929fdaa4e066113bfd64
+Rafat - 0xa8faee3d39ccc27fe65fddbdad3ddb0d0060e17f93a264a9fa78ecab916f5803
+Hemanshu - 0xdd5da8455922ccd9d7a0d8c9fc7088e3f4cdfe6f5fb4e09e7e50438698c64d88
+Phan I. 0xee3e303e69df6688247df75c6e47158e79ec6ba04593bb064ec583bc9d6f1de2
+John-Mac - 0xbc51877260bddd4a5d0ede699aee3e67a75e5a9956b39ed30c171d0018cc1247
+Jan - 0xcea89cc00d98c4ceecac21afeb417f951d92ea0f2f267f156fdae74b5d4313e6
+Sakar - 0xfecbfeee477f5762f5354ce8d7e4fda49b5bd9ab6ed797caf32045ad922a407a
+Tebbo - 0xa29e9aa001b766cb52a4d1bf57d2ea92f8075928d2f8dff9dc9f0dacb41bfabf
+vinh - 0x54b15647c3da5978301e2d890e58911908f8689810cf632c8073368d9ae63183
+Leon - 0x58af4e4f092a10dc58a50ebd4a57c5bb6f92c2d51c713d0919bd91149d74abb8
+Minh Vu - 0x539ed397240b0dd214e3927cac2bdd30e3ac4658725852167662f8ad9f505402
+Erfan - 0xa0428cd1cd19b0eeaed414834acf849229781ab141cff69e09276ca2448fd6a9
+NA - 0x1de51415a4c7e88fd24407b4d6fbaa50943d0fe980d0c20f5a8ef08831a5b6e7
+farhan 0xef47180bf626e5544871eea2c8bfc650b0b2c8f1ace9e826304912ad765ea95c
+Sama - 0xa1f87e4eefe2031e3540a30a3c29b5b235c881264b27a7331d79c6cccf633d31
+Daniel Y - 0xe47151bab5f16317ded41332e12d45b6cffad40f62b92b7a31a9788e07dac10a
+elyas - 0x777ff86ea4fb23980519f245e0de8090f218fa608795e177ad03330a84bac1a0
+Felipe - 0xc8516c55542e0f5f1ed2f7031a387186f39992d74b2662902f19a86481297fa6
+Princewill - 0xa827d5f47390d6e3d018e8f9a5cbe7abdcf2d3a8acaaec985072d39e96baed10
+Sarthak Rawat - 0x2feb61224e21af88e4f64cbefa58c14075016286e72cc526f7b8acf954bde7c3
+Tameka - 0x747d12fe6547bd2fac7062611a19bc739820d65ee35e56eeca8772fe2a28995d
+Andy - 0x297194deb21203d67dc97a192f9d75017cf40a938f60099856d9e461acacde33
+Konstantinos - 0x59fb555c806f63408cc8818f6d19590e1be4ed3ffb674e058429d458aeac9611
+Jeff C - 0x595bd80686f3dc4aeebc795b2ba8d3b43339237c4b241d4f1522ff9000a5bfd8
+Joel - 0x6398F0899630170eE5615283eEfC01EB9a93bd52
+Iddhie - 0x1b3a6569a005a53a4efe440ca30ca1fe5598de50907f5ce2b05d712d38f51e4b
+Albert - 0xd32a76cc081b95bf3bf285821b03fbf88418b07aa6206abf773c8709fb9f9dda
+Alex C - 0x79fdb7268811f2efcddcc10edfc95edbd7fb6d00605f4ae5a16ff9de5495f927
+Manu - 0x71e797405e16ffe1ccf7743609bea952802a8d1693987d42d037b786946b138e
+Cecilia-0xa06592ecc81309a7a0e417ea907f647f1bd876af7d0af7977408d35a3c4141ef
+Seppo - 0xba337b929d8e5980459a12cd826af96653df30bdcdb135e42902766b8ac34568
+Marco m. - 0x213a44430a4082dacf7f406bbbab48838420acd16ed45d9642fec4d5a18fc321
+Mahesh - 0x3e87e3498acae765aa1a55acb79cef185fcbf02947d7d80bc8469b7e74b6301d
+David - 0x0a528ed90ca9e3b5fe55889922d57ea24e146a833f06b5c3611cf00bbf2c6689
+Stewart - 0x30f5e98e7cccd80a00541cd06eddcd232893906e7db2812dfe0b376d5ffa5bc9
+Rama - 0xa617881bc8074b5959643b89f1285043bf1c5fd1b974cb6f63070cc1b9fa7475
+Raffaele - 0xd9e7d39529f130ca98b2ad6356ac99184cf086c3f4e89cd11bbfdce917f84b8f
+Alex B. - 0x3b75bb687bcfec223b7c239e3a5fe0f5ee101d86178f6049384e24e2395cf8aa
+Ingrid - 0x1742bd67e300c896294a87bd5efb492e5842104e5a65847e1353942a3a3f8101 
+Nawodya - 0xed0efe1def67d810e0a88933cdebc6fc384efd4a6a9c7e11e389484f03cad038
+Nick - 0xc1557856e18f348fdcd826007e2384f0d69abd82704242f12374e99113106173
+Jad - 0xa288538f162e8b3c9b054dffac9ef5f7328fbf5e25c2a6da0fb85954d3bfb255
+Fredrik - 0xd0fc333d9d22885df855970d240906c5ccbfe04af3a45096d5e05fbeb5860f43
+adam Williams - 0x3d003b7fe8a71bdd7dc9fe34f3cbc9ace801b7b125ded6b0c83595199a378d8c
+Arthur 0x40cbc8a8fbcdf56d7d87a209dfd259b2fca4524e1fc05443e0209c3a855d3bed
+Vandana 0x806076a79e7345a78e83baf32fe479b2e095b1d46c337e0b044e36c128d995e7
+David - 0x803ecb7878b88ad4943fd5eb2c5bd8f51e6f922a084d997fc36f5ef4a6b40c14
+Mike Elmore - 0x7e3b8900e10e1253b1eeb6a825df735a68e010ded7112696ed4d3ebb1fc6b6be
+Thomas Hall - 0xb2a48d7a08cf9e9557bc7b8da3e943a25591d72f7e89b5c057d81e3dcb3af1ca
+Oliver Inzunza - 0x4c248d6dcf10c4cf97afd94549cf18d2fb2bc6d161caa3ac299dbef992c54b02
+Sade C-0x09305d73464021c48866d30a8e823a35e859896a4062c0e3624b3adb74f9d4b1
+Ayman Fekkak - 0x51ae64d655cdece007182b71ad4c2289eb5017dfa046ef5bdc0dc61f4cc9b36e 
+Azmaeen - 0xbbd3a0edccd83a332b8645c58faae2c43f4c4168446e44d769713e80bd250d53
+Khalid H. - 0xb1e0dba88a0ea6833cc441322bcd9d12167f5c8bf20b0642cc2c37724175f246
+Tianchi - 0x984a3f1a166a6c69e3def9d9aace23b833d8212011facd1990a20fa1e3abf2ed
+Marina Wentzel - 0xe5cb270ebeaead5a1a42a9cce6d8d69641d33bf018b166ca48be458d364abab4
+Elisabeth Green 0x0bdf75c6f115ea47068f21d30be0bd60b8be59b3d5a3fc85fc0da1885e6de002
+ Josh Banks 0x0c9ef90ec6fb9b041d0c9eb3d48019b9e7d34ffc661ac4f73bd9ca1fc63a15cb
+Yann - 0x164ca130cb1ea93fb3f2632f36e9df7a7be2b4240201fb0dd9ae6cc7867c2648
+Phan I.- 0x196fb86b8d7073403769703aeb0cde4a64bb882527ee84b895d1814d1559bf16
+Evans - 0x60ecb42befb1a7d67003bdcf18e304312b6b53004e090825d82667eead6a2457
+Brian - 0xd2d65d2518e90014a4a4d01e82920c366f5aaec86690c80d0265ee1192f80e13
+Ryan O'Sullivan - 0x20ff4de38e79b387bcb86efc2ac57ba68d138c2f9591a47c5ce5d13ab41624f1
+Ravinder Kinnera - 0xaf23001d40461c201c7c527bf4085f0f25806023ccb6dc5641e81259d6f1fd56
+Victor - Burton 0x42132f473431cae7104393785b62d055b0831c1f78609e4b1e145dc7fa38de56
+melissa - 0x9c97041434880c293f92039c73c2f1696e0e0f0483b6ce969a35de934b9a3028
+Katya - 0xff34c9a44754b65ce752e91a76befa39663114e18fc8bc3146da2745c27a6ba1
+Kakooza - 0x3652ae0b0ed245fd587f9fe6b463e0d49d949eb9ffbe95eeb54c1fc604183ddc
+D Marl - 0x0393c767eae75701bd33dbdec529ea47fa383724361e9791116834d86d438ea3
+Dike - 0x47613c5df067864345b8ed04067fda09e0171d0265af2f9913be03ef7e484224
+katya - 0x15c5320a243c6763bd8a1c54dcd98458fb08c16b3a98ad7a5063e85adb4e0944
+
+
+
+*********************************************
+
+success = 0.01 CCIP-BNM in the Sepolia address, yes? - Yep! thx :) 
+
+https://ccip.chain.link/
+
+On Metamask
+Select Sepolia
+
+Add CCIP-BnM on Metamask
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+
+I did my first Cross-chain token transfer! #ChainlinkBootcamp2024
+
+Kelly- I need Link please what's your address??
+0x020fbD205cA06345070111254469A4f3Bc612004 fuji ( Done)  Thanks so much 5link
+Daniel S- Same here, need also link on fuji (done) - Thanks! 
+How do you seperate the link from the ccip-bnm once it's on Sepolia?
+
+Ayman Fekkak - i had a problem with Link Faucet so i couldnt transfer my tokens 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

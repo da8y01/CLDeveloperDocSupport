@@ -1,0 +1,976 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 08
+
+https://pad.riseup.net/p/cl-en-08
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+BootcampSupport
+https://chain.link/discord
+bootcamp channel
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA - Are the tasks still being updated?
+
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://workshop-faucet.vercel.app/faucets/
+
+
+Name - City, Country
+Simona miani - rome, Italy
+Kelly Egode - Belfast City UK
+koxy - Nigeria
+Andre - Zebbug Malta
+Emmanuel Effiong - Nigeria
+Danki - Baguio, Philippines
+Andrew Kim - Nairobi, Kenya
+Harsh - Patna , India
+ Gabriel Thome - Brasil 
+Hemanshu Mahajan - Pune, Bharat(India)
+Stefanie - Attersee, Austria
+Romain-Pierre - Amsterdam, The Netherlands
+Rama - Argentina
+Tillo - South Korea
+Quizford - Denver USA
+Shane - Florida, USA
+Tameka - GTA, Canada
+Dj - Amsterdam, Netherlands
+Iddhie - Colombo, Sri Lanka
+Tebbo - Boston UK
+Sade C ATL,USA
+Joel - Madrid, Spain
+Jeff C -Naples, FL USA
+AzraiHasan - KL, Malaysia
+Erfan - Toronto, Canada
+Jonathan - Oslo, Norway
+Seppo - Helsinki, Finland
+Daniel B - Medellín, Colombia
+Kyle Varga - Texas, USA
+Adam Williams - south wales uk
+Ingrid - London, UK
+Uzair - india
+Arson Tomanta - Jakarta, Indonesia
+D Marl - Yogya, Indonesia
+Sama - DC, USA
+Luis - Zurich, Switzerland
+Mike G - Copenhagen, Denmark
+tipi - manitoba canada
+dM
+NickATL
+Felipe - Toronto
+Vinh - HCM, VietNam
+John-Mac - NYC
+Manu - Bienne, Switzerland
+Keane - Singapore
+Farhan - Va, USA
+David - Kampala, Uganda
+Daniel S - Barcelona, Spain
+Alex B. - USA
+Jad Kachmar - Toronto, Canada
+Rafat - India
+Leon - Cayman Islands
+Konstantinos - Greece
+Daniel Y - Toronto, Canada
+Tianchi - Toronto
+elyas - Iran
+Eric Atlanta, GA
+Nawodya - Sri Lanka
+Emil - Croatia
+Sunday Akinola - Katsina - Nigeria
+Phan I. USA
+Ohmarkely Ambrosio - Singapore
+Inna - Tbilisi, Georgia
+Alex C - Indiana, USA
+TruNoLies- CT, USA
+La Toya- Texas, USA
+MIKE E - CA, USA
+Andy - Miami, USA
+
+Nick - Seoul, Korea
+Marina Wentzel , Basel, Switzerland
+Mahesh - Sri lanka
+Vandana - Canada
+Olerato - Johannesburg,South Africa 
+Aminu, Ismail Abbas - Lagos, Nigeria
+Andrea Marchini - Rome, Italy
+******************************
+
+https://dev.chain.link/products/vrf
+https://docs.chain.link/vrf/v2/subscription/supported-networks#avalanche-fuji-testnet
+https://docs.chain.link/vrf/v2/security
+https://docs.chain.link/vrf/v2/best-practices
+
+Metamask
+Fuji
+
+https://workshop-faucet.vercel.app/faucets/fuji
+Password: cllworkshop0101
+
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+Create
+Runners.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Base64.sol";
+
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
+
+contract Runners is ERC721, ERC721URIStorage, VRFConsumerBaseV2  {
+    using Counters for Counters.Counter;
+    using Strings for uint256;
+
+    // VRF
+    event RequestSent(uint256 requestId, uint32 numWords);
+    event RequestFulfilled(uint256 requestId, uint256[] randomWords);
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        uint256[] randomWords;
+    }
+    mapping(uint256 => RequestStatus) public s_requests; /* requestId --> requestStatus */          
+
+    // Fuji coordinator
+    // https://docs.chain.link/docs/vrf/v2/subscription/supported-networks/
+    VRFCoordinatorV2Interface COORDINATOR;
+    address vrfCoordinator = 0x2eD832Ba664535e5886b75D64C46EB9a228C2610;
+    bytes32 keyHash = 0x354d2f95da55398f44b7cff77da56283d9c6c829a4bdf1bbcaf2ad6a4d081f61;
+    uint32 callbackGasLimit = 2500000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords =  1;
+
+    // past requests Ids.
+    uint256[] public requestIds;
+    uint256 public lastRequestId;
+    uint256[] public lastRandomWords;
+
+    // Your subscription ID.
+    uint64 public s_subscriptionId;
+
+    //Runners NFT
+    Counters.Counter public tokenIdCounter;
+    string[] characters_image = [
+        "https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png",
+        "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png",
+        "https://ipfs.io/ipfs/QmW1toapYs7M29rzLXTENn3pbvwe8ioikX1PwzACzjfdHP?filename=Chainlink_Orc.png",
+        "https://ipfs.io/ipfs/QmPMwQtFpEdKrUjpQJfoTeZS1aVSeuJT6Mof7uV29AcUpF?filename=Chainlink_Witch.png"
+    ];
+    string[] characters_name = [
+        "Elf",
+        "Knight",
+        "Orc",
+        "Witch"
+    ];
+
+    struct Runner {
+        string image;
+        uint256 distance;
+        uint256 round;
+    }
+    Runner[] public runners;
+    mapping(uint256 => uint256) public request_runner; /* requestId --> tokenId*/
+
+
+    constructor(uint64 subscriptionId) ERC721("Runners", "RUN")
+        VRFConsumerBaseV2(vrfCoordinator)        
+    {
+        COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
+        s_subscriptionId = subscriptionId;
+        safeMint(msg.sender,0);
+    }
+
+    function safeMint(address to, uint256 charId) public {
+        uint8 aux = uint8 (charId);
+        require( (aux >= 0) && (aux <= 3), "invalid charId");
+        string memory yourCharacterImage = characters_image[charId];
+
+        runners.push(Runner(yourCharacterImage,0,0));
+
+        uint256 tokenId = tokenIdCounter.current();
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "', characters_name[charId], '",'
+                        '"description": "Chainlink runner",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+
+    function run(uint256 tokenId) external returns (uint256 requestId) {
+
+        require (tokenId < tokenIdCounter.current(), "tokenId not exists");
+
+        // Will revert if subscription is not set and funded.
+        requestId = COORDINATOR.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        s_requests[requestId] = RequestStatus({
+            randomWords: new uint256[](0),
+            exists: true,
+            fulfilled: false
+        });
+        requestIds.push(requestId);
+        lastRequestId = requestId;
+        emit RequestSent(requestId, numWords);
+        request_runner[requestId] = tokenId;
+        return requestId;      
+    }
+
+    function fulfillRandomWords(
+        uint256 _requestId, /* requestId */
+        uint256[] memory _randomWords
+    ) internal override {
+        require (tokenIdCounter.current() >= 0, "You must mint a NFT");
+        require(s_requests[_requestId].exists, "request not found");
+        s_requests[_requestId].fulfilled = true;
+        s_requests[_requestId].randomWords = _randomWords;
+        lastRandomWords = _randomWords;
+
+        uint aux = (lastRandomWords[0] % 10 + 1) * 10;
+        uint256 tokenId = request_runner[_requestId];
+        runners[tokenId].distance += aux;
+        runners[tokenId].round ++;
+
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "RunnerNFT",',
+                        '"description": "This is your character",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+    function getRequestStatus(
+        uint256 _requestId
+    ) external view returns (bool fulfilled, uint256[] memory randomWords) {
+
+    }
+
+    // The following functions are overrides required by Solidity.
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+// End
+
+
+NOT Deploy yet!
+
+https://vrf.chain.link/
+
+Connect wallet
+Create a subscription on Fuji
+
+Name - Subscription Id
+Sol - https://vrf.chain.link/fuji/904
+koxy - https://vrf.chain.link/fuji/962
+Emmanuel Effiong - https://vrf.chain.link/fuji/947
+Simona Miani - https://vrf.chain.link/fuji/944
+Andre - https://vrf.chain.link/fuji/913
+Harsh - 911
+Romain-Pierre - https://vrf.chain.link/fuji/907
+Sade C-920
+Tameka - https://vrf.chain.link/fuji/949
+Erfan - https://vrf.chain.link/fuji/917
+Tillo - 915
+Daniel S- 909
+Rama - 954
+Gabriel Thome - https://vrf.chain.link/fuji/914
+Daniel B - https://vrf.chain.link/fuji/921
+Nimnath -922
+Stefanie - 969
+Jeff C - 946 https://vrf.chain.link/fuji/946
+Shane - 902
+quizford - 952
+Tebbo - 912
+Joel - https://vrf.chain.link/fuji/901
+Iddhie - 903
+Konstantinos - 916
+Felipe - 906
+Dj - https://vrf.chain.link/fuji/908
+Tim - 905
+Farhan - 924
+Arson - 926
+elyas - 963
+Sama- 943
+Kyle Varga - https://vrf.chain.link/fuji/910
+NickATL - https://vrf.chain.link/fuji/927
+John-Mac - 933
+AzraiHasan - 918
+Alex B. - 923
+Ingrid  https://vrf.chain.link/fuji/940
+rafat - 929
+Leon - 936
+Emil - 950
+David -951
+adam williams - ID942
+Seppo - 941
+Inna - 935
+Daniel Y - 958
+Marina Wentzel - https://vrf.chain.link/fuji/925
+Manu - 937
+Vinh - 953
+Nick-939
+Ohmarkely Ambrosio - https://vrf.chain.link/mainnet/907
+Vandana - 955
+Andy - 957
+Jad Kachmar - https://vrf.chain.link/fuji/967
+https://vrf.chain.link/fuji/965
+
+
+
+**************************************
+
+Add Funds
+
+Actions => Fund Subscription
+10 LINK
+
+where can we see subscription after mint?
+https://vrf.chain.link/fuji
+
+
+You are ready to deploy!
+
+Parameter: your subscription id
+
+Name - Runners address
+Sol - 0x725dbA6F72aD2F1D5Bd902A3698b3480D5E322f7
+Emmanuel Effiong - 0x1601529e2F88620388CAC183A3738bC0df9f7705
+koxy - 0xA6156A85c8628BcEa61dbC663DEf73e7D8976C1d
+Romain-Pierre - 0xee2DEcd73d1Bfd42A15566aFd00072BF6BA3029F
+Simona Miani - 0x7939242Da33303F0f4294C74739B72613526ceAA
+Rama - 0x9C18B5BcE0d310efaa7fE84F4c9AEbd93Cd239DE
+Gabriel Thome - 0x7Ef165C31C3E88231e5187b1611631c8325f0198
+Harsh - 0xa87c89E0F103d6cE3f81a45f59377B7e6d754c12
+Andre - 0x8009A6B4a7d141D7498a9e70a526f946934a95B1
+Stefanie - 0x66365651F97d28Bf8739950cAFdb8C58ED674c72
+Jeff C - 0x58C7b830bBD9032fA0D1A264c0Ee6d53740a07Bc
+Tebbo - 0x4971980Ab5407c9ebeA72EB8dEd5e999e136aF15
+Konstantinos - 0x2f7AdC2B5BB77E16357c34F9AcE14b649D7011D0
+Daniel B - 0x29e0795ec6001420a09a75f4c9fffcf363702065
+Sade C-0x052f219a7cD3D5bcc09fe057aa458F2389681f43
+Tillo - 0xFe0b056CB99a726e1aC9EA38CCEA797B55D3FCc9
+Shane - 0x7acC6aAa90dDaB0DB8AcaEDE25B8d53C122b704e
+Erfan - 0x1EA7D6d933EdbD051316832C4D175dCB8665c93b
+NickATL - 0xCaebc6C705A3Fd61583Aaf9c0420e5Ddec9C28bC
+AzraiHasan - 0x80F0954C2C896D1Ce1f0cfdB63025B11c2775758
+Felipe - 0x705FE9e26D2C8157026228c313eD51342f3f9232
+Seppo - 0xB29Dcd4F511c8CF671B5c0A73ff335f607040FC1
+Leon - 0x8c83e5D2bbdFB669E49a3F9e53DF24087ebFFB66
+Daniel Y- 0x5C44bD891318ea46a0589D1ebaFc6d8ED0a731f5
+Daniel S - 0x326795EA05825e7479e6D349dcdFcD0669579b0D
+Kyle Varga - 0x3337d8669a7839ebb41b7079E97Bac29B932Eb29
+quizford - 0xC0f7111bB06bA2d0962443232308d5863F37b804
+Rafat - 0x1D0392a831b5Ca470Ce40DFdF1B350a77cDEdfC7
+Joel - 0x918E2869FCE446179a5642C3212bD946dAFc393a
+Marina Wentzel - 0x60B7f019745a8AE7aE8a51AF2d4e89237Ab62fDA
+Ingrid - 0x24B1690AB7882D20287Ccee82e4AdC24c66bc7Bf
+David - 0x651A01442Cd0CC2d4C0DC7bCDB59D8333c434DC2
+Manu - 0x367e5a7F4B4cc86ef34Fb9705D7E9bBD01C15d35
+Inna - 0x75e0282c83F4352F976A117A510058cD7dEC52E8
+elyas - 0x2928Ac66D09E6bb127D5764213FA056b9c9BaC4e
+Tim - 0x6bbF7b0281000829248f197CBb5c08BF81E0b995
+Iddhie - 0xd8a5F6F6A5bEFf60cb1e8B5f5b4ebD262D887D43
+Alex B. - 0x2714A662823F894327658B909e6F03FF58804404
+Emil - 0xAdD2688bEAa6bB6A8F533b3936dd7243a146e757
+Arson - 0x606f5a525F0D6b1eD33dad5236a75EB10E107395
+Daniel Y - 0x5C44bD891318ea46a0589D1ebaFc6d8ED0a731f5
+farhan - 0x6EEda6CcCAEDc39dddd5f1e585aB84a6B112518a
+Sama - 0x47e1f7045aCfa8CF6c7841aBcD97c421b6D87DA8
+John-Mac - 0x39A864A568CaA73977E67763b7aECc7A2BF760a8
+Tameka - 0x55B55e22546Bbef7a15aD561eF373edB51e3b41C
+Vinh - 0x3a2698fd307d775a9F50CdA5D1Ff65C560363141
+Adam Williams - 0xdd9E34a57a7897f5792afDcE2Cb5f2214f0f644A
+Ohmarkely Ambrosio - 0x344b947550E547B574C39252A32FF238a112e290
+Vandana - 0xe6cc89b2f0e8021ac84d36C9E0010fA6f25D822C
+Nick - 0xCE411F9e5612bdb269950d302594e810C353c25f
+Andy - 0x012938F6d1F6857ED970B2aC5Cb8CaEeC39A77D4
+Dj - 0x695F717EccA2482E07Fdbc48788FE51A8976D533
+Jad - 0xf910F923997D721A3eE69c9FD066C5A85e257cb6
+MIKE E - 0xfb6B7fB9eB18CDB9171243CF4F3Fe0Fb7c21C09C
+
+*****************************************************
+
+Go to OpenSea
+https://testnets.opensea.io/
+
+Name - Collection id
+Sol - https://testnets.opensea.io/collection/runners-170
+koxy - https://testnets.opensea.io/collection/runners-205
+Andre - https://testnets.opensea.io/collection/runners-150
+Simona Miani - https://testnets.opensea.io/collection/runners-184
+Romain-Pierre - https://testnets.opensea.io/collection/runners-155
+Tillo - https://testnets.opensea.io/collection/runners-162
+Rama - https://testnets.opensea.io/es/collection/runners-192
+quizford - https://testnets.opensea.io/collection/runners-188
+Felipe- https://testnets.opensea.io/collection/runners-168
+Iddhie - https://testnets.opensea.io/collection/runners-148
+Gabriel Thome - https://testnets.opensea.io/collection/runners-164
+Emil - https://testnets.opensea.io/collection/runners-183
+Shane -https://testnets.opensea.io/collection/runners-151
+Arson - https://testnets.opensea.io/assets/avalanche-fuji/0x606f5a525f0d6b1ed33dad5236a75eb10e107395/0
+Jeff C - https://testnets.opensea.io/collection/runners-175
+Stefanie - https://testnets.opensea.io/de-DE/collection/runners-210
+Vinh https://testnets.opensea.io/collection/runners-191
+Joel - https://testnets.opensea.io/collection/runners-159
+Konstantinos - https://testnets.opensea.io/collection/runners-149
+Daniel S - https://testnets.opensea.io/collection/runners-154
+Tebbo- https://testnets.opensea.io/collection/runners-147
+Daniel B - https://testnets.opensea.io/collection/runners-181
+David -https://testnets.opensea.io/collection/runners-172
+Marina Wentzel - https://testnets.opensea.io/collection/runners-169
+NickATL - https://testnets.opensea.io/collection/runners-171
+Kyle Varga - https://testnets.opensea.io/collection/runners-158
+Tameka - https://testnets.opensea.io/collection/runners-190
+Daniel Y -https://testnets.opensea.io/collection/runners-198
+Sade c-https://testnets.opensea.io/collection/runners-161
+Leon - https://testnets.opensea.io/collection/runners-160
+John-Mac - https://testnets.opensea.io/collection/runners-185
+Tam
+Ingrid - https://testnets.opensea.io/collection/runners-173
+Rafat - https://testnets.opensea.io/collection/runners-157
+Erfan - https://testnets.opensea.io/collection/runners-166
+Seppo - https://testnets.opensea.io/collection/runners-156
+Sama - https://testnets.opensea.io/collection/runners-182
+elyas - https://testnets.opensea.io/collection/runners-202
+Emmanuel Effiong - https://testnets.opensea.io/assets/avalanche-fuji/0x1601529e2f88620388cac183a3738bc0df9f7705/0/
+Inna - https://testnets.opensea.io/collection/runners-180 :)
+
+farhan - https://testnets.opensea.io/collection/runners-179
+Alex B. - https://testnets.opensea.io/collection/runners-167
+Nick - https://testnets.opensea.io/collection/runners-194
+adam williams- https://testnets.opensea.io/collection/runners-187
+Andy - https://testnets.opensea.io/collection/runners-197
+Dj - https://testnets.opensea.io/0x5f4949B18FAd1ACf4A8C94e73Df701aD91C09076?search[collections][0]=runners-203
+Manu - https://testnets.opensea.io/collection/runners-219
+********************************************
+
+Go to your VRF subscription
+https://vrf.chain.link/fuji/
+
+Add consumer
+Your Runner address
+
+On Remix
+On Runners
+Expand it
+
+Execute Run
+Parameter tokenId: 0
+
+Check some blue buttons
+LastRequestId
+
+Copy and use in s_requests
+Result
+0:bool: fulfilled true
+1:bool: exists true
+
+runners
+Parameter tokenId: 0
+
+0:string: image https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png
+1:uint256: distance 80
+2:uint256: round 1
+
+On OpenSea
+Open the Id
+Right Top corner go to ...
+Refresh Metadata
+
+Why does Opensea show distance 50 of 50?
+
+
+Name - TokenId 0 - Distance - Round 1
+Sol - 80 - 1
+koxy - 80 - 1
+Simona - 90 - 1 https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png
+Harsh -
+1:uint256: distance 90
+2:uint256: round 1
+Emmanuel Effiong - 90 -1
+Andre - 70 - 1
+Tillo - 10 - 1
+Rama - 100 - 1
+koxy - 80 -1
+Tebbo - 30 - 1
+Leon - 70 - 1
+Joel- 20 .  1.  https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png
+Romain-Pierre - 100 - 1    🏆
+Gabriel Thome - 20 - 1 🚀
+quizford -  distance 30 - 1
+Tameka - distance 30 - round 1
+Konstantinos - 20 - 1
+Daniel B - 50 - 1
+Uzair - 60 - 1
+NickATL - 80 - 1
+Jeff C - 50 - 1
+Rafat - distance 40 round 1
+Shane - 50 - 1
+Stefanie - 0 - 0 s.th wrong, I will try it again from beginning
+second try: 80 - 1
+Dj - 50 - 1
+Arson - 100 - 1
+Felipe- 20
+Daniel S - 30 - 1
+Erfan - 40 - 1
+Vinh - 90 - 1
+David - 60 -1
+Ingrid 40 - 1
+
+Marina Wentzel -  40 - 1
+AzraiHasan - 30 -1
+Emil 90 - 1
+Inna - Chainlink_Elf: 10 - 1
+Sama - 100 - 1 Tied with Romaine-Pierre 🏆
+Tim - 40 -1
+farhan - 30 -1
+Alex B. - 30 - 1
+Adam Williams 80 -1
+Nick - 60-1
+elyas - 60 - 1
+
+Was the first mint created when the contract was deployed?
+*******************************************
+ 
+Create another player (nft) in your collection
+
+SafeMint
+your wallet
+choose a new character (from 0 to 3)
+
+Run
+TokenId: 1
+
+Name - TokenId 1 - Distance - Round 1
+Harsh - 
+1:uint256: distance 90
+2:uint256: round 1
+Sol - 100 🏆
+Leon - 100 🏆
+Romain-Pierre - 40 - 1
+Simona TokenID 1 - 10 - round 1
+Andre - 50 - 1
+Jeff C - 100 - 110
+Shane 1 - 70 -1
+Rama - 10 - 1
+Emmanuel Effiong - 50
+David - 70 -1
+Erfan - 40 - 1
+Gabriel Thome - 80 - 1 
+Daniel B - 60 - 1
+Konstantinos - 60 - 1
+Stefanie - 0 - 0 second try, once again....
+Rafat - 10 - 1
+koxy - 80 -1
+Felipe- 80
+Joel - 100 - 1 🏆
+Arson 100 - 1
+Tebbo- 80 -1
+Emil - 30 - 1
+Tameka - 60 - 1
+quizford - 80 - 1
+AzraiHasan - 100 - 1 🏆
+NickATL - 10 - 1
+Vinh - 90 - 1
+Tim - 50 -1
+Sama - 90 - 1
+Kyle Varga 80 - 1
+farhan 40-1
+Ingrid - 70-1
+Daniel S 100- 1
+Marina, Witch, 20 - 1
+Alex B. - 40 - 1
+Inna - Chainlink_Witch: 90 - 1
+Nick - 90-1
+Dj - 70-1
+elyas - 50 - 1
+
+********************
+
+Round 2
+
+Execute the Run function with TokenId 0
+After it do the same with TokenId 1
+
+Name - Player 1 Distance - Player 2 Distance
+Sol - 180 - 110
+koxy - 90 -  150
+Romain-Pierre - 120 - 80 😭
+Emmanuel Effiong - 140 - 90
+Jeff C 110 - 130
+Andre - 170 - 150
+Simona - tokenid0 160 - tokenid1- 10
+Tameka - (P1)110 - (P2)150
+quizford - 1 - 100 / 2 - 140
+Arson - 110/110 - 120/120
+Rama - 170 - 30
+Konstantinos - 110 - 100
+Gabriel Thome - 1 - 50 / 2 - 130
+Daniel S - 1- 40 - 2 - 160
+Kyle Varga 1 - 100 / 2 - 80
+Tebbo - 1 - 110/ 2 - 150
+Erfan - 1 - 70/2 - 2 - 90/2
+David - 1 - 140 - 2 - 150
+Leon - 140/180
+Daniel B - 120 - 90
+Emil -   110, 80
+Rafat 1 - 90 and 2 - 90 
+Joel - 160 -100
+farhan 1-130 / 2-50
+NickATL 160 - 20 
+Vinh - 170 - 190
+AzraiHasan 1-130 / 2-110
+Ingrid - 90 - 150 
+Felipe - 130 - 70
+Marina Wentzel - Elf 110, Witch 60 round 2 
+Sama - 1 - 110 / 2 - 180
+Alex B. - 130 - 100
+Inna - Elf - 90 / Witch - 110
+Shane - 100 - 170
+Nick - 180 - 210
+Adam williams 110 - 80
+Dj - 150 - 150
+elyas 150 - 70
+
+
+
+
+*************************************************************
+
+RunnersV2
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Base64.sol";
+
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2.sol";
+
+contract RunnersV2 is ERC721, ERC721URIStorage, VRFConsumerBaseV2  {
+    using Counters for Counters.Counter;
+    using Strings for uint256;
+
+    // VRF
+    event RequestSent(uint256 requestId, uint32 numWords);
+    event RequestFulfilled(uint256 requestId, uint256[] randomWords);
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        uint256[] randomWords;
+    }
+    mapping(uint256 => RequestStatus) public s_requests; /* requestId --> requestStatus */          
+
+    // Fuji coordinator
+    // https://docs.chain.link/docs/vrf/v2/subscription/supported-networks/
+    VRFCoordinatorV2Interface COORDINATOR;
+    address vrfCoordinator = 0x2eD832Ba664535e5886b75D64C46EB9a228C2610;
+    bytes32 keyHash = 0x354d2f95da55398f44b7cff77da56283d9c6c829a4bdf1bbcaf2ad6a4d081f61;
+    uint32 callbackGasLimit = 2500000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords =  1;
+
+    // past requests Ids.
+    uint256[] public requestIds;
+    uint256 public lastRequestId;
+    uint256[] public lastRandomWords;
+
+    // Your subscription ID.
+    uint64 public s_subscriptionId;
+
+    //Runners NFT
+    Counters.Counter public tokenIdCounter;
+    string[] characters_image = [
+        "https://ipfs.io/ipfs/QmTgqnhFBMkfT9s8PHKcdXBn1f5bG3Q5hmBaR4U6hoTvb1?filename=Chainlink_Elf.png",
+        "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png",
+        "https://ipfs.io/ipfs/QmW1toapYs7M29rzLXTENn3pbvwe8ioikX1PwzACzjfdHP?filename=Chainlink_Orc.png",
+        "https://ipfs.io/ipfs/QmPMwQtFpEdKrUjpQJfoTeZS1aVSeuJT6Mof7uV29AcUpF?filename=Chainlink_Witch.png"
+    ];
+    string[] characters_name = [
+        "Elf",
+        "Knight",
+        "Orc",
+        "Witch"
+    ];
+
+    struct Runner {
+        string name;
+        string image;
+        uint256 distance;
+        uint256 round;
+    }
+    Runner[] public runners;
+    mapping(uint256 => uint256) public request_runner; /* requestId --> tokenId*/
+
+
+    constructor(uint64 subscriptionId) ERC721("Runners", "RUN")
+        VRFConsumerBaseV2(vrfCoordinator)        
+    {
+        COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
+        s_subscriptionId = subscriptionId;
+        safeMint(msg.sender,0);
+    }
+
+    function safeMint(address to, uint256 charId) public {
+        uint8 aux = uint8 (charId);
+        require( (aux >= 0) && (aux <= 3), "invalid charId");
+        string memory yourCharacterImage = characters_image[charId];
+
+        runners.push(Runner(characters_name[charId], yourCharacterImage, 0, 0));
+
+        uint256 tokenId = tokenIdCounter.current();
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "', runners[tokenId].name, '",'
+                        '"description": "Chainlink runner",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+
+    function run(uint256 tokenId) external returns (uint256 requestId) {
+
+        require (tokenId < tokenIdCounter.current(), "tokenId not exists");
+
+        // Will revert if subscription is not set and funded.
+        requestId = COORDINATOR.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        s_requests[requestId] = RequestStatus({
+            randomWords: new uint256[](0),
+            exists: true,
+            fulfilled: false
+        });
+        requestIds.push(requestId);
+        lastRequestId = requestId;
+        emit RequestSent(requestId, numWords);
+        request_runner[requestId] = tokenId;
+        return requestId;      
+    }
+
+    function fulfillRandomWords(
+        uint256 _requestId, /* requestId */
+        uint256[] memory _randomWords
+    ) internal override {
+        require (tokenIdCounter.current() >= 0, "You must mint a NFT");
+        require(s_requests[_requestId].exists, "request not found");
+        s_requests[_requestId].fulfilled = true;
+        s_requests[_requestId].randomWords = _randomWords;
+        lastRandomWords = _randomWords;
+
+        uint aux = (lastRandomWords[0] % 10 + 1) * 10;
+        uint256 tokenId = request_runner[_requestId];
+        runners[tokenId].distance += aux;
+        runners[tokenId].round ++;
+
+        string memory uri = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "', runners[tokenId].name, '",'
+                        '"description": "Chainlink runner",',
+                        '"image": "', runners[tokenId].image, '",'
+                        '"attributes": [',
+                            '{"trait_type": "distance",',
+                            '"value": ', runners[tokenId].distance.toString(),'}',
+                            ',{"trait_type": "round",',
+                            '"value": ', runners[tokenId].round.toString(),'}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", uri)
+        );
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+    function getRequestStatus(
+        uint256 _requestId
+    ) external view returns (bool fulfilled, uint256[] memory randomWords) {
+
+    }
+
+    // The following functions are overrides required by Solidity.
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+
+// End
+
+
+******************************
+
+https://www.base64decode.org/
+
+tokenURI
+
+Example
+string: data:application/json;base64,eyJuYW1lIjogIktuaWdodCIsImRlc2NyaXB0aW9uIjogIkNoYWlubGluayBydW5uZXIiLCJpbWFnZSI6ICJodHRwczovL2lwZnMuaW8vaXBmcy9RbVpHUUE5MnJpMWpmelN1NjFKUmFOUVhZZzFiTHVNN3A4WVQ4M0R6RkEyS0xIP2ZpbGVuYW1lPUNoYWlubGlua19LbmlnaHQucG5nIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiZGlzdGFuY2UiLCJ2YWx1ZSI6IDQwfSx7InRyYWl0X3R5cGUiOiAicm91bmQiLCJ2YWx1ZSI6IDF9XX0=
+
+Decode
+eyJuYW1lIjogIktuaWdodCIsImRlc2NyaXB0aW9uIjogIkNoYWlubGluayBydW5uZXIiLCJpbWFnZSI6ICJodHRwczovL2lwZnMuaW8vaXBmcy9RbVpHUUE5MnJpMWpmelN1NjFKUmFOUVhZZzFiTHVNN3A4WVQ4M0R6RkEyS0xIP2ZpbGVuYW1lPUNoYWlubGlua19LbmlnaHQucG5nIiwiYXR0cmlidXRlcyI6IFt7InRyYWl0X3R5cGUiOiAiZGlzdGFuY2UiLCJ2YWx1ZSI6IDQwfSx7InRyYWl0X3R5cGUiOiAicm91bmQiLCJ2YWx1ZSI6IDF9XX0=
+
+{"name": "Knight","description": "Chainlink runner","image": "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png","attributes": [{"trait_type": "distance","value": 40},{"trait_type": "round","value": 1}]}
+
+{
+    "name": "Knight",
+    "description": "Chainlink runner",
+    "image": "https://ipfs.io/ipfs/QmZGQA92ri1jfzSu61JRaNQXYg1bLuM7p8YT83DzFA2KLH?filename=Chainlink_Knight.png",
+    "attributes": [
+        {"trait_type": "distance","value": 40},
+        {"trait_type": "round","value": 1}
+    ]
+}
+
+
+Will the balance LINK be refunded if the VRF subscription is cancelled?
+YES
+
+Sade C-Can you check my nfts ,I think something happend with the distance and round
+https://testnets.opensea.io/assets/avalanche-fuji/0x052f219a7cd3d5bcc09fe057aa458f2389681f43/1
+
+Thank you for explaining!
+
+Azraihasan - i checked again on the PhotoAlbum.sol and get error:
+Warning: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.  --> PhotoAlbum.sol:75:109:   | 75 |     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {   |                                                                                                             ^^^^^^^^^^^^ 
+Try with 
+https://raw.githubusercontent.com/solangegueiros/chainlink-bootcamp-2024/main/PhotoAlbum.sol
+Yes, i got from that repo
+
+Problems with Discord?
+Add here your 
+Name - handle
+
+Vandana Taxali - @Vandana1 (telegram) and discord is .vandana
+
+Felipe - @felipewithf (discord)
+
+Can we use VRF for user authentication in web3 apps?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

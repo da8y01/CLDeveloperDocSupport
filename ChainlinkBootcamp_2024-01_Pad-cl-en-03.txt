@@ -1,0 +1,872 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 03
+
+WELCOME TO BOOTCAMP
+
+We are ready!
+
+https://pad.riseup.net/p/cl-en-03
+
+Session 01
+https://www.youtube.com/watch?v=G7V-G7RURDI
+
+Session 02
+https://www.youtube.com/watch?v=c5YwxmuWIcw
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+
+Workshop faucet
+https://workshop-faucet.vercel.app/faucets
+cllworkshop0101
+
+
+Name - City, Country:
+Jose Morillo - Valencia, Venezuela
+Victor - Lyon - France
+Brent-Chillicothe, USA 
+Danki - Baguio, Philippines
+Jeffrey - Amsterdam - NL
+Uthman Yaro - Lagos, Nigeria
+Ahmad, Canada
+koxy - Nigeria
+Araceli - México
+Tianchi - Toronto, Canada
+Maciej - Poland, Imielin
+Yaro - Lagos, Nigeria
+Adam Williams Swansea southwales/uk
+Ivan Lautaro - Buenos Aires - Argentina
+Eugene Obunde - Nairobi , Kenya
+Tillo - Incheon, South Korea
+Mahesh Balan - Chennai, India
+Simona Miani - Rome, Italy
+Refling - abuja - Nigeria
+Jeff - Houston, TX US
+Sade C _ Atlanta, USA
+Duda - Prague, Czechia
+Brian O'Shea, NY- USA
+Alex - London, UK
+Sol - Sao Paulo, Brazil
+elyas-mashhad-Iran
+refling fron Nigeria
+Craigie - Dublin ,Ireland
+Skandha Roshan - tamil nadu,india
+Parnian yousefi sabet - Tehran, Iran
+Pratik Palve - Pune, India
+sadegh - tehran, Iran
+Ashok Raj - Cambridge, UK
+Hasan Hamit - Izmir, Turkey
+Adil Çoban Izmir Turkey
+Oh great :) Ty
+Rama - Resistencia, Argentina
+Supreme Bhandari - Kathmandu, Nepal
+Bora - Ankara-Turkiye
+Ishant Dahiwale India 
+Shahzaib Saleem-Gujranwala,Pakistan
+Michael - Borken, Germany
+Arthur - London, UK
+Teodor - Bratislava, Slovakia
+David - Kamplala, Uganda
+Jan, Lucerne, Switzerland
+Sahid - Moulvibazar, Bangladesh
+Felipe - Toronto
+Gordon - London, UK
+Azmaeen - Dhaka, Bangladesh
+Craig - Parker USA
+Daniel Y - Toronto, Canada
+Ayman Fekkak - Morocco 
+Clement Okoli Nigeria
+Krisztian - Hungary, Budapest
+Kelly Egode - Belfast UK
+Stefanie - Attersee, Austria
+Dinesh - Madurai, India
+Mike - Huntington BEach, USA
+Filip - Warsaw, Poland
+D Marl - Yogya, Indonesia
+Andrew - Nairobi,Kenya
+João - Bombarral, Portugal
+Raman - Minsk, Belarus
+Christopher Cialone - cialonecodes.com NYC, NY
+Uzair Ahmad - india 
+Iddhie - Colombo, Sri Lanka
+Yaro - Lagos, Nigeria
+John-Mac - NYC
+Tebbo - Boston UK
+Marco - Denver USA
+Erfan - Toronto, Canada
+Andre - Zebbug, Malta
+Andy - Miami, USA
+Romain-Pierre - Amsterdam, The Netherlands
+Liam Rio de Janeiro, Brazil
+Ingrid - London, UK
+Phan I. Vancouver, USA
+Sarthak - India
+Daniel S - Barcelona, Spain
+Jonathan - Oslo, Norway
+Shane - Florida, USA
+Jad Kachmar - Toronto, Canada
+Charlie - Toronto
+Joel-Madrid Spain
+Seppo . Helsinki, Finland
+Chiara - new jersey , Usa
+Vandana - Mississauga, Canada
+SimoTen -Germany
+Arson Tomanta - Jakarta, Indonesia
+Kyle Varga - Texas, USA
+Tameka - Ontario, Canada
+Minh Vu - Hanoi, Vietnam
+Harsh - Patna India
+Rafat - India
+Jeff C - Naples, FL USA
+Roshan-India
+Nick - Atlanta
+Katya-Tbilisi, Georgia
+Lennart - Hamburg, Germany
+Ravinder Kinnera - Bogotá, Colombia
+Oscar - Tenerife, Spain
+Thor - Norway
+Eneko - Spain
+Colin- Waterford,Ireland
+Essam - Baghdad, IRAQ
+farhan -usa
+Sama - DC, USA
+Lindsay - Valencia, Spain
+Konstantinos - Greece
+La Toya- TX USA 
+Marco Manzi - Rome Italy
+Fredrik Carlsson - Malmö, Sweden
+:epm 
+Sylvia – Berlin, Germany
+Luis - Zurich, Switzerland
+Princewill Iwuorie -  Lagos,Nigeria
+Leon - Cayman Islands
+Travis - Missouri, USA
+Mahesh - sri lanka
+Stella - GreeceB
+Nick - Seoul, S. Korea
+Gogo Ibimina Felix - Port Hacourt, Nigeria
+Hemanshu Mahajan - Pune, Bharat(India)
+Sarmad- karachi , Pakistan
+Vinh -HCM, VietNam
+Sanjayshanmugam sk -  TamilNadu , India
+Nawodya - Sri Lanka
+Sachin Bisht - UP, India
+Alex C - Indiana, USA
+Alex B. - Indiana - USA
+Grnaton - Nairobi,Kenya
+Sunday, Justice - from Abuja, Nigeria
+Refling from Nigeria
+Nimnath -Colombo
+Bidyadhar-india
+Mohammed- Nigeria
+Sunil- India
+Emmanuel Effiong - Nigeria 
+Fred Janon, Valence, France
+Lucas, Berlin, Germany
+AzraiHasan - KL, Malaysia
+Michelle Breaux - New Orleans, Louisiana
+Manu - Switzerland
+Joshua Aird - Port of Spain, Trinidad and Tobago
+marina wentzel- basel
+Augustin - Switzerland
+Reinaldo - France
+Zakor Jevtic - Nis, Serbia
+Terrance Walker - HCMC, Vietnam
+Evans -Kenya
+koxy-Nigeria
+Khalid H. - Ireland
+ananda - california usa
+Dj - Netherlands
+Stewart - New York, US
+Thomas Hall - California USA
+Oliver Inzunza - Coachella Valley, USA
+Tomas - Czechia
+Montse-Barcelona-Spain
+Josh Banks, Lancaster, UK
+Andrea Marchini - Rome, Italy
+Ryan O'Sullivan - Columbia, MO, USA
+Kunal - Mumbai, India
+Barry Parker - Dumfries, VA, USA
+Brian - Switzerland
+Katya 0x7Ed1023CcDAaD30A49ad89C54c802855c7C8a3E9
+Fahad - Lahore, PK
+Inna - Tbilisi, Georgia
+Yann - Marseille, France
+Aminu, Ismail Abbas , Lagos Nigeria
+Kakooza - Kampala, Uganda
+JL - HK, China
+Enver, Bosnia & Herzegovina
+Melissa, Barcelona, Spain
+Кatya - Kyiv, Ukraine
+ Dike - Lagos, Nigeria
+Ohmarkely Ambrosio - Singapore
+
+
+*********************************************
+
+https://data.chain.link/
+
+Token ERC20
+https://ethereum.org/en/developers/docs/standards/tokens/
+
+https://eips.ethereum.org/EIPS/eip-20
+
+https://wizard.openzeppelin.com/
+
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+
+Check the Sepolia (11155111) network
+
+Icon 2 - FILE EXPLORER
+
+Create file
+Token.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
+
+contract Token is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+
+    constructor() ERC20("Chainlink Bootcamp 2024 Token", "CBT24") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
+    }
+
+    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+        _mint(to, amount);
+    }
+
+    function decimals() public pure override returns (uint8) {
+        return 2;
+    }    
+}
+
+
+// End
+
+Update token name and symbol on line 10 :)
+
+Deploy
+
+Name - Token Address
+Mike E - 0xfa512c0e89cd326bc4dc178f98cbe26f3453901a
+Jose Morillo 0xedf64fc7c4964f624fd8e5b6c03d127a4729947b
+Jeffrey 0x4eBF8050a37539C3fB6cFb452982777C9905D6Cf
+Danki - 0x81dD0eB54306628f42D90c4b8D0c20BC9d135e32
+Abdulsamad 0x876e9C62343494876325BFC9341a0BC18d4DDB75
+Simona Miani - 0x795387f220CBab8871a340c9fC69c3F31A36eb20
+Victor - 0xFD4665B35D0d0e8517C108b9C4b6a6A0d2053C8C
+Arthur - 0x978B4315cF430f425d95a8A490F035Ad5E5CBb85
+Fredrik - 0x9a3eD9e2017B355eaf49E0d06F1f2F91A94D20B4
+Yaro - 0x17894fA0026F92e677CD6c5304b68Ae780E6e9D3
+Gabriel - 0x5A5D4C77Bb14a833B5fB89cb0832b797259DAC85
+Ahmad - 0xeD08F5f0Ce295Ee1E9f2FC9D0a9b525d9B13405e
+Nimnath- 0x3F17E8a2a54B27F10c7EcE31E3732f495b00752F
+koxy - 0xFE3b0b7a41836238C2E94f4B4EdED5D445cD19e7
+UzairAhmad  - 0xA0Be1a506b9F9fE58C68aaA10927ab9685Ec7E24
+Gordon -0x4Bbfd8F1984e32cB308aD7821a349B08A5AaaBC2
+Raman - 0xc6c389DdBc7C2F67F2C146f7e6BB167394cf303A (CRAT24)
+Kelly -  0x020fbD205cA06345070111254469A4f3Bc612004 
+Sol - 0xA671CF0Ce90EF92E1162D3BE5Eaa06563C9965aA
+Araceli - 0xf8e81D47203A594245E36C48e151709F0C19fBe8
+Romain-Pierre - 0x196D9Ad4c1E98949F53f30F9F8f18e9A78E23836 (RPC24)
+Ishant - 0x998c278C65B22209222B4E891D94c5C57e8A0b9E
+Jeff C - 0x35C2cc0A14979F35bd382Fd6DDAd54AAAe94B138 (LPT)
+Brent-0x9Ec376C15cB2E633Ae36B6df67d823B3c067731D
+Arson - 0xB78f73d7E9F9DfA1324B1521F0d78Cf55cA890ba
+Ayman Fekkak - 0x4E03D677D6F813A5DbE7d5ABcE3c7733af812ff6
+Essam - 0x6C0F85B4941E6d8dfF9F1F874843f34439FdD27B
+Phan I. -0xa5ECF451BDECcbf55B358D3f9C3432920e78907E
+Andre - 0x6DE48BDa0812efA045148021A03585BA40E06ac0
+Maciej - 0x67ec3726e2783ea6227cE0E352E5824D1c71243a
+Marco - 0x23C5af006aD0301CbA14CB06fC803B5A51F2cbB6
+Joel - 0x4bC2b2e41f82f82328BA2E365d9C8fe5bB495D97
+Christopher - 0x9966878520affB63a90182bEF0143C68C4751aD1
+farhan - 0x3906157Fd632c1875fb53F7e9a2Ac75d943C8AE1
+Ingrid - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Augustin - 0x7fc00C2946Fb7f43a5CFfCDc91Cc36B51CA2b976
+Luis - 0xB4bfbF78cC547EF55E73d23864D35c748Ed5D967
+Nawodya - 0x114882213d3f1bF9650F108Bfd637c0B8F5d53f9
+Lindsay - 0xe0bb1E529CFFBD644ACD3aD1682E76278e462551
+Ravinder Kinnera - 0x20D8A2cf60F592C2529Ac33C31fDa9Ce2fA219F3
+Kyle Varga - 0x3c803Ed6A6617e23A47ddd7BefC58586AFbF4924
+Iddhie - 0x4475BC8A2fCF715D3319EA54cECBf2ab0352881f
+Manu - 0xDe8A83ac316cfACffB51Bd3DEfA7782F707e7d92
+Parnian - 0x736A5F67E0f98D3D1F371145F5F6C741790Ca54d
+Stefanie - 0xF814954e2a1cb9FFDBee595D8780146D4FabBA1e
+Princewill - 0x7df383a39ba9f5460e3843669FA55506745c5B04
+Travis - 0x8372d70246367a82FcFB1b4f48Df2d672D164A96
+Dinesh - 0x8aeBff1C95d465e9061F2603A667958D8f850a1F
+Harsh - 0x7d5De2b35dDC25385A1eB3593CC3758C116868f4
+bidyadhar-0xbEf4EdAB37E4dE73E5ff99B768a86b0a492B0fde
+Ashok - Token - 0x7d01fb122D2CAFC18b9492E633BBd4e175a6D558
+Sama - 0xB98B28eC69F34f5Df2Ee396e2da611e7045F558d
+Sade c- 0x20f0E730e81f77D860688Aba88BebB1eFC5aC5bE
+Teodor - 0xB6184A07a005E0a15B13a2d930c726DB0C37e60f
+Leon - 0xAB3a8f963768852B4296451bcf658Dd2A6a44246
+Sylvia – 0xe20CF812a1E288422657f8b8978A5fD7935C494f
+Rafat - 0x1D0392a831b5Ca470Ce40DFdF1B350a77cDEdfC7
+Chiara - 0xb0592b44782cB656FB9CBB344cc589A96948198f
+Alex B - 0x1234d475b45422Eb9a8423bd60AAcb8237bE4500
+Lennart - 0x34EfcebF266E723a3A6105d589d27Db69880C2F8 
+Jan - 0x05E34fa1fC2033A597FBb25A152F12645DE48613
+Sanjayshanmugam SK - 0x291beE71Dc4b9bb0b1C539d6ac1F8e2e9AEA2876
+Vinh - 0x60d06e3b6ec4ca57c767b8e2c6f4f85a9d4dc382
+Marco - 0x54b6baf2EfbFfe67455A64F0c8c2E70Cdae66491
+Adil -0x304E686b6D6455E3ab1fb7D2d1067c308F48f829
+Bharat - 0x712BB7f0dfD4C09479a864421429f83bdA494D68
+Tianchi - 0x2a8015a72F18b73e08FAD91A523c2BD2b3989533
+NA - 0xe25FB5c997A99ECDE7D614fE41c683D1e01962cd
+Shane - 0x9Ab786e78F7432235383981006D5e5096Ca1dDDE
+Alex - 0xf26e25D2FBCC3c3f270124f4FA787CA47b97fEA4
+Vandana - 0xF5B8CF3565d0f278ab22743d5d94C9d2dD6Cf3de
+Sarmad 0xB538E219cF3687bA81B33b620C72771Ac55b54D9
+Minh Vu - 0x18c477ffd7d34bf784f363a4f314bd76db137613
+Craigie - 0x8D716A5A833fde0B25Fd2FD9590C33e0244626f3
+Nimnath- 0x78d0f6Fd64873d1E38afb241038E44aD2bCbE36A
+Dj - 0x1cb1Df0E106C58F90B7e321Dc6cf6c2c62b4A904
+Marina Wentzel - 0x1b70f386289f0dDC80dea1E73B1e912B1FeF23E2
+Daniel S - 0x773A6Ec098B4C986e9CD8ec646862F30300e1257
+Gabriel Thome - 0x5A5D4C77Bb14a833B5fB89cb0832b797259DAC85
+Andy - 0x2332348Bdd75B9e2aBe2D7B623DF0053e64A7dea
+Sakar - 0xa6c69B02946BA969F9Dc53DCc6277E5C6bb3de6D
+Gogo Felix - 0x4AE216079B8ca3286F4Af93066DA6Cf3DffAFA34
+Mahesh = 0x277b6c7bef38f8d27826ae100c1e85181abe0064
+Seppo - 0x79adD75234C3C90c17D89D7f33d5CE1D530f1444
+Erfan- 0x09F7502c84A702abA7f8887D7197D3196C3e0C03
+elyas - 0x0C0b850C2731a6e67a447007F0D791D90ff67D5c
+Azmaeen - 0xa2Ab694C3B860F4fcd887ee1aBa4c6c4F811C9AA
+Vandana - 0xcA1eB71Bbc0a473e21B1187079dDCd21ef7928AB (token shop)
+Tameka - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Nick - 0xe3A34C61aE4E6cf3E223ea1693B218067C101bC6
+Craig - 0xBfa392D0f450DD42D424913462E2252044732c66
+Adam Williams-0xffDf87Df774732E352E2ae892a88263f92d32d21 
+Khalid H. - 0x0024918d7762E2776F891630a7675BBD3BFe8F8B 
+Stewart - 0x438af879f9d5fe24946bf15790e40d398e4fc0e7
+Thomas Hall - 0xfa62428FCEE7c8265Cd338FFB46dd745c462a8A5
+David - 0x594eae8cef070a3620db1ba23b1e0adaef983da0
+Oliver - 0x25D89d1cAed8826edf34Daa2db11cA60AA368fFE
+D Marl - 0x6431cbdB252fD61Af03E8D98f957592E6aE98B69
+Marina Wentzel.-MWLink token: 0x2039129e9a04E6f6954f9a991C470655A1fA7580
+Jad Kachmar - 0x6b89E556bAFaB179135a5c93330C85875dDF645d
+Evans -0x4DCd7Aafc379586593f29e160bD5E85f66aAdcaB
+Josh Banks - 0x455eD779FF157cB6D541A0dF3AD558F70a5402b9
+Elisabeth Green - 0xF682111bC4Aa5d6904c4D84fcdb1aADcF2e236f3
+Ryan O'Sullivan - 0x92E4673B02f6605FF1e43d178cAC56aa6Ffe3824
+katya -0xEed1B1Bb276e3Adc84aD6874C254f5e03420Da2a
+Fahad - 0x6837Ff20052fF1a10e23183b769Dd2Bc81BA6614
+Yann - 0x1AA9C0C24817093f78f99b6cC5F8B4B4A841aD13
+JL - 0xd7a63b7470a766addb29a40640284e0b7b62262a
+Katya - 0xADfb2c4d97e4F3428F245F67b093A0900D9F3B84
+Kunal - 0x433Df681BfECfEBd115cBEdb5F7Cf72dc3b8906A
+107. Inna - 0xf5A52E3fAac0f787bcE3849Cd18eE215D613D51b
+109. Melissa - 0x9DEA4A8E80d11A6Ab3298953f36D1De8064438A8
+110. Dike - 0xB57DdbdfC8a9f8e06f23920f68358Ca666Ea49D8
+111. Sarthak - 0xE8619FcC420bA36B5dbFd53f2B26C857095D7d6E
+Kakooza - 0x4DC54D47F1b1A7fA7B93723cb01C74B2Ea3224c8
+
+
+on Metamask
+Tokens
+Import
+
+
+on Remix
+mint 100 tokens
+to your address wallet
+amount 10000
+
+balanceOf
+
+
+Create 
+TokenShop.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.21;
+
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+interface TokenInterface {
+    function mint(address account, uint256 amount) external;
+}
+
+contract TokenShop {
+    
+    AggregatorV3Interface internal priceFeed;
+    TokenInterface public minter;
+    uint256 public tokenPrice = 200; //1 token = 2.00 usd, with 2 decimal places
+    address public owner;
+    
+    constructor(address tokenAddress) {
+        minter = TokenInterface(tokenAddress);
+        /**
+        * Network: Sepolia
+        * Aggregator: ETH/USD
+        * Address: 0x694AA1769357215DE4FAC081bf1f309aDC325306
+        */
+        priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+        owner = msg.sender;
+    }
+
+    /**
+    * Returns the latest answer
+    */
+    function getChainlinkDataFeedLatestAnswer() public view returns (int) {
+        (
+            /*uint80 roundID*/,
+            int price,
+            /*uint startedAt*/,
+            /*uint timeStamp*/,
+            /*uint80 answeredInRound*/
+        ) = priceFeed.latestRoundData();
+        return price;
+    }
+
+    function tokenAmount(uint256 amountETH) public view returns (uint256) {
+        //Sent amountETH, how many usd I have
+        uint256 ethUsd = uint256(getChainlinkDataFeedLatestAnswer());       //with 8 decimal places
+        uint256 amountUSD = amountETH * ethUsd / 10**18; //ETH = 18 decimal places
+        uint256 amountToken = amountUSD / tokenPrice / 10**(8/2);  //8 decimal places from ETHUSD / 2 decimal places from token 
+        return amountToken;
+    } 
+
+    receive() external payable {
+        uint256 amountToken = tokenAmount(msg.value);
+        minter.mint(msg.sender, amountToken);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdraw() external onlyOwner {
+        payable(owner).transfer(address(this).balance);
+    }    
+}
+
+//End
+
+
+Docs - Chainlink Market and Data Feeds
+https://docs.chain.link/docs/using-chainlink-reference-contracts/
+
+Chainlink Data Feeds Contract Addresses
+https://docs.chain.link/docs/reference-contracts/
+
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1#sepolia-testnet
+
+On CONTRACT
+Select TokenShop
+(NOT TokenInterface)
+
+Parameter: your token address
+Deploy
+
+Name - TokenShop Address
+Mike E - 0x9cf10442f1ca88c273a288232aa571fba8b884d2
+Jose Morillo 0x33E81EAFD3c7a8725B2493ae1b0f07959D9Ff5e1
+Abdulsamad 0x98518B4a0FF84e10e35e28bAB879B94BFA733887
+Danki - 0xCDBE7143f437841A5d30F54b30E59a306dF2C0bb
+Jeffrey 0x55A5B7a95e223A21255f812a66828c8a896CC2F7
+Victor - 0x91D16A797ec72663CefdA4912b86f38B74cF5dee
+Yaro - 0x92EAf05C4dA57886ca2046C4b6315065511f6cbe
+Simona Miani - 0x0c9a1B20D44f3434c1a3a79905a5bAB79091b541
+Tameka - 0x3E648ad3dc14957bdb06aaFD679E655d6BdD58f5
+Yaro - 0x3c258fF1A10831648e4CCf0af2b178DB10799f8E
+Fredrik - 0x373f3F136850dfBa031E3C509fadfeDD0b9Afb9E
+Andre - 0x6fD833Ae7f5eC1BD8ea61F7A64EA0e6B0E84Ce8A
+Sol - 0x75e2C0122eFD5EAE99b45015f0222aFa5Baf501C
+Nimnath- 0xD8049297Ef0aff56CC31655BdA0ea6384F37060F
+Araceli - 0xED2e451BFf172843FC3B0B6F02aC1B5EA5BE0b92
+Parnian - 0x573660eC6E7153aB210920f089884390A6354677
+Arson - 0x629C4B7845e9616D868a420c9C35a5B9aac331fA
+Maciej - 0x3eDfCa5D84Ad156141b8bE7C4AAF62f25e2F951b
+koxy - 0xbbf1aF0D2D229a04D3a9C4E3f3bBF52bCa6481b9
+Ashok - shop - 0x0C325Ce536B1282b5946770e9498a51949eBdDBc
+Gordon - 0x1c7A86648EfA6eb90D1e2015a978045d24de61Bd
+Raman - 0xc4F6C4A1373c6E7d9FD8bb4027Cb715DFb9FDde0
+Romain-Pierre - 0xc9d95326b832d9346e948d3367c6eae27ceee41c
+Brent-0xDa0BA193F898157d333cDf6dCA2Ab12144660cE5
+Supreme - 0x0Fe3AF1E8b3A5a75547627F66338b00A056Ff24B
+Tillo  - 0x2287Db4F112F53Ece3D17281C2d9b6Add5122875
+Joao - 0xA0Ff308500fc0BD94E52B766337cf65EDC5c2872
+Marco / Quizford - 0x2d4FDc6E8342D6A38706191001eA448b3f4079ba
+Shane - 0x0A82D8884D1EdF52adC1F8205CEF3071E173C075
+Luis - 0x1a8356B7e0cb3239DA90EF32B38166b69084d56d
+Iddhie - 0x9aadC030BDb3480e3698235FA89D332fbc1B9B71
+Erfan- 0x1EA7D6d933EdbD051316832C4D175dCB8665c93b
+Rafat - 0xBe4244Db8363bae9B3D5AE2eAACF39565E692416
+Lennart - 0x34EfcebF266E723a3A6105d589d27Db69880C2F8
+Lindsay - 0x35b1803e726A5d3Ee4f3a9779F67956433646334
+Joel - 0xeEdfA6E37C75af748084596C91d5B03A9516686D
+Stefanie - 0x095a2db03FD6BA196CF19b676d644fC9dEbdb4E6
+Konstantinos - 0x2f7AdC2B5BB77E16357c34F9AcE14b649D7011D0
+Jan - 0x45303390CAA281643146308123852A30f3Ed2329
+Felipe- 0x323D2cDeF3C4B6e9530168F51856fe53ee6a1b42
+AzraiHasan - 0x46f4d0bb1282Fb19eeD980Eb930ad95d56472A1d
+Duda - 0x419339E5A493546C81Fb6A868e4E9C35D8e95d5C
+Augustin - 0xeFBD968B5D9f9C8780ab3c24EB886864aBc59dEa
+Craig - 0xc9DF505c434cB8FA1A3a51f7445fff87a093dA16
+Harsh - 0xFC07Ce9a5E10E901F326AEfF8E97d95F8D0d9b80
+Sakar - 0xfC6B6f53B4D57eac0903e9f7f222186625886088
+Christopher Cialone: 0x58b0123c25Fde065294f84bcdAa18d6B6f78cD10 
+John-Mac - 0x4f574Ead1182d236b784D9b66753bbC97A67359B
+Adil - 0x0d9C4892385460113Bc76d68AD573220c366F3f0
+Hitesh -0x64dD3e6f8E29457966da77B4C10C02f57C4b0DF9
+Leon - 0xBE314170D22Dcf8df88AA1b9b8fac305d4dd43AB
+Daniel S - 0x03a10165E98a9D09D62556440F936615Dc63D993
+Ayman Fekkak - 0xFA8E92F558a7Dc9D09501FdB1d58e76308a0563B
+Sanjayshanmugam sk - 0xAe7e880D83C922fdaa947DD924837901c360173d
+bidyadhar-0x4A62725c39B2C9F36d8Ae4C3001Ed561Fe829777
+Dinesh - 0x9DF5138316b7F956993Ba689BB0796f6cA377c08
+Ingrid - 0xE5CD4845F4b39f5d6E41EF9147B097606B4Ebc3a
+farhan - 0x087Cd2dE536BdadBB6561B922fabefecb18a3e9E
+Princewill Iwuorie - 0x8c68146aC3d6b452fe951c96dCF1af92581f4c86
+Seppo - 0xc712e230f4487b945B2f2CfFad07787586DE0130
+Alex B. - 0xcbE1eF905B0be991De4490e2c9d982B547F4Fc30
+Andy - 0x61D325eb71A1238d0183698a5483F58069Aa8BB5
+T - 0x63E9D02b410627366fBC2b85DC339bcf07728FE5
+clement - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Hasan - 0x917f23C052C18990bf74777a93b9F4290D9bB273
+Travis - 0xE86F7c4734de5Ea5eF2144a49C030C09c8Ba3DaC
+Lucas - 0x169404E138511C795614E8CF8e12B0ca4a258238
+Manu -0x5b3908847dC4eBf1AdD6c6A195382ee196559923
+NA - 0xd0f00977e525811a04C4e4e94990eE09b5e4F125
+Minh Vu - 0x744ae7e8575d32296b6c25de436990c4afde51bf
+Ravinder Kinnera - 0x05a5FA0ed42C436E5c5cbFD859b16416785b72Cd
+Sama ER - 0xD0482964162d278cc94Ca3deD60437bE917543D5
+Dj - 0x4F1a5D94d691b7E778ad804F4Cac51dE17DDe5FD
+Vinh - 0xb469c81f8094c4965ee11666df1f12be428c77dd
+Alex C - 0x6260061ab87485a23ad72a175ddb7d707da1ba59
+Chiara - 0x276a79D4f4f49C5126B28Fd027911FBd8212C55A
+Mahesh - 0x25109e38b2ded9308d3cab9f4c8e0e7a74206a73
+Azmaeen - 0x5F677743604FCD78f757B9BCc164da99aC1999c4
+Gabriel - 0x2A986D5a45913bF11d4e6b26b06558d0540705Eb
+Vandana - 0xcA1eB71Bbc0a473e21B1187079dDCd21ef7928AB (tokenshop)
+Tebbo Tokenshop = 0x6Df1Db97Cf9d0A1AF534857C644e3d57171f0396
+Tebbo token = 0x36fD6217fee2C037f004733d605A1281B9dA4143
+Tianchi - 0x61f76Cd657C41874BE9EdCf20C0e82C7f7Be03b8
+elyas - 0xB565d1d430959f64EF54EE67ac470Dcf66dd733c
+Sade C-0x4BBd21A57e8978B33092E6aD56097EF08Ff0e516
+Nick - 0xB9301AD9D750aC486eF3CB41Dadde717bF1992C0
+Jeff C - 0x3aEbe24ebd242242d8037e6dF5827A9e4105EaF7
+Khalid H. - 0xbFd0813f5d518610D0318ca19461711FE1c30a12 
+Arthur - 0xEA9632084e2720Bc2D47336F3e2812E62f12c5A0
+Ananda- 0xbCc73c51D455B430B3E442e3Df052171484f017a
+Stewart - 0xa79b1bb6e4deba2b69a05c6228528b312eca958f
+Thomas Hall - 0x54C5C0612348a73FBb0a70DA70E0bF988E7f2CA4
+David - 0x75C9Ffc04Eb6eE24d8E8243cb4371693785fD10E
+Oliver - 0x7441C04CAEBE2d1Dc1474244c74207303Afe4c24
+Kyle Varga - 0x4375DfB4540D483a7F25B15432602bCe41Ce7202
+Jad - 0xc54B9a44e8b6bf4D7DA8e18Cc6265550191d4719
+Evans - 0x28270b7a8557eA23F95e907De2B51c9BAbeE989C
+Josh Banks 0xc87E7eac4F776C42020bc1e09FB30566856F5DC4
+Elisabeth Green - 0xdc2303C25bC70789954C356d2C7B869d4988E2ca
+Katya - 0x63533364150790C23ad0D159Bac5a952758C3dB2
+Ryan O'Sullivan - 0x285d2c676Ff752aC90f1d9eD59a0A90C09268EaE
+Yann - 0x3D747B77E32bCDAC9f04E11E837d33567b1a0A3E
+Inna - 0x4fae97401C3109Da1e28f4d52c350D8BC9519D64
+JL - 0x4890Cf570653C1d9e24bc52Dd427f4d1042eb2f0
+Melissa - 0xeEeFa1E48F51b486D4fd286109c65746f6737691
+Katya - 0x8350d1A35e1603Ad74f584dD83F0622d871A1A52
+Dike - 0xCeEbB8b26eF1A4f439b9102980a18399b40F66b2
+Kakooza - 0xB1aAd8F16771F0D2018D5CFB3149549a0afB7FB4
+Kunal - 0xF3C3d18a42a0e4c09d551877d5a37B8BecFE9465
+ Sarthak Rawat - 0x3ab4CE4B0bEe4E7B69F9BCf693719b6035C02914
+
+***************************************
+
+On Token
+
+MINTER_ROLE
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+grantRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+your TOKENSHOP address
+
+I authorized the TokenShop to mint Tokens
+
+Confirm it
+
+hasRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+your TOKENSHOP address
+
+the result must be TRUE
+
+
+Go to TokenShop
+
+getChainlinkDataFeedLatestAnswer
+245307033207
+ETH/USD 2453.07033207
+
+https://eth-converter.com/
+Amount 0.01 ETH = 10000000000000000
+
+
+run
+tokenAmount
+10000000000000000
+
+1226 1322
+
+Sending 0.01 ETH = 10000000000000000 wei
+I will receive 12.26
+
+
+Go to Metamask
+Send 0.01 ETH
+To your tokenShop address
+
+Check yout token balance
+On Metamask
+or
+Token - balanceOf
+
+Mike E
+Token - 0xfa512c0e89cd326bc4dc178f98cbe26f3453901a
+TokenShop - 0x9Cf10442f1ca88c273A288232AA571fbA8b884D2
+Wallet - 0xa80361aE81cDC6bA1c2A827E2F038BE3B6B1a373
+
+Marina Wentzel - MWLink
+Token: 0x2039129e9a04E6f6954f9a991C470655A1fA7580
+Token Shop: 0x167A8B7f94aC3Fa91Da803D86CaC59E62E1e3114
+
+
+Artur
+Token: 0xFBF363d8B1bcB63CBc42878BB8cb6c3621bC3da1
+Token Shop: 0xEA9632084e2720Bc2D47336F3e2812E62f12c5A0
+
+Jeffrey
+Token: 0x4eBF8050a37539C3fB6cFb452982777C9905D6Cf
+Token Shop: 0x55A5B7a95e223A21255f812a66828c8a896CC2F7
+
+
+Tim
+Token: 0x06bc6F5C9A482E53C74B233401E6fa11cBf144b0  (Token Name GBG)
+Token SHop: 0x63E9D02b410627366fBC2b85DC339bcf07728FE5
+
+
+Ayman Fekkak !
+Token : 0xc83F20d657DFC901aDbca05828CA7150882e361A
+Token shop : 0xFA8E92F558a7Dc9D09501FdB1d58e76308a0563B
+
+------- Buy mine! ---------------------------------------------
+Andrew Kim
+Token Name: TAKTA
+Token: 0x3896c43DaeFF74e2d65cec8ce2a2aa32DAbb87aF
+Token shop: 0x35a92aa289fc9d11FBe3ebCb44834B0De5Ac7f4a
+-------Buy mineee ---------------------------------------------
+
+Felipe token:0x28328A7c561Ff2f8CeD0F1eBE8706ba06Dc726f1
+    Tokeshop:0x323D2cDeF3C4B6e9530168F51856fe53ee6a1b42
+
+Augustin
+Token 0x7fc00C2946Fb7f43a5CFfCDc91Cc36B51CA2b976
+Token Shop 0xeFBD968B5D9f9C8780ab3c24EB886864aBc59dEa
+
+Ashok
+Token 0x7d01fb122D2CAFC18b9492E633BBd4e175a6D558
+Token Shop 0x0C325Ce536B1282b5946770e9498a51949eBdDBc
+Account Address 0xaE47329A0742C3a784eAac8E9B57C1C9C3108bd6
+
+Alex C
+Token      :0xf26e25D2FBCC3c3f270124f4FA787CA47b97fEA4 
+name       :Chainlink Bootcamp 2024 Token_Alex 
+Ticker     :CBT24A
+Token shop :0x6260061AB87485A23ad72A175ddb7d707dA1BA59
+
+Daniel
+my token contract:
+0xb36e0e3da868c9ef9ff5648dd677c56068a96679
+Tokenshop
+0x0b7106d2020F21edbfe26396Fc640c709fA366AC
+I tried Daniel, failed on my end
+fixed , works now
+
+
+sanjayshanmugam sk
+Token : 0x291beE71Dc4b9bb0b1C539d6ac1F8e2e9AEA2876
+Tokenshop: 0xAe7e880D83C922fdaa947DD924837901c360173d
+
+NA
+Token: 0xe25FB5c997A99ECDE7D614fE41c683D1e01962cd (CLM24)
+Tokenshop: 0xd0f00977e525811a04C4e4e94990eE09b5e4F125
+SamaER bought some CLM24 :)
+
+SamaER
+Token: 0xB98B28eC69F34f5Df2Ee396e2da611e7045F558d
+TokenShop: 0xD0482964162d278cc94Ca3deD60437bE917543D5
+NA bought some CBT24 ^ > try mine as well :)
+
+Stefanie 
+Token: 0xF814954e2a1cb9FFDBee595D8780146D4FabBA1e
+TokenShop: 0x095a2db03FD6BA196CF19b676d644fC9dEbdb4E6
+
+
+Andre
+Token: 0x6DE48BDa0812efA045148021A03585BA40E06ac0
+TokenShop: 0x6fD833Ae7f5eC1BD8ea61F7A64EA0e6B0E84Ce8A
+
+
+Nick
+Token: 0x0A8A77ceA7283EBAA2DB8A497db312388488BD44
+TokenShop: 0x26D096D234A415e025014d0e53E44c44C9C010A6
+
+Nawodya
+Token - 0x114882213d3f1bF9650F108Bfd637c0B8F5d53f9
+TokenShop - 0xd8B732844c622Bd7aEDCF6077F8424280d0Ca334
+
+Daniel S
+Token 0x773A6Ec098B4C986e9CD8ec646862F30300e1257
+TokenShop 0x03a10165E98a9D09D62556440F936615Dc63D993
+
+John-Mac
+Token: 0x39A864A568CaA73977E67763b7aECc7A2BF760a8
+TokenShop: 0x4f574Ead1182d236b784D9b66753bbC97A67359B
+
+Gabriel Thome
+Token: 0x5A5D4C77Bb14a833B5fB89cb0832b797259DAC85
+TokenShoo: 0x2A986D5a45913bF11d4e6b26b06558d0540705Eb
+
+
+Tameka
+Token Name & Symbol: Chainlink Bootcamp 2024 Crypto Token (CLBT)
+Token: 0x911E5b00DA6Ae2Eb33E9F9b2F92B91e33Ee2eACD
+TokenShop:0x3E648ad3dc14957bdb06aaFD679E655d6BdD58f5
+
+
+    
+Alex B:
+    Token: 0x1234d475b45422Eb9a8423bd60AAcb8237bE4500
+    TokenShop: 0xcbE1eF905B0be991De4490e2c9d982B547F4Fc30
+    got some Alex! Woohoo! I got some CBT :)
+    haha thanks for testing it! Enjoy your Coinbit!
+
+    Vinh
+Token: 0x60d06E3b6EC4ca57c767B8E2c6f4F85a9d4DC382
+Tokenshop: 0xb469c81F8094C4965Ee11666Df1f12BE428C77dd
+
+Jeff C:
+    Token Address - 0x35C2cc0A14979F35bd382Fd6DDAd54AAAe94B138 (LPT)
+    TokenShop Address- 0x3aEbe24ebd242242d8037e6dF5827A9e4105EaF7 
+
+Araceli Sanz:
+    $ARA
+    Token 0x50d57246D42d004C2FdDd9e6A86Fc2c8DC25364A
+    Token Shop 0xED2e451BFf172843FC3B0B6F02aC1B5EA5BE0b92
+    
+Adam Williams :
+    token:0xffDf87Df774732E352E2ae892a88263f92d32d21
+    tokenShop:0xcb171701400B7Ae350505580B5aa244949948743
+
+ANANDA TOKEN $ANS(TOTALLY GOING TO MOON! BUY NOW LOL)
+TOKEN: 0xCadC6aa8c4EEf1c825d8908Eb9879D6aa17EdA62
+TOKENSHOP: 0xbCc73c51D455B430B3E442e3Df052171484f017a
+
+Brent Coleman
+Token: 0x653b9485daB09735540d81f9BbB46988E71b4AAE
+Token Shop: 0x7640e2D1686024A834babB66BDf6eA1f15Ae683E
+Account Address: 
+
+Thomas Hall
+Token 0xfa62428FCEE7c8265Cd338FFB46dd745c462a8A5
+Token Shop 0x54C5C0612348a73FBb0a70DA70E0bF988E7f2CA4
+Account Address 0x5B85062593E126211da8f634F0830732a809b61d
+
+David
+Token: 0x594EAe8ceF070A3620db1ba23B1e0ADaEF983dA0
+TokenShop: 0x75C9Ffc04Eb6eE24d8E8243cb4371693785fD10E
+
+D Marl
+Token: 0x6431cbdB252fD61Af03E8D98f957592E6aE98B69
+TokenShop: 0x12A104C0f2891A5e76Ce20f5487f7471C70E4687
+ 
+ 
+Kyle Varga
+Token: 0x3c803Ed6A6617e23A47ddd7BefC58586AFbF4924
+TokenShop: 0x4375DfB4540D483a7F25B15432602bCe41Ce7202
+TX: 0x645fce14ad8d6e456e9f0634057d11dda36dce7d33dd94933efd3fdcde739405
+
+Jad Kachmar
+Token: 0x6b89E556bAFaB179135a5c93330C85875dDF645d
+TokenShop: 0xc54B9a44e8b6bf4D7DA8e18Cc6265550191d4719
+
+Yann
+Token: 0x1AA9C0C24817093f78f99b6cC5F8B4B4A841aD13
+TokenShop: 0x3D747B77E32bCDAC9f04E11E837d33567b1a0A3E
+TX: 0x47acf330b0a45514de45f7a99db10cf878a218c8e0a6f91439922f82bbc6717e
+
+Inna
+Token: 0xf5A52E3fAac0f787bcE3849Cd18eE215D613D51b
+TokenShop: 0x4fae97401C3109Da1e28f4d52c350D8BC9519D64
+
+JL
+Token: 0xd7a63b7470A766AdDb29A40640284E0b7B62262A
+TokenShop:0x4890Cf570653C1d9e24bc52Dd427f4d1042eb2f0
+
+Melissa
+Token: 0x4E535F20485789879ad5e027be153aC701c5f359
+TokenShop: 0xeEeFa1E48F51b486D4fd286109c65746f6737691
+
+Enver
+Token: 0x7aE492c7117489d6F7a6a4AE0F5938CC09B4Acf9
+TokenShop: 0x4FA99984B65D65404E0816F4d9A18E0E827A4b9D
+
+Sarthak
+Token: 0x229Ef0DdF9332ce88dd6533D8d56a6a70913f24F
+TokenShop: 0x3ab4CE4B0bEe4E7B69F9BCf693719b6035C02914
+
+Yaro
+Token - 0x17894fA0026F92e677CD6c5304b68Ae780E6e9D3
+TokenShop - 0x92EAf05C4dA57886ca2046C4b6315065511f6cbe
+
+Kunal 
+Token - 0x433Df681BfECfEBd115cBEdb5F7Cf72dc3b8906A
+Token Shop -  0xF3C3d18a42a0e4c09d551877d5a37B8BecFE9465
+
+
+ TRANSLATE with  x
+
+ EMBED THE SNIPPET BELOW IN YOUR SITE   
+
+Enable collaborative features and customize widget: Bing Webmaster Portal
+ 
+Back
+
+Salvar
+CONTINUAR
+                
+view saved words →
+            Não traduzir no duplo clique            
+            Não mostrar botão flutuante            
+            Confira a versão local deste site            
+            Upgrade to Pro to unlock more features            
+Sem conexão com a internet
+

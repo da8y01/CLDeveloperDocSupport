@@ -1,0 +1,742 @@
+Chainlink Bootcamp
+Apr/2024
+Session 03
+
+
+https://pad.riseup.net/p/cl-en-03
+
+BootcampSupport
+https://chain.link/discord 
+bootcamp channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Youtube Session 01 : https://www.youtube.com/watch?v=yREnK9ny398
+
+Youtube Session 02 : https://www.youtube.com/watch?v=_YkfrNv4xoo
+
+All the Sessions in the luma page:
+https://lu.ma/ChainlinkBootcamp2024
+
+Slides : https://docs.google.com/presentation/d/e/2PACX-1vSnf4bZHTmpZW8s_PKwkS2wT0ZbHmMygg1JKGlvElaS9G0v9wA5kUr_8sJbkGEJZ5cM6y6a3U0a_5t1/pub?start=false&loop=false&delayms=3000
+
+
+Exercises
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Chainlink Bootcamp 2024 Tasks form:
+https://forms.gle/NNU9mkLLvLbV86nW6 
+
+FAUCETS - https://faucets.chain.link
+
+WORKSHOP FAUCET - https://workshop-faucet.vercel.app/faucets
+Password: LinkShadowFork18
+
+
+Block Magic, our next Hackathon
+Register here >>> https://chn.lk/3xjhPDy
+
+
+Remix
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check the Sepolia (11155111) network
+
+
+Token ERC20
+https://ethereum.org/en/developers/docs/standards/tokens/
+
+https://eips.ethereum.org/EIPS/eip-20
+
+https://wizard.openzeppelin.com/
+
+
+https://remix.ethereum.org/
+
+******************************
+
+Icon 2 - FILE EXPLORER
+Create file
+Token.sol
+
+Copy between Begin and End
+
+// Begin
+
+ // SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import "@openzeppelin/contracts@4.6.0/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts@4.6.0/access/AccessControl.sol";
+
+contract Token is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+
+    constructor() ERC20("Chainlink Bootcamp 2024 Token", "CLBoot24") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
+    }
+
+    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+        _mint(to, amount);
+    }
+
+    function decimals() public pure override returns (uint8) {
+        return 2;
+    }    
+}
+
+// End
+
+-------------------------
+
+Token Address
+Akpo Jahswill - 0x77eFAc0C34A22D73A9bdd1e7bfDaFE299d8805a6
+
+Metamask - add your token
+On Metamask
+Tab Tokens
+Import
+Paste your token address
+
+
+****************************
+
+Mint tokens
+Mint 100 tokens
+
+On Remix
+Go to Deployed Contracts
+
+Expand the token
+
+Function Mint
+
+to: your address wallet
+amount: 10000
+100 + 00 (2 decimal places)
+
+
+
+Sakthivel token address
+0x9Ed85b4b79a5Bfb3974066B83590c1073e95b7c0
+Maitrayee - 0x1b53c21195cbE5868Eb9C7b6e34c2107e5810930
+
+Joswal - token - 0x816b27783416b8E0B33a50039E7B75835a96D785
+
+Joswal - Tokenshop - 0x3728225Bd31102e51537e1b17592ddb00B28A457
+
+
+**************************
+
+Chainlink Data Feeds
+Docs - Chainlink Market and Data Feeds
+https://docs.chain.link/docs/using-chainlink-reference-contracts
+
+Chainlink Data Feeds Contract Address
+https://docs.chain.link/docs/reference-contracts
+
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1#sepolia-testnet
+
+***********************************
+
+TokenShop
+Create 
+TokenShop.sol
+
+Copy between Begin and End
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Sepolia
+
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+interface TokenInterface {
+    function mint(address account, uint256 amount) external;
+}
+
+contract TokenShop {
+    
+    AggregatorV3Interface internal priceFeed;
+    TokenInterface public minter;
+    uint256 public tokenPrice = 200; //1 token = 2.00 usd, with 2 decimal places
+    address public owner;
+    
+    constructor(address tokenAddress) {
+        minter = TokenInterface(tokenAddress);
+        /**
+        * Network: Sepolia
+        * Aggregator: ETH/USD
+        * Address: 0x694AA1769357215DE4FAC081bf1f309aDC325306
+        */
+        priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+        owner = msg.sender;
+    }
+
+    /**
+    * Returns the latest answer
+    */
+    function getChainlinkDataFeedLatestAnswer() public view returns (int) {
+        (
+            /*uint80 roundID*/,
+            int price,
+            /*uint startedAt*/,
+            /*uint timeStamp*/,
+            /*uint80 answeredInRound*/
+        ) = priceFeed.latestRoundData();
+        return price;
+    }
+
+    function tokenAmount(uint256 amountETH) public view returns (uint256) {
+        //Sent amountETH, how many usd I have
+        uint256 ethUsd = uint256(getChainlinkDataFeedLatestAnswer());       //with 8 decimal places
+        uint256 amountUSD = amountETH * ethUsd / 10**18; //ETH = 18 decimal places
+        uint256 amountToken = amountUSD / tokenPrice / 10**(8/2);  //8 decimal places from ETHUSD / 2 decimal places from token 
+        return amountToken;
+    } 
+
+    receive() external payable {
+        uint256 amountToken = tokenAmount(msg.value);
+        minter.mint(msg.sender, amountToken);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdraw() external onlyOwner {
+        payable(owner).transfer(address(this).balance);
+    }    
+}
+
+
+// End
+
+**********************
+
+NIX
+TOKEN ADDRESS:
+0x95e8a9439ab4F6414D9182F938997fDdA03a86EE
+TOKEN SHOP ADDRESS:
+0xA748c725eEdC2F5a375A04755ea620E850c7e120
+
+May Jesutofunmi Token- 0x6189842b0df802b1Db06403512BDC8eF07a393aF
+May Jesutofunmi TokenShop; 0x9710FfeF61ef32F281fEDb76D06865d534485F1A
+JeffGodi: 0x66fa0201010773a84f21496da312db0e0343ed251c67e657835e241e968c4422
+Dimosthenis Tsatsos - 0x87869A9652685EFEce5e7E90Bbf5bF66d0f2d2C0
+Tiago Tavares - 0xf545F24D1D3181E3Cf888A3Bc773c19deE91ECEd
+Tanya - 0xE4D865c4aD40134Ecca4D589Fde8b62ada8F7a83
+Vivesh - 0xB38AA37dBeFe157951b0db7B1B664A2a252ac824
+Akpo Jahswill - 0x86b42aA91DCcA75b3869283158B3468bCF45f374
+jan 0x03E03fB253c39E576beDFA4523B656b2EbEaA702
+Mwendwa - 0xe01cDdc2880FfF108c157F8EDA1A2ee57e471D1d
+Sebastian Hoyos - 0xdCeC4fFeFEDA7542EF4425F2792127eeCE5B1eBA
+Imonite Joe - 0x0fb1c7F94f7E2CD62a5447e76e60f4899a14FBae
+Arinze - 0x4ae52A76c20437b79088f658F7FBda3c2F669fD6
+Abhinav - 0xb0ADf6Fa4B1Dc40d498Da378E5Ff647c15F3e346
+DARBY - 0x513b4E20FB1cbE8aA120C73EDBB6aFa5D9fE3a74
+Nishith Savla - 0x3359f2965c594b81CaDFced479afF98ab08Ce932
+Rajiv - 0x0945D27Af42A8eC3d462699C19A073085f79df5A
+Kojrey - 0xD2e14Aee5265cc878264298F8B5954bBbf0E7423
+Ajay - 0x0d9085179ca2194fce3F0D24641354488E783138
+Maitrayee - 0xfbb78E139A7741b9F490287871372b2a5e4e30aF
+Emil - 0xEdCb5112C6042F8a025F39d3819dEFDd57F434f4
+Jos - 0xC7800f5f3B9c3028eD323eBC494444b3dCF93B38
+AS_Andrew - 0xb035A22406aDfC0DFEA8BA677B785578955a39F0
+Bidyadhar-0xF3242d514d1fb48b527A9D0B13F94eAaA75729a9
+Nicolas - 0x890E50D2ACeeA5E09266827F1E4BF5b336A9a575
+Susu - 0x2f113338ADD15e4b124a8410bB19C7D429fd24F1
+Ayo - 0xFcAdB22ea9d1C22C99738D1BFd657f082119E244
+Bilal B - 0x2B3f0400DC4C5A45f4aeD5e8B0D2d5208275f14D
+Filipp - 0xbd0F44214171b6116A11f092578fA5D9DAde3452
+Alesia - 0x3E8dd8f9552836B666A11033b13a9F822d1F8a82
+Jeff - 0xe9Ce8F608D456bed8e3AaA2e3637b9DDA55cbE95
+Maria - 0x446b77eDf9C5D257f25aadAC4C71CD0AD163d055
+Victor - 0x42325CC19a8282aB8d5F2e916026B07A4fc13579
+Resky - 0x2bAbc335AdE7DEBFb8e9A3FA1C8F6CA652337705
+Mubashira -0xd491CA7bAF0691E0c2614b15b3e604f6aCAd4741
+Alwi - 0xc5aF9e240766e3e82389c5310FC576a369bEA6F5
+Kalyan - 0x03f0285d0a6b63803f11DDFa458461E8bfb63428
+TIM - 0x382Ec38802936A6aB4D8d56c694598496f8FB7AD
+R. B. Bozkurt - 0x09B3Da9155Dc792E5A3F9A8cD849304E90A3021b
+Dennis - 0x8d2C024EDd4Ba1Cd1777605b80E0d93CdfE562CD
+Taffy - 0x43383DCd8Ab75F9f3F8879fd8D3e09194b0fcC79
+Rusu - 0x6b4f915F84B1371279973b289F9fADfC0905f356
+Daniel B - 0xa3059c7f02bFB97374f83e7c220facf25303F432
+Kilian - 0x1d5F3c7c2252b1D7c8d65207d1bf8A5b6730d901
+Nix - 0xA748c725eEdC2F5a375A04755ea620E850c7e120
+Taesuk - 0xFbB2099e7E30D9590380ca96202758C0DA2E8dEe
+Maciek - 0x6a3d7365372F16848D7c0ad09283Ba614fc5eed4
+Katya Ryazantseva - 0xE9dECe9A61bc2333869419e0EAEBa1F0D58Ef549
+Ludwig - 0x4Dc997C1367d4E8213B53E599081DA7a4582B036
+JC 0x9d691314B19388E2159E57C8ba1e403de7650424
+Aayushma - 0x8E7e3DCD79457B51A0aaC9d5910c3fB0439B058F
+g - 0x4Dc997C1367d4E8213B53E599081DA7a4582B036
+Eric - 0x8eBceD10C5c6669C0da91c2B5EC5840fE8eC4e72
+Visal - 0x6E34ecF86DC84301F05273d9C540e7dB07162426
+Aram - 0x15418ae781A0Be31644B44fb309CC7877591Cb39
+Parvin-0x405Cdc1c392F869C8c25403CcabeF059e300fECf
+Raktim - 0x9F593fEF343F9CC3cbefC14Cd8bAA0A8c80ee006
+EK - 0x72f3a9d83b2e21e15b88be8eac393abbd44ee3d0 (token shop)
+Mike Wang - 0x638Baa835e3b475142e2940287b2be9dE72b117c
+Mario - 0x8968c4F3456E7f4448B1f23dbb2974C9fff0219B
+Dustin Tynes - 0x91CeDE7f26d2a1693DEB61bB69d777FfFfa0D789
+Gilbert - 0x991dB837Cd171ae79EFAd714a10723A90cb5F3Cf
+Dimitrios Sakkas  -0x3F9a920C65C7cc4Ed76D1788C75dD8c677c95a79
+Jesse J - 0x21f8f5CEc7628a4eeC161079de18C09D4A0Bf79f
+Steve token 0x74c05309A32c7a3361A692f78714Af9422ac8dF8
+Vladislav - 0xB0c4862426CF6959527178F1d723EC8e7A75d26d
+Simon - 0x2236d9F35681e898c05085943679D318729333a3
+Tekin - 0x3B5e590ae1DBcDB7Fe05A9A362E4aa15131C55eE
+Manu- 0x95e8a9439ab4F6414D9182FaFE1B9258B7e99362
+Georgie - 0x296da70faeabde0ad9e627b711573533df85e66e99d23a9ae01c27501c515ed5
+Anthonyjcr - 0x2b1f0edd3a108e721b51fb9b3fb88ecdbe5c0e54
+vilma 0x48962CE4BdBD83E82496BF549151a2c270ae3De7
+Jason - Token: 0xB6c7863d787184D448c83316B754fA47452D0b86
+Jason - TokenShop: 0xfEB827632b6aaBAE81CfdE12FFD6eDa60072eC76
+Carmine - 0x3251099C74538A8e62A06205CFf7139f2Bc6c2A1
+Hugo - 0x899e9Aa396E5Ca8DC40e22F2394133Cc88d96a5D
+Mat-0x8249f3e0830DaC877C90fDE41C9328e9B5ECDef5
+Pradip - 0x63a5D22157405b8A4d6E28861b041b0B19687340
+Alexander - 0xB04dFd2e8D7e5b2b3FAbBDF757C2bCD7215B4edb
+Joseph - 0x3728225Bd31102e51537e1b17592ddb00B28A457
+0x2951082C848B51935216E859ADBAfa67786244Bd eavns 
+0x2951082C848B51935216E859ADBAfa67786244Bd evans 
+Samuel - 0x66f69fe5bC3EB613eDf9f5e7675F701C753bc9d8
+Mohammed Elnekhaly - 0xa2c989243a0bad3807fb1aee8928d3359dcd1fd8
+Stanley - 0x3BCBCf20774d013e14F03ece344EFeb2A3625A18
+KIN - 0x95af625fc882b0a07cd3cba3c58b02427aa0ccfe
+nadieym - 0x95B29DB544d5605F6239Db6d85ddDA4E52f7B1eb
+Nolan - 0xAAE142B0810E22eE85860678377C102667A55bE6
+0x9A791B6846D97eC9348EfA9580a3872Ea086628f
+Henrik - 0xA762830236ecF856FD734aEe232B7b77C0b0CB8b
+Bartek - 0x545b7C54a4756e33387E0F483a12149De9974F51
+Durgesh Rajbhar-0x4B8039CCA470B80FC5735a2D6671898B590C5d7C
+Juan C - 0xe5edCE212a99002fbbd527e3f860da192489cEf1
+Shane - 0xd51171f73844eCA28Bf4Acc4794edF8bfB3b21C7
+Nachon - 0x6095f4f590c8e006b329AF0D6FADd15B4cbCBc6C
+RK - 0xb3A941548f38FDdCdB19Fcf2Ce0576C9fEdBDdc5
+Yunus - 0x7c99ef22AE1D08aD7d09e3383FDF5eB6fdE999CD
+Nilds Vasquez Gonzalez - 0xAf7Fc4Fb7FCF5E1fDBE1c8E628201297C87A4A42
+Duong - 0x332b00539854d5074A3DB729Ae731eC4F29d3fBE
+Jelena 0x358AA13c52544ECCEF6B0ADD0f801012ADAD5eE3
+Ben - 0x93Bf39573780F2F91adaE7b7e9A78bA80a97e806
+Sahad token - 0x104286467F08c0e27630eC7F8E9D92d34f56cd91
+Victor token - 0x48CaAF0BC95C14aCFBF52193a98E7e434972ccD6
+Sahad token shop -0x0Bf108Bbd91B3188E3005A9379d5e6C829E7F53b
+David - 0xfad15841e849419b285d166df0e543b5a75e5b3a 
+Marlon - 0x05953CE9E7864e017B8df6CCe22d73002B7ea78B
+Abdi - 0x69EdB5Cf13B293ff66FB8fb4Df9d89E6853f3424
+0x2951082C848B51935216E859ADBAfa67786244Bd 
+Jeremias - 0x808fdbdf6f9dc5f1287d3096630ace6ab951eb65
+temu 0xf6F33C49e87ed5c5A6F9913b2A710d21bEeFc1Cb
+Shailesh 0xe22Eb0f5Da8aa8170F930A7F2EED7fe8718e60f7
+Jarret - 0x62a5B59816FccA1bee5097238519c4357f8cD640
+kenneth - 0xdB734b13b580cb81f5BC89A333326821C564FBB3
+Ekomabasi - 0x11fcC13F5b1D640F15Cdc4D8545ebAD0631A2032
+JeffGodi - 0xa55d6C8b20Fe1FB7396B49cf439b87D694F44e8e
+Victor - 0x503B763a184A672fA803455F01e5Acb9fE953c0a
+G – 0xaB9954e12ec1d962Ad694A40Df580aeAfF105A50 
+Carlos Mitidieri - 0x1d9Ecde974848503150D8922dfd6C0AEa6BBFC7A
+
+Sakthivel TokenShop  0x0D3Bc70d2177f4d5d9c4C3921F149DB4A19E72CC
+Enes TokenShop - 
+
+Thao Le - 0x958a9Ae81f4859184E9362c0BE512C26287981cF
+Sadik TokenShop - 0xbF22481Bf3892bE03bA801B03EFA0b23D936ae29
+Mahreen Token Shop- 0x62a6e86Cc33707529261768c0870705b662A7527
+Reddis 0x30133E3B5C7A893991E45337e1301102A24f1967
+Ukeme W. TokenShop - 0xD40B226d2bd03C42AC0dE0d767F5a3337a6b2F4A
+Binta -0x3c4cA6204607CeD323A79c4AB2869f86C2cb5de0
+Stutch - 0xd2cB7A56C6F08d37CF5558e9De37256d974A9F22
+Bereket - 0xf1C982239eA4cA98AF4920aE88D0153054C1003b
+
+Mwendwa token - 0x33F18660d3cC34FCCb2c7Fe2397c892438B54E10
+mwendwa tokenshop - 0xe01cDdc2880FfF108c157F8EDA1A2ee57e471D1d
+mikejesu token - 0x0C82786b2a75D8C77Aba0bCA1d936B15EFA602B1
+
+
+STUDENT NAME:
+    Akinyosoye Tobi
+    TOKEN NAME:
+    Techiegeek Token
+TOKEN TICKER:
+    TGT
+TOKEN ADDRESS:
+    0x9dc918F62e9d8a8E556135488D65A6B8BC2077fB
+TOKEN SHOP ADDRESS:
+    0x4892a9B34083CD7A0aE568B5a18DC5D1b67c3832
+
+
+---------------------------------------------------------------------------------------
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+STUDENT NAME:
+    ANDREW KIM
+TOKEN NAME:
+    Queue Jump
+TOKEN TICKER:
+    SPG
+TOKEN ADDRESS:
+    0x22Bafc1d097A6d81D9a7AC47faF1F56b3538c65d
+TOKEN SHOP ADDRESS:
+    0x5C76210EF4e9E33923E5F21Dd51DCd4d44a3a7Fa
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+---------------------------------------------------------------------------------------
+
+Sebastian Hoyos (xXblueINsuitXx)
+
+    MunichToken (MUC): 0x12B7f283e9aA0F0449CedD5313a167Dc5F244Db7
+
+
+    MUC TokenShop: 0xdCeC4fFeFEDA7542EF4425F2792127eeCE5B1eBA
+
+
+---------------------------------------------------------------------------------------
+Darby 
+Token : 0x15459E15133c11DfFBD4F0C3994D87a16a855a25
+Tokenshop : 0x513b4E20FB1cbE8aA120C73EDBB6aFa5D9fE3a74
+
+Dimosthenis Tsatsos
+Token: 0x4A61914CE8429e4556E45BbEa960e6ca9e59f2b9
+Token Shop: 0x87869A9652685EFEce5e7E90Bbf5bF66d0f2d2C0
+
+Im already a top Darbyholder
+
+Sadik Token - 0x42C4B0E3BeE3E5260Cbbc83f84Fc6aEd437DD1a0
+Sadik TokenShop - 0xbF22481Bf3892bE03bA801B03EFA0b23D936ae29
+Enes Token - 0xac73e76C5Ee3b6EfE6aA0926cC2D6912710F10d4
+Enes Tokenshop - 0x83c0fAd160B1a0493062D5754Aac09f6861ad8bD
+
+Nishith token 0x7B142018E9ccda934E61a69b8E4a10c223048914
+Nishith tokenshop 0x3359f2965c594b81CaDFced479afF98ab08Ce932
+
+🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍
+Eric Kim 
+Token $ERK - 0x44eD5ed026F8Eb2867d9711A5F839205633BBcd9
+TokenShop - 0x72F3a9d83B2e21E15B88Be8EaC393ABbD44eE3d0
+🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍🦍
+
+Imonite 
+token : 0x161cF14ff2c3d1B2775dF8DfFf517bD4486B4B18
+tokenshop : 0x0fb1c7F94f7E2CD62a5447e76e60f4899a14FBae
+
+Jesse J Token - 0x618bBa25eFF2edBfBb81bA49F86D42C134f4d0eA
+Jesse J TokenShop - 0x21f8f5CEc7628a4eeC161079de18C09D4A0Bf79f
+
+Dipak Token - 0x7ec37c655a263ec857B348211AB8c1bcC62295Ad
+Dipak TokenShop- 0x9Bb7F88C1EA76e3E241a37FbE1B27252585d0a71
+
+
+Darby, can I send some value to you?
+
+G token – 0x17e3a9b12DA26704026d414074b4c0666b3327d4
+G tokenshop – 0xaB9954e12ec1d962Ad694A40Df580aeAfF105A50
+
+Jos Token - 0xB232aB1b75058bCC179586A37FAC738d33f9f717
+Jos Tokenshop - 0xC7800f5f3B9c3028eD323eBC494444b3dCF93B38
+
+Mario token 0xcb28c2972aE2B15a6251136Ee036776cf3BA83fF
+Mario TokenShop - 0x8968c4F3456E7f4448B1f23dbb2974C9fff0219B
+
+ayo token 0xc01f192b17Ca509C3A3c354fCeE47Ae2F0664393
+ayo tokenshop 0xFcAdB22ea9d1C22C99738D1BFd657f082119E244
+
+Kilian Token - 0xCAc7fE82B5984f81dD1E187f79AD14246ab22797
+Kilian Tokenshop - 0x1d5F3c7c2252b1D7c8d65207d1bf8A5b6730d901
+
+Jahswill Token - 0x77eFAc0C34A22D73A9bdd1e7bfDaFE299d8805a6
+Jahswill Tokenshop - 0x86b42aA91DCcA75b3869283158B3468bCF45f374
+
+Steve token 0x74c05309A32c7a3361A692f78714Af9422ac8dF8
+Steve tokenshop  0x84a406d46e417394cFad21CCcBCA11eb9156C3D8
+
+David 
+Token - 0xbbfF6fD4b0194fe21bB8aE5512472D01bfA7D294 
+Token shop - 0xb6e50501cf54a47fbd01c7c886e539b45be7544f 
+
+Bilal B TOKEN - 0x2B3f0400DC4C5A45f4aeD5e8B0D2d5208275f14D
+Bilal B TOKENSHOP - 0x2B3f0400DC4C5A45f4aeD5e8B0D2d5208275f14D
+
+Rare pepe pls dont share
+Emil Token - 0xafC820fbB51958e401395d25972C296c7e809a75
+Emil tokenshop - 0xEdCb5112C6042F8a025F39d3819dEFDd57F434f4
+
+Tiago token - 0x23115332F23231262761d0Bd711DbcBC6c881247
+Tiago tokenShop - 0xf545F24D1D3181E3Cf888A3Bc773c19deE91ECEd
+
+nitro token - 0x90b0cEEfdd0Bf914cBF31Af08FDC3002c0fE3A5E
+nitro tshop- 0x8d4BD0BEccE770fd602126752a6b8ac54a75E5d7
+
+zheng token 0x4303c5c58f8f6A5Bb7315d26f37974E2EB2564d3
+zheng tokenShop 0x27dc61781bA7dcf984e84E34e7c97e318eC39836
+But I missed the step to grant the mint role, can you repeat that?
+
+Muabshira token -0xFebab1ccE02675949eCeF8DF795548548Ec6a3b0
+Muabshira TokenShop - 0xd491CA7bAF0691E0c2614b15b3e604f6aCAd4741
+
+Jason - Token: 0xB6c7863d787184D448c83316B754fA47452D0b86
+Jason - TokenShop: 0xfEB827632b6aaBAE81CfdE12FFD6eDa60072eC76
+
+Gilbert - Token: 0x503921FaFE1D79b42f211E9b874776FF8373fc74
+Gilbert - TokenShop: 0x991dB837Cd171ae79EFAd714a10723A90cb5F3Cf
+
+Sven Token: 0xe9bEA0aa8656bf2Aa31Fb37982B3E3Df263c8A6F
+Sven TokenShop: 0x2a2478EA7BfeAc79e1b4e4D866e24c06d2a625B9
+
+=============================================================
+===@Anthonyjcr
+===Token $CBCL24 - 0x7F87b16Ab9Cf0f57c510789BE0781634e718Bcd1
+===TokenShop Address - 0x2b1f0edd3a108e721b51fb9b3fb88ecdbe5c0e54
+=============================================================
+
+****************************
+Mohammed Elnekhaly
+Token (NKH): 0x9B069B3fFDE96c06FFad20EaA0c115E87A8865E3
+Token Shop: 0xa2c989243a0bad3807fb1aee8928d3359dcd1fd8
+****************************
+
+Ekomabasi(Beasty Bonny Token): 0x37A7a3130458F1d640f38f5F1C1D1febb77bbe1F
+Ekomabasi (Beast Bonny TokenShop): 0x11fcC13F5b1D640F15Cdc4D8545ebAD0631A2032
+
+R. B. Bozkurt - Token : 0x9c0Ff64d6dEaAc58A8C80C0Cf0EC01bBa9D4fB17
+R. B. Bozkurt - TokenShop : 0x09B3Da9155Dc792E5A3F9A8cD849304E90A3021b
+
+Tekin
+TANGO(TNG) TOKEN - 0xa5Ad3BbBd96968184F5F66Fb516ddF19ff386a83
+TANGO TOKENSHOP(TNG) - 0x3B5e590ae1DBcDB7Fe05A9A362E4aa15131C55eE
+
+Name of Student: Michael Olawuni 
+Token Name: Mikejesu token
+token: 0x0C82786b2a75D8C77Aba0bCA1d936B15EFA602B1
+
+Binta - Token : 0x28B5ccdCD979808376Eb1C38C993b2248Bc208Ba
+Binta - TokenShop : 0x3c4cA6204607CeD323A79c4AB2869f86C2cb5de0
+
+KIN - token - 0x1fc663ec6aB58C0AE033aA05461a27bCF6fAddD2
+KIN - tokenshop - 0x95AF625fc882b0A07cd3Cba3C58b02427AA0cCFe
+
+Simon - Token - 
+0x42c63c3f4F7136f47e87815ac20B51fece5361B6
+Yokenshop - 0x2236d9F35681e898c05085943679D318729333a3
+
+Iulian Topal Token
+token - 0x751a19612D6b6c8c5F940060Cf8b60AECAad26aF
+tokenshop - 0x6097aAD498486C333A41115D822b02dbF0566C20
+
+♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦
+Name - Abhinav Sharma
+Token - 0xb0ADf6Fa4B1Dc40d498Da378E5Ff647c15F3e346
+TokenShop - 0x67Bc2b29c6352dddae11a7e10E2d88Aa064cA238
+♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦
+
+🚀🚀🚀🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🏊🏾‍♂️🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+STUDENT NAME:
+    Dustin Tynes
+    TOKEN NAME: Tynes Token
+TOKEN TICKER:($TT)
+TOKEN ADDRESS: 0x91CeDE7f26d2a1693DEB61bB69d777FfFfa0D789
+TOKEN SHOP ADDRESS:
+    0x91CeDE7f26d2a1693DEB61bB69d777FfFfa0D789
+    
+
+
+Pat
+Token - 0x4E148FE462C773CAb29Bb5CE41CDaB8952BecF15    
+Token Shop - 0x798c208d89014Fef60Ef0c27a92AdA81331D4eC0
+
+*********************************************
+
+
+Token - Grant Minter Role to the TokenShop
+On Token
+
+MINTER_ROLE
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+It is the hash of the world “MINTER_ROLE”
+
+Run function
+grantRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+your TOKENSHOP address
+
+I authorized the TokenShop to mint Tokens`
+
+Confirm it
+
+hasRole
+role
+0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+
+account
+your TOKENSHOP address
+
+the result must be TRUE
+
+
+Go to TokenShop
+
+
+getChainlinkDataFeedLatestAnswer
+
+Example:
+245307033207
+ETH/USD 2453.07033207
+
+
+https://eth-converter.com/
+Amount 0.01 ETH = 10000000000000000
+
+tokenAmount
+10000000000000000
+
+Response - example:
+1226 1322
+Sending 0.01 ETH = 10000000000000000 wei
+I will receive 12.26
+
+
+
+3353.92958019
+
+
+3319.00000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+G
+M
+T
+Y
+
+
+Detect languageAfrikaansAlbanianAmharicArabicArmenianAssameseAymaraAzerbaijaniBambaraBashkirBasqueBelarusianBengaliBhojpuriBosnianBulgarianCantonese (Traditional)CatalanCebuanoChichewaChinese (Literary)Chinese SimpChinese TradChuvashCorsicanCroatianCzechDanishDariDhivehiDogriDutchEmojiEnglishEnglish United KingdomEsperantoEstonianEweFaroeseFijianFilipinoFinnishFrenchFrench (Canada)FrisianGalicianGandaGeorgianGermanGreekGuaraniGujaratiHaitian CreoleHausaHawaiianHebrewHill MariHindiHmongHungarianIcelandicIgboIlocanoIndonesianInuinnaqtunInuktitutInuktitut (Latin)IrishItalianJapaneseJavaneseKannadaKazakhKazakh (Latin)KhmerKinyarwandaKlingon (Latin)KonkaniKoreanKrioKurdish (Kurmanji)Kurdish (Sorani)KyrgyzLaoLatinLatvianLingalaLithuanianLower SorbianLuxembourgishMacedonianMaithiliMalagasyMalayMalayalamMalteseMaoriMarathiMariMeiteilon (Manipuri)MizoMongolianMongolian (Traditional)Myanmar (Burmese)NepaliNorwegianNyanjaOdia (Oriya)OromoPapiamentoPashtoPersianPolishPortuguese (Brazil)Portuguese (Portugal)PunjabiQuechuaQuertaro OtomiRomanianRundiRussianSamoanSanskritScots GaelicSepediSerbianSerbian (Cyrillic)Serbian (Latin)SesothoSetswanaShonaSindhiSinhalaSlovakSlovenianSomaliSpanishSundaneseSwahiliSwedishTagalogTahitianTajikTamilTatarTeluguThaiTibetanTigrinyaTonganTsongaTurkishTurkmenTwiUdmurtUkrainianUpper SorbianUrduUyghurUzbekUzbek (Cyrillic)VietnameseWelshXhosaYakutYiddishYorubaYucatec MayaZulu
+
+English-------- [ All ] --------AfrikaansAlbanianAmharicArabicArmenianAssameseAymaraAzerbaijaniBambaraBashkirBasqueBelarusianBengaliBhojpuriBosnianBulgarianCantonese (Traditional)CatalanCebuanoChichewaChinese (Literary)Chinese SimpChinese TradChuvashCorsicanCroatianCzechDanishDariDhivehiDogriDutchEmojiEnglishEnglish United KingdomEsperantoEstonianEweFaroeseFijianFilipinoFinnishFrenchFrench (Canada)FrisianGalicianGandaGeorgianGermanGreekGuaraniGujaratiHaitian CreoleHausaHawaiianHebrewHill MariHindiHmongHungarianIcelandicIgboIlocanoIndonesianInuinnaqtunInuktitutInuktitut (Latin)IrishItalianJapaneseJavaneseKannadaKazakhKazakh (Latin)KhmerKinyarwandaKlingon (Latin)KonkaniKoreanKrioKurdish (Kurmanji)Kurdish (Sorani)KyrgyzLaoLatinLatvianLingalaLithuanianLower SorbianLuxembourgishMacedonianMaithiliMalagasyMalayMalayalamMalteseMaoriMarathiMariMeiteilon (Manipuri)MizoMongolianMongolian (Traditional)Myanmar (Burmese)NepaliNorwegianNyanjaOdia (Oriya)OromoPapiamentoPashtoPersianPolishPortuguese (Brazil)Portuguese (Portugal)PunjabiQuechuaQuertaro OtomiRomanianRundiRussianSamoanSanskritScots GaelicSepediSerbianSerbian (Cyrillic)Serbian (Latin)SesothoSetswanaShonaSindhiSinhalaSlovakSlovenianSomaliSpanishSundaneseSwahiliSwedishTagalogTahitianTajikTamilTatarTeluguThaiTibetanTigrinyaTonganTsongaTurkishTurkmenTwiUdmurtUkrainianUpper SorbianUrduUyghurUzbekUzbek (Cyrillic)VietnameseWelshXhosaYakutYiddishYorubaYucatec MayaZulu 
+
+
+
+
+
+
+
+
+
+Text-to-speech function is limited to 200 characters
+
+
+Options : History : Feedback : DonateClose
+
+
+
+G
+M
+T
+Y
+
+
+Detect languageAfrikaansAlbanianAmharicArabicArmenianAssameseAymaraAzerbaijaniBambaraBashkirBasqueBelarusianBengaliBhojpuriBosnianBulgarianCantonese (Traditional)CatalanCebuanoChichewaChinese (Literary)Chinese SimpChinese TradChuvashCorsicanCroatianCzechDanishDariDhivehiDogriDutchEmojiEnglishEnglish United KingdomEsperantoEstonianEweFaroeseFijianFilipinoFinnishFrenchFrench (Canada)FrisianGalicianGandaGeorgianGermanGreekGuaraniGujaratiHaitian CreoleHausaHawaiianHebrewHill MariHindiHmongHungarianIcelandicIgboIlocanoIndonesianInuinnaqtunInuktitutInuktitut (Latin)IrishItalianJapaneseJavaneseKannadaKazakhKazakh (Latin)KhmerKinyarwandaKlingon (Latin)KonkaniKoreanKrioKurdish (Kurmanji)Kurdish (Sorani)KyrgyzLaoLatinLatvianLingalaLithuanianLower SorbianLuxembourgishMacedonianMaithiliMalagasyMalayMalayalamMalteseMaoriMarathiMariMeiteilon (Manipuri)MizoMongolianMongolian (Traditional)Myanmar (Burmese)NepaliNorwegianNyanjaOdia (Oriya)OromoPapiamentoPashtoPersianPolishPortuguese (Brazil)Portuguese (Portugal)PunjabiQuechuaQuertaro OtomiRomanianRundiRussianSamoanSanskritScots GaelicSepediSerbianSerbian (Cyrillic)Serbian (Latin)SesothoSetswanaShonaSindhiSinhalaSlovakSlovenianSomaliSpanishSundaneseSwahiliSwedishTagalogTahitianTajikTamilTatarTeluguThaiTibetanTigrinyaTonganTsongaTurkishTurkmenTwiUdmurtUkrainianUpper SorbianUrduUyghurUzbekUzbek (Cyrillic)VietnameseWelshXhosaYakutYiddishYorubaYucatec MayaZulu
+
+English-------- [ All ] --------AfrikaansAlbanianAmharicArabicArmenianAssameseAymaraAzerbaijaniBambaraBashkirBasqueBelarusianBengaliBhojpuriBosnianBulgarianCantonese (Traditional)CatalanCebuanoChichewaChinese (Literary)Chinese SimpChinese TradChuvashCorsicanCroatianCzechDanishDariDhivehiDogriDutchEmojiEnglishEnglish United KingdomEsperantoEstonianEweFaroeseFijianFilipinoFinnishFrenchFrench (Canada)FrisianGalicianGandaGeorgianGermanGreekGuaraniGujaratiHaitian CreoleHausaHawaiianHebrewHill MariHindiHmongHungarianIcelandicIgboIlocanoIndonesianInuinnaqtunInuktitutInuktitut (Latin)IrishItalianJapaneseJavaneseKannadaKazakhKazakh (Latin)KhmerKinyarwandaKlingon (Latin)KonkaniKoreanKrioKurdish (Kurmanji)Kurdish (Sorani)KyrgyzLaoLatinLatvianLingalaLithuanianLower SorbianLuxembourgishMacedonianMaithiliMalagasyMalayMalayalamMalteseMaoriMarathiMariMeiteilon (Manipuri)MizoMongolianMongolian (Traditional)Myanmar (Burmese)NepaliNorwegianNyanjaOdia (Oriya)OromoPapiamentoPashtoPersianPolishPortuguese (Brazil)Portuguese (Portugal)PunjabiQuechuaQuertaro OtomiRomanianRundiRussianSamoanSanskritScots GaelicSepediSerbianSerbian (Cyrillic)Serbian (Latin)SesothoSetswanaShonaSindhiSinhalaSlovakSlovenianSomaliSpanishSundaneseSwahiliSwedishTagalogTahitianTajikTamilTatarTeluguThaiTibetanTigrinyaTonganTsongaTurkishTurkmenTwiUdmurtUkrainianUpper SorbianUrduUyghurUzbekUzbek (Cyrillic)VietnameseWelshXhosaYakutYiddishYorubaYucatec MayaZulu 
+
+
+
+
+
+
+
+
+
+Text-to-speech function is limited to 200 characters
+
+
+Options : History : Feedback : DonateClose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+This page is in Haitian Creole
+    
+        
+            
+
+            
+
+            
+
+        
+        
+Translate to English
+    
+    
+
+    
+
+    
+
+    
+        
+
+        
+            
+                            
+            
+                
+                    
+                                            
+                
+                
+                    
+                        
+
+                    
+                
+            
+        
+    
+    
+        Always translate Haitian Creole to EnglishPRO        
+        Never translate Haitian Creole        
+        Never translate pad.riseup.net    

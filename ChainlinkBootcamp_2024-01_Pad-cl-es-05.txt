@@ -1,0 +1,459 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 05
+ 
+Pad
+https://pad.riseup.net/p/cl-es-05
+ 
+Youtube Link de la Clase de hoy
+https://www.youtube.com/watch?v=24Ii_0HjiWo
+ 
+Todas las sesiones en Español para
+https://lu.ma/fkr85zi7
+ 
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+ 
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+ 
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+ 
+Twitter
+https://twitter.com/chainlinkesp
+https://twitter.com/javosalomon
+ 
+Chainlink Community Advocate
+https://chain.link/community/advocates
+ 
+Chainlink Developer Expert
+https://chain.link/developers/experts
+ 
+Nombre - Ciudad, País
+
+Francisco Bermudez - Guaca - Colomb
+Yamid calderon- Colombia
+camilo munar - bogota colombia
+Fernando Melendrez - La Paz Bolivia 
+Saray - Valencia, Venezuela
+Santiago - Rosario, Argentina
+Guillermo Malagón - Bogotá, Colombia
+Gilberts Ahumada - Santiago, Chile
+Pablo Guzmán - Santiago, Chile
+Roman Diaz - Buenos Aires, Argentina
+David Hernandez - Valencia, Venezuela
+Santiago - Montevideo, Uruguay
+Juan Fuente - Galicia, España
+Johan Gonzalez - Maracay, Venezuela
+Marcelo Haro - Quito, Ecuador
+villawolf FriendTech, metaverso
+OSCAR SEGURA | CDMX, MÉXICO
+Lucila Aguin - Buenos Aires, Argentina
+Rama - Resistencia, Argentina
+Karinna Serrano - Ciudad de Mexico
+Silvia Martos, Mallorca, España
+Luis Anton, Maturin, Venezuela
+javier velazquez , Argentina
+Johan - Bogota, Colombia
+Diego Raúl Barrionuevo, Córdoba Argentina
+Johnnatan Olave - Bogotá Colombia
+Tomas Sosa Giraldo - Medellín, Colombia
+Rubén Bocanegra - Lima, Perú
+André Neyra - Lima, Perú
+Ramon Bastardo - Puerto La Cruz, Venezuela
+Alexander Aponte - Bogotá, Colombia
+Darwin Cevallos- Ecuador
+Santiago - Bogota, Colombia 
+David Yánez - Quito Ecuador
+Alberto Silva - CDMX México
+Javier Montes - Lima, Perú
+Diana - Puebla, México
+Daniel Jesus Suarez Agamez - Riohacha Colombia
+Anibal Elbaum - Córdoba - Argentina
+Juan Pablo Tixe - Quito - Ecuador
+Tulio Duque - Medellin - Colombia
+orland - Bogota - Colombia
+Carlos Oñates - Valencia - Venezuela
+Dannuver Cabezas Bogotá - Colombia
+Rulo - Hidalgo, Mexico
+jair diaz / bogota/ colombia
+Eliot Pinto - Lima, Perú
+Sharon Graziani - Caracas (Venezuela)
+Rocío Grajales - Bogotá,Colombia
+Alexander Durán - Pereira  - Colombia 0
+Alejandro Betancourt - Barinas, Venezuela
+Joel Garmendia - Valencia, Venezuela
+Armando Colón Mendinueta - Barranquilla, Colombia
+Filadelfo Caicedo - Cali, Colombia
+Arturo Collado- Buenos Aires, Argentina
+Juan David Duque - panama
+Manuel David - Córdoba, España
+Gustavo Meghirditchian - Montevideo, Uruguay
+Sébastien Léger - Barcelona - Spain (y Fr)
+Diego Guillen - Bogotá. 
+Miguel rivas, Madrid - España
+Mónica Ledesma - Argentina
+Raúl Parra Hernández
+Juan Melenciano - Republica Dominicana
+
+ 
+Nombre - Pregunta / Duda
+ 
+1-Cloud - Quiero hacer un PingPong.
+Imaginemos que quiero hacer una llamada de la chain A hacia la chain B y que se haga un call back de la B a la A, pero sin fondear el contrato en la chain B (sino que enviando tokens nativos de la chain B en la primer llamada de chain A a chain B)… Se puede? Creo que no segun la clase de hoy pero espero su respuesta. La alternativa de tener fondos en el contrato de la chain B que paguen los fees de la 2da tx se que se puede, pero quiero saber si lo que yo pregunto es posible... Se que LayerZero permite la feature que yo pregunto pero no me queda claro si CCIP lo permite... Gracias...
+ 
+2-Santiago - Entiendo que la direccion del contrato es distinta para las distintas blockchain pero, el codigo del smart contract es exactamente el mismo para todas?
+Me refiero a nivel codigo. el codigo es el mismo
+Hay algun control para verificar que el mismo contrato en distintas blockchain tenga el mismo resultado?
+ 
+3-Carlos Vazquez 
+CCIPTokenSenderFujiSepolia at 
+0x157D4a62984ff66133f452167AE36CAE045CA340 
+Duda en clase anterior 
+cuando queria trasnferir a sepolia  me salio el siguiente error ...   
+Gas estimation failed
+Gas estimation errored with the following message (see below). The transaction execution will likely fail. Do you want to force sending? 
+Error happened while trying to execute a function inside a smart contract
+ 
+4- HOLA ALGUIEN SABE SI TENDRIA ALGUN PROBLEMA SI NO VÍ LA CLASE DE AYER PARA VER DE LA HOY - Ningún problema, hoy es una sesión de preguntas y dudas de los días pasados
+ 
+5-Karinna - Existen proyectos en funcionamiento que ya usen la tecnología CCIP?
+https://chain.link/cross-chain
+ 
+> puedes mostrar proyectos de la hackathon pasada que usaran CCIP?Aquí tienes todos los proyectos que utilizaron CCIP en Constellation el último hackathon de Chainlink https://constellation-hackathon.devpost.com/submissions/search?utf8=%E2%9C%93&terms=CCIP&sort=
+ 
+ 
+6-para bitcoin se aplica lo mismo? 
+ 
+ 
+7-cual criptomoneda es mejor para invertir? 
+ 
+8-cual es el análisis para saber cuál criptomoneda es rentable?
+ 
+9-Andrés Serna - ¿Solidity aplica únicamente para tokens de la EVM o sirve para el desarrollo en otras Blockchain?
+ 
+10-Andrés Serna - Existen otras aplicaciones para creación de billeteras WEB 3.0 ¿La clave privada de metamask serviría para utilizarla en otras aplicaciones y recuperar la billetera en otras apps 3.0?
+ 
+11-Luis Anton / Si quiero introducirme en la parte de desarrollador una ruta especifica diseñada para un principiante en el tema de blockchain con cuales programas y entornos IDE aparte del remix es bueno comenzar ? Y en el caso de chainlink como mejoraríamos nuestros conocimientos en función del conocimiento adquirido en el #ChainlinkBootcamp2024 o con la ruta especificada para posibles proyectos en GitHub. Acá un roadmap para tener de referencia https://roadmap.sh/blockchain
+ 
+12-Es puntual sobre el formulario de tareas, debemos poner los hash o los links
+ 
+ 
+13- Carlos Oñates, realice mi Token hoy, lo mitie 3 veces por error por la velocidad de internet, en remix veo 300 token, pero Metamask no veo los 300 tokens mitiados.
+Aca la direccion https://sepolia.etherscan.io/token/0xBfF7395EeEBA440C2b78a9E7CeC7191b134A3B52 Presente No veo nada en la billetera
+ 
+ 
+14-David Hernández. ¿Existe alguna página web o aplicación donde podamos auditar o evaluar nuestros contratos inteligentes y token?
+Si, https://www.auditwizard.io/  Gracias
+ 
+15- johnnatan Olave - Existe posibilidad de poder hacer parte de la cominidad Chailink? Soy administrador público nuevo en programación hasta el momento he comprendido el Bootcamp pero una vez se acabe no me gustaria que todo se que de allí, me gustaría que valiera la pena poder continuar aprendiendo y colaborar con la comunidad Chailink
+https://chain.link/community/advocates
+ 
+16-Andrés Serna - Similar a la pregunta 10 ¿La clave privada de una billetera fría como Ledger Live, serviría para recuperar una bill deetera en Metamask o Trezor?
+ 
+17- Malcoln Portillo -  Nos visitaran en EthLatam 2024 en Honduras en marzo y de ser asi podrian brindar para la comunidad de artistas talleres para el desarrollo de contratos inteligentes para NFT dinamicos ? Otra consulta: Podria Chainlink patrocinar parte del espacio para exposicion de NFT's ?
+ 
+18-Andrés Serna - Normalmente los tokens nativos de las blockchain similares a Ethereum sirven para el pago de costos por Tx de cada red, considerando que Chainlink es una capa de servicios para varias Blockchain ¿qué representa el token LINK? ¿es como una "acción/stock" o es para temas de gobernanza futura? ¿sólo para hacer el stake en Chainlink?
+ 
+19-Daniel Plaquin - Como se formaron y lograron ingresar a Chainlink ?
+ 
+20-Marcelo Haro - Saludos, por favor podrían indicarnos acerca de Dencun al respecto de las actualizaciones tesnet en Goerli, Sepolia, Holesky. Por otra parte, será la última actualización de Goerli para luego quedar deprecada?
+ 
+21- Roman Diaz - Si bien nos enseñaron a crear los token, como se le puede dar valor al token monetario creado? Que moneda lo respalda a dicho valor?
+ 
+22- Patricio Gonzalez: He realizado varios cursos de programación blockchain, smart-contract y solidity, en Udemy, en Platzi y acá en Argentina en Educacion IT, pero siento que no logro dar ese paso a sentirme con el conocimiento para poder buscar un trabajo en esto. Que me aconsejarían hacer? 
+Vincúlate con una Comunidad. Aca estoy y los sigo por todas lados! jajajaj gracias!
+Participa más!
+(Abandona el sindrome del impostor! ;). Tu puedes!, luego no creeras hasta donde llegaste!) Muchas graciasSS!!!!!
+ 
+ 
+23-Andrés Serna - ¿Podrían por favor recomendar alguna ruta de aprendizaje para el aprendizaje del desarollo de aplicaciones en Web 3.0?
+ 
+24-Bryan - En caso de que quisiera ponerle una imagen al token que creamos en la clase 2 como se realizaria ese proceso?
+ 
+25- Cuando son los proximos cursos que son mas enfocados a desarrollo de smart contracts? son gratuitos?
+ 
+26- Andrés Serna - En la clase de ayer entendí que CCIP no es un bridge, pero en la práctica sentí que sí lo es ¿podrían por favor ampliar un poco la diferencia entre un bridge y el CCIP?
+ 
+27-Guillermo Malagón - Bogotá, Colombia, Ustedes conocen algún caso de uso exitoso y/o una buena oportunidad de negocio con temas de IOT en CHAINLINK?, en mi caso tengo en web2 más de 10 dispositivos en una ciudad capturando información y almacenando en base de datos, contamos con interfaz web, se les ocurre una buena idea para aprovechar BLOCKCHAIN o web3 en específico?, Gracias
+ 
+28-camilo - que necesito hacer o saber adicional para crear un token real con ethereum. 
+ 
+ 
+29- Su demás cursos son enfocados en el área de la programación de páginas o sólo  programación blockchain?
+ 
+30. Hola, buenas tardes Javier, Gilberts, Luis y Santiago. Soy Rosendo Guzman 
+Nuevo en el tema de BlockChain, es el primer contacto, y el interés surgió a raíz de una petición que me hicieron en mi trabajo (Universidad Autónoma de Guerrero, México), estoy involucrado en el desarrollo de administración escolar y estoy investigando la posibilidad de agregar blockchain a la emisión de documentos oficiales emitidos por la institución, así como una credencial digital para los alumnos y académicos. Actualmente se usa Firma Electrónica Avanzada para los documentos. La Universidad de Nuevo Leon lograron implementar algo con BLOXTEK (https://bloxtek.com/). (https://www.carteradigital.uanl.mx/index.html)
+ 
+Quiero aprovechar de su experiencia para saber por donde entrarle al tema, se que hay empresas que hacen esto, sin embargo, queremos hacer algo propio, o hasta donde nos sea posible, desarrollar lo propio.
+ 
+Otro tema donde también se pretende trabajar es con el registro de los certificados de propiedad inmobiliaria en el Gobierno del estado.
+ 
+¿Donde empiezo, que me recomiendan?
+ 
+Bueno, ya empecé. :)
+ 
+ 
+31. Pablo Guzmán - Caso Error CCIPTokenSenderFujiSepolia
+ 
+El día de ayer y hoy al intentar generar nuevamente el ejercicio me genera un error en línea 65
+La llamada de la línea 65 es : "                Client.EVMExtraArgsV1({gasLimit: 0, false})"
+ 
+El mensaje de error es : Wrong argument count for struct constructor: 1 arguments given but expected 2
+ 
+Al cargar Client.sol me genera la versión pragma solidity ^0.8.0;
+ 
+Y la estructura de EVMExgraArgsV1 por eso el error es:
+ 
+ struct EVMExtraArgsV1 {
+    uint256 gasLimit; // ATTENTION!!! MAX GAS LIMIT 4M FOR BETA TESTING
+    bool strict; // See strict sequencing details below.
+  }
+ 
+Si modifico el Client.sol en mi EDICION de remix los argumentos si realiza el deploy.
+Lo deje así.
+ 
+ struct EVMExtraArgsV1 {
+    uint256 gasLimit; // ATTENTION!!! MAX GAS LIMIT 4M FOR BETA TESTING
+  }
+ 
+La consulta es: ¿Afectaría al ejecutar de forma posterior?
+ 
+Observación:
+    La versión remix me carga mas opciones de menú que al menos he visto a Solange.
+    FileExplorer, Search in file, Compilation Successfu, Deploy and Run transaccions, Debugger, LearnEth, estas últimas 2 no aparece en la pantalla de Solange, Influirá algo 
+    
+    ****
+    Si miran el Pad de ayer, el ejemplo de Solange tenía solo 1 argumento, por eso me genera el error a mí, desconozco el porque a mi, me trae el Clien.sol "deprecado"
+    
+    https://pad.riseup.net/p/cl-es-04
+    
+    Codigo: 
+        
+      
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+ 
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/IERC20.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+ 
+contract CCIPTokenSenderFujiSepolia {
+    IRouterClient router;
+    LinkTokenInterface linkToken;
+    address public owner;
+ 
+    // https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+    address link= 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846;
+ 
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+    address routerAddress = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+    address bnmToken = 0xD21341536c5cF5EB1bcb58f6723cE26e8D8E90e4;
+    
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#ethereum-sepolia
+    uint64 destinationChainSelector = 16015286601757825753;
+   
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees);
+    error NothingToWithdraw();
+   
+    event TokensTransferred(
+        bytes32 indexed messageId, // The unique ID of the message.
+        uint64 indexed destinationChainSelector, // The chain selector of the destination chain.
+        address receiver, // The address of the receiver on the destination chain.
+        address token, // The token address that was transferred.
+        uint256 tokenAmount, // The token amount that was transferred.
+        address feeToken, // the token address used to pay CCIP fees.
+        uint256 fees // The fees paid for sending the message.
+    );
+ 
+    constructor() {
+        owner = msg.sender;
+        router = IRouterClient(routerAddress);
+        linkToken = LinkTokenInterface(link);
+        linkToken.approve(routerAddress, type(uint256).max);
+    }
+   
+    function transferToSepolia(
+        address _receiver,
+        uint256 _amount
+    )
+        external
+        returns (bytes32 messageId)
+    {
+        Client.EVMTokenAmount[]
+            memory tokenAmounts = new Client.EVMTokenAmount[](1);
+        Client.EVMTokenAmount memory tokenAmount = Client.EVMTokenAmount({
+            token: bnmToken,
+            amount: _amount
+        });
+        tokenAmounts[0] = tokenAmount;
+       
+        // Build the CCIP Message
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(_receiver),
+            data: "",
+            tokenAmounts: tokenAmounts,
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 0})
+            ),
+            feeToken: address(linkToken)
+        });
+       
+        // CCIP Fees Management
+        uint256 fees = router.getFee(destinationChainSelector, message);
+ 
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+ 
+        linkToken.approve(address(router), fees);
+       
+        // Approve Router to spend CCIP-BnM tokens we send
+        IERC20(bnmToken).approve(address(router), _amount);
+       
+        // Send CCIP Message
+        messageId = router.ccipSend(destinationChainSelector, message);
+       
+        emit TokensTransferred(
+            messageId,
+            destinationChainSelector,
+            _receiver,
+            bnmToken,
+            _amount,
+            link,
+            fees
+        );  
+    }
+    
+    function balancesOf(address account) public view returns (uint256 linkBalance, uint256 bnmTokenBalance) {
+        linkBalance =  linkToken.balanceOf(account);
+        bnmTokenBalance = IERC20(bnmToken).balanceOf(account);
+    }
+ 
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+ 
+    function withdrawToken(
+        address _beneficiary,
+        address _token
+    ) public onlyOwner {
+        uint256 amount = IERC20(_token).balanceOf(address(this));
+       
+        if (amount == 0) revert NothingToWithdraw();
+       
+        IERC20(_token).transfer(_beneficiary, amount);
+    }
+}
+  
+    
+    *****
+ 
+ 
+32.- Rama
+Es posible utilizar C++ (desde un Arduino / ESP32 / Raspberry) para interactuar con la Blockchain? (Me gustaria si es posible, que me apunten en la direccion de algun ejemplo) La intencion es hacer un Log de datos de temperatura y humedad, para que  un SmartContract interactue a partir de dichos valores. (Ariel - Buena pregunta, seria como implementar un oráculo propio :D) Claro! algo asi! =) GENIAL! Pense que la idea era que el propio dispositivo se encargue de firmar las transacciones en la blockchain :P Para firmar, necesitas de las llaves privadas. De poder, si se podria agregando esas llaves al codigo, pero ahi entra la seguridad. Exacto, si tiene varios dispositivos puede distribuir la llave entre todos los dispositivos, tipo una multisig IOT :D
+ 
+ 
+ 
+33. Sharon Graziani (Venezuela). 
+Me pueden mandar sepolia? 
+0x639e7b21b50E48344347acDA5A69ca8f235747f6
+prueba con pow faucet res muy facil
+aqui lo consigues fácil https://sepolia-faucet.pk910.de/
+Enviado!
+ 
+ 
+34. Javier.
+Seria posible crear dNFTS mediante un contrato factory teniendo en cuenta que las distintas colecciones tendrían distintas circustancias para su actualización o cual sería la mejor forma de abordarlo. Mi pregunta va enfaca mas sobre los servicios de ChainLink.
+ 
+35- que se necesita para montar una blochckain
+ 
+37- Santiago mvd: Cuantos tipos de token hay por el momento (ERC-)?? Y frente a eso: Se puede hacer un contrato que sirva como garantía para utilizar una app que incluya otros contratos luego?? Como si fuese un "pase" hacia otros contratos exlusivos que solo teniendo el contrato primero podrían ejecutarse, Gracias!
+ 
+38 - Acerca de auditar contratos... Por si usan VSCode, hay buenas extensiones para auditar contratos, cuáles más recomiendan? 
+- https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-metrics#:~:text=VSCode%20Solidity%20Metrics,Metrics%3A%20Export%20current%20metrics%20report%20.
+- https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor&ssr=false#overview
+- https://marketplace.visualstudio.com/items?itemName=Olympixai.olympix&ssr=false#overview
+Más detalles: https://medium.com/immunefi/the-rekt-test-9834fc7467fb
+ 
+38 - Claudio (mapache255)
+Pueden explicar un poco sobre flash loan? y si podría haber algun problema con alguna manipulación de precio si el contrato depende de algun oraculo si es manipulado, o un ataque de reetrancy?
+ 
+39 - La relacion entre contratos proxy sería algo similar a los puentes que hablaron en el curso conectando blockchains entre si, pero solo que lo hacen entre contratos? me podian explicar un poco eso?
+ 
+40- Ante todo felicitaciones!...Si bien estamos definiendo un proyecto para un proximo Hackathon, es posible minar Link y/o requisitos existen?..GRACIAS!!
+De nada! Excelente pregunta para aclarar a muchos.
+ 
+41- Luciano Delaude - Gilbert, mencionaste que eras desarrollador full-stack (o eso creí escuchar jaja) que diferencia notas entre ese tipo de "enfoque" con el que se realiza al desarrollar en este ambiente que te/se encuentran actualmente? Funciona con un formato similiar (arquitecturas, backend/frontend, etc)
+ 
+42 - Juan Fuente - Ayer, hablando sobre NFTs y Ordinals salió el tema de que IPFS, no termina de ser del todo descentralizado, y que ordinals, al estar integrados en la cadena  bitcoin y son mucho más fiables y inmutables, ¿que opinais? Gracias(si, soy español :O) 
+ 
+43 - Roman Diaz - En relacion a los nodos de las blockchain, se puede estudiar DON (Decentralized Oracle Network) o directamente brinda el soporte oracle de su tecnologia? La consulta va dirigida a que mi intencion es poder estudiar dicha tecnologia ya tengo experiencia en base de datos Oracle. Tuvieron que tener conocimiento sobre DON?
+ 
+44- Salud muchachos, xunorus aqui desde argentina.
+Desarrollo hace varios años en blockchain y soy un crypto usuario hardcore desde aprox 2013, participe en varios hackathones y gane varios premios , pero siempre me he quedado corto con el funding para desarrollar mis proyectos por lo que estos fueron mutando y diversificándose en la medida que uno sigue aprendiendo y participando en nuevos hackathones. En mis últimos proyectos estoy integrando fuerte con los diferentes servicios de chainlink, mi pregunta es: cual piensan ustedes seria el paso para financiar el desarrollo de estos proyectos ?
+gracias!
+ 
+45- Si tengo tokens de A en wallete A y quiero llevarlos a la wallet B, donde debo tener el gas?. Donde se reciben o de donde se envian.?
+ 
+46- Dónde envía,la wallet A paga el fee o comisión, es recomendable también enviar un poco del token con el que pagas el gas a la wallet B para que puedas mover los tokens que enviaste.
+ 
+47.¿QUÉ ES LA ENCRIPTACIÓN FHE? HOMOMÓRFICA Y QUÉ DIFERENCIA HAY CON EL SHA-256, QUE ES EL QUE CONOZCO. ESCUCHÉ ESE CONCEPTO Y NO SUPE DE QUÉ HABLABAN, PERO LO POCO QUE PUDE ENTENDER ME PARECIÓ MUY INTERESANTE. Ariel- se usa para entrenar redes neuronales con datos sencibles encriptados bajo ese protocolo y que las redes no tengan necesidad de desencriptarlos.
+- Qué tal les parece esto? https://www.zama.ai/post/private-smart-contracts-using-homomorphic-encryption
+ 
+48 - ¿Parece que en el mundo anglosajón hay muchas opciones de trabajo en blockchain, pero en español hay opciones reales de entrar a trabajar siendo totalmente junior?
+ 
+49 - Ariel Robotti - Volviendo a la pregunta de Rama, cómo se podrían firmar transacciones desde un dispositivo embebido tipo Raspberry Pi ESP32 etc, para interactuar directamente con alguna blockchain barata sin necesidad de exponer una API, y disparar funciones en un smart contract dependiendo de los datos ofrecidos por ese dispositivo? En este sentido y para reforzar la seguridad, sería posible distribuir la llave privada en diferentes dispositivos para que se requiera de todos ellos para firmar esas transacciones? Checa si la libreria web3js(o alguna libreria de este tipo) puedo funcionar en rasperry, en caso de que si, entonces si se podria realizar
+Una raspberry corre Linux!
+ 
+50 - Lorenzo: Saludos a todos equipazo!!! Esta va para Gilbert... ¿Donde está el cinturón amarillo que recibiste en SmartCon? Un orgullo para la comunidad hispana el valor que están compartiendo siempre, Javier, Luis, Santiago y Gilbert... no se cansen nunca!!!
+ 
+51 - Javier - Para Santiago, no entendí bien como resolviste el problema de la suscripción a fuctions desde el factory?.
+ 
+52 - J.D Nicholls - Han llegado a usar esta lib de Solidity? https://github.com/zama-ai/fhevm
+ 
+53 - Pablo Guzmán - Tengo 27 años viviendo en el mundo tech centralizado, por tanto, el gran desafío desde mi punto de vista es generar contratos con el dato (transacción) de una base de datos con poca actualización y mucho uso (valor) para el negocio. De lo contrario el consumo de Gas, hace que el proyecto sea inviable. Se puede ocupar Internet Computer para mantener la filosofia de la descentralización :P 
+ 
+54- Tulio no es pregunta es agradecimiento por el bootcamp y el espacio. Excelente
+@soy fidelina excelente la mentoria, Gracias por esta formaciòn una venezolana de 61 años ahora en Brasil cariños 
+Saludos Fidelina, que bueno ver aca mas Venezolan@s
+ 
+Excelente trabajo muchachos, como siempre!! Muchas Gracias... Saludos desde Argentina
+ 
+Antes de acabar que no se vaya Giberts sin tocarnos alguna melodía en ese piano tan bonito Apoyo la moción x3
+
+ 
+ 
+ 
+ TRANSLATE with  x
+ 
+ 
+  English 
+   ArabicHebrewPolish  BulgarianHindiPortuguese  CatalanHmong DawRomanian  Chinese SimplifiedHungarianRussian  Chinese TraditionalIndonesianSlovak  CzechItalianSlovenian  DanishJapaneseSpanish  DutchKlingonSwedish  EnglishKoreanThai  EstonianLatvianTurkish  FinnishLithuanianUkrainian  FrenchMalayUrdu  GermanMalteseVietnamese  GreekNorwegianWelsh  Haitian CreolePersian    
+  
+ 
+        
+ 
+  
+ 
+ 
+ TRANSLATE with 
+ 
+ 
+  COPY THE URL BELOW  
+ 
+     
+ 
+    Back 
+    
+ 
+ 
+ EMBED THE SNIPPET BELOW IN YOUR SITE   
+ 
+  
+ 
+Enable collaborative features and customize widget: Bing Webmaster Portal
+ 
+Back
+ 
+  

@@ -1,0 +1,708 @@
+
+ smaChainlink Bootcamp
+Apr/2024
+Session 04
+
+All the recordings of the previous sessions are in the luma page:
+https://lu.ma/ChainlinkBootcamp2024
+
+Youtube
+https://www.youtube.com/@chainlink
+
+BootcampSupport
+https://chain.link/discord 
+bootcamp channel
+
+Slides : https://docs.google.com/presentation/d/e/2PACX-1vSnf4bZHTmpZW8s_PKwkS2wT0ZbHmMygg1JKGlvElaS9G0v9wA5kUr_8sJbkGEJZ5cM6y6a3U0a_5t1/pub?start=false&loop=false&delayms=3000
+
+Chainlink Bootcamp 2024 Tasks form:
+https://forms.gle/NNU9mkLLvLbV86nW6 
+
+Doubts form EN
+https://forms.gle/E5nTzaM7s7WH7xzS8 
+
+Workshop Faucet
+https://workshop-faucet.vercel.app/faucets
+LinkShadowFork18
+
+
+Hugo - Canada - Love Chainlink team! 0xBA1fB1010a3ff55857eBf70a7DbE1D40a6C80cEA
+:)
+
+
+mike - California- vanilla 
+Hackathon Idea: A contract that allows a user to establish an ongoing cashflow relationship between two users. So, the token would represent a flow.
+
+YOOOOOOOOOO
+call to TokenShop.getChainlinkDataFeedLatestAnswer call to TokenShop.getChainlinkDataFeedLatestAnswer errored: Error occurred: execution reverted.  execution reverted    The transaction has been reverted to the initial state. Note: The called function should be payable if you send value and the value you send should be less than your current balance. Debug the transaction to get more information.
+ my issue 
+ evans from nigeria 
+ 
+WAZA 0x2D5175E01305D5FBD80A3cD8eE3497aA04E391c1
+
+Name and Country, Favorite Icecream
+Eric - USA, Cookies & Cream
+Tobi- Nigeria,Cream
+Swamy- India, Butterscotch
+Sol - Brazil, Chocolat
+Van - Germany, Chocolat
+Kai - Green tea matcha
+durgesh -litti chokha
+Ini Seven - Nigeria - Strawbe- peanut butter
+Dimosthenis Tsatsos - Greece, Vanilla
+INDER - United Kingdom - Mango ice cream 
+Mayowa - Lagos, Nigeria, Vanilla Ice Cream
+Chris - Boston - Peanut Butter Cup
+Bert, Chocolat
+Mehran - India, Mango
+Enock - vanilla ice cream
+Nikolaos Georgakopoulos - Greece, Banofi
+POO POO
+Rehan Baig - Pakistan - Chocolate with Kulfa 
+Sefa - Turkey - simple/milk
+Ayo - nigeria - vanilla
+karianjahi - kenya- vanilla
+Sahad - Bangladesh , Chocolate
+Filipp Loss - Georgia, pistachio
+Daniel Benitez, Colombia - rum with raisins
+Demetris - London, chocolate
+Bilal B - Morocco, Vanilla
+G – London; mint chocolate chip 
+Visal - Cambodia, Taro
+jan blueberry
+ Durgesh RAjbhar -India
+Ajay -India- Vanilla
+Rajiv - India - Chocolate
+  nitro - kenya - mint
+Ekomabasi - Nigeria- Vanilla
+R. B. Bozkurt - Turkey - Dulce de Leche
+  
+Jarret - Singapore, Chocolate
+1.  Ifeoluwa Leeds UK   Mint and Vanilla
+BIDYADHAR SAHU,INDIA,chocolate
+ksjijfniuern TYU, CHOCOLATE
+Ludwig - South Africa - Nuts
+2. Tingan Jeff - Ghana
+David-  Nigeria
+Nix - Italy
+Marco - Italy
+3. Muabshira - Mumbai, India (Custard apple)
+jan London
+4.Hugo - Canada, chocolate oreo
+Jos - Greece, Athens, Strawberry
+5. Imonite - Nigeria
+6. LikKee - Malaysia
+7. Mike Wang - UK, Vanilla
+8.Svidt - Denmark - liqorice
+ bubababababa
+9.Tak<3 - Germany  - matcha
+10.Arinze - London, UK - Haagen Das
+11.Finn Clancy - Dublin, Ireland, anything ben and jerry's
+12. Anthonyjcr - Venezuela, Lemon CheeseCake
+13. Dr. Felipe P. Sta. Elena, Philippines,  Coffee ice cream
+Taffy- Trinidad and Tobago,Caramel
+Ukeme W - Nigeria
+Jasmine Sabio - NYC, USA: Coo🍨kies & Cream Ice Cream 
+Bertrand Couture , Canada
+Arnaud - Uganda
+AS_Andrew - Lithuania, Mango flavor
+Med - Casablanca, Morocco, maybe chocolate icecream
+RK - USA, Pistachio
+Eric - Tokyo, Japan, peper
+Gilbert C - Dallas, TX USA (Cookies and Cream)
+Nolan - USA - Mint chocolate
+Emil - Sweden - Cookie dough
+Hector R. Encarnacion - London, U.K. (Pistaccio of course)
+Shane - Malaysia - Mint Chocolate
+M.Saeed KSA 
+Manajit - India
+Ozzie Zimbabwe -mint
+WAZA WAZ HERE
+ayop london
+Alesia - Ukraine, Gelato alla Nocciola
+Raktim - Nepal, Butter Scotch
+Jesse J - Nigeria - Vanilla
+Tiago Tavares - Portugal - Hazelnut
+Rehan Baig - Pakistan - Chocolate with Kulfa
+Vilma Ahumada - Colombia, lemon 
+22.Abdi - Kenya
+Taesuk - Germany, Pistachio
+Axel - Australia, 'Ice cream sandwich', we call them 'Monaco Bars' locally
+Dimitrios Sakkas - Germany - all of them
+Bartek - Warsaw, Poland
+AbdulRahman Redaa - Egypt - Lemon
+Steve - US
+Sebastian Hoyos - Munich, Germany - Ice Cream: Cookies & cream
+Carlos Mitidieri - Ulm, Germany - Pistache
+Rodrigo Burgos - Dark Chocolate, Brazil
+Vladislav - Belgrade, Serbia - Vanilla
+Mario - Berlin, Germany  - chocolate
+Marius Welthagen - Johannesburg Vanilla 
+OC - Portugal - (real) Pistachio Gelato
+Adesina Victor Lagos, Nigeria
+Jeremias - Argentina, marroc
+Maeius
+Dinejad - Indonesia, Mixue Ice cream
+Bruno Moutinho - Brazil - Chocolate and Mint
+Taiwo - Nigeria - Chocolate
+Michael F. from Austria / I like maracuja with dark chocolate
+Dipak Jadhav -Ind
+Jason - Ireland - vanilla
+Jelena - Stockholm, Sweden, Ben and Jerrys strawberry cheesecake 
+Stanle
+Abhik India ButterScotch
+Shailesh - India - butterscotch
+Parvin - India - Vanilla
+Gabriel Ojeh - Nigeria
+Salt 7 Straw
+Nicolás - Chile,banana split
+Emmanuel William Esin - Nigeria
+Vivesh India Strawberry
+Simon - salted caramel
+David kenya  vanilla
+orestis athens
+Duane USA CHunky Monkey
+Thao Le - Vietnam, chocolate
+I LoVE Chocolate toooo
+Cyrus - Colorado, USA - Cookie Dough
+KIN - USA - Haagen Dazs Caramel Cone Ice Cream
+Juan C - San Antonio, TX - Strawberry Chees
+Jesse, Ghana, Vanilla
+Mihir, India, Mint Chocochip
+Rhony Antony – Singapore
+Festus, Ghana,Chocolate
+Alessandro,Italy,Granita
+8
+Israel- Nigeria, vanilla
+Maria - Baires, Coffee
+T.SATHISH -India, kulfi 
+Tekin - Antalya,Turkey - Cherry
+Duong - Hung Yen, Vietnam
+Samuel - Lagos Nigeria
+Tenn - South Africa - Caramel
+Bruk - Ethiopia - Vanilla
+Ben - Taiwan, cherry
+Tim - Nigeria, Vanilla
+Resky - Indonesia
+David Cruz - Mexico, Napolitano
+Umut - Turkiye - Cherry Ice Cream
+Sadik - Turkiye - chocholate
+Victor - Kenya - chocolate
+Arcadio Garcia, Spain, Coffee
+Nilds Vasquez Gonzalez - Lima, Peru
+AKINOLA DAMILARE -Nigeria
+Oluwashola Oyewole - Nigeria
+Karen Yip - Guatemala - Chocolate
+Nachon B. - Thailand Lime
+Dteqtive David - Los Angeles - Rocky Road
+Abin Rimal - Nepal, cherry ice cream
+Alexander Yakovlev - London, UK
+Julio M. - Lima Peru - Lucuma
+Yunus Tijani - Switzerland, Strawberry
+Kelly Egode- Belfast UK
+Mohammed Elnekhaly - Mainz, Germany
+richard Temu kenya
+Wilder Rincon - Colombia
+Omokolade Adelekan - Nigeria - Chocolate
+Dike Ogwuma - Nigeria - Chocolate
+Jeffrey Omamoke - nigeria
+Raphael Dominic - Nigeria, Vanilla 
+Adedipe Oluwasina Nigeria
+David Luna - Costa Rica
+Efim - Russia
+Cesar Gutierrez - Lima, Peru
+******************************************
+
+call to TokenShop.getChainlinkDataFeedLatestAnswer call to TokenShop.getChainlinkDataFeedLatestAnswer errored: Error occurred: execution reverted.  execution reverted    The transaction has been reverted to the initial state. Note: The called function should be payable if you send value and the value you send should be less than your current balance. Debug the transaction to get more information.
+my issue 
+
+****************************************
+
+LINK Token
+Add LINK to Metamask - Ethereum Sepolia
+https://docs.chain.link/resources/link-token-contracts#sepolia-testnet 
+
+Reference
+https://docs.chain.link/docs/link-token-contracts 
+
+Avalanche Fuji - setup
+Source Blockchain
+Avalanche Fuji
+
+Destination Blockchain
+Ethereum Sepolia
+
+Add Fuji to Metamask
+https://chainlist.org/chain/43113
+
+Connect wallet
+Avalanche Fuji Testnet - Add to Metamask
+
+Add LINK to Metamask - Avalanche Fuji
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+Faucet
+Get Avax Fuji and LINK on Fuji
+https://workshop-faucet.vercel.app/faucets/fuji
+Password: LinkShadowFork18 (don't share this on youtube comments)
+
+If you are ot live, or the workshop faucet is empty, go to:
+https://faucets.chain.link/
+
+https://www.allthatnode.com/faucet/avalanche.dsrv
+
+Avax Fuji Block explorer
+https://testnet.snowtrace.io/
+
+USDC
+Add to Metamask
+How to import USDC to your Metamask wallet
+https://developers.circle.com/stablecoins/docs/usdc-on-test-networks
+
+USDC address - Avalanche Fuji testnet
+0x5425890298aed601595a70ab815c96711a31bc65
+https://testnet.snowtrace.io/token/0x5425890298aed601595a70ab815c96711a31bc65
+
+Faucet
+https://faucet.circle.com/
+USDC from Avalanche Fuji testnet
+
+
+
+References
+More about USDC
+https://learn.circle.com/quickstarts/cctp
+https://developers.circle.com/
+
+Remix
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Check if you are on Custom (43113) network = Fuji
+
+Tokens sent
+10 testnet USDC is on its way to your wallet and should appear shortly
+
+TransferUSDCBasic
+Icon 2 - FILE EXPLORER
+Create file
+TransferUSDCBasic.sol
+
+Copy between Begin and End
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/IERC20.sol";
+import {SafeERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/utils/SafeERC20.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract TransferUSDCBasic {
+    using SafeERC20 for IERC20;
+
+    error NotEnoughBalanceForFees(uint256 currentBalance, uint256 calculatedFees);
+    error NotEnoughBalanceUsdcForTransfer(uint256 currentBalance);
+    error NothingToWithdraw();
+
+    address public owner;
+    IRouterClient private immutable ccipRouter;
+    IERC20 private immutable linkToken;
+    IERC20 private immutable usdcToken;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+    address ccipRouterAddress = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+
+    // https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+    address linkAddress = 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846;
+
+    // https://developers.circle.com/stablecoins/docs/usdc-on-test-networks
+    address usdcAddress = 0x5425890298aed601595a70AB815c96711a31Bc65;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#ethereum-sepolia
+    uint64 destinationChainSelector = 16015286601757825753;
+
+    event UsdcTransferred(
+        bytes32 messageId,
+        uint64 destinationChainSelector,
+        address receiver,
+        uint256 amount,
+        uint256 ccipFee
+    );
+
+    constructor() {
+        owner = msg.sender;
+        ccipRouter = IRouterClient(ccipRouterAddress);
+        linkToken = IERC20(linkAddress);
+        usdcToken = IERC20(usdcAddress);
+    }
+
+    function transferUsdcToSepolia(
+        address _receiver,
+        uint256 _amount
+    )
+        external
+        returns (bytes32 messageId)
+    {
+        Client.EVMTokenAmount[]
+            memory tokenAmounts = new Client.EVMTokenAmount[](1);
+        Client.EVMTokenAmount memory tokenAmount = Client.EVMTokenAmount({
+            token: address(usdcToken),
+            amount: _amount
+        });
+        tokenAmounts[0] = tokenAmount;
+
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(_receiver),
+            data: "",
+            tokenAmounts: tokenAmounts,
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 0})
+            ),
+            feeToken: address(linkToken)
+        });
+
+        uint256 ccipFee = ccipRouter.getFee(
+            destinationChainSelector,
+            message
+        );
+
+        if (ccipFee > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalanceForFees(linkToken.balanceOf(address(this)), ccipFee);
+        linkToken.approve(address(ccipRouter), ccipFee);
+
+        if (_amount > usdcToken.balanceOf(msg.sender))
+            revert NotEnoughBalanceUsdcForTransfer(usdcToken.balanceOf(msg.sender));
+        usdcToken.safeTransferFrom(msg.sender, address(this), _amount);
+        usdcToken.approve(address(ccipRouter), _amount);
+
+        // Send CCIP Message
+        messageId = ccipRouter.ccipSend(destinationChainSelector, message);
+
+        emit UsdcTransferred(
+            messageId,
+            destinationChainSelector,
+            _receiver,
+            _amount,
+            ccipFee
+        );
+    }
+
+    function allowanceUsdc() public view returns (uint256 usdcAmount) {
+        usdcAmount = usdcToken.allowance(msg.sender, address(this));
+    }
+
+    function balancesOf(address account) public view returns (uint256 linkBalance, uint256 usdcBalance) {
+        linkBalance =  linkToken.balanceOf(account);
+        usdcBalance = IERC20(usdcToken).balanceOf(account);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdrawToken(
+        address _beneficiary,
+        address _token
+    ) public onlyOwner {
+        uint256 amount = IERC20(_token).balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        IERC20(_token).transfer(_beneficiary, amount);
+    }
+}
+
+// End
+
+Or get it on Github
+https://github.com/solangegueiros/chainlink-bootcamp-2024/blob/main/TransferUSDCBasic.sol
+
+
+Deploy
+
+Name - TransferUSDCBasic Address
+Akos - 0x16923Db7110dF7D25D44032A591F6e93046F7AA7
+Nishith - 0xC8A2b9b8D6535C8C2e2aeD62481DF88CD64692D0
+Mahreen- 0xd6118d66183c7b0b12C03976205aF1028205620F
+Ajay - 0x6Cd3e7BC919F9168292E36046604D8f5350c466a
+Muabshira - 0x6b279d97cAf3C156295eF0201b695660744662b5 
+Van - 0x1f163177cB0473927Ae710d304a1F603068172e6
+Inder - 0xeb02eF7dE1bA1545B32D5283908aCB167e5E07CD
+Rajiv - 0x4798A8D00AEa3362551F0eBb5CCae06794Ff1f0b
+Resky - 0x1BA8f54a8A4F72F80ca32Fdb51ecbDCda86472d5
+Dimosthenis Tsatsos - 0x2db57eC46Ba73FB0eca6aF39Ac9d594E23643C6E
+Finn Clancy - 0x77309B1C49216F781Ea87Dee2FEf8e32AEb4a29D
+Sol - 0xCBc99C72E9547D382bfaE9EFadCDf47f92F0fb72
+Sebastian Hoyos - 0x9A28F255bd88C4012081D94D95aED0BB9235128d
+Eric Kim - 0xe36d8cb186b1a9b88659389c9a1fc63a49635d02
+Jos - 0x5dFcDd2237a49Bb82248224B25e79a60e419088B
+Ayo - 0xD6D9BAE0775D371387D888a6d2Bc417C055FB30D
+Visal - 0x9c6e5FCa8f847Af68aC26Aa94907B5CE8188a56c
+Kilian -0xb3a55ad4f0310e6D156E225D53a42d78BA31DEa7
+Kojrey - 0xE365e9dAd227870f1bDfa936053ffF2930cc650a
+Daniel B - 0x5C923Fee95338C35b1156cfB8db8eb778Ec893B5
+Demetris -0x6C21EeDe48d2CC485c6B38Ac339cDf82eBEDE8c7
+David 0xB14D98b4F5Ec7A6d2A3Af2592871684DF468041C   
+AS_Andrew - 0xc6B680220319d0885b2a1d1e2610E3795e65f613
+Arinze - 0x8BBE2D692B3F8DFaC314870dB489A83BD403206b
+Mike Wang - 0xEFfbFA5f64F9dC6453aC39c4cF75adFb25c90d18
+Alesia - 0x33Ab2A26d91e56d9679f54957bf796fcE4509f57
+Alexander - 0x6efFE71a914AAf7d0c73631D3D2a7feBB2f7B11C
+Mohammed Elnekhaly - 0xa158c3985C3dF020B50f907cce5000259352D7Ac
+KIN - 0xCCA7e474B42c1B56F6431D71EE0819CB150f8eC0
+Parvin - 0x49F3372F7D2Ae38297f9446470B0C0321478FF82
+Bozkurt - 0x4179aa5e7D1FAF89679f89e0736970E93Ee986B6
+Emil <3 - 0xae9a3e25ECEcE917b0a0d8EC1081C37cf3f0d635
+Simon 0x65bed3ec228281542d3B52f2966faBBe9C964Feb
+Taesuk 🐶🐶🐶🐶🐶 - 0xD522c090B294d1944c7cAF9ADcfE6009ba8966BC
+Maria - 0x57e6dFA2Adb98Dc1bdE0Ec732c552637a2e9aF03
+Ukeme W - 0x2A6088C63eFD3Be2A7D32dd5A9aE3a8980d1F0bE
+Yunus - 0x1e16Dbd4F95496219906F13648EB3dE8e380DC8A
+Svidt - 0xdd9617bFA6d37632e45FC76192D10E9b3381082c
+Filipp - 0xad218638d84172fd5584fa8238ff02e84713fa4f
+Nicolás - 0x49A453eA82B69D0fEe70cEaC12FB7665A683D28F
+Juan C - 0x6B88eC538EF7C4D777b0D60afd7017F8a146e278
+Steve 0x7ff398122d905A31870ffa849fBd3357f401b23F
+Jesse J - 0x0Ff913D4956aE06e37eA09961825673Af4C08F9F
+Jeremias - 0x99a0dde63ca3159c1c1d59d321ad165b805c2efb
+Dimtrios Sakkas - 0xB1380733c0EA6eb08aABa51080439aC0F7388D00
+Waza 0x66bad9a96dd357027a1aa94556d895bef35ac7e278ac8ea6028e4a59b4616b5b
+Duong - 0xDd139FB9a2a4320385C75eCDE07a3101b224377e
+LikKee - 0x38661043018AaB9c8A4c5fB6A2544ce5B0434543
+Dteqtive - 0xaA42f2abDbDB2cb7db59A1EC153674c1Be4f69a5
+Michael F. - 0x970B0426E0DBab8Bd302Bc6639DaddecB60F5192 (on Fuji)
+Stanley - 0x4d37A58B9256d176e9ca2d06D63a7d39C643f7e3
+Abhik 0x7EEa0DcF489D953016232Dbe668a65c9c6dab285
+Tak<3 - 0x5e3934671D4B2e3835de9d2D29bB5718f879027a
+Chris - 0x25B409c243FB855C7987B05c043D2cE7d80AbdA9
+Bilal B - 0x4236Ec2E856f01B73Ce6C34ff7d9Ab2c1A8e5E7d
+Nix - 0x484a222dc592109f5880Fd01f82454C28D8C91Da
+TIM - 0x2C73937Dc71DA0C9115d32F7705f758b130C04b5
+Tekin - 0x38e9288bF74daF58363EB189F294f3De0B93a500
+OC - 0x4cfff07B9B3CC5CEdb52312F8a9be684DF31f951
+Temu 0x5748B60AC935acFD8998c17edEe50E2fBB5a1aF4
+Bartek - 0x883E22796c2Ef4Eb064008Fc37700789992e33ED
+Hugo - 0x20905b438de12925d78fa756B7005BC3B5c2a80f
+Hugo - 0xe102bd1F751420A4269fc258F7A6cB44Ea2B380d
+G – 0x0D0cac72A79DfaDBEBA954987AF60FbB72Fb837F
+Mehran - 0x6080C9E5Fb66b7A97B2D2828b30350B1250F141F
+Nachon B. - 0xB3192dAb8Ef4E39f49CD6D16bf46970cef990D22
+Jeff - 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+Nolan - 0x5c2ad1D0850F4Fc581ba88097C1699Af6FFc4be2
+Bilal - 0xC3e0495710C3b5419c67138D8cb4a17Fb162cd5D
+T.SATHISH - 0xf387788dd4d6be0045d27c4680ec7a3dc75836382cda3ba2b186c98342b6986a
+ifeoluwa - 0xe273D58eCfe8A63b0ED4F7668c5c281c1Eff7d45
+Med - 0xA5F261678A33DA60C679877F412fa7D8c53dD7Ef
+Enock -0x9Ea274ABdDB42E69feF8b155E16B7700dFD22b6B
+Rhony - 0xEA14A28C1472793A30214282B2876351a9Ff82af
+Jesse - 0x039a2f0e7de3a2c2553F9B6d30001CaF01031c27
+Alessandro- 0xf5fa43Cb96C2E0E268CA48CA6428b814Bc3Def07
+Sahad - 0x0EA910F65D227F4ec7631d8B55aC3FBD528987ed
+Shailesh - 0xB0C917822F88c9505A0855ceD1c04e41BEb781f3
+Gilbert C - 0x2Da58CEbbBe044c9653Def13E5F0E99Bae67A733
+Mario - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Enock -0x9Ea274ABdDB42E69feF8b155E16B7700dFD22b6B
+Ekomabasi Ukanga - 0x3c7ec0Bde2104C8C55ccEf807eA15aE1c6F70A27
+Dike Ogwuma - 0x1d07e53E3ba60CdC2Ef432FC3822905251303d09
+Enock - 0x41287f6bbb4be998711e34cd704429427d508dc201b86c06c564428aacaff4cb
+Sefa - 0x14A336F3536C7C01365F2caC18BBB4765905cDED
+Karen Yip - 0x4CfA79cA82ccc40c9675ADb5FAb3F4fba487aeC9
+REd 0x42A49eE46EaFc52dC8EA505676224E81d36570c0
+Bereket - 0x05C9dd0853Bae417952A643f21d5A4D893e8aFEA
+Rodrigo - 0x4Faf7A67DC706669c95E3946584e2CdC616b2bb7
+Mimi - 0x63D24348D1D2e7a26D4D37820F5c87945fB5744b
+Orestis- 0xf5097bc76d165d9d393eb831c5eae5fd90cf697e17d3def0fa7cb0d9c4781df9 
+Taffy- 0xDE5C550d770CFFAB71be1C57095e7645E1C7C425
+dipak -0x84a59F110B014c573504e82b03230383FB20b80b
+Arinze - 0xbdbf9fa7b9541ec6139c24b616998c0bf65de689784b68208d0c540971113e78
+T.SATHISH - 0x098214266A3b54b7FeFCd8a202406503C7a8e250
+Raphael Dominic - 0xd26BC5102E63cc526548f2c7D62ea0d99fEc0bFa
+Ben - 0xE348541CFe3A3DfB15EF1a5d7B9ef6B84Fb4a502
+Tiago Tavares - 0x9c7e8aC54157a51b595476b6840e74B8a8144c32
+Jarret - 0x0fd71C25AC6f3d9d595Cc8C3df01b831FA6bB3d3
+vilma 0x08Ad79edAb7B5F0E4dd9B8fE39979d05e04F74d2
+***************************
+
+Approve USDC
+Approve your smart contract to use your USDC
+usdcAmount: 0.1 USDC
+100000
+
+https://testnet.snowtrace.io/token/0x5425890298aed601595a70ab815c96711a31bc65/contract/writeProxyContract
+
+Connect Wallet
+
+Approve
+Expand and fill
+spender (address)
+your smart contract address
+
+value (uint256): 0.1 USDC
+100000
+
+Click on Write
+
+
+OR… on Remix
+Contract - select
+IERC20
+At Address
+0x5425890298aed601595a70ab815c96711a31bc65
+
+Approve
+Expand and fill
+spender (address)
+your smart contract address
+
+value (uint256): 0.1 USDC
+100000
+
+
+TransferUSDCBasic  - allowanceUsdc
+
+Should be
+
+    0:uint256: usdcAmount 1000000
+
+
+
+Send LINK
+On Metamask
+Send 3 LINK to TransferUSDCBasic Address
+
+Tokens -> LINK -> Send
+
+LINK
+3000000000000000000
+
+BalancesOf
+On Remix
+your smart contract address
+
+Result
+
+    0:uint256: linkBalance 3000000000000000000
+
+    1:uint256: usdcBalance 0
+
+
+Transfer USDC
+TransferUSDCtoSepolia
+_receiver
+Your wallet address (from Metamask)
+
+_amount
+100000
+= 0.1 USDC
+
+CCIP TransactionID
+On Metamask
+Copy Transaction ID
+
+name - transfer transaction id
+Abhik 0x246b343f3ce0c784a88386e4cb4a1b5060643fae97ce9a50c6f315c0abe0c8ca
+
+Med - 0x66657cbf89022d1de7749a6880fa67c4687c6d77ba67336cec04df86cdea657f
+Mike Wang - 0x749c7b1378da14908ed17ba348a13318909d6555f52e592780f36dc2b559c8b5
+Sol - 0x16e1a31af1c5abeb311b66119a0797e950845451f8d266964e84cae4cd47d48b
+Inder - 0x4d4a1d55384727687973dd7d497ac3b0528d125062bbe13b8b8b7bb6652dc416
+Jos - 0x09f3d53d88e18c3e13e8d1108cb1f4a1074a7b7cfc3cb34f3e280a5d8039a887
+Dimosthenis Tsatsos - 0xac9c8b6574847a9615f6cd650f2290376ae5976db6c878cd88daca63783c627e
+Arinze - 0x251dc5bc1c6d1b6663d3b8580d836561ce5dda80b246083f54af144c79c95091
+Visal - 0x7c6910b14fcc70bd2c696727c20967afc3d11481f76a413af124b9d46ecf99bc
+Rajiv - 0x840b55bd5ea40af5ac96c6c276c97c45017256ab893b4dacb65911af93e12172
+Kojrey - 0x1804f4fc8a5073529a6cc2d63975aeecae58f03fc6a0acbcd95ea72977a17169
+Tiago Tavares - 0x3267bc2d6e5b0682bc120a18463f4801bdfb3ea4bc07bced241e9c7e652a069a
+AS_Andrew - 0x38286200d3d1db7bdde82f7e32f0f0fdf9db131d052f32579a8892704681533a
+Taesuk 🐶 - 0x539a9144b5b40ab56a2adb5fd939d0950f5f66d42802e86ff87042cd78606d9a
+Demetris - 0x2e34ce89fed3229c98c9526776b5fd30ce744d01a1d4ff397d1e29f0b751174c
+Bruno Moutinho - 0xe4239b58911c578d13ff3b3cb8a85b4d3a82c783f53448f6be06420a0b4fc43f
+mehran - 0x28d185c099ea308c3a05edfed43c8ef883c5513752ece6d8201c580468b1ee46
+Emil - 0x77141c8bbf93271b0ed80f97671433e702ec89b7e290833877a989f261f8440b
+T.SATHISH - 0x0cb948b34d95852f695383b99070089b93fb23a9792a3518b3c4187e64445126
+Parvin - 0x0ee26e4de98e9d67a3d4166e8564df3c10f29dd3f8b1d585e79ecd5d8f9003e9
+Shane - 0x09bdb2d460c09c962b24ed3efb84bc2d42b32fddfe551bc5c9a9409c36f8c60e
+Mohammed Elnekhaly - 0x82a98a9e9adec42785566728819374162bf8d753c984732982e5b1b179c41558
+Nachon B. - 0xc9d6aa18f50914104b40f7e8857778e8331573bd806a52ffa256bb453ac9fbf8
+Stanley - 0x52e55c350bf50fbda42c91a8ec900bf1a39da93ea536de7bfa6b227f7d070fc7
+Hugo - 0xaa1ee90d8bfd8410a195660ab56cbbda3d2bc2e6da07795993de3b442dd6f92b
+Anthonyjcr - 0x24f7f41bf1fde25010babfcb1ec3f71dd33867166155cb589422554ae6587377
+Gilbert C - 0x71156ff1fd7bd9e0d0bb35a0e73518613ae290fc902a0456d0e8e98572d29fcb
+Steve 0xfc04cd173cd43e55091ab6c904b651874d6d3df0648bc8a7b214cbb9a5ba88d8
+Nicolás - 0x86cc2de01680728e9f24338513afe8af6ca91a962899481882ac662a1200ca03
+Jesse - 0xd2923bcbec804df6593b3ed9e3e15bde3d1d6ffe4acf69c137ca20b54ce9ece4
+Enock - 
+k -0x246b343f3ce0c784a88386e4cb4a1b5060643fae97ce9a50c6f315c0abe0c8ca
+Sahad - 0x013939f3d5fa6399ad048d8d8ad6e97b020a97886a28e752e816dae016f5af0d
+Dimitrios Sakkas - 0xdc4c0acc584b21df9504eb911fea7931186938f7858ed62c3718d037c10bba04
+Sefa - 0x29e0e45801418d04b2297fb21890bc15453da7cfe19db5ddd0a033c2d7078d93
+Duong - 0x4eab9d123c85f38b2b47e05d092287970cea522ed69f85a014a7c7dc961c40e0
+Yunus - 0xca1fb3a7812661cb4076ca4c45ac7c86c563b74eedc8931be1fd100cf36d064f
+Dteqtive David - 0xef18532ebd2e5e0915c3a8f8494d1aaca95daa280b77d26f695f515b497ea317
+Filipp - 0x6f4f6b77f1e19d2dc6cc86e89ce72f6315a62ff2125db599228e5690c276de71
+Orestis - 0x32cf513646929bf7de86be26f3f4f51c76d8a8a223c5a719734ba1efc7c9c22e 
+Jason - 0x486ab0eb1ebc29d0984be7175e4cc0e04d35f329c9366ff1d49356e0a80d4654
+LikKee - 0x16d72cc49111992dfc0dcaed612dd6e1e2dc9de89a793f8edb8a9f50ba626649
+Juan C - 0x45868e964cc0e777a589c7666609fa6dc9aca40d5d3440e719ac79a04730d960
+Nolan - 0x1ee1dafc4fb1d3050d9669423904c1fe3a0511031b4a4166f81ac8241f2401ef
+Eric - 0xeb78a1e6b537cfd3fd4df219d0a50bfc62438e5874f91ae9888d4f1baa75e8f0
+Michael F. - 0xd09c9f8526a9582c8e040feb960df75f8cf377ccaa5075816d74448f0be35e61
+kenneth - 0xF2a73A301d615DfF77D26cB9588f2C3242ED7bb6
+Bozkurt - 0xc37f3fa2d4b47d8c888b3022bde6ef50331b2c68faa0faae8beb0bc597267df6
+Temu 0x92cc4d60f5b05c18a962431fbfdbf1ab24684365842b42052de0d95f6996e143
+Alexander - 0xf3850a994895f2bfdc9c0a934b63ec002098af27b0644f57c2673682333168de
+Tak - 0x73ed67b3655f5d4f75c38b74a5946892c5203f084e3172e3f014343c5d692e01
+Bereket - 0x72e628bff1f337a85d400504faf003307bd62e9b61b691c79001d074e88fe4c3
+Rodrigo - 0x1d2cca8bb89fece292276ddd74c5175bb1b0a2a0d1f27629f56c48c1dbbc0fcc
+Bilal B - 0x06b079c5c252fe0dba1db7dbf747897a3e21fb9c333b1c9150469476db9a0c8f
+Mimi - 0xa8034615f2c078a5dbc5a0592a242fa952bdd5125c4e1f385ae83f2336269b2b
+Chris - 0x9ce5edc8934f3e37f937edb84e70213efd0dd9acbf46c3a8ad5c7cecb518281f
+Nix - 0x1a75cf0dbd4fca13c329dbd9bf074d1e7b47db504e9da9fc7e7da358898c4e83
+*******************************
+
+CCIP Explorer
+https://ccip.chain.link/
+
+USDC on Sepolia
+On Metamask
+Select Sepolia
+
+Add USDC to Sepolia
+0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238
+https://sepfolia.etherscan.io/address/0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238 
+
+
+0x25bc7b231a714bb381b968a70f0dc131eb527f12776bb77ccf30afd091069cf7
+
+how are issues around getting link and token
+What is an interface smart contract usually used for or why?
+Is dot notation typically used in Solidity to access functions from other contracts?
+
+
+0x25bc7b231a714bb381b968a70f0dc131eb527f12776bb77ccf30afd091069cf7
+This is the transaction  ID
+
+Can you check?
+https://testnet.snowtrace.io/tx/0x62d6f9d2c90b3a0dc5428cd4a61bbf2b04c619b9b83f9e607f2cd3f273d9fdf1
+
+
+
+
+
+
+
+
+
+
+

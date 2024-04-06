@@ -1,0 +1,684 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 06
+
+https://pad.riseup.net/p/cl-en-06
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+https://chain.link/discord
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+
+https://dev.chain.link/
+
+Name - City, Country:
+Zac C.-NC-USA
+Kelly Egode - Belfast, UK
+dorgo.eth - Lviv, Ukraine
+Essam - Baghdad, Iraq
+Maciej - Imielin, Poland
+koxy - Nigeria
+Uthman Yaro, Lagos, Nigeria
+Stefanie - Attersee, Austria
+Harsh- patna , India
+Aymane Fekkak - Morocco
+Emmanuel Effiong - Nigeria
+Parnian Yousefi Sabet - Tehran, Iran
+Simona Miani - Rome, Italy
+Andrea Marchini - Rome, Italy
+Raffaele - Naples, Italy
+Hemanshu Mahajan - Pune, Bharat(India)
+Sarthak Rawat (Eik) - India
+Christopher Cialone - NYC NY
+Gabriel Thome - Brazil
+Rohith -  India
+D Marl - Yogya, ID
+Duda - Prague, Czechia
+Andrew Kim - Nairobi, KenyaX
+Romain-Pierre - Amsterdam, The Netherlands
+Jeffrey - Amsterdam - The Netherlands
+Ashok Raj, Cambridge, UK
+Phan Insy USA
+Andy - Miami, USA
+Andre - Zebbug Malta
+Tillo - South Kroea
+Kyle - Texas  USA 
+Supreme Bhandari - Kathmandu, Nepal
+Chiara - New Jersey, USA
+Jan - Lucerne, Switzerland
+Marco - Denver USA
+Lindsay - Valencia, Spain
+Alex C - Indiana, USA
+Cecilia-Nairobi,Kenya
+Felipe- Toronto
+Daniel Y - Toronto, Canada
+Jeff C - Naples, FL USA 
+Miki - Zagreb, Croatia
+Daniel Benitez - Medellín, Colombia
+Luis - Zurich, Switzerland
+Alex B. - Indiana - USA
+Rafat - India
+Clement okoli - Lagos , Nigeria
+MIKE ELMORE - CA - USA
+Daniel S - Barcelona, Spain
+Nick - ATL, USA
+Iddhie - Colombo, Sri Lanka
+Dj - amsterdam, Netherlands
+Tony L - Canada
+Shane - Florida, USA
+Eric Atlanta, GA USA
+Marco M. - Rome, Italy
+Jad Kachmar - Toronto, Canada
+katy.  Tbilisi Georgia ¯\_(ツ)_/¯.
+Michael - Borken, Germany
+Tianchi - Toronto, Canada
+Rama - Resitencia, Argentina
+Ingrid - London, UK
+Sylvia – Berlin, Germany
+Inna - Tbilisi, Georgia
+farhan -VA, USA
+Tebbo: boston uk
+Joel - Madrid, Spain
+Minh Vu - Hanoi, Vietnam
+Manu - Bienne, Switzerland
+Kakooza - Kampala - Uganda
+David - Kampala, Uganda
+JOse Morillo - Valencia, Venezuela
+DFred Janon - Valence, France
+Bidyadhar-INDIA
+elyas - Iran
+Arson Tomanta - Jakarta, Indonesia
+Vinh - HCM, VietNam
+Princewill Iwuorie - Lagos, Nigeria
+Nick - Seoul, S. Korea
+David Ramirez,Quito,Ecuador
+Seppo - Helsinki, Finland
+Colin -Waterford, Ireland
+Erfan - Toronto, Canada
+La Toya - Texas,USA
+Leon - Cayman Islands
+Melissa - Barcelona, Spain
+AMINU, ISMAIL ABBAS
+Divyansh Jaiswal - Varanasi,Uttar Pradesh,India
+Sade C- ATL, USA
+Tameka - GTA, Canada
+Olerato - South Africa 
+Yann - Marseille, France
+Sama - DC, USA
+Sunday Akinola - Katsina - Nigeria
+Artur - London
+Nawodya - Sri Lanka
+Adeshola - Lagos, Nigeria
+Konstantinos - Greece
+Aliu Rasheed - Kwara, Nigeria 
+Sarmad Tufail , Pakistan
+Ohmarkely Ambrosio = Singapore, Singapore
+frank - Nairobi
+David - Texas, USA
+Adam Williams - swansea southwales uk
+Danki - Baguio, Philippines
+Khalid H. - Ireland
+Ryan O'Sullivan - Columbia, MO, USA
+Thomas Hall - California, USA
+Oliver Inzunza - Coachella Valley,USA
+Victor Burton - Lyon, France
+Katya - Kyiv, Ukraine
+Marina Wentzel - Switzerland
+Josh Banks, Lancaster, UK
+Mahreen, Pakistan
+
+
+
+*************************************
+
+NFTs
+
+Metadata sample: 
+    {
+  "title": "Digital Sunrise",
+  "artist": "Jane Doe",
+  "image": "https://example.com/digital_sunrise.jpg",(IPFS Link)
+  "tokenID": "123456",
+  "blockchain": "Ethereum",
+  }
+
+JSON
+JSON stands for JavaScript Object Notation. It's a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+
+
+Open Zeppelin NFT Contract Wizard:
+https://wizard.openzeppelin.com/#erc721
+
+
+Example
+https://testnets.opensea.io/collection/flower-berlin-2023-2
+
+I think you have to do a modulo computation for the index.
+
+
+Metamask
+Sepolia
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Should appear Sepolia
+
+Create
+PhotoAlbum.sol
+
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+import "@chainlink/contracts/src/v0.8/automation/AutomationCompatible.sol";
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+
+contract PhotoAlbum is ERC721, ERC721URIStorage, AutomationCompatibleInterface {
+    using Counters for Counters.Counter;
+
+    Counters.Counter public tokenIdCounter;
+ 
+   // Metadata information for each stage of the NFT on IPFS.
+    string[] IpfsUri = [
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo01.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo02.json",
+        "https://ipfs.io/ipfs/QmcusKgN4XKSLcJjHD9WF7WAuww6mmcGUkUWKgQsXhW7vA/photo03.json"
+    ];
+
+    uint public immutable interval;
+    uint public lastTimeStamp;
+
+    constructor(uint updateInterval) ERC721("Photo Album Chainlink Bootcamp 2024", "PHO") {
+        interval = updateInterval;
+        lastTimeStamp = block.timestamp;
+        safeMint(msg.sender);
+    }
+
+    function safeMint(address to) public {
+        uint256 tokenId = tokenIdCounter.current();
+        tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, IpfsUri[0]);
+    }
+   
+    // helper function to compare strings
+    function compareStrings(string memory a, string memory b)
+        public pure returns (bool)
+    {
+        return (keccak256(abi.encodePacked((a))) ==
+            keccak256(abi.encodePacked((b))));
+    }
+
+    // determine the stage of the flower growth
+    function photoAlbumIndex(uint256 _tokenId) public view returns (uint256) {
+        string memory _uri = tokenURI(_tokenId);
+        // Photo 01
+        if (compareStrings(_uri, IpfsUri[0])) {
+            return 0;
+        }
+        // Photo 02
+        if (
+            compareStrings(_uri, IpfsUri[1])
+        ) {
+            return 1;
+        }
+        // Photo 03
+        return 2;
+    }
+
+    function rotatePhoto(uint256 _tokenId) public {
+        if(photoAlbumIndex(_tokenId) >= 2) {
+            return;
+        }
+        else {
+            uint256 newVal = photoAlbumIndex(_tokenId) + 1;
+            // store the new URI
+            string memory newUri = IpfsUri[newVal];
+            // Update the URI
+            _setTokenURI(_tokenId, newUri);
+        }
+    }
+
+    // Chainlink Automation
+    function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
+        if ((block.timestamp - lastTimeStamp) > interval ) {
+            uint256 tokenId = tokenIdCounter.current() - 1;
+            if (photoAlbumIndex(tokenId) < 2) {
+                upkeepNeeded = true;
+            }
+        }
+        // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
+    }
+
+    function performUpkeep(bytes calldata /* performData */) external override {
+        //We highly recommend revalidating the upkeep in the performUpkeep function
+        if ((block.timestamp - lastTimeStamp) > interval ) {
+            uint256 tokenId = tokenIdCounter.current() - 1;
+            if (photoAlbumIndex(tokenId) < 2) {
+                lastTimeStamp = block.timestamp;            
+                rotatePhoto(tokenId);
+            }
+        }
+        // We don't use the performData in this example. The performData is generated by the Automation's call to your checkUpkeep function
+    }
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    // The following function is an override required by Solidity.
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+// End
+
+Not working? 
+Copy the code from github 
+https://raw.githubusercontent.com/solangegueiros/chainlink-bootcamp-2024/main/PhotoAlbum.sol
+
+[From David (Texas, USA)]: Someone deleted half of the PhotoAlbum code in both of the above examples... I transposed it from the video, pasting here //THANK YOU :)
+
+
+
+Tameka - ^^^ None of the above codes worked for me
+
+Hey this is David -- what was the error you got from #3? If you got the warning message (yellow) then you're fine - yes, it is the yellow warning. Thanks! np!
+
+Thanks David!
+
+Deploy
+
+Deploy
+Parameter updateInterval
+120
+
+120s = 2 minutes
+
+Name - PhotoAlbum address
+Ayman Fekkak - 0x90e4729063Af3F921b3cC66D5E1922eB8005944C
+Abdulsamad   0x41CF2CBB2Af975F610d318E1c638994554A538CC
+Danki - 0x7F11a74D3A4403175A8873eD6573A585deB58298
+Maciej - 0x7bD6B59FB7841c9167D35cf9C2fc5Cc3357a1f59
+Sol - 0x7D3A13bdDf54057f46E326187a18473b12424382
+Sol - 0xb3eE79576372B953052916d48a23Ac02208F6BA8
+Uthman Yaro - 0xcEC33E9110b5222da6C820eCf5041fC0DfA396da
+Emmanuel Effiong - 0xa5Cd4234955C59565Ee2e67F5A8b33510AC9Bf8d
+Koxy - 0x3f7269D430bA71467959C38B560B7A1bcf21B909
+Duda - 0x1AD40D12CFe31F9bCcF641E5c619D791e6237Ef4
+Simona Miani- 0x6ea614C468B17d1269EA9bA0EFcd90df328a7Bd2
+Stefanie - 0xF39A652667EAeEdF8Ad3Fe19017061dFC65FD5Fa -> thank you David!!
+AshokRaj - 0xA42c9E9278D617b4D784e42C37FB4c3C2B700DE5
+Romain-Pierre - 0x13cFC9Cd4D2d5DBeDD82BD8d5244C3615881D4D1 >> I can see the tiger image
+Gabriel Thome - 0xBC311aFA5ea5820f0A20E28F5Bd388F52130F7dc
+Jeffrey - 0x4706057A55BF8E867BFED6839D114fC7A967da2F
+https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-7
+Erfan - 0x0a89bd6C55cB4D8F1Da77a146516163d9b45afc3
+Jeff C - 0x48988Ae4Dc3Ad6ACe4D3C1b97e906B32D67AA383
+0xd1808d1e64972Ec1A9C0BD823Cd4156fb6cF21f8 <(automation)
+Quizford - 0x211F30FB96CB2C22cec474c3f036e5b2ad348ea3
+Tebbo: 0xacBC8c69AAbFadCfF678cc16fb7b7B52458b801c
+Tebbo: https://testnets.opensea.io/assets/sepolia/0xacbc8c69aabfadcff678cc16fb7b7b52458b801c/0
+Harsh - 0x955D0DC10d28c98770Fced62f6dAd9df568752fD
+Fredrik - 0x65E5Ba942904c2fAcB0dF9e8D14BC0eAb8C0A4c6
+Sarthak Rawat (Eik) - 0xdB85e313d601E30C23872d4b5fBD6F3f05E627A2 (something different) https://testnets.opensea.io/assets/sepolia/0xdb85e313d601e30c23872d4b5fbd6f3f05e627a2/0
+Rafat - 0x8b0348a2EFA87dcBF2B5a179149E21708f62342f
+Tillo  - 0x23350DF6b2A6C15D91e81F2678b754aF1c468180
+Chiara - 0xA5678d962277B0f563cd4a8a4eB51447FBC9B6C5
+Alex B. - 0x8d840d475F74C67a4BE4F101cC00DE93a4AB36AB
+Daniel B - 0x45f4f89339d6e4e24bd75e4e5d05c8647bb26e8a
+Lindsay - 0x7e5Bc59DAC69B33F4c4fd9673cbA11627AC42257
+Joel - 0x66d73ba0Bc88155F6D0C9a1f5291a94B2144F80e
+Joel - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-8
+Princewill - 0xf7009CE3CAEB1659FfD355bd609870De33c7d807
+elyas - 0x2CE051cc6836b1c61645cd2A66c254992a3e5e4C
+Felipe - 0x316f55e5f11B5a287f473A3713036843d17d681
+Vinh - 0x7c0F7c0C07839551314909fFE2546AbB7E669891
+Supreme - 0x48388938e47941011C3ef020974a904F98175e04
+Tameka - 0x9e701aa0b6A085BAC7cd62C5E3D21CEd7eb1a4be
+farhan - 0x6EEda6CcCAEDc39dddd5f1e585aB84a6B112518a
+Nick - 0x9F319E9F721360bD9Cc45C43ccb156d9c65B2C07
+David - 0x16e402b3CCF3ce6C6d237b60d4a5C53EAFD31d15
+Marco M. - 0x582dF5591bB583b2f2019c0271A56794cA415623
+Jan - 0x1a23767FEC6326DbD7Ce6A9939FaE5aa892feF98
+Kyle - 0x6F0cc3F32b102A820fcD5EF9d7FBfA2Adbbf4872
+Alex C - 0xA0dE15B2fa9Bfd4748423470CE44eCf722abE9a8
+Emil - 0x482d2eccfbd0e0da8e1bd16a19f1d6e3cc50bab4
+Vandana - 0xcA1eB71Bbc0a473e21B1187079dDCd21ef7928AB
+Raffaele - 0xd908c7B6F3e897Eb9A8C741d58D7BD8Dede64EcA
+Seppo - 0x4421b432Ab4CbD86497828e5996D6F6EA184970d 
+Sylvia – 0x8DD1BE666e3686FeB9a6CbA4191Ec2E6f293cD87
+La Toya - 0xaD12f3eeb5c3660D5B8DfE71A36D71d099331E3B
+Ingrid - 0x27b287E8E7251eE989CAc7A8A2Ae96d6F354b803
+Shane - 0x4613eC6d673FAEd736F8A4E7d90A1b66C936d610
+Manu - 0x002EE3abAf4eb9D440FFbe511c357721A69C0119
+Leon - 0xb028510E8FEBc29348A597cdC9dCED20D8ED18ee
+Konstantinos - 0x19e89ce105f7FF7D9f2b4D0729a343F667130a40
+Minh Vu - 0x2238e12c151f829cdf21e81005bda053c07475ec
+Katy - 0x744f39ff3314904B0a74B133be6C016C18669f5E
+Elisabeth - 0x9F00CF889252b68e5d6BAAa76a7752c5e0b55876
+Daniel Y -0x5aAaCa80a33bF71168d7bb12eFFF354E20A76d00
+Parnian - 0xCF45B5E4DbEadE01b4D7dC7Ad3C8218870Ef20b8
+frank - 0x1D1cE94647FA8d03BF29Ebf1C099C78d24bab0eF
+Rama - 0x7247B69e732b4FEc3AC606aD14ec635903BDe968 (Photo Album - Addresss contract)
+Inna - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Daniel Y - 0x5aAaCa80a33bF71168d7bb12eFFF354E20A76d00
+Eric - 0xC4e6927c2BB860c93bF2BC86A7D3B5C5CC08E9e0
+Daniel S - 0xa75C1597b8B5e48469444fe45852BaA1424E951B
+Sama - 0xEf89Fa615Be6E6192c593BD71e1DCa28D9E19f55
+Sarmad - 0xF602A9b18c13f884681D39d61E8232915dbe6EA3
+Andy - 0xd081c7A9BdF693ABC4bde6C4Cf990059e0628C8B
+Vandana - 0xF5B8CF3565d0f278ab22743d5d94C9d2dD6Cf3de
+melissa - 0x712b7c4E50A3EF45474243dAcb1BBDC4c895C561
+Yann - 0x6Bff92b665e325982CfA33c303F139C90423F5FA
+Mahesh - 0x33034e887de60447793dc3bf4675d4476300dea5
+Nawodya - 0x953F9785215f04C883c1d60A6585Abb053eD8F7d
+David - 0xC34a89f6F7caadC29586E833F6aB4D55D1a209c0
+Adam Williams - 0x09dDc9DFf69443087B3131a83BebD36679203eFA
+MIKE E - 0xd1c4323df257157435691e0da968684614931d0e https://testnets.opensea.io/assets/sepolia/0xd1c4323df257157435691e0da968684614931d0e/0
+Jad Kachmar - 0x06C461C3fA901Ed87888180Ce88D413fC6910C9D
+Khalid H. - 0xE02A06bB6eC77682f9eD0650EA8EFE2E3D5e3797 
+Stewart - 0x40C7449bd185110E7e03CA73c14307585832CC0C
+Azmaeen - 0x3E55D3aed1DdF07272fb196b456537e5708A6daE
+Victor - 0x1b49348B5Bec6367BB5B1E142BA7a3289157aC2d
+Oliver - 0x323bc2A06c46784cdc65F72253faE4d0276106e0
+Katya - 0x761e01ceab2C0aF45b0D4d247e69eba3CEbB32d0
+D Marl - 0x9277281E550b7bFe2Ca1122d7C970bcb5efb1dD5
+Luis - 0x0037a1b33c596D4C7a19B20EA9Cec5A83D47843C
+Sade C-0xD803ec956EE39c91845297Dd73E05B3786B93431
+Andre - 0x369416847BBd8B01BF49BdD7aE11D626f58f1b99
+Jose Morillo - 0x131A74940a1F998eab67e5c33A7643F7e02b1508
+Ryan O'Sullivan - 0xaF591CEafc72c3636A036673F93c2ab407AA1C16
+Brian - 0x6Cf4C9B116d2eF03A3B796fD5E543dF9E2541c98
+Thomas Hall - 0x2F04933d9dcC93DfCB5b6c9c81893FE48343f214
+Steve M - 0x14195daa0e0231882594addb7234722Cb400f74f
+Marina Wentzel - 0x0cFC2159b8ecd280274BDDa1fFE4C3f13B7DeaF5
+
+**************************************************
+
+Gas was .22? seems large, how can we check how much a contract should be versus others?
+Should use polygon :), 
+Too many people deploying at the same time.
+
+Taking a while to complete.  Pending state.......
+
+
+Expand PhotoAlbum4
+
+BalanceOf 
+your address wallet
+
+
+Mint another NFT in you collection
+2 more NFTs
+
+SafeMint
+your address wallet
+
+
+Marketplace
+https://testnets.opensea.io/
+
+Search your PhotoAlbum Address
+
+Name - Collection URL
+Sol - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-61
+Ayman - https://testnets.opensea.io/collection/igzacto
+ Emmanuel Effiong - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-53-
+koxy - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-326
+Maciej - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-85
+Jeff C - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-70
+Danki - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-97
+Simona Miani - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-40
+Stefanie - https://testnets.opensea.io/de-DE/collection/photo-album-chainlink-bootcamp-2024-49
+Raffaele - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-78
+Lindsay - https://testnets.opensea.io/0x5c316b22a10EC7adbfea1a1be64d0A77387Ea812
+Ashok Raj - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-37
+Gabriel Thome = https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-48
+Duda - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-399
+Romain-Pierre - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-28
+Chiara - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-54
+Princewill - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-10
+Rama - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-45
+Supreme - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-34
+Alex C - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-21
+Joel - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-8
+Harsh - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-9
+Parnian - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-51
+ Tillo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-6
+Daniel Y:https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-55
+Vinh - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-11
+Ingrid - https://testnets.opensea.io/0xf4837edF5E2C1Eb4bd5b2517ffAC9922aA91e194
+felipe - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-12
+farhan - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-13
+Marco M. - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-18
+Quizford - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-2
+Vandana  - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-59 (Fuji)
+Tameka - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-103
+NickAtl - https://testnets.opensea.io/collection/efc-photo-album-vi-chainlink-bootcamp-2024
+https://testnets.opensea.io/assets/sepolia/0x1d0e58a2961dd6dec92708004dd2747227beb7cf/2 (Sepolia)
+Tebbo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-1
+Minh Vu - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-35
+shane - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-32
+Rafat - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-3
+Seppo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-29ick 
+Manu - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-26
+Alex B. - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-22
+Jan - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-24
+elyas - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-15
+Sarthak - https://testnets.opensea.io/collection/japanese-tiger-3
+NIck - https://testnets.opensea.io/0xE07fb519aa2AA1301498018405Dc3a7DE5BCb4b5
+David - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-20
+Sama - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-358
+Kyle Varga - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-19
+Sylvia – https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-33
+Daniel S - https://testnets.opensea.io/0xA425C8a9c421502b32153Ab795C210153aE11Aa5
+https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-58
+Miki - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-61
+Katy https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-41
+Leon - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-36
+Andy - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-69
+Yann - https://testnets.opensea.io/fr/collection/photo-album-chainlink-bootcamp-2024-73
+Elisabeth Green - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-46
+Melissa - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-57
+Konstantinos - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-80
+Mahesh -  https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-82
+Nawodya - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-84
+David - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-86
+Adam Williams -https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-90
+Khalid H. - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-102 
+Stewart - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-305
+MIKE E - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-94
+VictorB - https://testnets.opensea.io/fr/collection/photo-album-chainlink-bootcamp-2024-318
+Oliver - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-319
+Azmaeen - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-322
+Andre - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-345
+D Marl - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-316
+Katya - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-327
+Luis - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-329
+Sade C-https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-334
+Erfan - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-340
+Dj - https://testnets.opensea.io/0x5f4949B18FAd1ACf4A8C94e73Df701aD91C09076
+Ryan O'Sullivan - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-383
+Brian - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-389
+Quizford - PhotoAlbum  Address https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-2
+La Toya - https://testnets.opensea.io/collection/oceans-in-the-soul-2
+Thomas Hall - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-394
+ Steve M - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-400
+Marina Wentzel - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-404
+
+Jose Morillo I can't access opensea 
+Error code: 1020
+Ray ID: 8466f61d8aa0225d
+Country: VE
+Data center: mia04
+IP: 190.103.30.76
+Timestamp: 2024-01-16 14:13:50 UTC
+
+**********************************
+https://workshop-faucet.vercel.app/faucets/fuji
+password:  
+
+On Remix
+
+photoAlbumIndex
+Index 1
+Return 0
+(first Json)
+
+rotatePhoto
+Index 1
+
+photoAlbumIndex
+Index 1
+Should Return 1
+(second Json)
+
+
+How to refresh on OpenSea
+Open the Index 1 NFT
+
+Example
+https://testnets.opensea.io/assets/sepolia/0xb3ee79576372b953052916d48a23ac02208f6ba8/1
+
+Go to 3 dots on ... top corner right
+Refresh metadata
+Refresh the page
+
+
+******************************************
+Chainlink Automation
+
+https://automation.chain.link/
+
+Connect you wallet
+Register new Upkeep
+Custom logic
+
+Target contract address: the photoalbum smart contract address
+
+Upkeep name
+PhotoAlbum Automation
+
+Starting balance (LINK)
+3
+
+Click on Register Upkeep
+
+
+Wait for the Upkeep work
+Check the OpenSea collection
+
+
+
+
+Task form
+
+PhotoAlbum Address
+
+Tillo - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-6
+Daniel Y:https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-55
+Emmanuel Effiong - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-53
+Jeff C - https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-70
+koxy -https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-47
+Ayman - https://testnets.opensea.io/collection/igzacto
+
+
+Name - Automation URL Job
+Sol - https://automation.chain.link/sepolia/4431450459272458120044201961089053797142408627043017341963900919668281033481
+koxy - https://automation.chain.link/sepolia/104269802671475325726395617096262561496867133408369933902250156603652236941665
+Ayman - https://automation.chain.link/sepolia/79943559175066365014936929486246033293679527043062981652998643196450063499705
+Maciej - https://automation.chain.link/sepolia/11563172888638510337161088531491686673619192145406149965798090703518625135236
+Simona -Miani https://automation.chain.link/sepolia/13149603774640749248033356009936149124887430170555763083367466709763996834070
+Danki -https://automation.chain.link/sepolia/38158720855611888606322085637157649000395523594545326654933158686157867599651
+Raffaele - https://automation.chain.link/sepolia/78849005209860742729294977343303155421510267755693239148264114360118255175739
+Jeff C - https://automation.chain.link/sepolia/75644652710392019599834442811439746717444023960458523086463912655767254969809
+Emmanuel Effiong - https://automation.chain.link/sepolia/71435328001624775650423761443688186533813384586079333022028633030432293483117
+Gabriel Thome - https://automation.chain.link/sepolia/67321691800204102792426054997912743732860415649294288926919303565826344020190
+Romain-Pierre - https://automation.chain.link/sepolia/30174678179927335910285060731684225108219686407365650122443043399348021564464
+Daniel Y https://automation.chain.link/sepolia/56911371685523034628863621840129453181843985038407405429227350348672422877385
+Tebbo: https://automation.chain.link/sepolia/63213898789784281495494885502319201218608019527279341399120443270259870620200
+Jan - https://automation.chain.link/sepolia/65683904453476515286248049813089761107691302015310221746515084554750336262041
+Farhan -https://automation.chain.link/sepolia/62403199416970314842892313283807811457286406413026520744219355247078024817647
+Duda - https://automation.chain.link/sepolia/64308244462441953375293784047903516776869629813518230950600820900200166934224
+Sarthak - https://automation.chain.link/fuji/33845361783608057077690393252904558201896256888521733892714442314406157388490
+Felipe https://automation.chain.link/sepolia/55222757802781788040355682923776500840994522197778619498106714687903443231583
+NickATL - https://automation.chain.link/sepolia/37823159296228264752508997540484494373910184253470120991253724309379581229892
+Vinh: https://automation.chain.link/sepolia/75488692465396526536644590926534042987448724593436797918211529386164413619416
+Ingrid - https://automation.chain.link/fuji/30928900993744662053825291057646843362658606228612376750376464126982572808509
+Quizford - https://automation.chain.link/sepolia/26996481331036842315582198913846744978095227544175559409612360516485296150022
+Shane -https://automation.chain.link/sepolia/78703755962956481945241068100822418981685776674533561199173956026323728703137
+Chiara - https://automation.chain.link/sepolia/58429657289291996892209539032556225550750818787444346026804231932203784767652
+Rafat https://automation.chain.link/sepolia/35705750481260013958938536751878184553268425944710847647333114624595502045609
+Joel - https://automation.chain.link/sepolia/88262306380389939513098609818650010545058012639846500896719981717387306406069
+Leon - https://automation.chain.link/sepolia/44222085437230495465665024573832978195630863197360477889523187605466691352035
+elyas - https://automation.chain.link/sepolia/64034423903880717868825102677148160893427172524968809513040393466446243724403
+Sylvia – https://automation.chain.link/sepolia/88247578727684555128742218916315288548392357344806970617294624537379911477777
+Minh Vu - https://automation.chain.link/sepolia/75626125969842087015920746612007022262519662702211725498253018022847624180175
+Elisabeth Green - https://automation.chain.link/sepolia/68845590572708952487579781041548693936779699983126744076351851301763137526026
+Kyle Varga - https://automation.chain.link/sepolia/112551896130828268899266140557633785078397186646303921739767422699993125119232
+Harsh - https://automation.chain.link/sepolia/85728334711476877432698784913206520182426459239603520686446525079351621478322
+Katya - https://automation.chain.link/sepolia/14922872213436208851304226889666524150506432609533703976164511093623445577689
+David - https://automation.chain.link/sepolia/48840737624255754148950176298247740028075507560938124920473155007709927785954
+Yann - https://automation.chain.link/sepolia/17137763693241782944215357895435977423384582005638717396606603893752365290644
+Ashok Raj - https://automation.chain.link/sepolia/30177100692895059398174450330991884344254632823872864541933724035575144663549
+Alex C - https://automation.chain.link/sepolia/60837301468989297863643422356056758939917749284490951064588841581746706391501
+Andy - https://automation.chain.link/sepolia/4181939334141685672520054507166467383614385530505524853830257597818232615822
+Daniel S - https://automation.chain.link/sepolia/26349599032635789768522279209779808729961161422659750880913984036579393590580
+Alex B. - https://automation.chain.link/sepolia/26204049398005763592039777787416972716989830988446086835570135336423572463030
+Konstantinos - https://automation.chain.link/sepolia/45888225535389951947990768861076406059520975731726598767657710553516304176877
+mahesh - https://automation.chain.link/sepolia/24186269340509381290189562094375778372373328562303656886719365234591914206917
+Nawodya - https://automation.chain.link/sepolia/87327799141055830316024026008091666490868794906525085407404583427698305817759
+David - https://automation.chain.link/sepolia/56025340074853208978328876797385490731822480812680784489872909971448583378581
+Fredrik - https://automation.chain.link/sepolia/22492866697241382069288095449467994169451130690143492641827443918004216840946
+Stefanie - https://automation.chain.link/sepolia/109816969575689252698294993020457200095010798791116471068657732499443150464613
+Adam Williams - https://automation.chain.link/sepolia/17811506105627477672250784962633066068707257542901006697423423275719514622382
+Khalid H. - https://automation.chain.link/sepolia/13698130067692142817927097053553213007078370658692344813383567362276090617387
+Tameka - https://automation.chain.link/sepolia/18579560126963558774223593718011747830100288789788614848230535485641203754194
+Stewart - https://automation.chain.link/sepolia/45332667414249098812472583793249270282419035596597530739781407296573530666823
+MIKE E - https://automation.chain.link/sepolia/96801159658774105258864233059623252421016636996841621433050947696194709620445
+Oliver I -https://automation.chain.link/sepolia/88504409262655885637765500107497880095517608379448529816588705515237166472815
+Victor B -https://automation.chain.link/sepolia/106613294444880541728659299497347852759000164652767993966577234745341094234722
+Azmaeen - https://automation.chain.link/sepolia/35995451014567081202409712682527111826235219822525542448946636158295688133183
+Sade C-https://automation.chain.link/sepolia/15593681221864837586826155417620054537639412556754608367822062319191871184967
+D Marl - https://automation.chain.link/sepolia/17948113018108223312910836157423477321714557875929061195710020688515516852613
+Katya - https://automation.chain.link/sepolia/41278334953592263882529926791226714389030377313685512515289704397437018814400
+Luis - https://automation.chain.link/sepolia/110090764549261101078806509252215238396516425144951855032197413037746519675940
+Andre - https://automation.chain.link/sepolia/107179294449924995645626996841455357196360954688497509413627396848523314141494
+Dj - https://automation.chain.link/sepolia/14472426826438682653448199724277384686289569373889642210336819692240468994550
+Sama -https://automation.chain.link/sepolia/4562387829768835316908633655941740257153848656573630184482310595283348094960
+Ryan O'Sullivan - https://automation.chain.link/sepolia/55045725879150823374307437657214903263506160882516869657579419883540146867326
+Brian - https://automation.chain.link/sepolia/29627862926851119722896528024846674014227641839071945170318557836207414039804
+ Erfan - https://automation.chain.link/sepolia/67902427923377194579051038769797707491289447260928555733139692470533465957805
+Thomas Hall https://automation.chain.link/sepolia/5838002262556054587251428773509623788601053408981090065969495059299887922419
+Steve M
+https://automation.chain.link/sepolia/60878884167209351004655039224122796973875323801724324717897430758566815200933
+
+#problem solved - Stefanie - sry I miss the last one, I have no Link left in my wallet
+@Stephanie what's your wallet address? I can send 5
+my address: 0x432f4fE2F17855AF70A35D18B9baC35FbaaaE7a1 - thanks a lot!
+should have arrived now -David
+thank you David, it worked, Register Upkeed worked#
+
+Melissa - 
+time-stamp https://automation.chain.link/sepolia/16840769523803171435256691929193468207283686002361514148712435518458888609972
+custom https://automation.chain.link/sepolia/64358565499455603383127567772900604874558295971542103389900656922208014315507
+
+
+
+

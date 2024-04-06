@@ -1,0 +1,442 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 10
+
+https://pad.riseup.net/p/cl-en-10
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+Bootcamp Support
+https://chain.link/discord
+bootcamp channel
+
+
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+Deadline 2024 Jan 31
+
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://chainlinklabs.com/careers
+https://cryptojobslist.com/ 
+https://cryptocurrencyjobs.co/ 
+https://crypto.jobs/ https://web3.career/ 
+
+
+Chainlink Community Advocate
+https://chain.link/community/advocates
+ 
+Chainlink Developer Expert
+https://chain.link/developers/experts
+
+Jeff Linkedin:
+    https://www.linkedin.com/in/jeffbeltrao/
+    
+Javier Linkedin:
+    https://www.linkedin.com/in/javier-salomon/
+
+
+
+https://workshop-faucet.vercel.app/faucets/
+cllworkshop0101
+
+Name - occupation / role
+Sol - Blockchain Educator, Developer Advocate
+Kelly Egode - AI/ ML Developer Belfast, UK 
+Parnian Yousefi Sabet - Software Engineer
+koxy - Blockchain Developer, Technical writer.
+Romain-Pierre - Amsterdam, The Netherlands - Cloud Engineer
+Andre - Zebbug, Malta - Software Engineer
+Emmanuel Effiong - software engineer and solidity dev
+Phan I. USA  independent dev appareal designer
+Stefanie - Attersee, Austria - Dentist - I'm learning JS & Python
+Simona Miani-civil servant italian public administration-cybersecurity engineer
+Kyle - Austin, TX, Salesforce Architect @ Chainlink
+Gabriel Thome - Brasil - Full Stack Developer / Solidity Developer 
+Danki - Blockchain Developer, Community Enabler @ ETH63 and DeFi Philippines
+Leon - SecDevOps
+Mustafa - Data Scientist
+Rama - Freelance developer
+Chiara  - Realtor / freelance developer
+Tebbo - Freelance Web Developer
+Jonathan - Oslo, Norway - project owner
+quizford - software dev web3 / community advocate 0xFW3
+Nick -Seoul, Korea, Project Leader 
+Andrea Marchini-civil servant italian public administration - contract manager
+Tillo - South Korea
+Daniel Y - Cloud Solutions Architect
+Joel - Madrid, Spain. Blockchain due diligence and researcher
+Tameka - GTA, Canada - Smart Contract Developer + Auditor
+Jad Kachmar - Technology Innovation Consulting - Toronto, Canada - https://www.linkedin.com/in/jadkachmar
+Sarmad Tufail - Software Engineer
+D Marl - Property Developer / Micro Business Owner
+Rafat - Systems Engineer
+Shane - Data Analyst
+Uzair - Smart contract developer & auditor
+farhan - Transformation Specialist
+Gonzalo Daniel Aguilar - Argentina - software developer specialist in web 3.
+Jeff C - Blockchain student and aspiring to work in web3 (web designer / mobile application builder)
+Stewart Webster - Product Management (Risk)
+Vinh - VietNam
+Sade C -Atl, USA. Day Trader
+Eric ATL, GA USA Project Engineer
+Alex B. - web developer 🕸️💻
+John-Mac - freelance blockchain/web3 developer
+AzraiHasan - Product Manager
+Jan - Onboarding & Tokenization
+Hemanshu Mahajan - React Native Mobile App Developer from Pune, India
+Ohmarkely Ambrosio - System/Network Engineer, Blockchain/Front-End Developer
+Sanjin Đumišić - Blockchain/Web3 dev. - https://www.linkedin.com/in/sanjindumisic/
+dorgo.eth - builder, NFT artist (Lviv, Ukraine) (cool)
+Alex C - captainsouthpaw.eth , 8.5yr UX researcher/designer, changing careers to product management/owner/director, eventually (successful)founder
+David - Software engineer, ML, Blockchain 
+Vandana - web3 lawyer and web3 founder and product owner of an app artcryption.com for creators  https://www.linkedin.com/in/vtaxali/
+Sarthak Rawat (Eik) - Undergrad student from India
+Konstantinos - Business Analyst 
+Christopher Cialone: Mobile app developer
+La Toya Patel Research and Development Analysthttps://discord.com/invite/bmjdkpZE35
+Manu - PostDoctorate Researcher
+DJ - Senior Sofware Engineer (backend/devops) (web2 :D)
+Nimnath- Economist
+mahesh - backend consultant
+Melissa - restaurant owner, chef,knitter,  serial entrepreneur and web3 3nthusiast(FULL DEGEN !!! 🫡🔥)
+Sylvia – Technical Writer
+MIKE E - smart contract developer & auditor
+Dike - Tech Educator & Software Engineer
+Daniel S - Bioinformatician
+Yunus - Full Stack Developer https://www.linkedin.com/in/yunusoruk/
+NickATL - Business Owner & Blockchain Advocate - Bowline.Group
+Sama - Full Stack Dev (MERN + Springboot)
+Felipe - sr. designer , artist & collector
+Andy - Nuclear Physicist & Software Engineer 
+Arson - Freelance Smart Contract Dev - Being anything for development
+NFTipi Manitoba Canada - year 4 web3 ~ builder, artist, collector, environemental science & data reseacrcher https://twitter.com/nftipi
+Inna - Java developer, backend
+Michael Geaney - Product Manager
+Katy - exProduct Manager at web3 project / UX designer / researcher
+Ashok - Sales Engineer
+Nawodya - Software Engineer
+Daniel B - Full/stack developer
+Elisabeth Green = front end developer, biomedical and human factors engineer, founder
+Ryan O'Sullivan - Software Engineer (looking for new opportunities [USA]!) and former business owner/entrepreneur - https://www.linkedin.com/in/wrosullivan/ 
+Ololade Afolayan - Community Manager and System Engineer
+Andrew Kim - Flutter Developer
+
+
+Metamask
+Fuji
+
+Remix
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+Create
+WeatherFunctions.sol
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+contract WeatherFunctions is FunctionsClient {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public lastRequestId;
+    bytes public lastResponse;
+    bytes public lastError;
+
+    struct RequestStatus {
+        bool fulfilled; // whether the request has been successfully fulfilled
+        bool exists; // whether a requestId exists
+        bytes response;
+        bytes err;
+    }
+    mapping(bytes32 => RequestStatus) public requests; /* requestId --> requestStatus */          
+    bytes32[] public requestIds;
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string temperature,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // Your subscription ID.
+    uint64 public subscriptionId;
+
+    // JavaScript source code
+    string public source =
+        "const city = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://wttr.in/${city}?format=3&m`,"
+        "responseType: 'text'"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data);";
+    string public lastCity;    
+    string public lastTemperature;
+    address public lastSender;
+
+    struct CityStruct {
+        address sender;
+        uint timestamp;
+        string name;
+        string temperature;
+    }
+    CityStruct[] public cities;
+    mapping(string => uint256) public cityIndex;
+    mapping(bytes32 => string) public request_city; /* requestId --> city*/
+
+    constructor(uint64 functionsSubscriptionId) FunctionsClient(router) {
+        subscriptionId = functionsSubscriptionId;      
+    }
+
+    function getTemperature(
+        string memory _city
+    ) external returns (bytes32 requestId) {
+
+        string[] memory args = new string[](1);
+        args[0] = _city;
+
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            subscriptionId,
+            gasLimit,
+            donID
+        );
+        lastCity = _city;
+        request_city[lastRequestId] = _city;
+
+        CityStruct memory auxCityStruct = CityStruct({
+            sender: msg.sender,
+            timestamp: 0,
+            name: _city,
+            temperature: ""            
+        });
+        cities.push(auxCityStruct);
+        cityIndex[_city] = cities.length-1;
+
+        requests[lastRequestId] = RequestStatus({
+            exists: true,
+            fulfilled: false,
+            response: "",
+            err: ""
+        });
+        requestIds.push(lastRequestId);
+
+        return lastRequestId;
+    }
+
+    // Receive the weather in the city requested
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        require(requests[requestId].exists, "request not found");
+
+        lastError = err;
+        lastResponse = response;
+
+        requests[requestId].fulfilled = true;
+        requests[requestId].response = response;
+        requests[requestId].err = err;
+
+        string memory auxCity = request_city[requestId];
+        lastTemperature = string(response);
+        cities[cityIndex[auxCity]].temperature = lastTemperature;
+        cities[cityIndex[auxCity]].timestamp = block.timestamp;
+
+        // Emit an event to log the response
+        emit Response(requestId, lastTemperature, lastResponse, lastError);
+    }
+
+    function getCity(string memory city) public view returns (CityStruct memory) {
+        return cities[cityIndex[city]];
+    }
+
+    function listAllCities() public view returns (CityStruct[] memory) {
+        return cities;
+    }
+
+    function listCities(uint start, uint end) public view returns (CityStruct[] memory) {
+        if (end > cities.length)
+            end = cities.length-1;
+        require (start <= end, "start must <= end");
+        uint cityCount = end - start + 1;
+        CityStruct[] memory citiesAux = new CityStruct[](cityCount);
+
+        for (uint i = start; i < (end + 1); i++) {
+            citiesAux[i-start] = cities[i];
+        }
+        return citiesAux;
+    }
+
+}
+
+
+//End
+
+Deploy
+
+Parameter
+Function SubscriptionID
+
+Test it on Playground
+https://functions.chain.link/playground/17e3c09f-0730-420b-9325-f49f357911a0
+
+
+On Functions functions.chain.link/fuji
+Add a consumer 
+
+Name - WeatherFunctions address
+Sol - 0x95ef14D31C13cD28A7d4438e9B45EDEa0557c85b
+koxy - 0x08529B81b7F0a6a032C7C67BCb9cf2eE23b80BDa
+Phan I. - 0xc03ff03E312ebB534F35f668ca63a932c1Aa5D93
+Parnian - 0xfD28f2421d29B5866b7844E94245eeBcA86C4213
+Danki - 0x540eA2472350a8D2a1CEd2ecf83aE5d0beBbe619
+Emmanuel Effiong - 0x97C8aef5E2e3639a9205Fe094fB527d69fa39202
+Harsh - 0xf6C9b2a1DEF75DB5d776f27627d40264E41FDA41
+Tillo - 0xc4a89C74E3005802323796e45b4d844Cf0dD4e05
+Simona Miani - 0xE15209A21850C3C55c1ff31652124C8879Dc4e1F
+Romain-Pierre - 0xbaeA4382836356C3f5660Bc948883Bc322fb7cD0
+Konstantinos - 0x283fC0f056A69F887DeeF283496DB895a231dBAF
+Shane - 0x4aCf276f4E88d14272014DeE2672539D8dd0c7DA
+Elisabeth Green - 0xf92d5b39813418F73A868c71D7e90b496A14c5c4
+Andre - 0x1e7fC69d3dB0fe271de8296F923Db896593f6ad1
+Chiara - 0x3A8CE271c67e4283186212d140a43832f30E8F7f
+Rafat - 0xD6fC9AaFcdAA4d251040319b19ca5Cd0E234a615
+Joel - 0x608F2e505771A368e08dBb29bcAb54EA6939A890
+Tameka - 0xC0369A5f52f492691D26b3fA87Aec0885607A1f1
+Kyle - 0x0680b51A6c6e8cD3c9C8f49443Dd901516f5317A
+Dj - 0xf4B865089AF1Dc299a12e0482940477c88f23884
+dorgo.eth - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Jeff C - 0x129f0d9B0043BA8Bf5e43a617fC2627F3F57AFBf
+Felipe-0x885E0164110527AdDcB6BAf26b731d73DD25Cd19
+Sarthak Rawat - 0xb18988542b2346FFf3c7C121986084eFdF50332F
+Tebbo - 0x871084Da353FF0231138Ac4cF4167C424E53b838
+Gabriel Thome - 0xd9Ed1f2b4Aa132c3dB26Ff5C1e3c0eAFcAe28DF3
+Manu - 0xcA371B38A987EcB3550B31Bf1E019d482a2Fed09
+Nick - 0xD5F0122F7FF6731c697d9795F055E7c2CD81cE84
+Sylvia – 0x74bDe7887152D82E0E0F9cE9Ba4bD3c67787B755
+Leon - 0x304d3A9BE93473D38157cc1dD50E41f6e57bd690
+Daniel Y - 0x9856a38Fce6A1fEf64192d6b2Dc6b7ED71182804
+Alex B. - 0x8d840d475F74C67a4BE4F101cC00DE93a4AB36AB
+quizford - 0xD6ac23C592C2579b91bAeA3A868c950EBC49207f
+Stewart - 0x059d2A3f18C0f573236e8c3E76074E6f92e02506
+Jan _ 0x9D96C817A2dd7651B9e79D3b7801d7E20DC32085
+farhan - 0x5eE4114bf86aFa9563bBD501cECbAA32B85A9B89
+Vinh  - 0xE073F7915546334c7831781ddF5d813554288aA6
+Sanjin - 0x745e351171AC318b13f4C92114AD5d4228AA7DDE
+AzraiHasan - 0x398e565C1fa9eFC35986a514A0D4B91E3ad8A233
+Alex C - 0x0bA21b3a95843FAa636C209d3f5Ed7C731897782
+David - 0x1e7453bF91008168AF911512bAa43c677eb754df
+Sama - 0xD4DF09e748aa625821a1e57301008E697585E433
+Daniel S - 0xFeaaC61f411144e1E447f2cc58d09143A359eD0f
+Inna - 0x23E89C1273f853a429C9f184f4611344BE6469dD
+NickATL - 0x6a95E73aB5bea8281C205Ed73BAe592f26577023
+John-Mac - 0x592DF8d2ab2FA78Db9dC7334cE53662DC8C48959
+Mahesh - 0xE65Ce9832a9B6A742279dA0B1fcf3c0C6F34B331
+Andy - 0x93793A51A918b136CB7e1155bA8931952C1936cf
+La Toya 0xb88BDfAA11A49B1457C29aABB42f5E10690cA4AD
+MIKE E - 0x974Fe491eEC99184e6578CDBad6FF3F8727f1501
+Jad K - 0x90A9C05D99F1d99Ccd8F3c4021F2ba801B089521
+Ashok - 0x249bb74Db6ad4980Dd5576E4Ac163bE60CD4B2e1
+Nawodya - 0xd48f4D85E551ddEA24F2E6a25E126B8923eDdcCC
+Daniel B - 0xd5768e8ec413e3d65e002c966f35aeabf26ac1df
+Vandana - 0xBAA4401A3f98B3BE1e34Aafbf9B8939f995b66A3
+Ryan O'Sullivan - 0x61c5d6f7eb2D8EdAC302AFf99733d7EDFD6C0cac
+
+
+
+
+**********************************************
+
+https://functions.chain.link/fuji/
+If you has less than 3 LINK
+Actions => Add funds
+
+
+What would you need to change to return just the City String and Temp string instead of address and uint? for listallcities I think we could change the cityStruct, but I'm sure theres a way to leave as is and then just call certain parts
+
+function getCity(string memory city) public view returns (CityStruct memory) {
+        return cities[cityIndex[city]];
+    }
+    this part...
+
+got it thanks!
+
+
+getTemperature
+
+Sao-Paulo
+New-York
+
+Last task!
+run getTemperature in Sol´s contract
+At Address (bellow deploy)
+Sol´s contract address
+0x95ef14D31C13cD28A7d4438e9B45EDEa0557c85b
+
+Sol´s Goal
+To have all students over there :)
+
+
+SOl´s contract cities 
+0x9b18c5Bd3d91dD88605b4Dc2Cb13A72b5D3E12b8,1705679047,Bienne,Bienne: ⛅️ -2°C ,0x073D497bfA8490d6e0CB4e14524e2938F10b4576,1705679088,Bangalore,,0xCe8541556D4A084F82f065809C5e93351E030530,1705679100,Baguio,,0x978B23d05d2f4565E5ed57752D8c47b15b4d09Fa,1705679137,Athens,,0xeaC4851342433c6B41202B0A09A66185B374DfC0,1705679140,Tehran,Tehran: ☀️ +9°C ,0x7d2053c6B0b3C738c0C99bAb7DdFB14Ea40AedFA,1705679144,London,London: ☀️ +6°C ,0x60951cBa1dBb21Dd780E0f6C3d5fBAFa3d1adB12,1705679181,DingDong,DingDong: 🌦 +14°C ,0xD2d6b8c336B3E14D2F631352FFb459DAB72571d6,1705679185,Amsterdam,Amsterdam: ☀️ +4°C ,0x0eb0ab11e2c4c6D5e91E61C9D49FE0BA606d26B2,1705679220,Kampala,Kampala: ☀️ +27°C ,0xD5365332057467a1d7342fC3765aFAa53aAA14Cb,1705679222,Toronto,Toronto: ☁️ -9°C ,0xCe8541556D4A084F82f065809C5e93351E030530,1705679224,Manila,Manila: ⛅️ +27°C ,0xa52515946DAABe072f446Cc014a4eaA93fb9Fd79,1705679251,Sao-Paulo,Sao-Paulo: ☀️ +27°C ,0xdC22A74bDa95e19A198e3C283C68585b06654110,1705679287,Toronto,Toronto: ☁️ -9°C ,0xA425C8a9c421502b32153Ab795C210153aE11Aa5,1705679313,Barcelona,Barcelona: 🌦 +9°C
+ 0xa5ECF451BDECcbf55B358D3f9C3432920e78907E,1705684228,Portland OR,Portland OR: ⛅️ +2°C
+ ,0x499A45A7c8C85379E60f527275B35E6b9D85b893,1705679350,Malta,Malta: ☀️ +17°C  ,0xE5d7e81226E2Ca1355F8954673eCe59Fe40fDBFd,1705679350,Gurgaon,Gurgaon: 🌫 +10°C ,0xB2D401C1C3EB3f85Cb48D92E3aBff82A12c3CbaD,1705679373,George-Town,George-Town: ⛅️ +29°C ,0x0e59a6a20148a58331BfC3e5d0B4C9FCa154e67D,1705679378,Zurich,Zurich: ☀️ -1°C ,0xdb035c42e12ee11f1D47797954C25EE36C3dC77c,1705679386,Dehradun,Dehradun: ☀️ +8°C ,0x6398F0899630170eE5615283eEfC01EB9a93bd52,1705679395,New-York,New-York: 🌨 -1°C ,0x58C7b830bBD9032fA0D1A264c0Ee6d53740a07Bc,1705679405,Naples FL,Naples FL: 🌦 +18°C ,0x86f11146840DaeD44ebD2117e016FF640Fa9B814,1705679410,Patna,,0x0c96b5CCc9dC8f19Df8e2a5c15efDB2dc20d70f9,0,Belo-horizonte,,0x90c96C6483AD185f26871273f3C392F5EFd51cEC,0,Toms-River,
+Simona Miani,0x9F9830711064193C1dd24B58b5aCF5952b069e0f,1705681302,Rome,Rome: ⛅️ +16°C
+MIKE E - 0xa80361aE81cDC6bA1c2A827E2F038BE3B6B1a373,1705681258,huntington beach, ca,huntington beach, ca: ⛅️ +13°C
+NickATL - 0x788f9F39374633d46Ff1699cc57670864C572B68,1705682692,Liverpool,Liverpool: ⛅️ +5°C
+0x93F49dfe4E49eE979629B880613a75830Ad76DD5,1705682855,Indianapolis,Indianapolis: 🌨 -9°C(real city Peru,IN 🌨 -11°C, request worked in javascript, but not in remix code)
+Jad - 0x67f0e644e1502919bd7eaa15921a3465e1fb22f929df2c0146dca7e687d946a9
+0xac15a65931391A36328D05B5A5223E8524Aaa588,1705689146,Los Angeles,Los Angeles: 🌫 +14°C
+
+Do we put the 2nd number in the task doc? example
+0x58C7b830bBD9032fA0D1A264c0Ee6d53740a07Bc,1705679405 or just the address
+In the task you need to paste the transaction hashThank you
+
+Question:
+    Stefanie - 0x432f4fE2F17855AF70A35D18B9baC35FbaaaE7a1
+    yesterday I did the subscription, but I didn't get to the "add funds" page
+    
+    Sol are there any intermediate bootcamps?
+    
+    Kelly Egode - will this link and videos plus support at the Bootcamp on dicord be available?
+
+    Will you add any new tasks to the form?
+    
+
+Can we download the slides in pdf for future reference?
+

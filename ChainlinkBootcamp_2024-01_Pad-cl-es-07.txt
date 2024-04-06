@@ -1,0 +1,3163 @@
+Chainlink Bootcamp by Solange Gueiros
+Clase 07
+ 
+Pad
+https://pad.riseup.net/p/cl-es-07
+ 
+Youtube Link de la Clase de hoy
+https://www.youtube.com/watch?v=y_iOxra1oLc
+ 
+Todas las sesiones en Español para
+https://lu.ma/fkr85zi7
+ 
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+ 
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vSWSZfMuNAjQrRFEsUXZad1j-1POA_XlGpsXfy0uQmwAhFjBxyysJ8Y8xKL18FGu77NXFfovotT90F2/pub?start=false&loop=false&delayms=3000
+ 
+Tareas Form
+https://forms.gle/N8eAXAaSE5WzPd1t7
+ 
+Twitter
+https://twitter.com/chainlinkesp
+https://twitter.com/javosalomon
+ 
+Chainlink Community Advocate
+https://chain.link/community/advocates
+ 
+Chainlink Developer Expert
+https://chain.link/developers/experts
+
+https://chainlist.org/
+
+Nombre - Ciudad, País
+Tomas Sosa Giraldo - Medellín, Colombia
+Julio Cruz - Lima, Peru
+Arturo - Monterrey - Mexico
+Filadelfo Caicedo - Cali, Colombia
+Santiago - Rosario, Argentina
+Luis Anton - Maturin, Venezuela
+Javier Montes - Lima, Perú
+Juan Camargo - Pereira, Colombia
+OSCAR SEGURA | CDMX, MÉXICO
+Santiago - Bogota, Colombia
+Joaco - Bs As - Argentina
+orland - Bogota, Colombia 
+Daniel B - Medellín, Colombia
+Roman Diaz - Buenos Aires, Argentina
+Jonathan Juez - Bogota, Colombia
+Joaquin Alcerro, Tegucigalpa, Honduras
+Juan Carlos MM - Bogotá, Colombia
+Karinna Serrano - Mexico
+Alexander Durán - Pereira - Colombia
+Lucila - Buenos Aires - Argentina
+Santiago - Montevideo, Uruguay
+David Hernandez - Valencia, Venezuela
+Eliezer Rincon - Valencia, Venezuela
+Johan Gonzalez - Maracay, Venezuela
+Juan Fuente - Galicia, España
+carlos Vazquez san miguel de allende, Mexico
+Horacio Battabasqui -Argentina
+Luciano Delaude - Mar del Plata, Argentina
+Armando Colón Mendinueta - Barranquilla, Colombia
+Xun, argentina
+Diego Raúl Barrionuevo Córdoba-Argentina
+Diana - Puebla, Mexico
+Adan Reh - Barcelona, España
+Rubén Bocanegra - Lima, Perú
+Rocío Grajales - Bogotá,Colombia
+Horacio Barrabasqui - Argentina
+Javier Shen - España
+Villawolf - FriendTech, Metaverso
+daniel plaquin - Argentina
+Chula Sao Pablo, Brasil
+Patricio Gonzalez - Formosa, Argentina
+Max Cabanillas - Peru
+Rulo - Hidalgo, Mexico
+Juan Ramis - Palma, España
+Willy Gonzalez - Argentina,
+Alexis Gonzalez - Venezuela
+javier velazquez - argentina
+Andrés Serna - Medellín - Colombia
+Marcelo Haro - Quito, Ecuador
+Yamid Calderon -Colombia
+Anibal Elbaum - Córdoba - Argentina
+Juan Pablo Tixe - Quito - Ecuador
+Gabriela Ramírez - Lima, Perú
+Mónica Ledesma - Argentina
+Johan - Bogotá, Colombia
+Jorge - Argentina
+Juan David Nicholls - Colombia
+Pablo Guzmán - Santiago, Chile
+Carolina Argentina
+Eliot Pinto - Lima,Perú
+Andre Neyra - Lima, Peru
+Dannuver Cabezas -  Bogotá Colombia
+Juan Ignacio Blacutt - Argentina
+Juan Melenciano - República Dominicana 
+Johnnatan Olave - Bogotá Colombia
+Alfonso Zapata - Mérida - México
+Joel Garmendia - Valencia, Venezuela
+Daniel Martinez Trinidad - Madrid - España  🙂
+Sébastien Léger - Barcelona - Spain (Y Fr)
+Joaquín Precioso - Madrid - España
+
+Metamask
+Sepolia
+
+https://workshop-faucet.vercel.app/faucets/sepolia
+cllworkshop0101
+
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Sepolia
+
+Criar
+CrossChainPriceNFT.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Sepolia
+
+// Importing OpenZeppelin contracts
+import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts@4.6.0/utils/Base64.sol";
+
+// Importing Chainlink contracts
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+contract CrossChainPriceNFT is ERC721, ERC721URIStorage {
+    using Counters for Counters.Counter;
+    using Strings for uint256;
+
+    Counters.Counter public tokenIdCounter;
+
+    // Create price feed
+    AggregatorV3Interface internal priceFeed;
+    uint256 public lastPrice = 0;
+
+    string priceIndicatorUp = unicode"😀";
+    string priceIndicatorDown = unicode"😔";
+    string priceIndicatorFlat = unicode"😑";
+    string public priceIndicator;
+
+    struct ChainStruct {
+        uint64 code;
+        string name;
+        string color;
+    }
+    mapping (uint256 => ChainStruct) chain;
+
+    //https://docs.chain.link/ccip/supported-networks/testnet
+    constructor() ERC721("CrossChain Price", "CCPrice") {
+        chain[0] = ChainStruct ({
+            code: 16015286601757825753,
+            name: "Sepolia",
+            color: "#0000ff" //blue
+        });
+        chain[1] = ChainStruct ({
+            code: 14767482510784806043,
+            name: "Fuji",
+            color: "#ff0000" //red
+        });
+        chain[2] = ChainStruct ({
+            code: 12532609583862916517,
+            name: "Mumbai",
+            color: "#4b006e" //purple
+        });
+
+        // https://docs.chain.link/data-feeds/price-feeds/addresses        
+        priceFeed = AggregatorV3Interface(
+            // Sepolia BTC/USD
+            0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43            
+        );
+
+        // Mint an NFT
+        mint(msg.sender);
+    }
+
+    function mint(address to) public {
+        // Mint from Sepolia network = chain[0]
+        mintFrom(to, 0);
+    }
+
+    function mintFrom(address to, uint256 sourceId) public {
+        // sourceId 0 Sepolia, 1 Fuji, 2 Mumbai
+        uint256 tokenId = tokenIdCounter.current();
+        _safeMint(to, tokenId);
+        updateMetaData(tokenId, sourceId);    
+        tokenIdCounter.increment();
+    }
+
+    // Update MetaData
+    function updateMetaData(uint256 tokenId, uint256 sourceId) public {
+        // Create the SVG string
+        string memory finalSVG = buildSVG(sourceId);
+           
+        // Base64 encode the SVG
+        string memory json = Base64.encode(
+            bytes(
+                string(
+                    abi.encodePacked(
+                        '{"name": "Cross-chain Price SVG",',
+                        '"description": "SVG NFTs in different chains",',
+                        '"image": "data:image/svg+xml;base64,',
+                        Base64.encode(bytes(finalSVG)), '",',
+                        '"attributes": [',
+                            '{"trait_type": "source",',
+                            '"value": "', chain[sourceId].name ,'"},',
+                            '{"trait_type": "price",',
+                            '"value": "', lastPrice.toString() ,'"}',
+                        ']}'
+                    )
+                )
+            )
+        );
+        // Create token URI
+        string memory finalTokenURI = string(
+            abi.encodePacked("data:application/json;base64,", json)
+        );
+        // Set token URI
+        _setTokenURI(tokenId, finalTokenURI);
+    }
+
+    // Build the SVG string
+    function buildSVG(uint256 sourceId) internal returns (string memory) {
+
+        // Create SVG rectangle with random color
+        string memory headSVG = string(
+            abi.encodePacked(
+                "<svg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='500' preserveAspectRatio='none' viewBox='0 0 500 500'> <rect width='100%' height='100%' fill='",
+                chain[sourceId].color,
+                "' />"
+            )
+        );
+        // Update emoji based on price
+        string memory bodySVG = string(
+            abi.encodePacked(
+                "<text x='50%' y='50%' font-size='128' dominant-baseline='middle' text-anchor='middle'>",
+                comparePrice(),
+                "</text>"
+            )
+        );
+        // Close SVG
+        string memory tailSVG = "</svg>";
+
+        // Concatenate SVG strings
+        string memory _finalSVG = string(
+            abi.encodePacked(headSVG, bodySVG, tailSVG)
+        );
+        return _finalSVG;
+    }
+
+    // Compare new price to previous price
+    function comparePrice() public returns (string memory) {
+        uint256 currentPrice = getChainlinkDataFeedLatestAnswer();
+        if (currentPrice > lastPrice) {
+            priceIndicator = priceIndicatorUp;
+        } else if (currentPrice < lastPrice) {
+            priceIndicator = priceIndicatorDown;
+        } else {
+            priceIndicator = priceIndicatorFlat;
+        }
+        lastPrice = currentPrice;
+        return priceIndicator;
+    }
+
+    function getChainlinkDataFeedLatestAnswer() public view returns (uint256) {
+        (, int256 price, , , ) = priceFeed.latestRoundData();
+        return uint256(price);
+    }
+
+    function tokenURI(uint256 tokenId)
+        public view override(ERC721, ERC721URIStorage) returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    // The following function is an override required by Solidity.
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
+    }
+}
+
+// Fin 
+
+
+Deploy
+
+Nombre - CrossChainPriceNFT Address
+Tomas Sosa Giraldo - 0xadb7A0D3be9FBa3B2E8c711128af46D66f74A633
+Sol - 0x36527594Ae9C57959E66fF00Be3b7F2950e98A5b
+Arturo - 0x2482f0a96E8730D0250d847290bb06Bd432daECf
+Carlos Vazquez 0x6e5e4c7a2703ce17db61800acd67d92f328797d0
+Carolina 0x4D84D5DDd56FF75679e9E1D90B8A08F00c94DfDf
+OSCAR SEGURA | 0x9a7e5CEf9056fd105Be6D9E67316D3aB16F73C7A
+Joaquin Alcerro - 0x40fFEC0D9Ee397a42e6876Ff45bDd3f0d0112776
+Filadelfo Caicedo- 0xa13Eb5805b7A27A6b5c14675aF9c68613383Ecd1
+Rulo - 0x24A62392BD7bf2Cd8DE87a1553e3C656C4Eda0F2
+Santiago - 0x08D2522AB99c65B5fDF1999C8509615Eb9df05D5
+Karinna - 0xA2cD34cd2A42113D34b707CE11073934a18A01aA
+Juan Pablo Tixe - 0x9213969e927caF0b46C92C758d68159dDb023951
+Juan Carlos MM - 0xdBe952074e0acf1d2bf616a57516B7987803a489
+Juan Ramis - 0xe0459a3e7Fba7Bdbd501072DdD9970E40ED3F6EC
+Pablo Guzmán - 0x0c93aa2A4078A49B9B81192DDbc5d94939ec2356
+Luciano Delaude - 0xbE5C1F3dD479Dc014F968c36e129c51D4C67c7D0
+David Hernandez - 0xd1F5eAA4C352259f0E9E2771E28BB11c4C4829E2
+Eliezer Rincon - 0x56357a6dc615ee58a26053437adca7f6ccb8859e
+Johan Gonzalez - 0x7D7446A5f208249a0D414654765aE9B6Daa18260
+Javier Montes - 0x90b5ED06C6fF0e061d6C757eB25647Cff8e1CF20
+Patricio - 0xbEF0d2a62F472024CbAB452F370Cbd63D52fe2Bc
+Juan Fuente - 0x9060248931859F1fef03009C2fa8620716A5Dd9F
+Javier:0xc6fecf06fe0e144dfb714ab5d1697bde504ab1bb
+daniel plaquin - 0x4F8b3DbA9ACE89F562a981F360870e9bC8b10247
+Jorge - 0xc2790fdC6Db9304f330C4E14b2138c8A7b1E0168
+Santiago - 0xb3e3A853Ed83362F50219fc5649951A37f96f9f2
+Javier S - 0xb60a0779d389F38aF19789095741571D1EbD674B
+javier velazquez - 0x6De98065A8Af8859504013B6d67FC51eFd542652
+Daniel B - 0xaad86c9986ce787ef4f9889c16311be5776dafde
+Rubén Bocanegra - 0xEFc395112577d8AdB274827C4B698dbE87c07A69
+Diego Barrionuevo 0x3E6650d6e623BbAAadcAB94EC5c3C447233C26F0
+JD Nicholls - 0x4441eef221e0144dde92bb8c1e2f8857e31ef4f6f48aa697cb27969e28815868
+Xun 0xEE8506E2247843bE827d627E0C5b22CF155eEF48
+Luis Anton - 0xB5F798ec5b050Ac4cadd8dA0EF3417cd6d9A3715
+Anibal Elbaum - 0x267E1b88316E7b692D9E9937Cd8228bFedDD7764
+Willy Gonzalez - 0x30274bb1418c4CE6763C7164b5c495e7e9547344
+Armando Colón Mendinueta - 0x48C469eb60506Ed3F8a55076e6FDcbf839F0B1b6
+Javier - 0x7Ed72993127dEcDC19b645D50D930eB85e8a86e8
+orland - 0xA3A92292Ae741D11e66FFE8a4F4Dfe2D5f3321b1
+Alexander Durán - 0x88a8FEbFEEF97BD11D4D031B8AB299B46C7E471D
+villawolf - 0xd067E432902F7aED9d9BE4AC8DC738426E430f09
+Andre - 0x0d2db1E1080ACec01C7983D3bCa4328F28740213
+Johan - 0xd44bE37A5237f56Fc00340d91030a507D1c27Ec4
+Jonathan Juez  - 0xAB3B595A910ba73453Cc29c8120d2E5731C6dACA
+Bryan - 0x4f191A3Bf3b8dBAeF2518212a894be685a9fD4E1
+Andrés Serna - 0xb3161A551463E8949Ec93aa79895a178c7c651Ce
+Santiago - 0x3AfF1e32cBF4dba3a79f0a8D455a76F3bc8e8F88
+Marcelo Haro - 0xFf8F189f1513EEC5f8bC53fb666099660161A3B4
+Alexis - 0xB5F78eB42bCCCD3CfcAFcfb25Ea011735D39ad0F
+Juan Camargo - 0x1dCAF1E0DbF3257e2A55D762ebb97Fc8B01b628b
+Lucila - 0xEbf0af8dD9B5083127962C941d11FA99c23be433
+Adan Reh - 0xb3F5a2Bbad707a0eE4A58F94C175CA0408Ef4756
+Roman Diaz - 0x407fa1000E40560a93AF9d64F2FADD5Db01bCaBE
+Rocío Grajales - 0x41ead27748c4b056060f3d3869123471d10de0ee
+Julio Cruz - 0xfa85Cf3E36f3397ac94dEE4331F1A5b8f67B4968
+Alfonso Zapata - 0xcda7f0A93ce9cC7D6Df93082eaea2b219c3E7120
+Joel Garmendia - 0x11a5dBAEaBBc406f681B9F8F8F20d08575E1dEAf
+Daniel - 0x988b8ec6b0bDB3E68f5D252CaE2537Db4C233753
+Joaquín - 0x62d09d075c31e6eeddd9ab3e5e74834e5aef8ed9
+
+
+*********************
+
+https://testnets.opensea.io/
+
+Nome - NFT Collection
+Tomas Sosa Giraldo - https://testnets.opensea.io/es/collection/crosschain-price-297
+Sol - https://testnets.opensea.io/collection/crosschain-price-235
+Lucila Aguin - https://testnets.opensea.io/es/collection/crosschain-price-279
+OSCAR SEGURA | https://testnets.opensea.io/collection/crosschain-price-256
+Adan Reh - https://testnets.opensea.io/es/collection/crosschain-price-275
+Joaquin Alcerro - https://testnets.opensea.io/collection/crosschain-price-250
+Rulo - https://testnets.opensea.io/es/collection/crosschain-price-237
+Santiago - https://testnets.opensea.io/collection/crosschain-price-246
+Pablo Guzmán - https://testnets.opensea.io/collection/crosschain-price-239
+Xun https://testnets.opensea.io/es/collection/crosschain-price-258
+Luciano - https://testnets.opensea.io/collection/crosschain-price-241
+Juan Carlos MM - https://testnets.opensea.io/collection/crosschain-price-236
+jonathan juez - https://testnets.opensea.io/es/collection/crosschain-price-277
+Javier Montes - https://testnets.opensea.io/collection/crosschain-price-244
+Karinna - https://testnets.opensea.io/es/collection/crosschain-price-278
+Javier S - https://testnets.opensea.io/es/collection/crosschain-price-284
+Santiago - https://testnets.opensea.io/es/collection/crosschain-price-240
+David Hernandez - https://testnets.opensea.io/es/collection/crosschain-price-243
+Eliezer Rincon - https://testnets.opensea.io/es/collection/crosschain-price-262
+Johan Gonzalez - https://testnets.opensea.io/collection/crosschain-price-274
+Jorge - https://testnets.opensea.io/es/collection/crosschain-price-233
+Andre - https://testnets.opensea.io/collection/crosschain-price-276
+Juan Fuente - https://testnets.opensea.io/collection/crosschain-price-251
+Javier - https://testnets.opensea.io/collection/crosschain-price-264
+Anibal Elbaum - https://testnets.opensea.io/collection/crosschain-price-269
+Alexander Durán https://testnets.opensea.io/es/collection/crosschain-price-266
+Juan Camargo - https://testnets.opensea.io/es/collection/crosschain-price-280
+daniel plaquin - https://testnets.opensea.io/es/collection/crosschain-price-238
+Patricio https://testnets.opensea.io/collection/crosschain-price-242
+javier velazquez - https://testnets.opensea.io/es/collection/crosschain-price-254
+Filadelfo Caicedo - https://testnets.opensea.io/collection/crosschain-price-252
+orland - https://testnets.opensea.io/es/collection/crosschain-price-265
+Juan Ramis - https://testnets.opensea.io/collection/crosschain-price-234
+Willy Gonzalez - https://testnets.opensea.io/collection/crosschain-price-259
+Armando Colón Mendinueta - https://testnets.opensea.io/collection/crosschain-price-261
+Bryan - https://testnets.opensea.io/collection/crosschain-price-285
+Joaco https://testnets.opensea.io/collection/crosschain-price-267
+Daniel B - https://testnets.opensea.io/collection/crosschain-price-257
+Chula https://testnets.opensea.io/collection/crosschain-price-283
+Johan - https://testnets.opensea.io/collection/crosschain-price-287
+villawolf - https://testnets.opensea.io/collection/crosschain-price-271
+Rubén Bocanegra - https://testnets.opensea.io/es/collection/crosschain-price-248
+Diego Barrionuevo https://testnets.opensea.io/collection/crosschain-price-253
+Alexis - https://testnets.opensea.io/es/collection/crosschain-price-270
+Juan Pablo Tixe - https://testnets.opensea.io/collection/crosschain-price-282
+Luis Anton - https://testnets.opensea.io/es/collection/crosschain-price-260
+Santiago - https://testnets.opensea.io/es/collection/crosschain-price-272
+carlos vazquez https://testnets.opensea.io/collection/crosschain-price-273
+JD Nicholls - https://testnets.opensea.io/collection/crosschain-price-249
+Andrés Serna - https://testnets.opensea.io/es/collection/crosschain-price-292
+Rocío Grajales - https://testnets.opensea.io/es/collection/crosschain-price-295
+Carolina - https://testnets.opensea.io/es/collection/crosschain-price-289
+Roman Diaz - https://testnets.opensea.io/es/collection/crosschain-price-288
+Marcelo Haro - https://testnets.opensea.io/collection/crosschain-price-281
+Alfonso Zapata - https://testnets.opensea.io/es/collection/crosschain-price-305
+Joel Garmendia - https://testnets.opensea.io/es/collection/crosschain-price-319
+Daniel Martinez - https://testnets.opensea.io/es/collection/crosschain-price-327
+
+************************
+
+En Remix
+CrossChainPriceNFT
+
+Mint
+Para su billetera Metamask
+
+
+En Sepolia
+
+Crea 
+CrossDestinationMinter.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Sepolia
+
+import {CCIPReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+
+interface InftMinter {
+    function mintFrom(address account, uint256 sourceId) external;
+}
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossDestinationMinter is CCIPReceiver {
+    InftMinter public nft;
+
+    event MintCallSuccessfull();
+    // https://docs.chain.link/ccip/supported-networks/testnet
+    address routerSepolia = 0x0BF3dE8c5D3e8A2B34D2BEeB17ABfCeBaf363A59;
+
+    constructor(address nftAddress) CCIPReceiver(routerSepolia) {
+        nft = InftMinter(nftAddress);
+    }
+
+    function _ccipReceive(
+        Client.Any2EVMMessage memory message
+    ) internal override {
+        (bool success, ) = address(nft).call(message.data);
+        require(success);
+        emit MintCallSuccessfull();
+    }
+
+    function testMint() external {
+        // Mint from Sepolia
+        nft.mintFrom(msg.sender, 0);
+    }
+
+    function testMessage() external {
+        // Mint from Sepolia
+        bytes memory message;
+        message = abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 0);
+
+        (bool success, ) = address(nft).call(message);
+        require(success);
+        emit MintCallSuccessfull();
+    }
+
+    function updateNFT(address nftAddress) external {
+        nft = InftMinter(nftAddress);
+    }
+}
+
+// Fin
+
+
+Deploy
+Parametro: the NFT collection address
+
+Nome - CrossDestinationMinter address
+Sol - 0x7Ca84CCBa81EB2450B30467D4BF70744a89858E2
+OSCAR SEGURA | 0x3Ce330823a4C6D82838192B6A1719147F8F49045
+Adan Reh - 0xaC59C35EED1AFeE41AE74C8d200200300C784f97
+Joaquin Alcerro - 0xadcEba3db430ef4c8CC5e1A007A6eCd391655Bd0
+Pablo Guzmán - 0xea9D777A9dF91F8260Bb53253155EAA1D0e35ca8
+Filadelfo Caideco - 0x75f5B93aDa471ed3Ce87ffA8B85F083Cc6b78DFd
+Alexander Durán - 0x6aCCDFa8895ff38C35093B1A0A0a352BD182F512
+Rulo - 0x285f16536f00fBee3A68c4467d37b6C390c931Ec
+Santiago - 0xc63943799fae9B3F1e563771d0d771A11F60A04E
+Karinna - 0x86dd21fe9119b7249FeA9617b84db3BFE804Bf49
+Javier Montes - 0xF09Ac088D18b9C46e1bC04fdEe79C3637D6cd572
+Juan Camargo - 0x94f82ca512c8183e2fc311Fa9C0b0f78FB72388f
+Juan Carlos MM - 0x1A077119D3C22df1eD928D17463E72d0b18Af6Cc
+Daniel B - 0x24850891a4eaee5f97d19ad5066860a185443ee1
+Patricio - 0x4f20310AeDc9cE924C70b68525CF3105B8D194B3
+Jorge - 0xE64c4a5F4fBfb5bB7eAB38fa5EeDb3f9eA523029
+Alexis - 0xA3EcfE0B6F2b85a32EFedaBd60CdbBEDbB462Cd4
+Santiago - 0x9AD977dce200fcb6596B69326a22c8C8771D9caB
+Diego Barrionuevo 0xb5B5f02aCd80B1c7392155676a640c3C1da48a4c
+Armando Colón Mendinueta - 0xa4fE0e0a2206a98849E583BB486b12C255a3faB7
+Juan Ramis - 0xF83d88D87eDBE6100Ae6f351FEF5f1782cdd511c
+Karinna - 0x86dd21fe9119b7249FeA9617b84db3BFE804Bf49
+Luciano - 0x56B166e66275684098ccf0f7492E12CC3648000F
+Juan Fuente - 0xbC39DC2Cd59915d9175DD2bEd1c434dE6b46890D
+Javier - 0x38554022B874574C43542716f5eFB838c43F5112
+Xun 0xB2b2d0CeF553CF7BC1870D68fE049eC2D39ab6a3
+David Hernandez - 0x25acb304716aA7B8426750E98a76e656E2227a3d
+Eliezer Rincon - 0x54cF6d0E094E85751A7367AC899aA92B380EF052
+JD Nicholls - 0xD6BEccF3e8532D61D216Ce00bd889CdBB48318Dd
+chula 0xc024f3aF6116286FCD795e17c899395cdF87535e
+jonathan juez - 0xbd92aA7210b4bAd68AF6d47Cc6153F83DBb57d6F
+javier velazquez - 0x35febb5719429f66275a36ee29d8ceb297e09a0c
+orland - 0x8e588AA930cf788e69872B88C020cBab9b855Bd6
+Johan Gonzalez - 0x4B757dBF1A1ec3E169ac625aB124d0814A4891c9
+Ruben Bocanegra - 0x7d8A538F28DAACcb76fC00010236eBDC718d0b13
+Johan - 0x0e53d1C3A7d1A454E77Af2ebD1d05262BF5de65C
+Luis Anton - 0x34f20005C13Db3F0eB18409566671d3d2E9C5a37
+Javier S - 0xcB04A380448794BA42F2D9cc58EFBE2061705A43
+carlos vazquez 0xAfd4928DB37D73e59C79aad8E91261Dd173f0e45
+Horacio Barrabasqui - 0xFEEB0807A0D784416C625730B1b6aC0b4Ee72252
+Santiago - 0x0fb471925eb4f2913cea1c24284e19830eec65378efb70064fd33b5a05643426
+Andre - 0xdB5A7F7C1DB2E438B0b4dbB184f246a54b3AC06a
+Juan Pablo Tixe - 0x33AD86Fa01fB2556520F6f249C154205081eBdeB
+Anibal Elbaum - 0x7d3EBd77169bC6aa6182714A897AFA0fae065Fef
+Andrés Serna - 0x6B1eF4339698Eb9BAFE9a6eb0ea61CBA079DDa67
+Bryan - 0xC2f7fc16bbc5730e688B85d97Ad16aeA014Aab2E
+daniel plaquin - 0x9E16B1792fa0bFc0935b9586DCce541675a6b3eD
+Carolina 0x1aE43DbEBdD1f572B7eD7db7eD23ab92D1A96Ccf
+Lucila Aguin - 0x93D8D34d9A56A9147923A8F56d76483e60AAdE17
+Roman Diaz - 0xb810a3d5451A1D7bFAe6a8BFF2e3C116a27E3dc2
+Tomas Sosa Giraldo - 0x1846d4388E8B6020770a6c5bcb599cC6210721Ec
+Rocío Grajales - 0xeabe192cef1043e74b16321f22e9b59c8c6c9cb1
+Marcelo Haro - 0x5ff58E571B0b9e5C557aE20C363f640251301508
+Alfonso Zapata - 0x4F1836d3d782fFA006f65d877977957C329EE020
+Joel Garmendia - 0x2cFA02F2979eF53301d30F83033BC47fbA3D862d
+
+
+*************************************
+
+En el contracto CrossDestinationMinter, 
+ejecutar las funciones
+
+testMint
+testMessage
+
+
+************************************
+
+Metamask
+SELECIONE Avalanche FUJI
+
+Para anadir Fuji en Metamask
+https://chainlist.org/chain/43113
+
+https://workshop-faucet.vercel.app/faucets/fuji
+https://faucets.chain.link/fuji
+
+No Remix
+Crea
+CrossSourceMinter.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossSourceMinter {
+
+    // Custom errors to provide more descriptive revert messages.
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees); // Used to make sure contract has enough balance to cover the fees.
+    error NothingToWithdraw(); // Used when trying to withdraw but there's nothing to withdraw.
+
+    IRouterClient public router;
+    LinkTokenInterface public linkToken;
+    uint64 public destinationChainSelector;
+    address public owner;
+    address public destinationMinter;
+
+    event MessageSent(bytes32 messageId);
+
+    constructor(address destMinterAddress) {
+        owner = msg.sender;
+
+        // https://docs.chain.link/ccip/supported-networks/testnet
+
+        // from Fuji
+        address routerAddressFuji = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+        router = IRouterClient(routerAddressFuji);
+        linkToken = LinkTokenInterface(0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846);
+        linkToken.approve(routerAddressFuji, type(uint256).max);
+
+        // to Sepolia
+        destinationChainSelector = 16015286601757825753;
+        destinationMinter = destMinterAddress;
+    }
+
+    function mintOnSepolia() external {
+        // Mint from Fuji network = chain[1]
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(destinationMinter),
+            data: abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 1),
+            tokenAmounts: new Client.EVMTokenAmount[](0),
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 980_000})
+            ),
+            feeToken: address(linkToken)
+        });        
+
+        // Get the fee required to send the message
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        bytes32 messageId;
+        // Send the message through the router and store the returned message ID
+        messageId = router.ccipSend(destinationChainSelector, message);
+        emit MessageSent(messageId);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function linkBalance (address account) public view returns (uint256) {
+        return linkToken.balanceOf(account);
+    }
+
+    function withdrawLINK(
+        address beneficiary
+    ) public onlyOwner {
+        uint256 amount = linkToken.balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        linkToken.transfer(beneficiary, amount);
+    }
+}
+
+// Fin
+
+Deploy
+Parameter es la direccion del CrossDestinationMinter (desde Sepolia)
+
+Nombre - CrossSourceMinter
+Sol - 0xB9bd725b7b8E9dB528fdE5443FFd6CA3A5d3C038
+OSCAR SEGURA | 0xC46128914272FB209dD2F32ADf2EE98f06D16Dfb
+Willy Gonzalez - 0xA138f1EbeD32D8b915f130524Aaa7290c2e93e82
+orland - 0xd642591d7222Abc88104065F7325d508F85dB4e2
+Adan Reh - 0xaAF3753b32c0dA35A2E978A4cd676415c3c6E1cC
+Juan Fuente - 0x1BA9E7Ef734c12096aa09A4F33e688adFAC05B47
+Santiago - 0x53ba465442933D8F268e34964272f6f613B76Ec0
+Pablo Guzmán - 0x2707C0AA9b0A0f8f5815439EefC0298257f1dE23
+Armando Colón Mendinueta - 0xd1997873d9d604a2b99034800aaAC9AfFe7cf8b8
+Filadelfo Caicedo - 0xb4a5e16C4BC0330Ec1cf4588C364ebAE62Ef3524
+Joaquin Alcerro - 0x9732f77CB2De3675d7233860D2504a15F46c51F6
+Rulo - 0xB67Cf414204B5703558b85364dDC101089a90bb5
+Santiago - 0x709ab02754782906dAd1bda7A8E80d0034848670
+Javier Montes -0x764CBc205417fbcb342BcD7E215D44038CE0c0bf
+Arturo Collado - 0x1264efa28F95589FD4049F468fb781c69c22C55a
+Luciano - 0xE893C07a5520C5f5c1b1D27dcD3b51228eB7bf92
+David Hernandez - 0x9C50f4E3fa10bB4CB22631810DB77A43EEB9079d
+Eliezer Rincon - 0x4bDf124567d0A8F23b2F8D8a35bFe295cd7879db
+Andrés Serna - 0x48B1175530cd58ED2465b9437243D9e6E2A8f009
+Alexander Durán - 0x082125dF985D99102ebccC36142fAd341749Da43
+Juan Camargo - 0xBE5F9EfbcBbF9124292f90E3781c5794580047fD
+JD Nicholls - 0x0dd220E5ec89e9B05CB3D52Eb4181d81e6714ddb
+Juan Carlos MM - 0x3E8CD7f95034153B08C9fe6A829Bd210adE2cffb
+Javier: 0xcedd13d115a5dbad2e1fde47bf2b0c624784b386
+Daniel B - 0x4d0321bc8ce440a6688893ed7f5a4a97a37e6d8a
+Xun 0x68978aBe5ef78697a0Af547bd0987EF5314ff301
+Jonathan Juez 0xd5a7d402428a5c4d21400BE79566013E2A4D3417
+daniel plaquin - 0x173b43294BF2CABF04a600dDaE5e6F784aadba48
+Johan - 0x68923FC3686679c4d8383409eEa467697B2C8aE7
+Bryan - 0x31f8e7d7F63Bb321d5C60b254e3902803754ab25
+Patricio - 0x680e2Ba13ED229aFeC4bD9499dd598E9A7398358
+Ruben Bocanegra - 0x7242F6954907ff154282283FE17dbB8F2041bAd3
+Javier S - 0xEDE4F11C73Befcb9a7c6CA1D37667907384687bD
+Diego Barrionuevo 0x4cE2f330753a8d64870E8BbC34686c2CaC52Df7f
+Jorge - 0x1dF7F194e2690165fEdAf17d7b5b31Bf0e9618d0
+Juan Pablo Tixe - 0x205753e4A937a78205D940413E33ba0c12b4e7f9
+javier velazquez - 0x338dDA6e18DA1fEF1bba11C0E4a3783CDF8930c2
+Anibal Elbaum - 0x267E1b88316E7b692D9E9937Cd8228bFedDD7764
+Santiago - 0xbb87e0dcad6c43d1c1c9dde73e15be86f763ddcf35d6026baeb5f49cd34237dc
+carlos vazquez 0x30aceD149176c2Cf56C3a5503ca84753fd18CCd5
+Luis Anton - 0x195E8a2042d42470971A493cC407416F02CD4056
+Andre- 0xcef25aA3e5295914c94E6E1c0B3a7a55477D2228
+Juan Ramis - 0x8259AeBf9C4a0C3b84757183f9d06dF17DfD88E3
+Alexis - 0x0Cd30B888ee1C2fCeD713a4eF831FaBb4218D69c
+Johan Gonzalez - 0x11D4615333808B7C4543E3eF6299dE872107B6e3
+Roman Diaz - 0xb0c7E13aEffCd189Fb58BBFc3A4eD3cFb0A6b588
+Lucila Aguin - 0xc51803eB54dbaEc2ED0d6a096763f6c3e7079B6f
+Marcelo Haro - 0xA093EfAC01F0f4F7712565146312f07f73E6a808
+Rocío Grajales - 0x18914f6021576AA4782457a419824Eee325f9059
+Alfonso Zapata - 0xbfCC4BF65FA5325C518D65250BB7c5d97Cb13436
+Joel Garmendia - 0x682423399D995Cb7043Cff70736177330Cd480aE
+
+***********************************************
+
+En Metamask
+Red Avalanche Fuji
+
+Envie 6 LINK para la direccion del CrossSourceMinter
+
+Mira el saldo de LINK de CrossSourceMinter
+
+En Remix, CrossSourceMinter
+
+linkBalance
+Parametro: la direccion CrossSourceMinter
+
+O resultado será
+6000000000000000000
+= 6 LINK
+
+Listo!
+
+mintOnSepolia
+
+https://ccip.chain.link/
+
+
+nombre - MintOnSepolia transaction id
+Sol - 0x56b84b0a38a524b5f2705bf10c6e012d00a1ac285a886ec4a53191109334a84d
+Arturo - 0x37318944b2d94cd426cd730719a5f6e1b990f95d213a8c991aa13d2a4498b622
+Chula 0x8a5afe94fb866a6baa855bf8516dd33bbe33314fd72366b3469372fb38c750fa
+villawolf - 0xaa7703eab4b37d7a4d5f46e225a67f69b6fb6df2b79e5fa8d4395969d6a5e295 
+Willy Gonzalez - 0xb0a81e275422222ea20bb178fb809e25617f80bf39c69293743581a0833ced47
+OSCAR SEGURA | 0x3ec78af0c5dbde3b1f435965010e6b54c8429b22b223078efe2332657e90653a
+Adan Reh - 0x485fc19d0ec74b90c2f00cb6438cf46549b590ebaaecd4e85975628997e4f440
+Javier Montes - 0xf7320d64b521c5651f3e089e548474a043a63f028243f089877f303b816d68e9
+Rulo - 0x8d26b3ec65e473b76e5d27fcb1e9468055578739fec337fc054a493fecdb10d1
+Filadelfo Caicedo - 0xf0089aa7ce58342ed4ccec608accabf2e4fa7d0edeac1a54cfb6d5f61849fed5
+Santiago - 0x6365f935509a2d8643a5b993934b40395a066438198de63d794dd9c48602963b
+Juan Carlos MM - 0xabc02805fe7fdb9e868ccc135a5108d5e9033b2109904e1da5d18f4b1924f580 
+Juan Fuente - 0x6dfc579b89491b9b5a055e23ff0808e67d09ee4ac05c27b58fef68f6373fb8c3
+Luciano - 0x60d7b3930a3dd561000d11cf598b02e3ebdaa7bd433095cca6b579a702e9cacc
+Jorge - 0x1625b9220b79d742d1b674dd0cd34899b7d07d5e5178b0705ca581112007cf41
+Emerson - 0x5264207238de701427be6db50ec76a261a428b38180721150b7a9cd02bf2c847
+jonathan juez - 0x1290190474d2088352bc8478d351917b935b710c3a7d8f4242cfb11cceb84acb
+Karinna - 0x80e3e3d7684b3228ce7b2af30ea98920182702af5a084e5d09dddd368202357d
+Santiago - 0xfe3b189163117fabb5bd8a28c1e516b962430b6af4c8c61d270cf1d75c34a3ba
+Patricio 0x5501adfc933a49524e2e261c9919f783395a5425ca8b6d5d6310cd140d0baa83 - https://ccip.chain.link/msg/0x0e405a3a2de19b772486d837efd4f4010ff5701749a9b54ddb41588eb5fe25f7
+Johan - 0x035dc42f36fa1bf554513291341069c9aba210ef13f5df7e0e992177d196254a
+Alexander Durán - 0xa58d2f60e2c40043dd09f77be57c693a6aaf119f33e6441d4ae215dd3248e127
+orland -0x5156f256c7fc95fce5e4aee868365fa77fec7b90601c442e693a1c4268bb5587
+Alexis - 0x4e35f44956f7f974d07655ba9f1f8ea00831c8683c8d62fbd9f7bdb7d51a74ed
+carlos vazquez 0x01e9379f731a1ad6a30b8ef017912884e55e570ad71c222a3caaceffe581f253
+JD Nicholls - 0xcd4953c3d6407da317f9887781f011575904f0816556602522fcfc2359302976
+Anibal Elbaum - 0x488945b3edb7dd3f151dc47c8024eef26c088fb88906900e2792ac2f51269661
+Javier S - 0xEDE4F11C73Befcb9a7c6CA1D37667907384687bD
+Juan Pablo Tixe - 0xa5f7873cd0ab7d59cba6da4c4ba4f1e3d085f371f95df13d09dce7d3999e95d0
+Juan Camargo - 0x2a0a81b978268c06e2285806348faba67f975611569efea38d084614bd3c0583
+javier velazquez - 0x237f322d38ea797bd1d3dab03e9e2912ad176d435ca5b7cd7e872f4c36ad368f
+Xun 0x22880dea4fbdfb7ec20aeb80ba3c8f38628401fc32270a890f2d77b90bbab75b
+David Hernandez - 0x7775578800cd943bc5f5533ec27cfd9a1c407d71e62245898e5f28885c95a9d2
+Eliezer Rincon - 0xd314c16a6d74bc3e8b1bb74b821bc1526cc4f76527d59d5ed3d543eb30456984
+Johan Gonzalez - 0x4a7f8be34c6833bcf6222bf81f5b026cd585658a435e4ca5cfebcbbbf9a68e5b
+Ruben Bocanegra - 0x3352df8586d99c371bc60fe9393bc2008512c9bd302272af9ece08a9d3cd017f
+Luis Anton - 0xc76db2d0aa7b43f8385b19745da2fa235cae2ff75e72e4bb258e28ce5ce13876
+Andrés Serna - 0xf7a143afb63dd88f6a2aed84ba1af123eb82f9bff2fe2109e07975136fb7aade
+Santiago - 0x3cc391fe040f2aaf98d78f40d895e20025ec15125f89a4fc50343f4f05c03cbc
+Bryan - 0xadd1e3bf30bf168d6f37f28266351c6ec4ff8fe6a217670033fd91b3dc501915
+Juan Ramis - 0x3fa8764ecad06ac52ae1040c327defb6b7a5b6dab8b29224811ef7ce28bac498
+Javier S - 0x8b31d6b524ff67559970e6ad3edcb35b652e5f9d01a7e2443f5c46dec282fb54
+Emerson Silva - 0x5264207238de701427be6db50ec76a261a428b38180721150b7a9cd02bf2c847
+Andre - 0x419f6e7cfdbcf6c836dbe5dae2e690a8b9578461c8ef5efe6b9cf489ec4c4204
+Armando Colón Mendinueta - 0x9277d0d153a81746daed7dcd501ed2148b13c5a5d4de41aeda0288345385b247
+daniel plaquin  - 0x4d9d26b941db9735a2d3fe0da2766941e28070f2e787a8acd4f0e282d800564c
+Joaquin Alcerro - 0xec0929e41192dcb25e0fe6fe2eec4a10e978fb9e40597338d5689fff5f4dd003
+Carolina 0xa1afd7b0bc5cbdfe7c2ce09e85a45b58107b3daec6666f2a2c84b8072a4bb21d
+Tomas Sosa Giraldo - 0x647b61d8371f3346c69302110a890299634134db44551c8b93f4cbfe5160f2b7
+Roman Diaz - 0x7d49b643582cabc08f78f849809253dead93ca12b28d4a5fd83102cdd38d717f
+Lucila Aguin - 0x2b889fe59b55fe4685e708461c86ef2fdebab32df94ee9c07eb459ea71a5e76e
+Marcelo Haro - 0x9ef1dfc0042e2ebb9087f9885bae20425375bd6aed00e95c581e8a7f3f00190e
+Rocío Grajales - 0xf12a48b74f2773e267537f0e99d58421b433267d91841533b6e95275eab36776
+Alfonso Zapata - 0x34f52cca16416eeae2abd762f1723603c4df1d460d3ab1cc2b030ee842c37c5f
+Joel Garmendia - 0x4e0c1a5367d2c40e1d8623e9eb4933390826a11a56584a941b8a39196ac02485
+
+****************************
+
+Add la red Polygon Mumbai en Metamask
+
+https://chainlist.org/chain/80001
+
+https://workshop-faucet.vercel.app/faucets/mumbai
+
+https://docs.chain.link/resources/link-token-contracts/#mumbai-testnet
+Añadir a wallet
+
+
+En Remix
+Cree
+CrossSourceMinterMumbai.sol
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Mumbai
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract CrossSourceMinterMumbai {
+
+    // Custom errors to provide more descriptive revert messages.
+    error NotEnoughBalance(uint256 currentBalance, uint256 calculatedFees); // Used to make sure contract has enough balance to cover the fees.
+    error NothingToWithdraw(); // Used when trying to withdraw but there's nothing to withdraw.
+
+    IRouterClient public router;
+    LinkTokenInterface public linkToken;
+    uint64 public destinationChainSelector;
+    address public owner;
+    address public destinationMinter;
+
+    event MessageSent(bytes32 messageId);
+
+    constructor(address destMinterAddress) {
+        owner = msg.sender;
+
+        // https://docs.chain.link/ccip/supported-networks/testnet
+
+        // from Mumbai
+        address routerAddressMumbai = 0x1035CabC275068e0F4b745A29CEDf38E13aF41b1;
+        router = IRouterClient(routerAddressMumbai);
+        linkToken = LinkTokenInterface(0x326C977E6efc84E512bB9C30f76E30c160eD06FB);
+        linkToken.approve(routerAddressMumbai, type(uint256).max);
+
+        // to Sepolia
+        destinationChainSelector = 16015286601757825753;
+        destinationMinter = destMinterAddress;
+    }
+
+    function mintOnSepolia() external {
+        // Mint from Mumbai network = chain[2]
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(destinationMinter),
+            data: abi.encodeWithSignature("mintFrom(address,uint256)", msg.sender, 2),
+            tokenAmounts: new Client.EVMTokenAmount[](0),
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 980_000})
+            ),
+            feeToken: address(linkToken)
+        });        
+
+        // Get the fee required to send the message
+        uint256 fees = router.getFee(destinationChainSelector, message);
+
+        if (fees > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalance(linkToken.balanceOf(address(this)), fees);
+
+        bytes32 messageId;
+        // Send the message through the router and store the returned message ID
+        messageId = router.ccipSend(destinationChainSelector, message);
+        emit MessageSent(messageId);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function linkBalance (address account) public view returns (uint256) {
+        return linkToken.balanceOf(account);
+    }
+
+    function withdrawLINK(
+        address beneficiary
+    ) public onlyOwner {
+        uint256 amount = linkToken.balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        linkToken.transfer(beneficiary, amount);
+    }
+}
+
+// Fin
+
+Deploy
+Parametro - la direcion del CrossDestinationMinter
+
+Nombre - CrossSourceMinterMumbai address
+Sol - 0xb29714a2078FE1FDfe8588D32D57edDd80C6706F
+Joaquin Alcerro - 0xE1613572Cc72705E42E41aDfa04083D9A73B8903
+OSCAR SEGURA | 0x1F1c0E94647Ca1a7c95772fc2De026cDBEdD96ff
+Adan Reh - 0x0d54ec6eEf855a31FE4500F15c3B0F991639563F
+Santiago - 0x799a402d4C253Dfe2f7255A4500cdA4671095fB7
+Filadelfo Caicedo - 0x4f8CeD07c01546A930868D1D4306dF3753E5c61D
+Rulo - 0xCCe436E6e7cB76Bc980abCB3ee199e38d8C17fB5
+Javier Montes - 0x4a324f31b0cc09C63a253476796991F3C13Ac4A5
+Anibal Elbaum - 0x0212a65A7aD807aA3283D46A2D393630883530Ca
+Santiago - 0x709ab02754782906dAd1bda7A8E80d0034848670
+Juan Fuente - 0xa590211370C9930745Daa94154541932854fB161
+Xun 0xf03E648fF7972eC21036ea46ccb9E7c70226b0f8
+David Hernandez - 0x370CA446732fE97B27F9186F4f95f567655248c0
+Eliezer Rincon - 0x4bDf124567d0A8F23b2F8D8a35bFe295cd7879db
+Johan Gonzalez - 0x11D4615333808B7C4543E3eF6299dE872107B6e3
+Javier: 
+Patricio - 0x8ab6796c51Bc1619beCBfF32033E8f6F35ed28E8
+javier velazquez - 0x7e28980AeC530498D6C537bc616525e06aB441Ab
+Andrés Serna - 0x9ed65adb005F5ca30546595F9cAE20616A3f646F
+Juan Carlos MM - 0xb5ec19e1e21166eE919d776E3326EA95650b140A
+Johan - 0xA2935436A365Cdd16F21F0ca9A326AEeFe8d62F3
+Javier S - 0x9E6D2C68921ac11fCD57A8EEb062f7EE31e94378
+Juan Ramis - 0x9F00aDfeB8F43aB8104023FD2D27959c50fBf282
+Daniel B - 0xe08f1508ad32b31a520e382520727210fc6abf09
+Bryan - 0xa3A22B44A2d612B42686456b8104C7B8F0D98858
+Juan Pablo Tixe - 0x2589C2d6506C1cd5297a14dd95a083d3Fc66186c
+Luciano - 0xE893C07a5520C5f5c1b1D27dcD3b51228eB7bf92
+Rubén Bocanegra - 0xB83194Dd1fd9a2E8E0468cb79b8258C6B552fFa2
+jonathan juez - 0x1a60a1050FFCa01be4Ff1909e73F379c964F5ddD
+Alexander Durán - 0x4e365bAfA2e2f58C56EF33CcA27d2a545b0d297C
+Juan Camargo - 0x843DEE2248dFade53092cD26C34Cd9d12A15462f
+Luis Anton - 0xc082ae2946b7BB5D4829D4c273716CE1DEb3f4ee
+Emerson silva - 0x82642f1fad447eFfF0c88348fc5387a7Cc6DB581
+Karinna - 0x16361919De8d06a35104BdC7691aEF521B2FFf26
+Chula 0xedC2c9b65f8E0b959C6fA262C3b1522C39253f45
+orland - 0x6818e085a24541024e4bD9333C4E11DF9a9D80aD
+Willy Gonzalez - 0x69938eCD4c21A5d7324A3d7958eB39bB090c2084
+Andre Neyra - 0xcef25aA3e5295914c94E6E1c0B3a7a55477D2228
+JD Nicholls - 0xDf3D1C0d172a98642ceCfe40a91381B41Ec13462
+Armando Colón Mendinueta - 0x2a5e09F4b7501E22bdb8DC78B5EEaB08bc1d4165
+Marcelo Haro - 0x3C50063fBb32a43fA39DD0c1dbE750db1aaAb8eb
+Roman Diaz - 0xb0c7E13aEffCd189Fb58BBFc3A4eD3cFb0A6b588
+Rocío Grajales - 0xa77FB3306a9D1A56BB270B474dBfECe136b7e27D
+Alfonso Zapata - 0xC71c622A9CE84cb17f44EbA757c2CA9549896F4c
+Joel Garmendia - 0x0aD108d8FcA2aaE5BB484ea5460e0F4FE8b50fce
+
+
+*******************************
+
+En Metamask
+Envia 6 LINK a tu CrossSourceMinterMumbai address
+
+mintOnSepolia
+
+https://ccip.chain.link/
+
+Nombre - MintOnSepolia Tx Id
+Sol - 0x81597e9fae1b138061c4965654a71d59e682bcd377b6df8f90c37e644a2e083b
+OSCAR SEGURA | 0x33bc2d1b4735c076d7f7d052f3e741ec4ee51033dd0d785761c7e7fb961f7cf1
+Joaquin Alcerro - 0x768c6808dc2e6bf2f62177654e4da5ffac03ef74451de32899e07362920773eb
+orland - 0xa18793812da6bac5ac7d951b728a24fe78ebe75fa67576ee45f74a5b3cb7e55c
+Filadelfo Caicedo - 0x025bba377cd6c33ad6db146db263658a7b01a16de2861c37af0478743abe5ae4
+Adan Reh - 0x703952011bb0734d9df7dfd8cdb2930ee226a71342dc80718ff9b95d3adafc45
+Santiago - 0xa572eec404332747b546b0dc4855498b5d1ffe88022b24cc879291410bfe5517
+Bryan - 0xe1f990ebeba38b0efd825a049cb573312a97a26dca70c511729e6322b6039421
+Anibal Elbaum - 0x6ab2370d8548c3c6e1342113442892276c7de46571f678f74ce50dae9cab1ef9
+Rulo - 0x146ed7ec6ad2689c1a9fc441af2f1cbf9a27260bc802d7e8d88af92daea7c673
+Alexander Durán - 0xb60a3521836efebc6f401c42a8efbbbb8e0443934f49bb3389c7b64af1d71806
+Xun 0xf83bff63c93ff80a932549e7091da016d3d044310e7bc5ac1f7a51855abf1faf
+Juan Carlos MM - 0x959b8d9e311cd46628a13e1835fb6c7bd6e08e8f37bc5a9c07cbd3a6e8283cd5
+Rubén Bocanegra - 0x34d0d9d2dc4e8de499350c7613ebf5fab2725d9b65d1a5b9f1b95bdb398317eb
+Johan - 0x2bcd7541859e50645e56385698625a6189243a5d43be70b26b594ebcce9b7f7f
+Daniel B - 0xfe679035a2f7f76c83bb10654678bec45a44d43499151aa1dd2e34ece81de797
+Karinna - 0xd7ac44696a7ef5b354107fe3c651b41de277957909c59b0b6bf74fb22a614460
+Juan Pablo Tixe - 0xcb842fb59174af56badfd1a9e275d05884c63b1626c5d3cb3d3b0021577c325b
+David Hernandez - 0xbade51bd3ff2186d79e2f16fd58e8712a97496bfa6d6d9aab06cfbd3c0446148
+Eliezer Rincon - 0x6ba67b5d62789ac488beb94e09abce04e9a1c5af7d53d77a6f31dcaacc8f01ba
+Johan Gonzalez - 0xbfa08d506f815ed9ce40b0191184433cb13b8ec34947c27b7cecb77228d03f33
+jonathan juez - 0x8280efade886775c7b3ad3892910f6965974f19b232b31cd062c54b73aafe85a
+Juan Ramis - 0xf2baf9d5506369358b3ea026024fecf250bed45da0362b8a48b07ac553634049
+Santiago - 0x4983544b0a2e685465209022a5b0db4dc60152188a2fd77f270f3b0b11b8ec08
+Juan Fuente - 0xc4119d35045b66aee08a93f2124b323f27dccf43738f6ff8803ae75846fe4a0e
+Andrés Serna - 0x74512f4cd3de46d6bbd19c2fd9c9a8ea8469ca6a0ddf1d80e5f7aba3c3d0e358
+Emerson Silva - 0xecdaadffe3c0cd99adf1eea18aeddf8d97ff707de62cb7e485780f72bf05bef6
+Luis Anton - 0xb4b88b18f5d1aefcd1ba7c677371d151124b81c326535d06170fbdd15b4ee937
+Juan Camargo - 0x1ecaf360383941f56f62e72e80da6e302f9c4772452477310061b0ec25ed55b4
+Chula 0x4f52b64dd5f7acab0d54d045fd24935f2f0c8d21ecfdea136d49ca1fa6d3c5c3
+Patricio 0x4152bbc6be412347c264a1a1c3c916c083a6ce1545611421ef5fc922e3af83c0
+Andre 0xc8394aa0427716370178038bff3a623cb291277a9f56b69283b0aeeb70214a98
+Armando Colón Mendinueta - 0xc47d968673ca938c9ae02ea9143a2feb33a8659bc83c54e5c04c5db196fd071c
+Javier Montes - 0x5c8b2d5698f3927fc69f2eb01e9b156749f30478d492a2a71432ec37af2956a6
+Marcelo Haro - 0x4d1f57cf73d143abc2a936b0f7e0d27c427ff5f06a26ed4731c6f20aa6a65d7e
+Rocío Grajales - 0xa5723002ee2cad62f466be41a4374f76423f79bdbce0ce6582cf06bd59890b28
+Alfonso Zapata - 0x439438fb2a57818d60eb58f1686e542f6e4aad6f9ed739dba4d608b977a29d3a
+
+
+
+
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Automatic detection
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+B
+
+
+
+
+dasB
+
+
+
+Sustantivo
+
+
+el segundo
+second
+, 
+second best
+
+
+el si
+si
+, 
+B
+Pásate a la versión Pro para ver más sinónimos
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+Añadir al glosario de frases
+No hay listas de palabras para English → Spanish...
+Crea una nueva lista de palabras
+Copiar
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Automatic detection
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+        
+        
+0x7Ca84CCBa81EB2450B30467D4BF70744a89858E2
+        
+0x7Ca84CCBa81EB2450B30467D4BF70744a89858E2
+        
+
+        
+        
+        
+das0x7Ca84CCBa81EB2450B30467D4BF70744a89858E2
+        
+
+        
+
+        
+
+        
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+Añadir al glosario de frases
+No hay listas de palabras para Arabic → Spanish...
+Crea una nueva lista de palabras
+Copiar
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Automatic detection
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                        
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Catalan
+Cebuano
+Chichewa
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+English (USA)
+Esperanto
+Estonian
+Filipino
+Finnish
+French
+Frisian
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Korean
+Kurdish (Kurmanji)
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Myanmar (Burmese)
+Nepali
+Norwegian
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi
+Romanian
+Russian
+Samoan
+Scots Gaelic
+Serbian
+Sesotho
+Shona
+Simplified Chinese
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Telugu
+Thai
+Traditional Chinese
+Turkish
+Ukrainian
+Urdu
+Uzbek
+Vietnamese
+Welsh
+Xhosa
+Yiddish
+Yoruba
+Zulu                                    
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+        
+        
+0xB9bd725b7b8E9dB528fdE5443FFd6CA3A5d3C038
+        
+0xB9bd725b7b8E9dB528fdE5443FFd6CA3A5d3C038
+        
+
+        
+        
+        
+das0xB9bd725b7b8E9dB528fdE5443FFd6CA3A5d3C038
+        
+
+        
+
+        
+
+        
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+Añadir al glosario de frases
+No hay listas de palabras para Arabic → Spanish...
+Crea una nueva lista de palabras
+Copiar
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+          
+            
+        
+          
+          
+                
+
+                
+
+            
+            
+                
+
+                
+
+                
+
+                
+                                        
+
+                                        
+                        
+
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                        
+                            
+                                                            
+                            
+                                
+                                    
+                                                                            
+                                
+                                
+                                    
+                                        
+
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+              
+                
+                
+              
+            
+                        
+             
+              
+
+             
+            
+          
+                    
+                
+Guardar
+                
+CONTINUAR
+                
+view saved words →
+          
+                    
+            No traducir con doble clic            
+
+          
+          
+            No mostrar el botón flotante            
+
+          
+          
+            Ver la versión localizada del sitio            
+
+          
+          
+            Upgrade to Pro to unlock more features            
+
+          
+          
+
+          
+No hay conexión a internet
+        
+      
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,743 @@
+Chainlink Bootcamp by Solange Gueiros
+Session 09
+
+https://pad.riseup.net/p/cl-en-09
+
+All the Sessions
+https://lu.ma/qoqfl19p
+
+Bootcamp Support
+https://chain.link/discord
+bootcamp channel
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000
+
+Task Form
+https://forms.gle/YYUx3ErX1LwCqDBPA
+
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+https://workshop-faucet.vercel.app/faucets/
+cllworkshop0101
+
+
+Kelly Egode - I am unable to access my wallet so I need to create a new one and accounts and do all the exercises again, hope its nnot too late.
+
+Vandana - 
+I have not been able to do any work since half the class yesterday as I am getting errors.
+Manu - Same here, I gave up at some point 
+Vandana - I tried all day yesterday and this morning and my wallet is just not triggering
+Arson - Me too specially at CCIP topics, so complex to try
+
+I tried the updates contract runners.sol in the GitHub, creates a new subscription but still getting error “creation of runners pending”. 
+
+ it could be this issue:  looks like this may be issue:Ran out of gas while deploying contract.check if your wallet is connected to fuji - i had that problem too.
+
+ yes it was later to fuji and swithed from sepolia just reconnect it to fuji - mine works now
+
+Now stuck pending.  How do I cancel and get my transactions out of pending mode? They have been stuck since yesterday?You can create a new transaction and change the nonce of this transasction to be equal with the nonce of the pending transaction.
+
+I am not 100% if this is issue or something else? 
+
+I don't know how to change the nonce .. I already tried creating a new transactionyou have to go to the settings and enable the manual nonce
+
+yes but not clear on how to do that
+https://support.metamask.io/hc/en-us/articles/360015489251-How-to-speed-up-or-cancel-a-pending-transaction
+yes, i know but not comfortable doing this as I am not totally clear
+Customize transaction nonce ->ON and then put the same nonce number to the new transasction as the one of the pending.
+
+I am not comfortable doing this and feel stressed about it but its testnet no worries - I am not sure if this is issue and am just guessing
+
+I already spent all day yesterdsy ad this morning and I don't undestand and getting confused and stressed about it
+
+I don't get it
+
+It may not be pending but in remix it says "runners still pending" so guessing this is issue
+
+Check in ledger history from your metamask, what the status of the transaction, if its found and "pending" maybe you can wait, or there is probability error in transaction, simply exit remix, and relaunch it, and redeploy the contract.
+If the transaction are not found, then the transaction automatically canceled. - not comfortable doing this and very confusing. i don't see anything
+
+“creation of runners pending” IS your problem right?
+
+ yes that is issue
+ can you give me your metamask address?
+ i can help you check the whole tx in snowtrace in avalanche
+
+
+ 
+
+
+What is the deadline for all the tasks?
+Jan 31
+
+Name - Social Network
+Danki - https://www.linkedin.com/in/0xdanki/
+Parnian Yousefi Sabet - https://www.linkedin.com/in/parnian-yousefi-sabet/
+Konstantinos - Greece
+Andre - Zebbug, Malta - https://www.linkedin.com/in/andre-decarlo/
+Simona Miani - linkedin
+Hemanshu Mahajan - https://www.linkedin.com/in/hemanshumahajan/
+Vandana - Toronto, Canada
+Harsh - https://www.linkedin.com/in/harsh-kumar-843a5a289/
+Ashok Raj - Cambridge UK, https://www.linkedin.com/in/rajashok/ (Sent a connect req)
+quzford - X @quizford 
+Gabriel Thome - Brasil - https://www.linkedin.com/in/gabrieltome/
+Romain-Pierre - Amsterdam, The Netherlands https://www.linkedin.com/in/rpcacheux/(Sent a connect req)
+elyas - Iran - https://www.linkedin.com/in/elyas-sarjoughi-107580151/
+Uzair -  https://twitter.com/Hashuzair
+Chiara - New Jersey, USA @codebychiara 
+Nick - Seoul Korea https://twitter.com/nicklee002
+farhan - VA, USA
+karthik india
+Daniel B / https://www.linkedin.com/in/daniel-b-3b070990/
+John-Mac - NYC
+Daniel S - Barcelona - https://www.linkedin.com/in/daniel-silberschmidt-a759174/ 
+Joe- Madrid Spain
+Iddhie - Colombo, Sri Lanka
+AzraiHasan - https://www.linkedin.com/in/azraihasan/
+Tameka - GTA, Canada - https://twitter.com/MLNTDTechBae
+D Marl - Yogya, Indonesia
+Dj - Amsterdam, Netherlands
+Rama - Argentina
+Ingrid - London, UK
+Arson - Jakarta, Indonesia https://www.linkedin.com/in/arson-tomanta/
+Daniel Y - Toronto, Canada https://www.linkedin.com/in/danielye/
+Sarthak Rawat (Eik) - https://twitter.com/sarthakrawatbiz / https://www.linkedin.com/in/sarthak-raw-eth/
+Tebbo - x https://twitter.com/LTebbs2
+https://www.linkedin.com/in/tebbo-/
+Sade C -ATL,USA
+Sanjin Đumišić - Online - https://www.linkedin.com/in/sanjindumisic/
+Leon - https://www.linkedin.com/in/hareem-adderley/
+David - https://www.linkedin.com/in/david-odie-73b651141/
+Rafat - https://github.com/rafat
+Alex B. - _alexblak (Twitter)
+Lindsay - www.linkedin.com/in/lindsay-gaziano-9091b6202
+Ohmarkely - Singapore, https://twitter.com/ohmarkely
+Stewart - New York, USA
+Princewill Iwuorie  - Lagos, Nigeria
+NickATL - https://linkedin.com/in/nickjfj
+Eric  - ATL, GA www.linkedin.com/in/eric-s-engineering
+Kyle - Texas, USA
+Vinh - HCM,  VietNam
+Phan I. USA
+Sama - DC, US - lets connect - www.linkedin.com/in/samakabegal
+tipi - manitoba canada https://twitter.com/NFTipi 
+Sarmad Tufail - https://www.linkedin.com/in/sarmadtufail/ 
+Sylvia – https://www.linkedin.com/in/blahosylvia/
+Alex C - htps://www.linkedin.com/in/alexchambersdesign
+Felipe - Toronto https://www.linkedin.com/in/felipecv/
+La Toya- Texas USA https://x.com/LaPatel61601?t=DkbeGHDACuavNICzdzmFwQ&s=09
+Andy - Miami, USA https://www.linkedin.com/in/andy-
+luis-romero-acosta/
+MIKE E - https://twitter.com/216super
+Sunday Akinola
+https://x.com/SunTech_Ft?t=Jffw7OKdr0zEsLmyJq1BnQ&s=09
+Andrea Marchini - Rome, Italy - https://www.linkedin.com/in/marchini-andrea-8001397
+mahesh - https://www.linkedin.com/in/maheshkan
+Nawodya - Sri Lanka - https://www.linkedin.com/in/nawodyaishan/
+Luis - Zurich, Switzerland
+
+Jad Kachmar -  https://www.linkedin.com/in/jadkachmar Let's Connect! Up for a conversation about: technology, innovation, blockchains, digital currencies/assets, geopolitics or even basketball :)
+
+
+************************************************
+
+https://usechainlinkfunctions.com/
+
+https://blog.chain.link/ways-to-use-chainlink-functions/
+
+https://dev.chain.link/products/functions
+https://docs.chain.link/chainlink-functions
+
+
+https://usechainlinkfunctions.com/posts/aviation-flight-status
+
+https://functions.chain.link/playground
+The code you run in this demo environment is a simulation only.
+There may be minor differences to the real Chainlink Functions environment.
+
+
+Fill with the example code
+Get the StarWars Characters
+
+https://swapi.dev/api/people/${characterId}/
+
+https://swapi.dev/api/people/1/
+Luke Skywalker
+
+https://swapi.dev/api/people/2/
+
+
+
+https://docs.chain.link/chainlink-functions/getting-started
+
+Metamask
+Fuji
+
+
+https://functions.chain.link/
+Connect your wallet
+Fuji
+
+Create Subscription
+
+Your email address
+
+Subscription name
+Chainlink Bootcamp 2024
+
+Add funds (LINK)
+5 LINK  - can this be added somewhere else? I didn't get the same screen for step 2 you can do it under the blue Actions button - thank you!
+Or
+Actions
+Add funds
+
+Add a consumer
+I'll do it later
+
+Name - subscription Id
+Sol - https://functions.chain.link/fuji/3010
+Danki - https://functions.chain.link/fuji/3074
+Batuhan - https://functions.chain.link/fuji/3048
+koxy - https://functions.chain.link/fuji/3044
+Parnian - https://functions.chain.link/fuji/3030
+Romain-Pierre - https://functions.chain.link/fuji/3006
+Tebbo - Subscription 2995 https://functions.chain.link/fuji/2995
+Kyle - Subscription 2994
+David - https://functions.chain.link/fuji/2998
+Rama - 3031 - https://functions.chain.link/fuji/3031
+quizford - https://functions.chain.link/fuji/2996
+Joel - https://functions.chain.link/fuji/3008
+Sarthak - 3002
+Andre - https://functions.chain.link/fuji/3009
+Daniel S - 3005
+Gabriel Thome - https://functions.chain.link/fuji/3027
+Tameka - https://functions.chain.link/fuji/3013
+Shane - 3007
+Nimnath- 3004
+Daniel B - https://functions.chain.link/fuji/3046
+Sanjin - 3000
+NickATL - https://functions.chain.link/fuji/3040
+Lindsay - https://functions.chain.link/fuji/2999
+Stewart - https://functions.chain.link/fuji/3037
+Phan I. - https://functions.chain.link/fuji/3016
+Ashok - 3017 - https://functions.chain.link/fuji/3017
+John-Mac - https://functions.chain.link/fuji/3012
+Leon - https://functions.chain.link/fuji/3003
+Iddhie - 3041 -https://functions.chain.link/fuji/3041
+Sylvia – https://functions.chain.link/fuji/3018
+Felipe 3001
+Tim - 3024
+Konstantinos - https://functions.chain.link/fuji/3043
+Ingrid - https://functions.chain.link/fuji/3021
+Nick - 3033
+Daniel Y - https://functions.chain.link/fuji/3019
+Simona miani - https://functions.chain.link/fuji/3035
+Farhan - 3015
+Andy -3022
+Alex B. - 3028
+Rafat - 3032
+Arson - https://functions.chain.link/sepolia/1910
+Chiara - 3029 - https://functions.chain.link/fuji/3029
+Sama - 3036
+Manu - 3020 : https://functions.chain.link/fuji/3020
+AzraiHasan - https://functions.chain.link/fuji/3034
+elyas - https://functions.chain.link/fuji/3011
+Elisabeth Green - 3023
+Mahesh - 3050
+Jad - 3059
+Nawodya - https://functions.chain.link/fuji/3078
+Vandana - Dont give up!
+(Never give up on ourselfs! :))
+(Never Ever!)
+Vandana is awesome!
+Luis - https://functions.chain.link/fuji/3079
+
+
+***************************************
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+https://docs.chain.link/chainlink-functions/supported-networks
+
+
+Create 
+GettingStartedFunctionsConsumer.sol 
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {ConfirmedOwner} from "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+/**
+ * Request testnet LINK and ETH here: https://faucets.chain.link/
+ * Find information on LINK Token Contracts and get the latest ETH and LINK faucets here: https://docs.chain.link/resources/link-token-contracts/
+ */
+
+/**
+ * @title GettingStartedFunctionsConsumer
+ * @notice This is an example contract to show how to make HTTP requests using Chainlink
+ * @dev This contract uses hardcoded values and should not be used in production.
+ */
+contract GettingStartedFunctionsConsumer is FunctionsClient, ConfirmedOwner {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public s_lastRequestId;
+    bytes public s_lastResponse;
+    bytes public s_lastError;
+
+    // Custom error type
+    error UnexpectedRequestID(bytes32 requestId);
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string character,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // JavaScript source code
+    // Fetch character name from the Star Wars API.
+    // Documentation: https://swapi.dev/documentation#people
+    string source =
+        "const characterId = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://swapi.dev/api/people/${characterId}/`"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data.name);";
+
+    // State variable to store the returned character information
+    string public character;
+
+    /**
+     * @notice Initializes the contract with the Chainlink router address and sets the contract owner
+     */
+    constructor() FunctionsClient(router) ConfirmedOwner(msg.sender) {}
+
+    /**
+     * @notice Sends an HTTP request for character information
+     * @param subscriptionId The ID for the Chainlink subscription
+     * @param args The arguments to pass to the HTTP request
+     * @return requestId The ID of the request
+     */
+    function sendRequest(
+        uint64 subscriptionId,
+        string[] calldata args
+    ) external onlyOwner returns (bytes32 requestId) {
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        s_lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            subscriptionId,
+            gasLimit,
+            donID
+        );
+
+        return s_lastRequestId;
+    }
+
+    /**
+     * @notice Callback function for fulfilling a request
+     * @param requestId The ID of the request to fulfill
+     * @param response The HTTP response data
+     * @param err Any errors from the Functions request
+     */
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        if (s_lastRequestId != requestId) {
+            revert UnexpectedRequestID(requestId); // Check if request IDs match
+        }
+        // Update the contract's state variables with the response and any errors
+        s_lastResponse = response;
+        character = string(response);
+        s_lastError = err;
+
+        // Emit an event to log the response
+        emit Response(requestId, character, s_lastResponse, s_lastError);
+    }
+}
+
+
+// End
+
+Deploy
+
+Name - GettingStartedFunctionsConsumer Address
+Sol - 0xe396729C6CbD5b2c11B38137Cf274b1e8Cfc52D8
+Danki - 0x070103752390eaaDB2ba606B8f9a41EcDFac4909
+koxy - 0xb72c27a104Cf926075C1Bd43406f75F783E01499
+Parnian -0xa0b08c983D8338339B034f0eE297C6f0d17C53c2
+Phan I. -0xdFF6943D00cbd7a72c191d15016FEDC4BeD7c6C0
+Harsh - 0x1E588D33210f5E0C0bef159B84bFdf2878E4C807
+Andre - 0x15Cfdca6d7Fc4eDaBAe072435d4B958a5417B2Ae
+Nick - 0x5A2798059F06E2c72a0cf92E4af7fb3fA0933736
+Romain-Pierre - 0x53A160D116202453c32dD89C7eEB7fE78B16161d
+Gabriel Thome -> 0x44ac27bAf3BeabE19bBd664465d724b1D3a0efab
+quizford - 0x1c07603b853eb56e7F064d2B9ebd12e3286FAe32
+Leon - 0xE14a203006fd24530b36fF9ed7ef3a55de43FFd3
+Konstantinos - 0x9E0E9Ce0499d168ebfdBeD2C40DaA3e56c2a98A7
+Ingrid - 0x08fEF715b7ff3d196ddE85cA170a1C40AB1208c7
+Tameka - 0x3296d5adbdB350cC5BeFC666AAd6Db8101c49151
+Rama - 0xb6957be3f7f079BC340eC5b0efD812Ec7fD98720
+Ashok - 0xbEEb0BaF449ACb13D535d29b7C15F8C758E895f7
+Sarthak Rawat (Eik) - 0x1a048729788901C3BD5b9D4B16B58ffdcBb2FC27
+farhan - 0x6C5A6466ae6382DC10A60668D7DBA165525f0Ae7
+Kyle - 0x74C5Ea9CEbAF22CCbAC1dF05DB207bE565f8C71B
+Chiara - 0x08ba78aC89cDE2b425DcB00c4D2263c780fbf260
+AzraiHasan - 0x8541677bf441a0Dd06047a7df3e3faE6B3De38D4
+Daniel Y - 0x68CE9d1136CE65381393209f4f6d7c2486aE4C7b
+NickATL - 0xc3814EC095C5839044c45BaCC7ae879578A2e246
+elyas - 0x6A2B1c4FEE9210713535d5A9E4FDF4B1481dcE7d
+Shane - 0xc18A7F458310088c5dADDA90e272186002C09CB3
+Stewart - 0xdcC206a68822603E664999DA08CF16A6655a5997
+Tim - 0x0C1fF1CA87B2f02Fe7f93406cB2449184e7970EA
+Lindsay - 0x6374064b1db04771A4555f968D736a77647638D2
+David - 0x74d371B4949bC49e52254D1f22400989CE8C250a
+Felipe - 0x0a099dB6CeEF3aD784E01CE5fcdcb2B24517C77a
+Manu - 0xF3E4927B03271a69688144b02606dC2886566d23
+Sylvia – 0xa89E4E0d79039a938E9C73A2a9A990D8C1212980
+Tebbo - 0xBBb55cd67B0EfD5F00cEAA69Fbe90F577629d187
+Joel - 0x8342176D4AdfAa718d20B5eC4A0672Cb55ee2bC7
+Rafat - 0xCAa326283ee42C0E61379cbAc89231977F7aAAAC
+Daniel S - 0x153b6370bEA4b35041a88C6d906f22a5c0e58ad8
+Sama - 0xeC765039D4003325d642415B3Baad5Aea236d415
+Daniel B - 0xe8ec47acf0ea9a26680942404baea671000b948b
+Simona - 0x04B5446fEf2D86BA80E7032dbb2358cf954f76b2
+Iddhie - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Sanjin - 0xd2F9240a71FB5Cc1fd5440da804985fC4B9cC3Bc
+Elisabeth - 0x0175d0D181b8d2EB4f9101bce44c1843a621304E
+Andy - 0x3d36eC2Fab094c32b2Fc510e6a2A52e8eb598414
+Alex B. - 0x1234d475b45422Eb9a8423bd60AAcb8237bE4500
+Arson - 0xAC0Ccf1C378a259e7c56C0D868126C67D2f4F406
+John-Mac - 0x96E75c2D2eCcFe1d508a28bc67c799c5fA2D49E9
+Mahesh - 0x8B778A33400224eFbF7fE93e815384FEdF88F406
+Jad - 0xdeB109626AB9ecF17Cb2b3C5F583a2D8D1d5E8f4
+Nawodya - 0xb823d3D0AAaEf4643cF63E40e57AAd581A4838A1
+
+******************************************
+Go to your Function subscription
+https://functions.chain.link/
+
+Add a consumer 
+= GettingStartedFunctionsConsumer Address
+
+
+Go to Remix
+Expand GettingStartedFunctionsConsumer
+
+SendRequest - expand
+your subscriptionId
+args:
+[1]
+click on transact
+
+This will do the call
+https://swapi.dev/api/people/1
+
+
+Results
+s_lastError - empty, no errors :)
+s_lastResponse 
+0x4c756b6520536b7977616c6b6572
+character
+Luke Skywalker
+
+https://web3-type-converter.onbrn.com/
+
+*************************************
+
+WeatherFunctions
+
+https://wttr.in/${city}?format=3
+
+Example
+https://wttr.in/Sao-Paulo?format=3
+
+Try it out on Playground
+https://functions.chain.link/playground/7dce0d62-c132-40cb-ac72-e30532e599f2
+
+
+On Remix
+
+Create
+TemperatureFunctions.sol
+
+Wait I will finish the code and test it
+
+
+// Begin
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy on Fuji
+
+import {FunctionsClient} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/FunctionsClient.sol";
+import {ConfirmedOwner} from "@chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol";
+import {FunctionsRequest} from "@chainlink/contracts/src/v0.8/functions/dev/v1_0_0/libraries/FunctionsRequest.sol";
+
+contract TemperatureFunctions is FunctionsClient {
+    using FunctionsRequest for FunctionsRequest.Request;
+
+    // State variables to store the last request ID, response, and error
+    bytes32 public s_lastRequestId;
+    bytes public s_lastResponse;
+    bytes public s_lastError;
+
+    // Custom error type
+    error UnexpectedRequestID(bytes32 requestId);
+
+    // Event to log responses
+    event Response(
+        bytes32 indexed requestId,
+        string temperature,
+        bytes response,
+        bytes err
+    );
+
+    // Hardcoded for Fuji
+    // Supported networks https://docs.chain.link/chainlink-functions/supported-networks
+    address router = 0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0;
+    bytes32 donID =
+        0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000;
+
+    //Callback gas limit
+    uint32 gasLimit = 300000;
+
+    // Your subscription ID.
+    uint64 public s_subscriptionId;
+
+    // JavaScript source code    
+    string public source =
+        "const city = args[0];"
+        "const apiResponse = await Functions.makeHttpRequest({"
+        "url: `https://wttr.in/${city}?format=3`,"
+        "responseType: 'text'"
+        "});"
+        "if (apiResponse.error) {"
+        "throw Error('Request failed');"
+        "}"
+        "const { data } = apiResponse;"
+        "return Functions.encodeString(data);";
+    string public lastCity;    
+    string public lastTemperature;
+
+    constructor(uint64 subscriptionId) FunctionsClient(router) {
+        s_subscriptionId = subscriptionId;
+    }
+
+    function getTemperature(
+        string memory _city
+    ) external returns (bytes32 requestId) {
+
+        string[] memory args = new string[](1);
+        args[0] = _city;
+
+        FunctionsRequest.Request memory req;
+        req.initializeRequestForInlineJavaScript(source); // Initialize the request with JS code
+        if (args.length > 0) req.setArgs(args); // Set the arguments for the request
+
+        // Send the request and store the request ID
+        s_lastRequestId = _sendRequest(
+            req.encodeCBOR(),
+            s_subscriptionId,
+            gasLimit,
+            donID
+        );
+        lastCity = _city;
+
+        return s_lastRequestId;
+    }
+
+    /**
+     * @notice Callback function for fulfilling a request
+     * @param requestId The ID of the request to fulfill
+     * @param response The HTTP response data
+     * @param err Any errors from the Functions request
+     */
+    function fulfillRequest(
+        bytes32 requestId,
+        bytes memory response,
+        bytes memory err
+    ) internal override {
+        if (s_lastRequestId != requestId) {
+            revert UnexpectedRequestID(requestId); // Check if request IDs match
+        }        
+        s_lastError = err;
+
+        // Update the contract's state variables with the response and any errors
+        s_lastResponse = response;
+        lastTemperature = string(response);
+
+        // Emit an event to log the response
+        emit Response(requestId, lastTemperature, s_lastResponse, s_lastError);
+    }
+}
+
+// End
+
+Chainlink Bootcamp is awesome! (!Yessir!)
+Sol
+:)
+
+
+Deploy
+Parameter : your Subscription ID
+
+Name - TemperatureFunctions address
+Sol - 0x8F11Fced0a05AE28E44822892A714099454d2517
+Danki - 0xEaaa4aaE8652325dFD8B6c4Ac63Be35830Bacb02
+Andre - 0x1e8b68596D7e5145da085c970600a4d6F4C238bA
+Simona Miani - 0xD60321ba525c185Ad73C9Cbbb822F2fd1a153997
+Parnian - 0xDD1Cc1994D8a2ccBe06F5976172a87fb9267a7a7
+Harsh - 0x83e4b69d96DEF45331D53352458D22Fa798f4c44
+Leon - 0xc2c8c3D6577ea3A1cfB067272b2f832F681D4A9F
+Chiara - 0x75e262460064571ae28d78133518752a20f62889
+Romain-Pierre - 0x98F25752f97b9464DC193899022a30e4e6aF7AB0
+Sarthak Rawat (Eik) - 0xd8833F9f15FCAed6baA7814A2704B72a5753B4e5
+Gabriel Thome - 0xd0Ac91dE69c9877ae2703872226FB86BbC62157d
+Lindsay - 0x93927B2570F848201253Dac1c036c2681A1D742E
+Rama - 0x90255fCf0a19FC23E3f59E49cd851FdA110223AC
+quizford - 0x2EEB2E41395848a8a8B1F348756C825740F2aA7D
+Joel - 0x6b0c6bD7900ec0e655C4E0b5F8f5EE35Dc17fe9E
+Daniel S - 0xa4E87C87d3D0F25Ef022d2Ad2225F73B89926403
+Konstantinos - 0xaa67558f473Eb614DFc926156312992037fDC862
+Tameka - 0x163BD9dEa2587695B9474138f954fF84B62e2928
+Ingrid - 0xfBe6Fd2f95e10F467cDa6046D76853A5E3F686A7
+Sylvia – 0x98f73F2cb92e48AfB50513f1aa1163A291dF4647
+Felipe - 0xF7B8A03db370D68A2Ab25fAaF99aB3681672F9dA
+Kyle - 0xa2d675c1FA0F2cB0Be3A2d210A881f6B702dDe51
+Rafat - 0x3794b290b9cE5f4879efAe96bdc88A6e1BB9F1E7
+Manu - 0x9ec3dc16e67a9D386C0840D0ab07F8CaEA59d082
+Shane - 0x9f7c18c54b0c10A92515664f2c1deF6342615A2c
+Tebbo - 0x8b793AF24bABeD5A03c59f78b91C1177D004685f
+Nick - 0xa3725ED41ED15153C8dFCaC43B788ab2dCEe845B
+elyas - 0x05034AcA561471Cd3dd5df41916bacb83Be46E08
+Daniel B - 0xc9bd3ce2f7f93bec78cfc66be271ed4afe2df71d
+Sanjin - 0x456065b957e7e4661525884CAfeDD3a663115cbe
+Ashok - 0x60BaDd600D013FAbAd9C6E449Ada25A73b6f0D2e
+Sama - 0xC89e91A867b8b8e216b5e96EEFADA3c4B4784443
+NickATL - 0xb4576525aAbC9A9F926D38cD16998C68414ac039
+farhan - 0x5477434d69aBe8eA2917d6Ffc61cA724b8F21Fe3
+Elisabeth - 0xCdE2C697A3A9E965752942882cF3529611c7277E
+Daniel Y - 0x514043fC95471e88144F0558DB0Acb7f2354A67e
+Alex B. - 0x9b48d2FafDfF47ECd5Cf98d4AF4697AB0f5E8428
+Andy - 0xfF1D5d49535Cc7712c8A5a0d6F6bc5FDEaA90b7D
+Nawodya - 0x470Ed7eA3890ac5dB8C0eeB7377ffdDC1B72e6ae
+
+
+************************************************
+
+Go to https://functions.chain.link/fuji/
+Add Consumer
+
+On Remix
+
+getTemperature
+
+wait the Fullfill request
+
+Name - temperature
+Sol - Sao-Paulo: ⛅️  +30°C
+Danki: Baguio: ☀️   +14°C
+Patna: 🌫 +57°F
+Parnian - Tehran: ☀️ +46°F
+Romain-Pierre - Amsterdam: ☀️ +3°C
+Andre - Malta: ☀️ 🌡️+64°F 🌬️↗4mph
+Leon - George-Town: ⛅️ +81°F
+Tebbo -  London: ⛅️  +37°F = 3°C
+quizford - Denver: ⛅️ +36°F
+Felipe - Toronto: 🌨 -6°C
+Simona Miani - Rome: ⛅️  +63°F - +17.222°C
+Kyle - ☀️ +38°F
+Rama - Resistencia - 83F
+AzraiHasan - Kuala-Lumpur: ⛅️ +79°F 🔥
+Ingrid - London: ⛅️ +37°F
+Ashok - sao-paulo: ⛅️ +86°F  London: ⛅️ +37°F
+Sylvia – Berlin: ☀️ +27°F
+Sarthak - Dehradun: ☀️ +49°F
+Tameka - Mississauga (Ontario) 🌨 +19°F / 🌨 -7°C 
+Konstantinos Sao-Paulo: ⛅️  +86°F
+Daniel S - Barcelona - ⛅️  +64°F
+Shane - Miami: ☁️ +74°F
+elyas - mashhad: ☀️ +50°F
+Joel-  Madrid: ⛅️ +55°F
+NickATL - Atlanta: ⛅️ +30°F (-1c)
+Daniel Y - Toronto: 🌨 +21°F
+Nick - Seoul, Korea ⛅️  +39°F, Suwon: ☁️   +43°F 
+Chiara - Toms-River: ⛅️  +29°F 
+Rafat - Gurgaon: 🌫 +48°F
+Manu - Bienne: +5°C
+Alex B. - Indianapolis: ☁️ +26°F
+farhan - virginia: ☀️   +38°F
+Sama - Washington DC: ☀️ +23°F
+Lindsay - Boston: ⛅️ +20°F
+Andy - Miami: ☁️ +74°F
+Elisabeth - Los Angeles: ⛅️ +57°F
+Gabriel Thome - Belo-Horizonte: ⛅️ +86°F  / 30°C
+Nawodya - colombo: ⛅️ +81°F
+
+************************************
+
+Fahrenheit to Celsius converter
+https://www.metric-conversions.org/temperature/fahrenheit-to-celsius.htm
+
+Fahrenheit Example:
+https://wttr.in/Newyork?u&format=3
+    
+Celsius Example:
+https://wttr.in/Newyork?m&format=3
+    
+Awesome Thanks for Celsius
+Functions for Devs
+https://www.npmjs.com/package/@chainlink/functions-toolkit
+
+
+when I deploy 
+what does this mean
+creation of TemperatureFunctions errored: Error encoding arguments: Error: invalid BigNumber string (argument="value", value="", code=INVALID_ARGUMENT, version=bignumber/5.7.0
+Injected provider
+SubscriptionID on Deploy
+ok.. I ran out of 0nly have 0.053AVAX left
+...will refill though
+
+thank you !
+
+
+
+
+
+
+
+

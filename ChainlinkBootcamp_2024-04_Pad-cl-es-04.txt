@@ -1,0 +1,617 @@
+Chainlink Bootcamp
+Apr/2024
+Clase 04
+
+Todas las sesiones en la página de Luma
+https://lu.ma/ChainlinkBootcamp2024-es
+
+Soporte del Bootcamp
+https://chain.link/discord 
+spanish channel
+
+Youtube
+https://www.youtube.com/@chainlink
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vR3PCyiWjqf3N0aFrRBl3H3m6yXLHDi8rkr35oqwTd6X8Js7xORY6F2WAog0uF1nbk6fIbDT7INESjK/pub?start=false&loop=false&delayms=3000
+
+Tareas
+https://forms.gle/kLrr2k7RZWcQ7npQ7
+
+Formulario de Dudas / Preguntas
+https://forms.gle/E5nTzaM7s7WH7xzS8 
+
+
+
+Block Magic, nuestro próximo Hackathon!!!
+Regístrate aquí >>> https://chn.lk/3vqRoLN
+
+
+*************************************************
+Zaid Seijas - No coman helados, mucha azúcar.
+Nombre - Helado favorito
+Melo - Chocolate
+Alejandro Gamero - Banana Split
+John Haver Herrera - Brownie
+Rodrigo castro - Tramontana
+Alberto Urizar - Frutilla a la crema
+Malcoln Portillo - Cheese cake
+Ignacio Festari- Chocolate relleno
+Jonathan Miranda - Vainilla
+Pedro Machado - Chocolate Dark
+Walter - Sambayon - es de huevo con wisky y azucar
+Camilo A - Chocolate
+Francisco V- Chocolate amargo
+David Estrada - Pistacho
+Juan M - Vainilla
+Juan M - Dulcelechegranizado
+Eduardo García - Dulce de leche 
+Viglianco Matias - Mantecol
+Mónica Ledesma Pistacho
+Alex Ramirez- Magnum Almendras
+Edwin Mejía - Ron con pasas
+Karinna Serrano . macadamia
+Daniel Benitez - ron con pasas
+Fernando G. Sosa - Pistacho
+Alfredo Ernesto Duran  - Pistacho
+Marco Gallardo - Ron pasas
+Abel Lopez - Chocolate
+Ivan Morales - Napolitano
+Adrian Perez Herrera - Chocolate negro
+Martin Gomez - Dulce de leche tentación🐷
+Omar Bastias - Chocolate Granizado
+Denis Faundez - Cocolate con almedras 
+Nilds Vasquez Gonzalez - Yogurt de Sauco
+Oscar Quiroga - Brownie
+Diego R - Limon
+Sol - Chocolate
+Baigorria Martin Santiago-Tucuman - Argentina
+Paco Trejo - Chocolate
+Sofía Di Francisco- Limón
+Javier - Chocolate
+ivan mrsnik  vainilla
+Ádan Reh - Nueces de macadamia
+Luis Masuelli - No tengo idea jaja calculo quevariedades de c hocolate
+Edwrd Lucuma
+Yoan Santiago - Tiramisu
+Ruben M - Copazu
+ramon - limon
+Enmanuel Cabrera - Vainilla
+Fernando Rosso- Chocolate
+Willy - Piña colada
+Luis Rodriguez - Chocolate
+Mariano - Flan
+Samuel - Vainilla
+Jorge - Chocolate
+Fernando A - Frutos rojos
+Rich - OREO
+Manuel - Limon
+Jhonn Condori - Menta granizado
+Ernesto Nurnberg - Marroc
+j4c0b0_bl4nd0n - Nutella
+Oscar Moctezuma - Vainilla
+Rallsen - Nuez
+Yatel - Dulce de leche
+Laura Noriega - Crema del Cielo
+José Muñoz - stracciatella
+Núria - Mango
+Marcelo - Dulce de leche
+Agustín L. - Dulce de leche granizado :P
+Horvey Gutierrez - Coco con Piña
+Carlos- Passion Frui 
+Jose Ignacio Franqueiro -  Buenos Aires, Argentina - dulce de leche granizado
+Franco Queirolo - Capuchino
+Eduardo Cabrerizo - Ron y pasas
+Brayan Angarita - Cali, Colombia - Queso
+Camilo Morón - Chocolate
+José Manuel Fernández Rodríguez - Doble Chocolate
+Cacao – Chocolate negro
+Gustavo higos al coñak
+Roberto B- Chocolate
+Martín Cruz-Chocolate
+Juan José de la Rosa - Turrón
+Sergio Domínguez Robles - CaraPINO (Caramelo y piñones)
+Juan Felipe Vélez El azucar es malo para la salud
+Anderson Camilo Gaon- Frutos rojos
+Pau - Caramel Brownie
+Rocío Grjales - Queso
+Jesús - Chocolate
+Daroch - Limón/Almendra
+Diego Q - Argentina - Pomelo
+Agustin - Chocolate con almendras
+Chalub Gaston - dulce de leche granizado
+Joel Bejar - pistache
+Jordan Barilla- Brownie
+Lwin Maung  - ice cream
+Lucas Leandri - Menta Granizada
+Jani Jesse - Limón y menta con chocolate. 
+Sixto Palacios Q- Blacksnow
+Gago Alejandro-  Buenos Aires, Argentina
+Rodrigo Bogado - Tramontana
+Alex Molina - Queso Fresa
+Sebastian G. Gil - Rosario, Argentina - Dulce de Leche Granizado
+Salvador Carballo - Frutos Rojos
+Gustavo Tayupo - de coco
+Andres Aponte - Mora
+Rafael Crespo- Madrid - España
+Daniel Roa - Vainilla/Pistacho
+Alan Castro - Argentina - chocolate con avellanas
+Walter Ríos - Súper Flan
+Natalia Inzeo - Mango y Maracuyá
+Karla Arias -pistacho 
+Jose Sola - Chocolate Amargo
+Nelson Hernandez - Pistacho
+Kamal Majaiti - Limon con Hierba buena.
+Stein Ramirez - Quesillo
+Roberto Rodriguez - Dulce de leche 
+María del Milagro Ventura-Dulce de leche granizado y nueces
+Hector Freire - Chicle
+Jorge Bastidas - Belgian Chocolate
+Jose Bidegain - frutilla
+Mauricio Teruel - Frutos del bosque
+Daniel Varon - Medellín
+Leo- Barcelona, España -Estudiante
+
+******************************
+
+Avalanche Fuji - setup
+Blockchain Origen
+Avalanche Fuji
+
+Blockchain Destino
+Ethereum Sepolia
+
+Agrega Fuji a Metamask
+https://chainlist.org/chain/43113
+
+Conectar billetera
+Avalanche Fuji Testnet - Agrega en Metamask
+
+Workshop Faucet
+https://workshop-faucet.vercel.app/faucets/fuji
+LinkShadowFork18
+
+
+Despues del live
+https://faucets.chain.link/
+
+https://www.allthatnode.com/faucet/avalanche.dsrv
+
+Avax Fuji Block explorer
+https://testnet.snowtrace.io/
+
+Agrega LINK en Fuji en Metamask
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+USDC
+Agrega en Metamask
+https://developers.circle.com/stablecoins/docs/usdc-on-test-networks
+
+USDC address - Avalanche Fuji testnet
+0x5425890298aed601595a70ab815c96711a31bc65
+https://testnet.snowtrace.io/token/0x5425890298aed601595a70ab815c96711a31bc65
+
+Referencias - USDC
+https://learn.circle.com/quickstarts/cctp
+https://developers.circle.com/
+
+Faucet
+https://faucet.circle.com/
+USDC en Avalanche Fuji testnet
+https://core.app/tools/testnet-faucet/?subnet=c&token=usdcc
+
+Remix
+https://remix.ethereum.org/
+
+Icon 5 - DEPLOY & RUN TRANSACTIONS
+ENVIRONMENT
+Injected provider - Metamask
+Custom (43113) network = Fuji
+
+TransferUSDCBasic
+
+Icon 2 - FILE EXPLORER
+Crea el archivo
+TransferUSDCBasic.sol
+
+Copiar entre inicio y fin
+
+// Inicio
+
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
+// Deploy this contract on Fuji
+
+import {IRouterClient} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol";
+import {Client} from "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol";
+import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/IERC20.sol";
+import {SafeERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/token/ERC20/utils/SafeERC20.sol";
+
+/**
+ * THIS IS AN EXAMPLE CONTRACT THAT USES HARDCODED VALUES FOR CLARITY.
+ * THIS IS AN EXAMPLE CONTRACT THAT USES UN-AUDITED CODE.
+ * DO NOT USE THIS CODE IN PRODUCTION.
+ */
+contract TransferUSDCBasic {
+    using SafeERC20 for IERC20;
+
+    error NotEnoughBalanceForFees(uint256 currentBalance, uint256 calculatedFees);
+    error NotEnoughBalanceUsdcForTransfer(uint256 currentBalance);
+    error NothingToWithdraw();
+
+    address public owner;
+    IRouterClient private immutable ccipRouter;
+    IERC20 private immutable linkToken;
+    IERC20 private immutable usdcToken;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#avalanche-fuji
+    address ccipRouterAddress = 0xF694E193200268f9a4868e4Aa017A0118C9a8177;
+
+    // https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+    address linkAddress = 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846;
+
+    // https://developers.circle.com/stablecoins/docs/usdc-on-test-networks
+    address usdcAddress = 0x5425890298aed601595a70AB815c96711a31Bc65;
+
+    // https://docs.chain.link/ccip/supported-networks/v1_2_0/testnet#ethereum-sepolia
+    uint64 destinationChainSelector = 16015286601757825753;
+
+    event UsdcTransferred(
+        bytes32 messageId,
+        uint64 destinationChainSelector,
+        address receiver,
+        uint256 amount,
+        uint256 ccipFee
+    );
+
+    constructor() {
+        owner = msg.sender;
+        ccipRouter = IRouterClient(ccipRouterAddress);
+        linkToken = IERC20(linkAddress);
+        usdcToken = IERC20(usdcAddress);
+    }
+
+    function transferUsdcToSepolia(
+        address _receiver,
+        uint256 _amount
+    )
+        external
+        returns (bytes32 messageId)
+    {
+        Client.EVMTokenAmount[]
+            memory tokenAmounts = new Client.EVMTokenAmount[](1);
+        Client.EVMTokenAmount memory tokenAmount = Client.EVMTokenAmount({
+            token: address(usdcToken),
+            amount: _amount
+        });
+        tokenAmounts[0] = tokenAmount;
+
+        Client.EVM2AnyMessage memory message = Client.EVM2AnyMessage({
+            receiver: abi.encode(_receiver),
+            data: "",
+            tokenAmounts: tokenAmounts,
+            extraArgs: Client._argsToBytes(
+                Client.EVMExtraArgsV1({gasLimit: 0})
+            ),
+            feeToken: address(linkToken)
+        });
+
+        uint256 ccipFee = ccipRouter.getFee(
+            destinationChainSelector,
+            message
+        );
+
+        if (ccipFee > linkToken.balanceOf(address(this)))
+            revert NotEnoughBalanceForFees(linkToken.balanceOf(address(this)), ccipFee);
+        linkToken.approve(address(ccipRouter), ccipFee);
+
+        if (_amount > usdcToken.balanceOf(msg.sender))
+            revert NotEnoughBalanceUsdcForTransfer(usdcToken.balanceOf(msg.sender));
+        usdcToken.safeTransferFrom(msg.sender, address(this), _amount);
+        usdcToken.approve(address(ccipRouter), _amount);
+
+        // Send CCIP Message
+        messageId = ccipRouter.ccipSend(destinationChainSelector, message);
+
+        emit UsdcTransferred(
+            messageId,
+            destinationChainSelector,
+            _receiver,
+            _amount,
+            ccipFee
+        );
+    }
+
+    function allowanceUsdc() public view returns (uint256 usdcAmount) {
+        usdcAmount = usdcToken.allowance(msg.sender, address(this));
+    }
+
+    function balancesOf(address account) public view returns (uint256 linkBalance, uint256 usdcBalance) {
+        linkBalance =  linkToken.balanceOf(account);
+        usdcBalance = IERC20(usdcToken).balanceOf(account);
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    function withdrawToken(
+        address _beneficiary,
+        address _token
+    ) public onlyOwner {
+        uint256 amount = IERC20(_token).balanceOf(address(this));
+        if (amount == 0) revert NothingToWithdraw();
+        IERC20(_token).transfer(_beneficiary, amount);
+    }
+}
+
+// Fin
+
+
+Deploy
+
+Nombre - TransferUSDCBasic Address
+
+Pedro Machado - 0xC7235cfa0ad470E397D15543BEE7e6C4B480800E
+Jonathan Miranda - 0xE113C14A85B105Ad0c2D4e42d4E1724286b3B047
+Zaid - 0x30B432f9A1a18f0E79bdF34ad3C300CC821733EC
+Ruben - 0xe86aF05600AF0b56820e6BC00b8CE83499b4d35f
+Ignacio Festari-0xB4074Bfe1a0061D025813ABF20bA6f5fcd77d1a5
+Gabriel Agustin - 0xB99Eb0F7734211Aa00e667c200FEf06B76705C26
+David Estrada J - 0x50e4dfBf4D1B21c1b2D4dCC481624AF222413848
+Melo - 0x6DBA7d6059faa6D2D16bcA9f7399b1BE32593c91
+Marcelo - 0x11224Fce3B20489440E4733F3785ca19667d22a1
+Ernesto - 0x5Dd689E8947Df2ca388B017014fFEa840F647eF5
+Stein - 0x2DdB999CEC85460E2dF31d6098849d7bAA7F8571
+Rodrigo Castro - 0xd9145CCE52D386f254917e481eB44e9943F39138
+Alex Ramirez - 0x5F5917F9303a620913432fC4A3DbB00897F65A74
+Edward - 0x3C6E476e32bAfeA5a616633CC1a8B2ccf928Bb03
+Samuel B - 0x0148143a06e08825a3D0F6507b6b093688EDe2ca
+ramon - 0x59599A05C046deA571BfE147e2EA3C765cd1525C
+Yatel Nicolás Lara - 0x7FeCcd3114918143C856051651D2b114921fAB7d
+0x3C6E476e32bAfeA5a616633CC1a8B2ccf928Bb03
+F Rosso- 0xd9145CCE52D386f254917e481eB44e9943F39138
+Enmanuel Cabrera - 0xbDEC82d60Ed3eB7FEaa7f82A8a2Cb854BCbeC093
+Nilds Vasquez - 0x6A10D7EF974885fE330a4e800E86Ba7F551CB32B
+Andres Aponte - 0x1A41Ffa2eEE3Cf6d4049C699699593d0EedE7e3A
+Avi Mielgo - 0x604DBAB221Ae81D682CFe3A94609fBA29c382bd7
+David Arenas - 0x64C9cB1600B1b4eAD69FFb48265839EAEDD671c3
+Adrian Perez Herrera - 0x18dBAE6EE8F323582540a1E1E2E0DF878CdC684e
+Sergio Domínguez Robles - 0x16cb788854543D382e33FfE67f503aCe84d5240C
+Eduardo García - 0x9a658beF6Bec27eB2F280B84113E864c338462af
+Rallsen - 0x179a482F5F7797f1e7A5C0614A0cCBC1CCfe47ca
+Marco Gallardo - 0xb40917BBDb05863B7210dc4c0287f28a429b5aB6
+Anderson Camilo Gaon - 0xC92681813714bD0ed86f90Cf6F14b7F47C1CaC1B
+Rich - 0x07f408102075f15807a7F6eB5221ABb9eE15b591 
+Diego R - 0x85469455bA741D391E35D6E975C983D6E6eD3A85
+Jorge Flores -- 0x7c039AaD26451841c6AD8182Afe51C7f0569DA51
+Sebastian G. Gil - 0xd6E33CAA0a270dc855cc2d253C5E6c6BeDdD7E1A
+Oscar Moctezuma - 0x7A246E0da18A619e10b890A9108d52d92A80467a
+Nelson Hernandez - 0x944ed1c8BB22F6bc946a32A55473bcb7b8DF020A
+Joel Bejar - 0xae656946aDd1B8468229F2062121d12707ddE5C2
+Agustin L. 0xe49cD8632A23CC9A5bc0B18de2bDcA05c1fb1aDB
+Diego Q - 0x734F060556fb96791aAe267C671D549747d1BFC9
+Daniel - 0x24eed2Cf673533430C8e5D2F897bd707664D77AA
+Malcoln Portillo - 0x0B69b85b24F0533814f4a0c4fc1798bD7Af7A743
+Cacao - 0x0547e963A83688D4117c2EED5C45863542A479DF
+Daniel B - 0x670081FEd57960c41ABb0d16779df214F677b24f
+Viglianco Matias - 0x80892F320cb4Fb842Cb8b0a7b3c843c16DD0e350
+ivan mrsnik 0xb3224cf96d9146daf38CCf867F0C9AcC89EeFB75
+Gustavo 0xd1e4050969687b1BB2ECcB15C317D06A2e9738FB
+Natalia Inzeo - 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8
+Roberto B - 0x948A5A7724b9eAc7e9411D42376768B44aC9dbDB
+Eduardo C - 0x38C3De0a4B9906b7408DB864497f8fd2AfdFE0B0
+Salvador Carballo - 0x09565407e332777563Bc21ee74DF726Df6dA6BeA
+Jesus - 0x7a5Fb5D8bCF3f2a4d8C9ab5b1691B80cf234abeE
+Luis Masuelli - 0x156BaCdB151dC835ceefDb84e6f3e9a5d76e9503
+Rafael Crespo - 0xf93883713E5D1DCfA9d038c65d9Ba39930bF57a2
+Núria - 0xc0C0A9e50A34cF6aEbED4b5BB428355CB0a71DE7
+Kamal Majaiti - 0xDb91496Bc25282bd320c36247479232FB32A4b82
+Maria del Milagro-0xc9B5dD8E7834026d99648df78759391c889FB773
+Martín Cruz - 0x25029dA42CE6b08608c0cACc737A335a8c717d6d
+Maria Lopez - 0x119317bF400E6A15e0C08f87ddaFe1857f078272
+Fernando G. Sosa - 0x04890c56B0EafB6517a8Da8D23DB1435741a8B18
+Pau - 0xe336fe2C826b22F9Adf47242B6a4d5F50C4E0fA1
+Willy - 0x6Ede30686E64FC220F6A25657F18962c7E7CF990
+RODRIGO - 0xb1Bdf76B74Df425A2c754DD6eA07B1b53B4F59D2
+laura - 0x0a19FCf6251A1Fc8353eE18CB09e38c4E07F2D73
+Juan M - 0x86ab79403527ac2B1e30a0C98f57E3071Ff77b32
+Karinna Serrano - 0xcf4b893f81ff0f9D2D54E32A06A2bD920fF282f2
+Dulce: 0xCE03396d6e28c03Af0f7939b9e49cE89A4B8D06f
+David : 0x3f8Fba37689e6FD7B5b2B02C7A0F5A160742B024
+Daroch - 0x19847b32288f0Dbe0d291bA9552086eD210Ea189
+
+**************************************
+
+Envia LINK
+En Metamask
+Envia 3 LINK to TransferUSDCBasic Address
+
+Tokens -> LINK -> Envia
+3 LINK
+
+
+BalancesOf
+On Remix
+your smart contract address
+
+Result
+
+    0:uint256: linkBalance 3000000000000000000
+
+    1:uint256: usdcBalance 0
+
+
+
+Approve USDC
+usdcAmount: 1 USDC
+1000000
+
+Approba USDC en Remix
+Contract - select
+IERC20
+At Address
+0x5425890298aed601595a70ab815c96711a31bc65
+(USDC address)
+
+Ejecute
+Approve
+spender (address)
+smart contract address
+
+value (uint256): 1 USDC
+1000000
+
+Despues
+allowanceUsdc
+
+Should be
+
+    0:uint256: usdcAmount 1000000
+
+
+*****************
+Otra opcion de Approve: 
+https://testnet.snowtrace.io/token/0x5425890298aed601595a70ab815c96711a31bc65/contract/writeProxyContract
+
+Connect Wallet
+
+Approve
+Expand and fill
+spender (address)
+smart contract address
+
+value (uint256): 1 USDC
+1000000
+
+Click on Write
+
+
+
+
+**********************
+Quien necessita USDC?
+
+Nombre y Direccion
+Eduardo C  - 0xeDdEDabB97884e4A533a8C52FF19BacEe538B10e - Agustin L. (Enviado! 5 USDC) ok gracias!!!
+David - 0xaa5DAa6de586E56d99eB8427DcF56Cdc79a4f647  -Fernando G. Sosa (1 USDC+4USDC) (muchas gracias Fernando!!)
+Ruben - 0x9475AB02AE88547c71d67e7a3269514fdA3388Be -joan - gracias
+Sixto - 0x3B7cA4e14f7a5f84716E5f08FE481ebAbbc5239d Tenes que copiar el address de la wallet - Sale incorrecto "LISTO----> ENVIADOS, Gracias --->no hay por que!
+Martin-0x7B224159151Ba5B71a2C872c8378C984E8b05deb - Yatel (Enviado, chequea tu wallet)
+Leandro -0x295233697a4E77bAc06F885b2566031Aa4500572 - Sol
+
+no he logrado todavia USDC  0x9652eFAE2FEcE1Cb235f5AB2A5d57811Af04C99B
+
+Gustavo irc.. aprobado 
+0x5425890298aed601595a70AB815c96711a31Bc65
+Joel Bejar - 0x32658A2e0eEE4447ce90978fbe7Fe93049A7e395 - Cacao - Diego Q - grax
+YO NECESITO LINK - 0x108D139158Bd77288a0De7E09eb5d177b6797B8C 3 LINK ENVIADO
+Yo tambien porfis - 0x32658A2e0eEE4447ce90978fbe7Fe93049A7e395 Ahi te mande 3 USDC link perdon ?(SINO TE SALE EL TOKEN AÑADE EL CONTRATO -> 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846)grax
+https://testnet.snowtrace.io/tx/0x504690e1816d47a3d8f79cb94788ff7d05e6767e98f3de1f36376650985f327f?chainId=43113
+
+
+
+Aqui hay un faucet que da 1 USDC : https://core.app/tools/testnet-faucet/?subnet=c&token=usdcc
+
+*************************
+
+En Remix - En tu contracto
+
+Ejecuta
+TransferUSDCtoSepolia
+_receiver
+Your wallet address (from Metamask)
+
+_amount
+1000000
+= 1 USDC
+
+En Metamask
+Copy Transaction ID
+
+name - transfer transaction id
+Sol - 0xb4f4b1eef6bce585e351bdab13a6e9d95ff134d4cff549ca57418f7c93f07731
+Rodrigo - 0xdd798a34a420d313b063afa7daca8137deae7f7f6208955b25eab38fb82f35d2
+Oscar Quiroga 0x7b843feed8182b3bbf218528df7c4831d557c4f1675cbab6ec038503391e7311
+Stein - 0x8de7201af626f16a27bdcee0289ba96a6b051d5e4e697b93db0524c8845644d0
+joan - 0x10afb5541ee4362486006142a706b541fcf8540d7c270463f23d3a852f4f2bb2
+Karinna Serrano - 0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238
+Ignacio Festari: 0xB4074Bfe1a0061D025813ABF20bA6f5fcd77d1a5 CCIP tx: 0x7062f9d5d25b73ad3d3f4f293c414ce623c5fa1eea54d4ce7303384e422f6067 Success
+Martin Gomez - (Pending)
+EDWARD - 0x017ec280af8c51f146d3b24b848c1620d0859dddc04ffbaa26b4f7bb9a1f53bf
+Gabriel Agustin - 0x8e1756b214b304cc61c726dfb2d0e4e4948f872885ac7ad54a5c707fcbba5eb5
+David Estrada J -  0x160ee22258345142fd6f81861523ce767c8d01861a831082387c4e8f95111f8a
+gabriel calvo: 0x3c19a21eF783da06d845aD0F52FEACAcA2B2D352
+Jorge Flores -- 0xf91e0cdff2f44e68b01ec2dd69a6ca78b8af5efcb52dbf5ce44cd96e02268c9a
+Luis Masuelli - 0x766320ee980b9ea69088db32420c5f68c432425d5e84738ca8d3c4809adb13c8
+Eduardo García - 0x5a84bb48c4fdb48d41d7da769e8dea551d8a57ad706af714ffb95d90b99645a0
+Samuel B - 0xf67f5f30d950c7c9ceef65c837541f84a999a1049b264314e371f1ac71522dd8
+Yatel - 0xff352dd5a5b8b41230d69127654d10203fd3033b724929e5bd23923d44d0d811
+Rich - 0xe9560f03aad33a55c16979b1a28ccac164f7bdb402da94f20ff2e6d580e71fd5 
+Diego Q - 0xd99a2c2f5061a0bf9219a8f4409c1369de0236128a5a9e6ecceb6ab2945e4c82
+Juan Felipe 0x59e6ba99edae5f52a68fe8cc8c66af81404ef421d69bed2a6628bf3f4a4a256e
+Núria - 0xf16560feee55de5bcb5d4f6c61c17378f6fd16f0e7f989f5f1d7340d25d0ebe4
+Oscar Moctezuma - 0x09a1b18dbb0e070ef7e70e93f5c320eba79ef2abc7842cbec800f2953beb8da4
+Rallsen - 0x801f32a279308e0cd9f545c8657047016e2dad6cdc0db91270b63e3f5c942da2
+Marco Gallardo - 0x8a1b12938cd59925f5dafd5eb2b99b75e427a0488e4c4f650a6f5149eb419824
+Daniel B - 0xe74e8d9bad016d31e6d161649d90b626b3e876affc99e72e6648abc2a927f1e1
+Ernesto N - 0x259a5d3ee3b9ee661a1f987c3d6f2943bc0f90c453d17b4ad553a2dd4941a0b9
+Sebastian G. Gil - 0xec6f56911dd1d3ffb359249e9cf756cc80870ea3f8a7cdfff1479489c3569a44
+diego r - 0x9a223b038bed2ba911d0af1c28cae8d0dea23e64ad72599c55ccf9f9d0fad486
+Anderson Camilo Gaon 0x594de370ab5095cdc7661d81fd761f12bbfff0881fb5aaf66e8f9c4b7a95b688
+Rocío Grajales - 0x037bb2c7097e7adb9e0928b1ba86c215db83f497e60bf98aa8f040858d5d0053
+Adrian Perez Herrera - 0xfb17347778bab9e544647a0a761eb53d4a92ae043585f32ef792e302d36f8600
+Salvador Carballo - 0xa2dc91435a5d0f5af6a4acb24c94483ad71ccd4e91c4eae26a90ebf569da4b6c
+ramon -0x59599A05C046deA571BfE147e2EA3C765cd1525C
+Fernando G: 0xd8cfaa1ac7b0c17cad84bbd456176a49723888df6322af9a9f87f0f7546981a4 | Status: Success
+Kamal Majaiti: 0x83690568a6c7d1cd67a20653992a4b496ba5c83788ac00daa93a1ef10dfd843b
+Dulce: 0x11d6c9c9809aea2b58fde3bcc98acc2d27917a93fd55de6715cced1374f768eb
+Jonathan Miranda - 0xb2d610761c7e09deaa0e8168043596674eea2aa853fdc552c0a89f33b9af2a5c
+Daniel Roa - 0x12aa78bd929454c6ed1e618d373d8bc6403a7ee9b0747c8e65206b37544c8c90
+
+Nilds Vasquez - 0xe03992b8b3344e0a0afa26edf73879480908be0367b141611d2e5002146de0e9
+
+Roberto B - 0xa200bb64d9536284711fd5b7ec8fe09dfa1984d3e2cbb3fac0de9bb342baddd3
+Maria Lopez - 0x7eaf402dd2d2b9191ed5fd2f0167f570ce058319eca2b07bc900069f098e1558
+F Rosso - 0x713321466a69f8a5c7224b4724604e2340f45701ad55c84ddea38c542b9aeed7
+Agustín L - 0x691b120b9663ae15afdb409c454ca9d12c9fe4588242fce6651dd69edc2815dd
+walter -0x21d5f1c9731c5b01d9c4f191a3bc8946bc6981b5e0cb578a31ef6bc51987b8e9
+Melo - 0x96664d23f4cb0434223a2b150500d8055bb94cfac5e17ecc2e24846fba0eb9b5
+
+
+**********************************
+
+CCIP Explorer
+https://ccip.chain.link/
+
+Melo - 0x175302dd834595abb25d2c6107fc78410fcd33f6cc471c77c857c62a0e24eaa9
+
+0x944ed1c8BB22F6bc946a32A55473bcb7b8DF020A error de fee - nelson
+0x0547e963A83688D4117c2EED5C45863542A479DF me puedes mirar - me da error ?? cacao
+0xbDEC82d60Ed3eB7FEaa7f82A8a2Cb854BCbeC093 me da error la transaccion  por favor Enmanuel
+Kamal Majaiti - MessageID en CCIP Explorer- 
+0x4c532deee320a6a62d8de3c22596017fef6f56a8525b2c7267df7decd72ead81
+Roberto B - Tx Hash en CCIP Explorer - 0xa200bb64d9536284711fd5b7ec8fe09dfa1984d3e2cbb3fac0de9bb342baddd3
+Gustavo para ver si esta aprobado 0xd1e4050969687b1BB2ECcB15C317D06A2e9738FB
+
+Me da error, este es mi contracto: Pedro: 0xC7235cfa0ad470E397D15543BEE7e6C4B480800E
+Returned error: invalid opcode: MCOPY OR the EVM version used by the selected environment is not compatible with the compiler EVM version.
+Send TransactionCancel Transaction
+
+Daniel Roa - Como puedo recuperar una sesión de Remix? se cerro mi pestaña y noté que se perdió mis archivos.
+
+************************************
+USDC on Sepolia
+En Metamask
+Select Sepolia
+
+Add USDC to Sepolia
+0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238
+https://sepolia.etherscan.io/address/0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238 
+
+
+
+
+
